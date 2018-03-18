@@ -4,12 +4,18 @@ const settings = corpora.getFile('archetypes', 'setting').settings.reduce((allSe
   allSettings.concat(currentSetting.synonyms.concat([currentSetting.name])), []
 );
 
+const venues = corpora.getFile('geography', 'venues').categories.reduce((allVenues, currentCategory) => 
+  allVenues.concat(
+    currentCategory.categories.map(category => category.name.toLowerCase())
+    ), []
+);
+
 const dwelling = [
   "ashram", "bird's nest", "bothy", "cave", "clump of moss", "den",
   "dream", "grove of beech trees", "holiday home", "mountain", "palace",
   "rubbish tip", "temple", "tree", "treetop shack", "cluttered hovel",
   "inconspicuous hole", "Taj Mahal"
-].concat(settings);
+].concat(settings, venues);
 
 const worshipPlace = [
   "shrine", "temple", "church", "cathedral", "chapel",
