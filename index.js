@@ -16,7 +16,16 @@ const bot = process.env.BOT_CONSUMER_KEY && new TwitterBot({
   if (bot) {
     bot.tweet(phrase);
   } else {
-    console.log(phrase);
+    let longest = phrase;
+    console.log(phrase, "\n");
+    for (let index = 0; index < 10000; index++) {
+      const newphrase = grammar.flatten('#origin#');
+      console.log(newphrase, "\n");
+      if (newphrase.length > longest.length) {
+        longest = newphrase;
+      }
+    }
+    console.log("LONGEST: ", longest, longest.length);
   }
 }
 

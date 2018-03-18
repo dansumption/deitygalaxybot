@@ -9,6 +9,7 @@
   "author": "Dan Sumption <dan@sumption.org> (http://sumption.org)",
   "license": "ISC",
   "dependencies": {
+    "corpora-project": "^0.2.0",
     "node-twitterbot": "^0.2.2",
     "twit": "^2.2.9"
   }
