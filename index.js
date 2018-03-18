@@ -14,6 +14,6 @@ const bot = new TwitterBot({
 const grammar = tracery.createGrammar(origin);
 grammar.addModifiers(modifiers);
 
-const phrase = grammar.flatten('#origin#');
+const phrase = grammar.flatten('#origin#') + ' #polytheism';
 
 bot.tweet(phrase);
