@@ -16,12 +16,17 @@ const role = [
   "midwife", "paragon", "pilgrim", "true believer", "vicar", "witness"
 ];
 const object = [
-  "#specifier# #noun.s#", "#specifier# #adjective# #noun.s#",
+  "#specifier# #noun.s#",
   "yourself and #specifier# #noun.s#"
 ];
 const specifier = [
-  "#specifier# #noun#'s", "some", "the", "the",
-  "your", "your", "your #relation#'s"
+  "#specifier# #noun#'s",
+  "some", "the", "the", "your",
+  "your #adjective#",
+  "your #adjective#",
+  "your #relation#'s",
+  "#adjective.a#",
+  "the #adjective#",
 ];
 const relation = [
   "beloved", "boss", "colleague", "conscience",
