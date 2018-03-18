@@ -19,9 +19,9 @@ const deityDoes = [
   "appears in front of you and #commandVerb# to #deityRequest# your #noun#",
   "conjures #noun.a# from thin air",
   "gestures at you #simpleAdverb#",
-  "is building #dwelling.a# in #placeName#",
-  "is living in #dwelling.a# in #placeName#",
-  "builds a small shrine to #deityDomain#",
+  "builds #dwelling.a# in #placeName#",
+  "lives in #dwelling.a# in #placeName#",
+  "builds a small #worshipPlace# to #deityDomain#",
 ];
 const deityRequest = [
   "borrow", "impregnate", "despoil", "sit on", "fiddle with",
