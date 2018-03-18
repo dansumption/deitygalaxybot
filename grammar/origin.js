@@ -32,7 +32,7 @@ module.exports = {
 "rareDeityType": ["creator", "demiurge", "hedgewitch", "hierophant", "numen", "procreator", "progenitor"],
   "godlyAdjective": ["absolute", "all-powerful", "antediluvian","beloved", "despised", "divine", "evil", "exalted", "immortal", "infinite", "irrepressible", "most #godlyAdjective#", "overrated","primordal", "sublime", "supreme", "timeless", "unavoidable", "underrated", "wicked", "widely ignored"],
   "deityDomain": ["#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun# and #noun#", "The #noun.capitalize#", "The #noun.capitalize#"],
-  "deityCommand": ["#commandAdverb# #deityCommand#", "#commandAdverb# #deityCommand#", "#commandVerb# you to #action#", "booms \"#action#\" from the sky", "commands you to #action#", "compels you to #action#", "demands that you #action#", "mandates that you #action#", "orders you to #action#", "requests that you #action#", "screams \"#action#\"", "whispers that you should #action#", "yells \"#action#\""],
+  "deityCommand": ["#commandAdverb# #deityCommand#", "#commandAdverb# #deityCommand#", "#commandVerb# you to #action#", "booms \"#action.toUpperCase#\" from the sky", "commands you to #action#", "compels you to #action#", "demands that you #action#", "mandates that you #action#", "orders you to #action#", "requests that you #action#", "screams \"#action.toUpperCase#\"", "whispers that you should #action#", "yells \"#action.toUpperCase#\""],
   "commandVerb": [
     "asks", "demands", "needs", "wants", "desires"
   ],
