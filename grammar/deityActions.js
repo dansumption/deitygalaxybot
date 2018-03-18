@@ -2,18 +2,18 @@ const deityAction = [
   "#deityCommand#",
   "#deityDoes#"
 ];
-const deityCommand = ["#deityCommand#", "#commandVerb# you to #action#",
+const deityCommand = ["#deityCommand#", "#commandVerb# you to #followerAction#",
   "booms \"#action.toUpperCase#\" from the sky",
-  "commands you to #action#",
-  "compels you to #action#",
-  "demands that you #action#",
-  "mandates that you #action#",
-  "orders you to #action#",
-  "requests that you #action#",
+  "commands you to #followerAction#",
+  "compels you to #followerAction#",
+  "demands that you #followerAction#",
+  "mandates that you #followerAction#",
+  "orders you to #followerAction#",
+  "requests that you #followerAction#",
   "screams \"#action.toUpperCase#\"",
-  "whispers that you should #action#",
+  "whispers that you should #followerAction#",
   "yells \"#action.toUpperCase#\"",
-  "sends #bird##birdMember.a# fluttering down from the sky. Tied to its leg is a note: \"#action#\""
+  "sends #bird##birdMember.a# fluttering down from the sky. Tied to its leg is a note: \"#followerAction#\""
 ];
 const deityDoes = [
   "appears in front of you and #commandVerb# to #deityRequest# your #noun#",
