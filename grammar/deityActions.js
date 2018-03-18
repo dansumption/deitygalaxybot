@@ -3,16 +3,16 @@ const deityAction = [
   "#deityDoes#"
 ];
 const deityCommand = ["#deityCommand#", "#commandVerb# you to #followerAction#",
-  "booms \"#action.toUpperCase#\" from the sky",
+  "booms \"#followerAction.toUpperCase#\" from the sky",
   "commands you to #followerAction#",
   "compels you to #followerAction#",
   "demands that you #followerAction#",
   "mandates that you #followerAction#",
   "orders you to #followerAction#",
   "requests that you #followerAction#",
-  "screams \"#action.toUpperCase#\"",
+  "screams \"#followerAction.toUpperCase#\"",
   "whispers that you should #followerAction#",
-  "yells \"#action.toUpperCase#\"",
+  "yells \"#followerAction.toUpperCase#\"",
   "sends #bird##birdMember.a# fluttering down from the sky. Tied to its leg is a note: \"#followerAction#\""
 ];
 const deityDoes = [
