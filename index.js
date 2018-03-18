@@ -1,6 +1,5 @@
 const Twit = require('twit');
 const TwitterBot = require('node-twitterbot').TwitterBot;
-const config = require('./config');
 
 const bot = new TwitterBot({
   consumer_key: process.env.BOT_CONSUMER_KEY,
