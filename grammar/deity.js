@@ -5,9 +5,24 @@ module.exports = {
   "name": [
     "#namePart.capitalize#", "#namePart.capitalize##namePart#"
   ],
-  "godType": ["#godlyAdjective# #godType#", "#godlyAdjective# #godType#", "#raregodType#", "archbishop", "demon", "god", "god", "goddess", "goddess", "patron saint", "pope", "archdemon"],
-  "raregodType": ["creator", "demiurge", "hedgewitch", "hierophant", "numen", "procreator", "progenitor"],
-  "godlyAdjective": ["absolute", "all-powerful", "antediluvian", "beloved", "despised", "divine", "evil", "exalted", "immortal", "infinite", "irrepressible", "most #godlyAdjective#", "overrated", "primordal", "sublime", "supreme", "timeless", "unavoidable", "underrated", "wicked", "widely ignored"],
+  "godType": [
+    "#godlyAdjective# #godType#", "#godlyAdjective# #godType#",
+    "#raregodType#", "archbishop", "demon", "god", "god",
+    "goddess", "goddess", "patron saint", "pope", "archdemon"
+  ],
+  "raregodType": [
+    "creator", "demiurge", "hedgewitch", "hierophant",
+    "numen", "procreator", "progenitor"
+  ],
+  "godlyAdjective": [
+    "absolute", "all-powerful", "antediluvian",
+    "beloved", "despised", "divine", "evil", "exalted",
+    "immortal", "infinite", "irrepressible",
+    "most #godlyAdjective#", "overrated", "primordal",
+    "sublime", "supreme", "timeless", "unavoidable",
+    "underrated", "wicked", "widely ignored",
+    "#adjective#",
+  ],
 
   "domain": ["#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun# and #noun#", "The #noun.capitalize#"],
 
