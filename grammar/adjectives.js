@@ -1,6 +1,7 @@
 const corpora = require('corpora-project');
 
 const wineDescriptions = corpora.getFile('foods', 'wine_descriptions').wine_descriptions;
+const adjectives = corpora.getFile('words', 'adjs').adjs;
 
 const adjective = [
   "American", "artisanal", "awkward", "base metal",
@@ -12,6 +13,6 @@ const adjective = [
   "oversized", "overt", "pathetic", "prosaic", "prosthetic",
   "pure", "radioactive", "red", "secret", "secular", "silver",
   "smelly", "sodden", "sodding", "white", "wild", "wooden", "yellow"
-].concat(wineDescriptions);
+].concat(wineDescriptions).concat(adjectives);
 
 module.exports = { adjective }; 
