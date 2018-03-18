@@ -6,7 +6,7 @@ const settings = corpora.getFile('archetypes', 'setting').settings.reduce((allSe
 
 const venues = corpora.getFile('geography', 'venues').categories.reduce((allVenues, currentCategory) => 
   allVenues.concat(
-    currentCategory.categories.map(category => category.name.toLowerCase())
+  currentCategory.categories.map(category => category.name.toLowerCase().replace(/\(.*\)/, '').replace(/.* \/ (.*)/, "$1"))
     ), []
 );
 
