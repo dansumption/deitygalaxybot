@@ -1,5 +1,4 @@
-module.exports = {
-  "noun": [
+const noun = [
     "abbey",
     "absence",
     "absinthe",
@@ -1106,5 +1105,6 @@ module.exports = {
     "workman",
     "youngster",
     "zip file"
-  ],
-}
+  ];
+  
+module.exports = { noun };

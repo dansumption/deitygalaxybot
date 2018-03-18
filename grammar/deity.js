@@ -9,7 +9,7 @@ module.exports = {
   "raregodType": ["creator", "demiurge", "hedgewitch", "hierophant", "numen", "procreator", "progenitor"],
   "godlyAdjective": ["absolute", "all-powerful", "antediluvian", "beloved", "despised", "divine", "evil", "exalted", "immortal", "infinite", "irrepressible", "most #godlyAdjective#", "overrated", "primordal", "sublime", "supreme", "timeless", "unavoidable", "underrated", "wicked", "widely ignored"],
 
-  "domain": ["#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun# and #noun#", "The #noun.capitalize#", "The #noun.capitalize#"],
+  "domain": ["#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun# and #noun#", "The #noun.capitalize#"],
 
 
   "namePart": [

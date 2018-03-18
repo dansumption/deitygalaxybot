@@ -4,6 +4,8 @@ const tracery = require('./tracery/tracery');
 const modifiers = require('./tracery/mods-eng-basic');
 const origin = require('./grammar/origin');
 
+const DEMO_TIMES = 5;
+
 const bot = process.env.BOT_CONSUMER_KEY && new TwitterBot({
   consumer_key: process.env.BOT_CONSUMER_KEY,
   consumer_secret: process.env.BOT_CONSUMER_SECRET,
@@ -18,7 +20,7 @@ const bot = process.env.BOT_CONSUMER_KEY && new TwitterBot({
   } else {
     let longest = phrase;
     console.log(phrase, "\n");
-    for (let index = 0; index < 10000; index++) {
+    for (let index = 0; index < DEMO_TIMES; index++) {
       const newphrase = grammar.flatten('#origin#');
       console.log(newphrase, "\n");
       if (newphrase.length > longest.length) {
