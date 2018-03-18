@@ -1,0 +1,15 @@
+{
+  "name": "deitygalaxybot",
+  "version": "1.0.0",
+  "description": "Twitter bot for the @deitygalaxy account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Sumption <dan@sumption.org> (http://sumption.org)",
+  "license": "ISC",
+  "dependencies": {
+    "node-twitterbot": "^0.2.2",
+    "twit": "^2.2.9"
+  }
+}
