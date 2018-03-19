@@ -14,7 +14,7 @@ const dwelling = [
   "ashram", "bird's nest", "bothy", "cave", "clump of moss", "den",
   "dream", "grove of beech trees", "holiday home", "mountain", "palace",
   "rubbish tip", "temple", "tree", "treetop shack", "cluttered hovel",
-  "inconspicuous hole", "Taj Mahal"
+  "inconspicuous hole", "Taj Mahal", "abandoned quarry"
 ].concat(settings, venues);
 
 const worshipPlace = [
@@ -41,7 +41,7 @@ const placeName = [
   "Sid's Café", "Skegness", "the Western Spiral Arm of the galaxy", "Halfway",
   "Galactic Sector ZZ9 Plural Z Alpha", "the Frogstar", "Ursa Minor Beta",
   "Mahabalipuram", "Golgafrincham", "Traal", "Vogsphere", "Stavromula Beta",
-  "an empty car-park somewhere near Andromeda"
+  "an empty parking lot somewhere near Andromeda", "the banks of Lake Windermere"
 ];
 
 module.exports = { dwelling, placeName, worshipPlace };
