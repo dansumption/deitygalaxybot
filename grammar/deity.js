@@ -1,6 +1,6 @@
 module.exports = {
   setDeity: [
-    "[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#]",
+    "[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#][godlyPossessive:#genderPossessive#]",
   ],
   "name": [
     "#namePart.capitalize#", "#namePart.capitalize##namePart#"
@@ -23,7 +23,9 @@ module.exports = {
     "underrated", "wicked", "widely ignored",
     "#adjective#",
   ],
-
+  "genderPossessive": [
+    "his", "her", "their", "its"
+  ],
   "domain": [
     "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",
     "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",
