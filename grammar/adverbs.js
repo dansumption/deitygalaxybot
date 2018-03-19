@@ -1,18 +1,19 @@
+const corpora = require('corpora-project');
+
+const allAdverbs = corpora.getFile('words', 'adverbs').adverbs;
 
 
-const adverbs = Array(10).fill(" ");
-const simpleAdverb = ["angrily", "innocently", "kindly",
-  "mysteriously", "impishly", "curiously", "malevolently", "imperiously",
-  "furiously", "gently", "smoothly", "cantankerously", "avuncularly"
-];
-const complexAdverb = ["after a pause of a thousand years", "for no good reason",
+const spaces = Array(30).fill(" ");
+const adverbClause = ["after a pause of a thousand years", "for no good reason",
   "in a funny voice", "on the spur of the moment",
   "out of pure malevolence", "in the space between being and nothingness"
-];
+]
+  .map(adverb => `, ${adverb}, `)
+  .concat(spaces);
+const adverb = ["angrily", "innocently", "kindly",
+  "mysteriously", "impishly", "curiously", "malevolently", "imperiously",
+  "furiously", "gently", "smoothly", "cantankerously", "avuncularly"
+].concat(allAdverbs);
 
-const commandAdverb = adverbs
-  .concat(simpleAdverb.map(adverb => ` ${adverb} `))
-  .concat(complexAdverb.map(adverb => `, ${adverb}, `));
-
-module.exports = { commandAdverb, simpleAdverb };
+module.exports = { adverbClause, adverb };
 

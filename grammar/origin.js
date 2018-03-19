@@ -11,7 +11,7 @@ const followerActions = require('./followerActions');
 const origin = {
   "origin": ["#setDeity##story#"],
   "story": [
-    "#deityName# the #deityType# of #deityDomain##commandAdverb##deityAction#.",
+    "#deityName# the #deityType# of #deityDomain##adverbClause##deityAction#.",
   ],
   "pauseLength": ["awkward pause", "flap of a hummingbird's wing", "lengthy pause", "painful wait", "short pause", "silence lasting a thousand years", "uncomfortable silence", "brief millennium", "painful aeon"]
 };

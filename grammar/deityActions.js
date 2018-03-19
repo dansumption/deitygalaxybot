@@ -2,7 +2,8 @@ const deityAction = [
   "#deityCommand#",
   "#deityDoes#"
 ];
-const deityCommand = ["#deityCommand#", "#commandVerb# you to #followerAction#",
+const deityCommand = [
+  "#commandVerb# you to #followerAction#",
   "booms \"#followerAction.toUpperCase#\" from the sky",
   "commands you to #followerAction#",
   "compels you to #followerAction#",
@@ -18,7 +19,7 @@ const deityCommand = ["#deityCommand#", "#commandVerb# you to #followerAction#",
 const deityDoes = [
   "appears in front of you and #commandVerb# to #deityRequest# your #anyNoun#",
   "conjures #nounToPluralise.a# from thin air",
-  "gestures at you #simpleAdverb#",
+  "gestures at you #adverb#",
   "builds #dwelling.a# in #placeName#",
   "lives in #dwelling.a# in #placeName#",
   "builds a small #worshipPlace# to #deityDomain#",
