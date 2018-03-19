@@ -24,7 +24,12 @@ module.exports = {
     "#adjective#",
   ],
 
-  "domain": ["#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun.s#", "#noun# and #noun#", "The #noun.capitalize#"],
+  "domain": [
+    "#nounToPluralise.s#", "#nounNotToPluralise#",
+    "#nounToPluralise.s#", "#nounNotToPluralise#",
+    "#nounToPluralise.s#", "#nounNotToPluralise#", 
+    "#domain# and #domain#"
+  ],
 
 
   "namePart": [

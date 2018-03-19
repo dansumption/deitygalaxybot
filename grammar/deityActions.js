@@ -16,8 +16,8 @@ const deityCommand = ["#deityCommand#", "#commandVerb# you to #followerAction#",
   "sends #bird##birdMember.a# fluttering down from the sky. Tied to its leg is a note: \"#followerAction#\""
 ];
 const deityDoes = [
-  "appears in front of you and #commandVerb# to #deityRequest# your #noun#",
-  "conjures #noun.a# from thin air",
+  "appears in front of you and #commandVerb# to #deityRequest# your #anyNoun#",
+  "conjures #nounToPluralise.a# from thin air",
   "gestures at you #simpleAdverb#",
   "builds #dwelling.a# in #placeName#",
   "lives in #dwelling.a# in #placeName#",
