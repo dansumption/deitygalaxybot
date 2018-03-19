@@ -4,6 +4,8 @@ const tracery = require('./tracery/tracery');
 const modifiers = require('./tracery/mods-eng-basic');
 const origin = require('./grammar/origin');
 
+// console.log(JSON.stringify(origin));
+
 const DEMO_TIMES = 5000;
 
 const bot = process.env.BOT_CONSUMER_KEY && new TwitterBot({

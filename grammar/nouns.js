@@ -1,3 +1,7 @@
+const corpora = require('corpora-project');
+
+const newTech = corpora.getFile('technology', 'new_technologies').technologies;
+
 const nounNotToPluralise = [
   "absence",
   "absinthe",
@@ -76,6 +80,8 @@ const nounNotToPluralise = [
   "brevity",
   "Brexit",
   "brightness",
+  "broccoli",
+  "broth",
   "brotherhood",
   "browsing",
   "brunch",
@@ -551,8 +557,6 @@ const nounToPluralise = [
   "booty",
   "brewer",
   "Brexiteer",
-  "broccoli",
-  "broth",
   "building",
   "burger bar",
   "burrito",
@@ -1114,4 +1118,4 @@ const anyNoun = [
   "#nounNotToPluralise#", "#nounToPluralise#",
 ]
 
-module.exports = { nounNotToPluralise, nounToPluralise, anyNoun };
+module.exports = { nounNotToPluralise, nounToPluralise, anyNoun, newTech };

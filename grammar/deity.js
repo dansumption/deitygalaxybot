@@ -25,9 +25,9 @@ module.exports = {
   ],
 
   "domain": [
-    "#nounToPluralise.s#", "#nounNotToPluralise#",
-    "#nounToPluralise.s#", "#nounNotToPluralise#",
-    "#nounToPluralise.s#", "#nounNotToPluralise#", 
+    "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",
+    "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",
+    "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",
     "#domain# and #domain#"
   ],
 
