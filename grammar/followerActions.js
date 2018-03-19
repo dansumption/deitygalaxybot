@@ -28,12 +28,14 @@ const object = [
 ];
 const specifier = [
   "#specifier# #nounToPluralise#'s",
+  "#nounToPluralise#'s #adjective",
   "some", "the", "the", "your",
   "your #adjective#",
   "your #adjective#",
   "your #relation#'s",
-  "#adjective.a#",
   "the #adjective#",
+  "the #adjective#",
+  "the #relation#'s"
 ];
 const relation = [
   "beloved", "boss", "colleague", "conscience",

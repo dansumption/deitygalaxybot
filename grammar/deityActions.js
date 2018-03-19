@@ -21,7 +21,7 @@ const deityDoes = [
   "conjures #nounToPluralise.a# from thin air",
   "gestures at you #adverb#",
   "gestures at your #nounToPluralise# #adverb#",
-  "rides up to you on a gigantic #animalType#",
+  "rides up to you on #adjective.a# #animalType#",
   "builds #dwelling.a# in #placeName#",
   "lives in #dwelling.a# in #placeName#",
   "builds a small #worshipPlace# to #deityDomain#",
