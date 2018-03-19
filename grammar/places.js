@@ -40,7 +40,8 @@ const placeName = [
   "the Thursbitch valley", "Park Hill Flats", "Cathall Estate", "Albert Square",
   "Sid's Café", "Skegness", "the Western Spiral Arm of the galaxy", "Halfway",
   "Galactic Sector ZZ9 Plural Z Alpha", "the Frogstar", "Ursa Minor Beta",
-  "Mahabalipuram", "Golgafrincham", "Traal", "Vogsphere", "Stavromula Beta"
+  "Mahabalipuram", "Golgafrincham", "Traal", "Vogsphere", "Stavromula Beta",
+  "an empty car-park somewhere near Andromeda"
 ];
 
 module.exports = { dwelling, placeName, worshipPlace };
