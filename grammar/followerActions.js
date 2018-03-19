@@ -2,20 +2,46 @@ const followerAction = [
   "#verb# #object#"
 ];
 const verb = [
-  "#followerAction# and #verb#", "abase yourself before", "become #role# of",
-  "bow to", "destroy", "devote your life to", "exalt", "heap #nounToPluralise.s# upon",
-  "humiliate yourself for", "ignore", "imagine you are", "immanentise",
-  "immanentize", "kiss the #role# of", "live the rest of your life as the #role# of",
-  "make a pilgramage to the #role# of", "make your way directly to",
-  "obey the #role# of", "prostrate yourself before", "realise", "respect",
-  "return to", "sacrifice your #anyNoun# to", "soil yourself with",
-  "spread the good news about", "verbalise", "warn the world about", "worship"
+  "ignore",  "immanentise", "immanentize",
+  "bow to", "destroy", "exalt",
+  "realise", "respect","return to",
+  "explain", "worship", "improve",
+  "warn the world about", 
+  "#followerAction# and #verb#",
+  "abase yourself before",
+  "become #role# of",
+  "imagine you are",
+  "devote your life to",
+  "give #nounNotToPluralise# to",
+  "heap #nounToPluralise.s# upon",
+  "humiliate yourself for",
+  "kiss the #role# of",
+  "live the rest of your life as the #role# of",
+  "make a pilgramage with the #role# of",
+  "make your way directly to",
+  "obey the #role# of",
+  "prostrate yourself before", 
+  "sacrifice your #anyNoun# to",
+  "soil yourself with",
+  "spread the good news about",
 ];
 const role = [
-  "antichrist", "barber-surgeon", "comforter", "first", "haranguer",
-  "midwife", "paragon", "pilgrim", "true believer", "vicar", "witness"
+  "antichrist", "barber-surgeon", "comforter",
+  "first-born", "haranguer", "midwife",
+  "paragon", "pilgrim", "true believer",
+  "vicar", "witness", "supreme believer",
+  "beloved", "worshipper", "consort",
+  "destroyer", "harshest critic", "lover"
 ];
 const object = [
+  "#nounNotToPluralise#",
+  "#nounNotToPluralise#",
+  "#nounNotToPluralise#",
+  "#nounNotToPluralise#",
+  "#nounNotToPluralise#",
+  "#nounNotToPluralise#",
+  "#nounNotToPluralise#",
+  "#nounNotToPluralise#",
   "#specifier# #nounToPluralise.s#",
   "#specifier# #nounToPluralise.s#",
   "#specifier# #nounToPluralise.s#",

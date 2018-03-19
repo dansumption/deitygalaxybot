@@ -24,7 +24,7 @@ const deityDoes = [
   "rides up to you on #adjective.a# #animalType#",
   "builds #dwelling.a# in #placeName#",
   "lives in #dwelling.a# in #placeName#",
-  "builds a small #worshipPlace# to #deityDomain#",
+  "builds #adjective.a# #worshipPlace# to #deityDomain#",
 ];
 const deityRequest = [
   "borrow", "impregnate", "despoil", "sit on", "fiddle with",
