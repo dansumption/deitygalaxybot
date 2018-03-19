@@ -4,7 +4,7 @@ const followerAction = [
 const verb = [
   "ignore",  "immanentise", "immanentize",
   "bow to", "destroy", "exalt",
-  "realise", "respect","return to",
+  "relinquish", "respect","return to",
   "explain", "worship", "improve",
   "warn the world about", 
   "#followerAction# and #verb#",
