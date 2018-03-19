@@ -54,7 +54,8 @@ const object = [
 ];
 const specifier = [
   "#specifier# #nounToPluralise#'s",
-  "#nounToPluralise#'s #adjective#",
+  "#nounToPluralise.a#'s #adjective#",
+  "#nounNotToPluralise#'s #adjective#",
   "some", "the", "the", "your",
   "your #adjective#",
   "your #adjective#",
