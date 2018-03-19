@@ -3,7 +3,7 @@ const followerAction = [
 ];
 const verb = [
   "ignore",  "immanentise", "immanentize",
-  "bow to", "destroy", "exalt",
+  "bow to", "destroy", "exalt", "consider",
   "relinquish", "respect","return to",
   "explain", "worship", "improve",
   "warn the world about", 
@@ -24,6 +24,10 @@ const verb = [
   "sacrifice your #anyNoun# to",
   "soil yourself with",
   "spread the good news about",
+  "tell me more about",
+  "tell the #tole# about",
+  "befoul yourself before the image of",
+  "become the #adjective# promoter of",
 ];
 const role = [
   "antichrist", "barber-surgeon", "comforter",
