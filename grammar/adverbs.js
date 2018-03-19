@@ -16,7 +16,7 @@ const adverbClause = [
   "without giving it a second thought",
   "in the clumsiest way possible",
   "without really paying attention",
-  "out of the goodness of #godlyPossessive#"
+  "out of the goodness of #godlyPossessive# heart"
 ]
   .map(adverb => `, ${adverb}, `)
   .concat(spaces);
