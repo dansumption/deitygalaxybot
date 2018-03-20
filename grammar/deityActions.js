@@ -14,7 +14,8 @@ const deityCommand = [
   "screams \"#followerAction.toUpperCase#\"",
   "whispers that you should #followerAction#",
   "yells \"#followerAction.toUpperCase#\"",
-  "sends #bird##birdMember.a# fluttering down from the sky. Tied to its leg is a note: \"#followerAction#\""
+  "materialises in the form of a particularly #animalAdjective# #animalType#, and grunts \"#followerAction#\"",
+  "sends #bird##birdMember.a# fluttering down from the sky. Tied to its leg is a note: \"#followerAction#\"",
 ];
 const deityDoes = [
   "appears in front of you and #commandVerb# to #deityRequest# your #anyNoun#",
