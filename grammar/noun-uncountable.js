@@ -58,6 +58,7 @@ module.exports = [
   "babbling",
   "bad art",
   "ballet",
+  "bareback riding",
   "battling",
   "The BBC",
   "bedtime",
