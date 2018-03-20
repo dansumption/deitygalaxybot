@@ -16,7 +16,10 @@ const adverbClause = [
   "without giving it a second thought",
   "in the clumsiest way possible",
   "without really paying attention",
-  "out of the goodness of #godlyPossessive# heart"
+  "out of the goodness of #godlyPossessive# heart",
+  "appearing from the heart of a blossoming #flower#",
+  "flying in on the wings of a #bird##birdMember.a#",
+  "riding in on a #adjective# [steed:#animalType#]#steed#[steed:POP]"
 ]
   .map(adverb => `, ${adverb}, `)
   .concat(spaces);

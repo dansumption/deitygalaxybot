@@ -25,9 +25,10 @@ const verb = [
   "soil yourself with",
   "spread the good news about",
   "tell me more about",
-  "tell the #tole# about",
+  "tell the #role# about",
   "befoul yourself before the image of",
   "become the #adjective# promoter of",
+  "save the #spiritAnimal.s#. And also save",
 ];
 const role = [
   "antichrist", "barber-surgeon", "comforter",

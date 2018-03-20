@@ -10,4 +10,6 @@ const bird = corpora.getFile('animals', 'birds_antarctica').birds
   `[birdFamily:${birdFamily.family}][birdMember:${birdFamily.members.join(',').toLowerCase()}]`
 );
 
-module.exports = { animal, bird };
+const flower = corpora.getFile('plants', 'flowers').flowers;
+
+module.exports = { animal, bird, flower };
