@@ -1,6 +1,6 @@
 module.exports = {
   setDeity: [
-    "[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal##animalType#][godlyPossessive:#genderPossessive#]",
+    "[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#][godlyPossessive:#genderPossessive#]",
   ],
   "name": [
     "#namePart.capitalize#", "#namePart.capitalize##namePart#"

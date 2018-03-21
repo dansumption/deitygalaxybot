@@ -623,6 +623,7 @@ module.exports = [
   "wardrobe",
   "watchdog",
   "wedding list",
+  "white goods",
   "widget",
   "windfall",
   "windtunnel",
