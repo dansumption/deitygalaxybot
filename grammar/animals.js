@@ -1,7 +1,15 @@
 const corpora = require('corpora-project');
 
+const extraAnimals = [
+  'hawk moth',
+  'vine weevil',
+  'wolf spider',
+  'zebra spider',
+  'jumping spider',
+]
+
 const animal = corpora.getFile('animals', 'collateral_adjectives').animals.map(animalObj => 
-  animalObj.name);
+  animalObj.name).concat(extraAnimals);
 
 const bird = corpora.getFile('animals', 'birds_antarctica').birds
 .concat(corpora.getFile('animals', 'birds_north_america').birds)

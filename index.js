@@ -4,7 +4,9 @@ const tracery = require('./tracery/tracery');
 const modifiers = require('./tracery/mods-eng-basic');
 const origin = require('./grammar/origin');
 
-// console.log(JSON.stringify(origin));
+const replaceNonStandardMods = /toUpperCase/;
+// console.log(JSON.stringify(origin).replace(replaceNonStandardMods, ''));
+
 
 const DEMO_TIMES = 5000;
 
