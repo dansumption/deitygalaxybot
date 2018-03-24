@@ -26,7 +26,7 @@ const handleSearchTerm = tweet => {
   const userHandle = tweet.user.screen_name;
   const phrase = grammar.flatten(`#[userHandle:@${userHandle}]searchOrigin#`);
   console.log(`Replying to ${userHandle}'s search term with ${phrase}`);
-  sendTweet(`@${userHandle} ${phrase}`);
+  sendTweet(phrase);
 }
 
 const setup = () => {
