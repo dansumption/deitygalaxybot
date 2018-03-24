@@ -15,7 +15,7 @@ const logMessage = console.log
 
 const tweet = phrase =>
   bot && bot.post('statuses/update', { status: phrase }, function (err, data, response) {
-    console.log("Data:" , data, "\n\nError: ", err, "\n\nResponse: ", response);
+    console.log("SEND TWEET >>>\n","Data:" , data, "\n\nError: ", err, "\n\nResponse: ", response, "\n<<<SEND TWEET");
   });
 
 const monitorReplies = callback => {
