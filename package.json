@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "corpora-project": "^0.2.0",
-    "node-twitterbot": "^0.2.2",
+    "redis": "^2.8.0",
     "twit": "^2.2.9"
   }
 }

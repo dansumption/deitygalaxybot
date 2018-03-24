@@ -1,43 +1,59 @@
-const Twit = require('twit');
-const TwitterBot = require('node-twitterbot').TwitterBot;
+const { initialize, tweet, monitorReplies } = require('./twit/twitter');
+const redis = require('redis');
 const tracery = require('./tracery/tracery');
 const modifiers = require('./tracery/mods-eng-basic');
 const origin = require('./grammar/origin');
 
-const replaceNonStandardMods = /toUpperCase/;
-// console.log(JSON.stringify(origin).replace(replaceNonStandardMods, ''));
-
-
-const DEMO_TIMES = 5000;
-
-const bot = process.env.BOT_CONSUMER_KEY && new TwitterBot({
-  consumer_key: process.env.BOT_CONSUMER_KEY,
-  consumer_secret: process.env.BOT_CONSUMER_SECRET,
-  access_token: process.env.BOT_ACCESS_TOKEN,
-  access_token_secret: process.env.BOT_ACCESS_TOKEN_SECRET
- });
-
-
- const tweet = phrase => {
-  if (bot) {
-    bot.tweet(phrase);
-  } else {
-    let longest = phrase;
+const debug = () => {
+  const replaceNonStandardMods = /toUpperCase/;
+  console.log(JSON.stringify(origin).replace(replaceNonStandardMods, ''), "\n");
+  let longest = '';
+  for (let index = 0; index < 5000; index++) {
+    const phrase = grammar.flatten('#origin#');
     console.log(phrase, "\n");
-    for (let index = 0; index < DEMO_TIMES; index++) {
-      const newphrase = grammar.flatten('#origin#');
-      console.log(newphrase, "\n");
-      if (newphrase.length > longest.length) {
-        longest = newphrase;
-      }
+    if (phrase.length > longest.length) {
+      longest = phrase;
     }
-    console.log("LONGEST: ", longest, longest.length);
   }
+  console.log("LONGEST: ", longest, longest.length);
+};
+
+const timeoutTime = () => {
+  const MINUTE = 60 * 1000;
+  const minTimeBetweenTweets = 5 * MINUTE;
+  const maxTimeBetweenTweets = 90 * MINUTE;
+  return Math.round(minTimeBetweenTweets + Math.random() * (maxTimeBetweenTweets - minTimeBetweenTweets));
 }
 
 const grammar = tracery.createGrammar(origin);
 grammar.addModifiers(modifiers);
 
-const phrase = grammar.flatten('#origin#');
+const handleReply = tweet => {
+  const phrase = grammar.flatten('#origin#');
+  tweet(`@${tweet.user.screen_name} phrase`);
+}
 
-tweet(phrase);
+const sendRandomTweet = () => {
+  const phrase = grammar.flatten('#origin#');
+  tweet(phrase);
+}
+
+const startTweeting = () => {
+  sendRandomTweet();
+  setTimeout(sendRandomTweet, timeoutTime())
+}
+
+const setup = () => {
+  initialize('deitygalaxy');
+  monitorReplies(handleReply);
+  startTweeting();
+}
+
+if (process.env.BOT_CONSUMER_KEY) {
+  // Running on the server - so we tweet for real
+  setup();
+} else {
+  // Running locally - so just do some debugging
+  debug();
+}
+
