@@ -1,60 +1,41 @@
-const { initialize, tweet, monitorReplies } = require('./twit/twitter');
+const { initialize, sendTweet, monitorReplies, monitorSearchTerm } = require('./twit/twitter');
 const redis = require('redis');
-const tracery = require('./tracery/tracery');
-const modifiers = require('./tracery/mods-eng-basic');
-const origin = require('./grammar/origin');
+const grammar = require('./grammar');
 
-const debug = () => {
-  const replaceNonStandardMods = /toUpperCase/;
-  console.log(JSON.stringify(origin).replace(replaceNonStandardMods, ''), "\n");
-  let longest = '';
-  for (let index = 0; index < 5000; index++) {
-    const phrase = grammar.flatten('#origin#');
-    console.log(phrase, "\n");
-    if (phrase.length > longest.length) {
-      longest = phrase;
-    }
-  }
-  console.log("LONGEST: ", longest, longest.length);
-};
-
-const timeoutTime = () => {
+const timeoutDelay = () => {
   const MINUTE = 60 * 1000;
   const minTimeBetweenTweets = 5 * MINUTE;
-  const maxTimeBetweenTweets = 90 * MINUTE;
+  const maxTimeBetweenTweets = 5 * 60 * MINUTE;
   return Math.round(minTimeBetweenTweets + Math.random() * (maxTimeBetweenTweets - minTimeBetweenTweets));
 }
 
-const grammar = tracery.createGrammar(origin);
-grammar.addModifiers(modifiers);
-
 const handleReply = tweet => {
-  console.log("Got reply: " + tweet);
-  const phrase = grammar.flatten('#origin#');
-  tweet(`@${tweet.user.screen_name} phrase`);
+  const userHandle = tweet.user.screen_name;
+  const phrase = grammar.flatten('#replyOrigin#');
+  console.log(`Replying to ${userHandle} with ${phrase}`);
+  sendTweet(`@${userHandle} ${phrase}`);
 }
 
 const sendRandomTweet = () => {
   const phrase = grammar.flatten('#origin#');
-  tweet(phrase);
+  sendTweet(phrase);
+  setTimeout(sendRandomTweet, timeoutDelay())
 }
 
-const startTweeting = () => {
-  sendRandomTweet();
-  setTimeout(sendRandomTweet, timeoutTime())
+const handleSearchTerm = tweet => {
+  const userHandle = tweet.user.screen_name;
+  const phrase = grammar.flatten('#searchOrigin#');
+  console.log(`Replying to ${userHandle}'s search term with ${phrase}`);
+  sendTweet(`@${userHandle} ${phrase}`);
 }
 
 const setup = () => {
   initialize('deitygalaxy');
   monitorReplies(handleReply);
-  startTweeting();
+  monitorSearchTerm('#Rheða', handleSearchTerm)
+  sendRandomTweet();
 }
 
-if (process.env.BOT_CONSUMER_KEY) {
-  // Running on the server - so we tweet for real
-  setup();
-} else {
-  // Running locally - so just do some debugging
-  debug();
-}
+setup();
+
 

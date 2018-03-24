@@ -10,6 +10,8 @@ const followerActions = require('./followerActions');
 
 const origin = {
   "origin": ["#setDeity##story#"],
+  "replyOrigin": ["After a short pause, #origin#"],
+  "searchOrigin": ["Deep beneath the Earth, the goddess Rheða sighs, and the ground around #placeName# quivers."],
   "story": [
     "#deityName# the #deityType# of #deityDomain##adverbClause##deityAction#.",
   ],
