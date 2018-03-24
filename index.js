@@ -29,6 +29,7 @@ const grammar = tracery.createGrammar(origin);
 grammar.addModifiers(modifiers);
 
 const handleReply = tweet => {
+  console.log("Got reply: " + tweet);
   const phrase = grammar.flatten('#origin#');
   tweet(`@${tweet.user.screen_name} phrase`);
 }
