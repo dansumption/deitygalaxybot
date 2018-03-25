@@ -10,15 +10,14 @@ const deityActions = require("./deityActions");
 const places = require("./places");
 const followerActions = require("./followerActions");
 const story = require("./story");
+const replyStory = require("./replyStory");
 
 const origin = {
   origin: ["#setDeity##story#"],
   replyOrigin: ["#userHandle# You seek guidance from the heavens? #origin#"],
-  replyWithDeity: [
-    "#userHandle# #deityName# will reward you for your loyalty."
-  ],
+  replyWithDeity: ["#userHandle# #replyStory#"],
   replyWithLostDeity: [
-    "#userHandle# you call your deity, but another has taken their place. #origin#"
+    "#userHandle# You call your deity, but another has taken their place. #origin#"
   ],
   searchOrigin: [
     "Deep beneath the Earth, the goddess Rheða sighs, and the ground around #placeName# quivers, giving #userHandle# belly-butterflies."
@@ -29,6 +28,7 @@ const originComplete = Object.assign(
   {},
   deity,
   story,
+  replyStory,
   deityActions,
   followerActions,
   people,

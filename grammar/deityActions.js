@@ -3,11 +3,11 @@ const deityCommand = [
   '#shoutVerb.s# "#followerAction.toUpperCase#" from the sky',
   "whispers that you should #followerAction#",
   'sends #bird.a# fluttering down from the sky. Tied to its leg is a note: "#followerAction#"',
-  '[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# hands you a note which reads "#followerAction#"'
+  '[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# hands you a note which reads "#followerAction#"',
+  "#commandVerb.s# you to #deityRequest# your #anyNoun#"
 ];
 const deityDoes = [
   "appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#",
-  "appears in front of you and #commandVerb.s# you to #deityRequest# your #anyNoun#",
   "conjures #nounToPluralise.a# from thin air",
   "gestures at you #adverb#",
   "gestures at your #nounToPluralise# #adverb#",
@@ -41,4 +41,18 @@ const deityRequest = [
   "judge"
 ];
 
-module.exports = { deityCommand, deityDoes, deityRequest, deityMaking };
+const godToGodActivity = [
+  "playing #game# with",
+  "comparing #nounToPluralise.s# with",
+  "chewing the fat with",
+  "trying to build a bigger #worshipPlace# than",
+  "cooking some #foodItem.s# for"
+];
+
+module.exports = {
+  deityCommand,
+  deityDoes,
+  deityRequest,
+  deityMaking,
+  godToGodActivity
+};
