@@ -4,8 +4,8 @@ const pauseLength =  ["awkward pause", "flap of a hummingbird's wing", "lengthy 
 
 const story = [
   "#deityFull##adverbClause##deityCommand#.",
-  "#placeFull.capitalize#, #deityFull# is #deityMaking#.",
-  "#deityFull# #deityDoes#",
+  "In #dwelling.a# #qualifiedPlace#, #deityFull# is #deityMaking#.",
+  "#deityFull# #deityDoes#.",
 ];
 
 module.exports = { story, pauseLength };

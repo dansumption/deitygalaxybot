@@ -10,4 +10,21 @@ const shoutVerb = [
   "boom", "scream", "cry"
 ];
 
-module.exports = { commandVerb, shoutVerb };
+const animalVerb = [
+  "whinny",
+  "grunt",
+  "fart",
+  "shiver",
+  "shit",
+  "tremble",
+  "piss",
+  "defecate",
+  "spit",
+  "snarl",
+  "grimace",
+  "roar",
+  "snort",
+  "disappear"
+];
+
+module.exports = { commandVerb, shoutVerb, animalVerb };

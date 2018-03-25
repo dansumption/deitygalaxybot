@@ -136,6 +136,14 @@ const role =[
   "wanker",
   "worker",
   "youngster",
+  "antichrist",
+  "barber-surgeon", "comforter",
+  "first-born", "haranguer", "midwife",
+  "paragon", "pilgrim", "true believer",
+  "vicar", "witness", "supreme believer",
+  "beloved", "worshipper", "consort",
+  "destroyer", "harshest critic", "lover",
+  "usurper",
 ];
 
 module.exports = { role }

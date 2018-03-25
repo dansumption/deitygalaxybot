@@ -30,14 +30,7 @@ const verb = [
   "become the #adjective# promoter of",
   "save the #spiritAnimal.s#. And also save",
 ];
-const role = [
-  "antichrist", "barber-surgeon", "comforter",
-  "first-born", "haranguer", "midwife",
-  "paragon", "pilgrim", "true believer",
-  "vicar", "witness", "supreme believer",
-  "beloved", "worshipper", "consort",
-  "destroyer", "harshest critic", "lover"
-];
+
 const object = [
   "#nounNotToPluralise#",
   "#nounNotToPluralise#",
@@ -77,4 +70,4 @@ const relation = [
 ];
 
 
-module.exports = { followerAction, verb, role, object, specifier, relation };
+module.exports = { followerAction, verb, object, specifier, relation };

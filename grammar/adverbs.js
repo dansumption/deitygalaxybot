@@ -20,7 +20,7 @@ const adverbClause = [
   "flying in on the wings of #bird.a#",
   "riding in on #adjective.a# #animal#"
 ]
-  .map(adverb => `, ${adverb}, `)
+  .map(adverb => ` ${adverb}, `)
   .concat(spaces);
 const adverb = ["angrily", "innocently", "kindly",
   "mysteriously", "impishly", "curiously", "malevolently", "imperiously",

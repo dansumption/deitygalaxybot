@@ -3,7 +3,7 @@ module.exports = {
     "#setPronouns#[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#]",
   ],
   "deityFull": [
-    "#deityName# the #deityType# of #deityDomain#",
+    "#deityName#, #deityType# of #deityDomain#,",
   ],
   "setPronouns": [
     "[deityThey:they][deityThem:them][deityTheir:their][deityTheirs:theirs]",
@@ -12,7 +12,11 @@ module.exports = {
     "[deityThey:it][deityThem:it][deityTheir:its][deityTheirs:its]",
   ],
   "name": [
-    "#namePart.capitalize#", "#namePart.capitalize##namePart#"
+    "#namePart.capitalize#",
+    "#namePart.capitalize##namePart#",
+    "#namePart.capitalize##namePart#",
+    "#namePart.capitalize##namePart#",
+    "#syllable.capitalize#'#namePart#",
   ],
   "godType": [
     "#godlyAdjective# #godType#", "#godlyAdjective# #godType#",

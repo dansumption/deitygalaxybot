@@ -6,13 +6,14 @@ const deityCommand = [
   "[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# hands you a note which reads \"#followerAction#\"",
 ];
 const deityDoes = [
-  "appears in front of you and #commandVerb.s# to #deityRequest# your #anyNoun#",
+  "appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# takes one look at you and #animalVerb.s#",
+  "appears in front of you and #commandVerb.s# you to #deityRequest# your #anyNoun#",
   "conjures #nounToPluralise.a# from thin air",
   "gestures at you #adverb#",
   "gestures at your #nounToPluralise# #adverb#",
   "rattles a tin under your nose and asks for a donation to save the #animal.s#",
   "builds #dwelling.a# #qualifiedPlace#",
-  "lives #placeFull#",
+  "lives #dwelling.a# #qualifiedPlace#",
   "builds #adjective.a# #worshipPlace# to #deityDomain#",
   "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again",
   // "cries tears of joy for unicorns to drink",

@@ -35,7 +35,7 @@ const buildingMaterial = [
   "greenery",
   "weapons-grade plutonium",
   "tears of the departed",
-  "timber from a thousand-year #tree#",
+  "timber of a thousand-year-old #tree#",
   "iron forged in the fires of #placeName#",
   "life",
   "death",
