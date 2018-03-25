@@ -90,7 +90,15 @@ const dwelling = [
   "phone mast",
   "kindergarten",
   "loft extension",
-  "neighborhood"
+  "neighborhood",
+  "makerspace",
+  "lost property office",
+  "dead letter office",
+  "iceberg",
+  "mezzanine",
+  "circus",
+  "clearing",
+  "condominium"
 ].concat(settings, venues, worshipPlace);
 
 const inPlace = [

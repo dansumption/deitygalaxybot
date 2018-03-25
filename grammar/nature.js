@@ -18,7 +18,9 @@ const extraAnimals = [
   "yorkshire terrier",
   "Afghan hound",
   "giant squid",
-  "three-toed sloth"
+  "three-toed sloth",
+  "catfish",
+  "chihuahua"
 ];
 
 const animal = corpora
