@@ -41,10 +41,10 @@ module.exports = {
 
 
   "namePart": [
-    "#syllable#", "#syllable#-#syllable#", "#syllable#'#syllable#", "#syllable##syllable#", "#syllable##syllable##syllable#"
+    "#syllable#", "#syllable#-#syllable#", "#syllable#'#syllable#", "#syllable##syllable#",
   ],
   "syllable": [
-    "#consonant##vowel#", "#vowel##consonant#"
+    "#consonant##vowel#", "#vowel##consonant#", "#consonant##vowel##consonant#"
   ],
   "consonant": [
     "#rareConsonant#", "b", "c", "ch", "cl", "cr", "d", "f", "g", "h", "j", "k", "kl", "kr", "l", "m", "m", "p", "ph", "qu", "r", "s", "st", "t", "th", "v", "w", "x", "y", "z", "zh"
