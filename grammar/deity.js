@@ -2,6 +2,9 @@ module.exports = {
   setDeity: [
     "#setPronouns#[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#]",
   ],
+  "deityFull": [
+    "#deityName# the #deityType# of #deityDomain#",
+  ],
   "setPronouns": [
     "[deityThey:they][deityThem:them][deityTheir:their][deityTheirs:theirs]",
     "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]",
@@ -50,7 +53,7 @@ module.exports = {
     "bb", "bh", "cc", "ck", "cs", "ct", "cw", "cz", "db", "dd", "jh", "ll", "mn", "ð", "þ", "pt", "q", "xx"
   ],
   "vowel": [
-    "#rareVowel#", "a", "ae", "au", "e", "ea", "ee", "ei", "eo", "eu", "i", "ie", "io", "o", "oi", "oo", "ou", "u", "uo"
+    "#rareVowel#", "a", "ae", "æ", "au", "e", "ea", "ee", "ei", "eo", "eu", "i", "ie", "io", "o", "oi", "oo", "ou", "u", "uo"
   ],
   "rareVowel": [
     "ä", "aï", "ao", "ay", "ï", "ia", "iu", "ö", "oa", "oe", "ü", "ua", "ue", "uu", "üü"

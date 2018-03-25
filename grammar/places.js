@@ -73,4 +73,8 @@ const placeName = unqualifiedPlace
   .concat(inPlace.map(place => `in ${place}`))
   .concat(onPlace.map(place => `on ${place}`));
 
-module.exports = { dwelling, placeName, worshipPlace };
+const placeFull = [
+  "In #dwelling.a# #placeName#",
+]
+
+module.exports = { dwelling, placeName, worshipPlace, placeFull };

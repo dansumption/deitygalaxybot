@@ -1,7 +1,3 @@
-const deityAction = [
-  "#deityCommand#",
-  "#deityDoes#"
-];
 const deityCommand = [
   "#commandVerb# you to #followerAction#",
   "booms \"#followerAction.toUpperCase#\" from the sky",
@@ -22,10 +18,16 @@ const deityDoes = [
   "gestures at you #adverb#",
   "gestures at your #nounToPluralise# #adverb#",
   "rattles a tin under your nose and asks for a donation to save the #animal.s#",
-  "builds #dwelling.a# in #placeName#",
-  "lives in #dwelling.a# in #placeName#",
+  "builds #placeFull#",
+  "lives #placeFull#",
   "builds #adjective.a# #worshipPlace# to #deityDomain#",
-  "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again"
+  "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again",
+  "cries tears of joy for unicorns to drink",
+  "shits on the ear to grow roses",
+];
+const deityDoing = [
+  "spinning webs with human hair",
+  "crocheting a blanket of darkness",
 ];
 const deityRequest = [
   "borrow", "impregnate", "despoil", "sit on", "fiddle with",
@@ -33,5 +35,5 @@ const deityRequest = [
   "begin a cult that worships", "judge"
 ];
 
-module.exports = { deityAction, deityCommand, deityDoes, deityRequest };
+module.exports = { deityCommand, deityDoes, deityDoing, deityRequest };
 

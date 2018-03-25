@@ -1,7 +1,5 @@
 const grammar = require('./grammar');
 
-grammar.debug();
-
 let longest = '';
 for (let index = 0; index < 5000; index++) {
   const phrase = grammar.flatten('#origin#');
@@ -12,3 +10,5 @@ for (let index = 0; index < 5000; index++) {
 }
 
 console.log("LONGEST: ", longest, longest.length);
+
+grammar.debug();
