@@ -14,14 +14,14 @@ const story = require("./story");
 const replyStory = require("./replyStory");
 
 const origin = {
-  origin: ["#setDeity##story# \\##deityName#"],
+  origin: ["#setDeity##story#"],
   replyOrigin: ["#userHandle# You seek guidance from the heavens? #origin#"],
-  replyWithDeity: ["#userHandle# #replyStory# \\##deityName#"],
+  replyWithDeity: ["#userHandle# #replyStory#"],
   replyWithLostDeity: [
     "#userHandle# You call your deity, but another has taken their place. #origin#"
   ],
   searchOrigin: [
-    "Deep beneath the Earth, the goddess Rheða sighs, and the ground around #placeName# quivers, giving #userHandle# belly-butterflies. \\#sheIsHere"
+    "Deep beneath the Earth, the goddess Rheða sighs, and the ground around #placeName# quivers, giving #userHandle# belly-butterflies."
   ]
 };
 

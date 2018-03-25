@@ -48,7 +48,7 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
   root.expand();
   const deityName = root.grammar.flatten("#deityName#");
   const auto_populate_reply_metadata = !!in_reply_to_status_id;
-  const status = root.finishedText;
+  const status = `${root.finishedText} #${deityName}`;
   sendTweet(
     { status, in_reply_to_status_id, auto_populate_reply_metadata },
     (err, data) => {
