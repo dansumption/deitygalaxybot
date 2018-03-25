@@ -9,6 +9,6 @@ for (let index = 0; index < 5000; index++) {
   }
 }
 
-console.log("LONGEST: ", longest, longest.length);
-
 grammar.debug();
+
+console.log("\nLONGEST: ", longest, longest.length);
