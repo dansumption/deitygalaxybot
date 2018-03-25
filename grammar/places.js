@@ -98,7 +98,9 @@ const dwelling = [
   "mezzanine",
   "circus",
   "clearing",
-  "condominium"
+  "condominium",
+  "oast house",
+  "unruly hedge"
 ].concat(settings, venues, worshipPlace);
 
 const inPlace = [
