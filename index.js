@@ -10,6 +10,7 @@ const grammar = require("./grammar");
 const MINUTE = 60 * 1000;
 const minTimeBetweenTweets = 2 * MINUTE;
 const maxTimeBetweenTweets = 70 * MINUTE;
+const hashtagReplace = /'-/;
 
 const timeoutDelay = () => {
   return Math.round(
@@ -48,7 +49,10 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
   root.expand();
   const deityName = root.grammar.flatten("#deityName#");
   const auto_populate_reply_metadata = !!in_reply_to_status_id;
-  const status = `${root.finishedText} #${deityName}`;
+  const status = `${root.finishedText} #${deityName.replace(
+    hashtagReplace,
+    ""
+  )}`;
   sendTweet(
     { status, in_reply_to_status_id, auto_populate_reply_metadata },
     (err, data) => {
