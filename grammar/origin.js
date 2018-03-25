@@ -1,3 +1,4 @@
+const name = require("./name");
 const deity = require("./deity");
 const nature = require("./nature");
 const people = require("./people");
@@ -26,6 +27,7 @@ const origin = {
 
 const originComplete = Object.assign(
   {},
+  name,
   deity,
   story,
   replyStory,

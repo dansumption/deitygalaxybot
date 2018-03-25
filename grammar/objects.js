@@ -81,7 +81,12 @@ const foodStuff = [
   "absinthe",
   "kümmel",
   "beer",
-  "IPA"
+  "cider",
+  "bread",
+  "toast",
+  "curry",
+  "salt",
+  "butter"
 ];
 
 const foodItem = [
@@ -99,7 +104,12 @@ const foodItem = [
   "cheesecake",
   "chilli",
   "coconut",
-  "cream cracker"
+  "cream cracker",
+  "croissant",
+  "biscuit",
+  "cake",
+  "sandwich",
+  "pie"
 ];
 
 const bodyPart = [
@@ -124,7 +134,27 @@ const bodyPart = [
   "head",
   "hand",
   "genital",
-  "erogenous zone"
+  "erogenous zone",
+  "tongue",
+  "hair",
+  "left buttock",
+  "right buttock",
+  "arm",
+  "thigh",
+  "vein",
+  "nerve",
+  "fingernail",
+  "toenail",
+  "left nostril",
+  "right nostril",
+  "eye",
+  "lip",
+  "ear canal",
+  "tooth",
+  "epidermis",
+  "elbow",
+  "arse",
+  "breast"
 ];
 
 const vehicle = [
@@ -143,7 +173,20 @@ const computerObject = [
   "GIF",
   "lambda function",
   "cursor",
-  "error"
+  "#adjective# error",
+  "stack overflow",
+  "python script",
+  "database",
+  "virus",
+  "Trojan horse",
+  "pixel",
+  "cure for cancer",
+  "game",
+  "algorithm",
+  "folder",
+  "alert",
+  "pop-up",
+  "browser window"
 ];
 
 const game = [
