@@ -48,7 +48,6 @@ const anyNoun = ["#nounNotToPluralise#", "#nounToPluralise#"];
 
 module.exports = {
   nounNotToPluralise,
-  nounToPluralise,
   anyNoun,
   newTech,
   buildingMaterial

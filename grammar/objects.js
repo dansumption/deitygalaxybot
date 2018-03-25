@@ -154,12 +154,9 @@ const nounToPluralise = abstractObject.concat(
   computerObject,
   householdObject,
   vehicle,
-  personalObject,
   weapon,
   foodItem
 );
-
-const personalObject = ["allergy"];
 
 module.exports = {
   abstractObject,
@@ -169,7 +166,6 @@ module.exports = {
   computerObject,
   householdObject,
   vehicle,
-  personalObject,
   weapon,
   foodItem,
   foodStuff,

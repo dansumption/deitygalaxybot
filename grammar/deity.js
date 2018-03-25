@@ -1,65 +1,182 @@
 module.exports = {
   setDeity: [
-    "#setPronouns#[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#]",
+    "#setPronouns#[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#]"
   ],
-  "deityFull": [
-    "#deityName#, #deityType# of #deityDomain#,",
-  ],
-  "setPronouns": [
+  deityFull: ["#deityName#, #deityType# of #deityDomain#,"],
+  setPronouns: [
     "[deityThey:they][deityThem:them][deityTheir:their][deityTheirs:theirs]",
     "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]",
     "[deityThey:he][deityThem:him][deityTheir:his][deityTheirs:his]",
-    "[deityThey:it][deityThem:it][deityTheir:its][deityTheirs:its]",
+    "[deityThey:it][deityThem:it][deityTheir:its][deityTheirs:its]"
   ],
-  "name": [
+  name: [
     "#namePart.capitalize#",
     "#namePart.capitalize##namePart#",
     "#namePart.capitalize##namePart#",
     "#namePart.capitalize##namePart#",
-    "#syllable.capitalize#'#namePart#",
+    "#syllable.capitalize#'#namePart#"
   ],
-  "godType": [
-    "#godlyAdjective# #godType#", "#godlyAdjective# #godType#",
-    "#raregodType#", "archbishop", "demon", "god", "god",
-    "goddess", "goddess", "patron saint", "pope", "archdemon"
+  godType: [
+    "#godlyAdjective# #godType#",
+    "#godlyAdjective# #godType#",
+    "#raregodType#",
+    "archbishop",
+    "demon",
+    "god",
+    "god",
+    "goddess",
+    "goddess",
+    "patron saint",
+    "pope",
+    "archdemon"
   ],
-  "raregodType": [
-    "creator", "demiurge", "hedgewitch", "hierophant",
-    "numen", "procreator", "progenitor"
+  raregodType: [
+    "creator",
+    "demiurge",
+    "hedgewitch",
+    "hierophant",
+    "numen",
+    "procreator",
+    "progenitor"
   ],
-  "godlyAdjective": [
-    "absolute", "all-powerful", "antediluvian",
-    "beloved", "despised", "divine", "evil", "exalted",
-    "immortal", "infinite", "irrepressible",
-    "most #godlyAdjective#", "overrated", "primordal",
-    "sublime", "supreme", "timeless", "unavoidable",
-    "underrated", "wicked", "widely ignored",
-    "#adjective#",
+  godlyAdjective: [
+    "absolute",
+    "all-powerful",
+    "antediluvian",
+    "beloved",
+    "despised",
+    "divine",
+    "evil",
+    "exalted",
+    "immortal",
+    "infinite",
+    "irrepressible",
+    "most #godlyAdjective#",
+    "overrated",
+    "primordal",
+    "sublime",
+    "supreme",
+    "timeless",
+    "unavoidable",
+    "underrated",
+    "wicked",
+    "widely ignored",
+    "#adjective#"
   ],
-  "domain": [
-    "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",
-    "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",
-    "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",
+  domain: [
+    "#nounToPluralise.s#",
+    "#nounNotToPluralise#",
+    "#newTech#",
+    "#nounToPluralise.s#",
+    "#nounNotToPluralise#",
+    "#newTech#",
+    "#nounToPluralise.s#",
+    "#nounNotToPluralise#",
+    "#newTech#",
     "#domain# and #domain#"
   ],
 
-
-  "namePart": [
-    "#syllable#", "#syllable#-#syllable#", "#syllable#'#syllable#", "#syllable##syllable#",
+  namePart: [
+    "#syllable#",
+    "#syllable#-#syllable#",
+    "#syllable#'#syllable#",
+    "#syllable##syllable#"
   ],
-  "syllable": [
-    "#consonant##vowel#", "#vowel##consonant#", "#consonant##vowel##consonant#"
+  syllable: [
+    "#consonant##vowel#",
+    "#vowel##consonant#",
+    "#consonant##vowel##consonant#"
   ],
-  "consonant": [
-    "#rareConsonant#", "b", "c", "ch", "cl", "cr", "d", "f", "g", "h", "j", "k", "kl", "kr", "l", "m", "m", "p", "ph", "qu", "r", "s", "st", "t", "th", "v", "w", "x", "y", "z", "zh"
+  consonant: [
+    "#rareConsonant#",
+    "b",
+    "c",
+    "ch",
+    "cl",
+    "cr",
+    "d",
+    "f",
+    "g",
+    "h",
+    "j",
+    "k",
+    "kl",
+    "kr",
+    "l",
+    "m",
+    "m",
+    "p",
+    "ph",
+    "qu",
+    "r",
+    "s",
+    "st",
+    "t",
+    "th",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "zh"
   ],
-  "rareConsonant": [
-    "bb", "bh", "cc", "ck", "cs", "ct", "cw", "cz", "db", "dd", "jh", "ll", "mn", "ð", "þ", "pt", "q", "xx"
+  rareConsonant: [
+    "bb",
+    "bh",
+    "cc",
+    "ck",
+    "cs",
+    "ct",
+    "cw",
+    "cz",
+    "db",
+    "dd",
+    "jh",
+    "ll",
+    "mn",
+    "ð",
+    "þ",
+    "pt",
+    "q",
+    "xx"
   ],
-  "vowel": [
-    "#rareVowel#", "a", "ae", "æ", "au", "e", "ea", "ee", "ei", "eo", "eu", "i", "ie", "io", "o", "oi", "oo", "ou", "u", "uo"
+  vowel: [
+    "#rareVowel#",
+    "a",
+    "ae",
+    "æ",
+    "au",
+    "e",
+    "ea",
+    "ee",
+    "ei",
+    "eo",
+    "eu",
+    "i",
+    "ie",
+    "io",
+    "o",
+    "oi",
+    "oo",
+    "ou",
+    "u",
+    "uo"
   ],
-  "rareVowel": [
-    "ä", "aï", "ao", "ay", "ï", "ia", "iu", "ö", "oa", "oe", "ü", "ua", "ue", "uu", "üü"
-  ],
-}
+  rareVowel: [
+    "ä",
+    "aï",
+    "ao",
+    "ay",
+    "ï",
+    "ia",
+    "iu",
+    "ö",
+    "oa",
+    "oe",
+    "ü",
+    "ua",
+    "ue",
+    "uu",
+    "üü"
+  ]
+};
