@@ -489,5 +489,9 @@ module.exports = [
   "witchcraft",
   "withholding",
   "womanhood",
-  "word",
+  "theology",
+  "therapy",
+  "biography",
+  "biology",
+  "interpretation"
 ];

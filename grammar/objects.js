@@ -69,16 +69,6 @@ const householdObject = [
   "widget"
 ];
 
-const category = ["tabloid press", "Conservative Government"];
-
-const subject = [
-  "theology",
-  "therapy",
-  "biography",
-  "biology",
-  "interpretation"
-];
-
 const foodStuff = [
   "fruit",
   "carbohydrates",
@@ -156,6 +146,19 @@ const computerObject = [
   "error"
 ];
 
+const nounToPluralise = abstractObject.concat(
+  abstractObject,
+  concreteObject,
+  bodyPart,
+  clothing,
+  computerObject,
+  householdObject,
+  vehicle,
+  personalObject,
+  weapon,
+  foodItem
+);
+
 const personalObject = ["allergy"];
 
 module.exports = {
@@ -163,13 +166,12 @@ module.exports = {
   concreteObject,
   bodyPart,
   clothing,
-  category,
   computerObject,
   householdObject,
   vehicle,
   personalObject,
   weapon,
-  subject,
   foodItem,
-  foodStuff
+  foodStuff,
+  nounToPluralise
 };
