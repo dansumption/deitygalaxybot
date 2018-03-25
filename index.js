@@ -10,7 +10,7 @@ const grammar = require("./grammar");
 const MINUTE = 60 * 1000;
 const minTimeBetweenTweets = 2 * MINUTE;
 const maxTimeBetweenTweets = 70 * MINUTE;
-const hashtagReplace = /'-/;
+const hashtagReplace = /['-]/g;
 
 const timeoutDelay = () => {
   return Math.round(
@@ -75,7 +75,7 @@ const handleSearchTerm = tweet => {
   const status = grammar.flatten(`#[userHandle:@${userHandle}]searchOrigin#`);
   const in_reply_to_status_id = tweet.id_str;
   const auto_populate_reply_metadata = true;
-  sendTweet(status, in_reply_to_status_id, auto_populate_reply_metadata);
+  sendTweet({ status, in_reply_to_status_id, auto_populate_reply_metadata });
 };
 
 const setup = () => {
