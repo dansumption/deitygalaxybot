@@ -47,10 +47,14 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
   const root = grammar.createRoot(template);
   root.expand();
   const deityName = root.grammar.flatten("#deityName#");
+  const auto_populate_reply_metadata = !!in_reply_to_status_id;
   const status = root.finishedText;
-  sendTweet({ status, in_reply_to_status_id }, (err, data) => {
-    database.set(data.id_str, deityName);
-  });
+  sendTweet(
+    { status, in_reply_to_status_id, auto_populate_reply_metadata },
+    (err, data) => {
+      database.set(data.id_str, deityName);
+    }
+  );
 };
 
 const sendTweetAfterDelay = () => {
