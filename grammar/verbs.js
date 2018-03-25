@@ -1,5 +1,13 @@
 const commandVerb = [
-  "asks", "demands", "needs", "wants", "desires"
-  ];
+  "ask", "demand", "need",
+  "want", "desire", "order",
+  "compel", "mandate", "command",
+  "request", "tell", 
+];
 
-module.exports = { commandVerb };
+const shoutVerb = [
+  "shout", "yell", "cheer",
+  "boom", "scream", "cry"
+];
+
+module.exports = { commandVerb, shoutVerb };

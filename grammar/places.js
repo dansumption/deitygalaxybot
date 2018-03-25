@@ -93,7 +93,7 @@ const qualifiedPlace = unqualifiedPlace
 const placeName = atPlace.concat(inPlace).concat(onPlace);
 
 const placeFull = [
-  "In #dwelling.a# #qualifiedPlace#",
+  "in #dwelling.a# #qualifiedPlace#",
 ]
 
 module.exports = { dwelling, placeName, qualifiedPlace, worshipPlace, placeFull };
