@@ -11,7 +11,7 @@ const venues = corpora.getFile('geography', 'venues').categories.reduce((allVenu
 );
 
 const dwelling = [
-  "ashram", "bird's nest", "bothy", "cave", "clump of moss", "den",
+  "ashram", "bird's nest", "nest", "bothy", "cave", "clump of moss", "den",
   "dream", "grove of beech trees", "holiday home", "mountain", "palace",
   "rubbish tip", "temple", "tree", "treetop shack", "cluttered hovel",
   "inconspicuous hole", "Taj Mahal", "abandoned quarry"
@@ -40,7 +40,19 @@ const inPlace = [
   "Sid's Café", "Skegness", "the Western Spiral Arm of the galaxy", "Halfway",
   "Galactic Sector ZZ9 Plural Z Alpha", 
   "Mahabalipuram",
-  "an empty parking lot somewhere near Andromeda", 
+  "an empty parking lot somewhere near Andromeda",
+  "the kingdom of Bryneich", "Camelot",
+  "the Enchanted Forest",
+  "Fairyland", "Faerie",
+  "Gondwana", "Honolulu",
+  "Jumanji", "Oompa-loompa Land",
+  "Westeros", "Xanadu", "Asgard",
+  "Bikini Bottom",
+  "Albion",
+  "Oblivion",
+  "the Twilight Zone",
+  "Hyboria",
+  "Oz",
 ];
 
 
@@ -61,6 +73,11 @@ const onPlace = [
   "Traal", "Vogsphere", "Stavromula Beta",
   "the banks of Lake Windermere",
   "the outskrits of infinity", 
+  "the other side of the veil",
+  "the World of Two Moons",
+  "Naboo",
+  "Oceanworld",
+
 ];
 
 const unqualifiedPlace = [
@@ -68,13 +85,15 @@ const unqualifiedPlace = [
   "six feet underground",
 ]
 
-const placeName = unqualifiedPlace
+const qualifiedPlace = unqualifiedPlace
   .concat(atPlace.map(place => `at ${place}`))
   .concat(inPlace.map(place => `in ${place}`))
   .concat(onPlace.map(place => `on ${place}`));
 
+const placeName = atPlace.concat(inPlace).concat(onPlace);
+
 const placeFull = [
-  "In #dwelling.a# #placeName#",
+  "In #dwelling.a# #qualifiedPlace#",
 ]
 
-module.exports = { dwelling, placeName, worshipPlace, placeFull };
+module.exports = { dwelling, placeName, qualifiedPlace, worshipPlace, placeFull };

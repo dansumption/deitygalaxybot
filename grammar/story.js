@@ -4,7 +4,7 @@ const pauseLength =  ["awkward pause", "flap of a hummingbird's wing", "lengthy 
 
 const story = [
   "#deityFull##adverbClause##deityCommand#.",
-  "#placeFull.capitalize#, #deityFull# is #deityDoing#.",
+  "#placeFull.capitalize#, #deityFull# is #deityMaking#.",
   "#deityFull# #deityDoes#",
 ];
 

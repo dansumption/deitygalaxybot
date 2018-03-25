@@ -1,5 +1,5 @@
 const deity = require('./deity');
-const animals = require('./animals');
+const nature = require('./nature');
 const nouns = require('./nouns');
 const adverbs = require('./adverbs');
 const adjectives = require('./adjectives');
@@ -16,5 +16,5 @@ const origin = {
 };
 
 
-const originComplete = Object.assign({}, deity, story, deityActions, followerActions, animals, nouns, places, adverbs, adjectives, verbs, origin);
+const originComplete = Object.assign({}, deity, story, deityActions, followerActions, nature, nouns, places, adverbs, adjectives, verbs, origin);
 module.exports = originComplete;

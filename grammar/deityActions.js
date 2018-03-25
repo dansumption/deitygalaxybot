@@ -22,12 +22,17 @@ const deityDoes = [
   "lives #placeFull#",
   "builds #adjective.a# #worshipPlace# to #deityDomain#",
   "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again",
-  "cries tears of joy for unicorns to drink",
-  "shits on the ear to grow roses",
+  // "cries tears of joy for unicorns to drink",
+  // "shits on the earth to grow roses",
 ];
-const deityDoing = [
-  "spinning webs with human hair",
-  "crocheting a blanket of darkness",
+const deityMaking = [
+  "spinning a web from #buildingMaterial#",
+  "crocheting a blanket of #buildingMaterial#",
+  "erecting #worshipPlace.a# made of #buildingMaterial#",
+  "constructing #dwelling.a# out of #buildingMaterial#",
+  "building a simulaca of #deityTheir#self out of #buildingMaterial#",
+  "sculpting idols from #buildingMaterial#",
+  "growing #flower.s# and #flower.s# in well-composted #buildingMaterial#"
 ];
 const deityRequest = [
   "borrow", "impregnate", "despoil", "sit on", "fiddle with",
@@ -35,5 +40,5 @@ const deityRequest = [
   "begin a cult that worships", "judge"
 ];
 
-module.exports = { deityCommand, deityDoes, deityDoing, deityRequest };
+module.exports = { deityCommand, deityDoes, deityRequest, deityMaking  };
 

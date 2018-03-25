@@ -2,7 +2,6 @@ const corpora = require('corpora-project');
 
 const allAdverbs = corpora.getFile('words', 'adverbs').adverbs;
 
-
 const spaces = Array(30).fill(" ");
 const adverbClause = [
   "after a pause of a thousand years",
