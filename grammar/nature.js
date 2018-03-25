@@ -1,32 +1,43 @@
-const corpora = require('corpora-project');
+const corpora = require("corpora-project");
 
 const extraAnimals = [
-  'hawk moth',
-  'vine weevil',
-  'wolf spider',
-  'zebra spider',
-  'jumping spider',
-  'blobfish',
-  'proboscis monkey',
-  'tardigrade',
-  'unicorn',
-  'manticore',
-  'dragon',
-  'kobold',
-  'hippogriff',
-]
+  "hawk moth",
+  "vine weevil",
+  "wolf spider",
+  "zebra spider",
+  "jumping spider",
+  "blobfish",
+  "proboscis monkey",
+  "tardigrade",
+  "unicorn",
+  "manticore",
+  "dragon",
+  "kobold",
+  "hippogriff",
+  "bull terrier",
+  "yorkshire terrier",
+  "Afghan hound",
+  "giant squid",
+  "three-toed sloth"
+];
 
-const animal = corpora.getFile('animals', 'collateral_adjectives').animals.map(animalObj => 
-  animalObj.name).concat(extraAnimals);
+const animal = corpora
+  .getFile("animals", "collateral_adjectives")
+  .animals.map(animalObj => animalObj.name)
+  .concat(extraAnimals);
 
-const bird = corpora.getFile('animals', 'birds_antarctica').birds
-.concat(corpora.getFile('animals', 'birds_north_america').birds)
-.reduce((allBirds, birdFamily) =>
-  allBirds.concat(birdFamily.members.map(birdName => birdName.toLowerCase())),
-  []
-);
+const bird = corpora
+  .getFile("animals", "birds_antarctica")
+  .birds.concat(corpora.getFile("animals", "birds_north_america").birds)
+  .reduce(
+    (allBirds, birdFamily) =>
+      allBirds.concat(
+        birdFamily.members.map(birdName => birdName.toLowerCase())
+      ),
+    []
+  );
 
-const flower = corpora.getFile('plants', 'flowers').flowers;
+const flower = corpora.getFile("plants", "flowers").flowers;
 
 const tree = [
   "sessile oak",
@@ -58,7 +69,7 @@ const tree = [
   "ironwood",
   "nutmeg",
   "larch",
-  "mahogany",
+  "mahogany"
 ];
 
 module.exports = { animal, bird, flower, tree };

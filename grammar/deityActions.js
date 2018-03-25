@@ -1,12 +1,12 @@
 const deityCommand = [
   "#commandVerb.s# you to #followerAction#",
-  "#shoutVerb.s# \"#followerAction.toUpperCase#\" from the sky",
+  '#shoutVerb.s# "#followerAction.toUpperCase#" from the sky',
   "whispers that you should #followerAction#",
-  "sends #bird.a# fluttering down from the sky. Tied to its leg is a note: \"#followerAction#\"",
-  "[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# hands you a note which reads \"#followerAction#\"",
+  'sends #bird.a# fluttering down from the sky. Tied to its leg is a note: "#followerAction#"',
+  '[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# hands you a note which reads "#followerAction#"'
 ];
 const deityDoes = [
-  "appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# takes one look at you and #animalVerb.s#",
+  "appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#",
   "appears in front of you and #commandVerb.s# you to #deityRequest# your #anyNoun#",
   "conjures #nounToPluralise.a# from thin air",
   "gestures at you #adverb#",
@@ -15,7 +15,7 @@ const deityDoes = [
   "builds #dwelling.a# #qualifiedPlace#",
   "lives #dwelling.a# #qualifiedPlace#",
   "builds #adjective.a# #worshipPlace# to #deityDomain#",
-  "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again",
+  "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again"
   // "cries tears of joy for unicorns to drink",
   // "shits on the earth to grow roses",
 ];
@@ -29,10 +29,16 @@ const deityMaking = [
   "growing #flower.s# and #flower.s# in well-composted #buildingMaterial#"
 ];
 const deityRequest = [
-  "borrow", "impregnate", "despoil", "sit on", "fiddle with",
-  "make babies with", "ennoble", "create life from",
-  "begin a cult that worships", "judge"
+  "borrow",
+  "impregnate",
+  "despoil",
+  "sit on",
+  "fiddle with",
+  "make babies with",
+  "ennoble",
+  "create life from",
+  "begin a cult that worships",
+  "judge"
 ];
 
-module.exports = { deityCommand, deityDoes, deityRequest, deityMaking  };
-
+module.exports = { deityCommand, deityDoes, deityRequest, deityMaking };
