@@ -4,8 +4,8 @@ const COUNT = 1000;
 
 // const replyTemplate = "#[userHandle:@dansumption][deityName:REPLYDEITY]replyWithDeity#";
 
-const testTemplate =
-  "#name#  demands that you make an offering of burnt #foodStuff#, presented in #nounToPluralise.a# made of #buildingMaterial#.";
+const testTemplate = "#origin#";
+// "#name#  demands that you make an offering of burnt #foodStuff#, presented in #nounToPluralise.a# made of #buildingMaterial#.";
 
 let longest = "";
 for (let index = 0; index < COUNT; index++) {
