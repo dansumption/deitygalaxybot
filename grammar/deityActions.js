@@ -25,7 +25,7 @@ const deityDoes = [
   "builds #dwelling.a# in #placeName#",
   "lives in #dwelling.a# in #placeName#",
   "builds #adjective.a# #worshipPlace# to #deityDomain#",
-  "asks whether you know anyone who can fix #godlyPossessive# #adjective# #newTech#, which is playing up again"
+  "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again"
 ];
 const deityRequest = [
   "borrow", "impregnate", "despoil", "sit on", "fiddle with",

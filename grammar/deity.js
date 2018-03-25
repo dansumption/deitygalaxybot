@@ -1,6 +1,12 @@
 module.exports = {
   setDeity: [
-    "[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#][godlyPossessive:#genderPossessive#]",
+    "#setPronouns#[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#]",
+  ],
+  "setPronouns": [
+    "[deityThey:they][deityThem:them][deityTheir:their][deityTheirs:theirs]",
+    "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]",
+    "[deityThey:he][deityThem:him][deityTheir:his][deityTheirs:his]",
+    "[deityThey:it][deityThem:it][deityTheir:its][deityTheirs:its]",
   ],
   "name": [
     "#namePart.capitalize#", "#namePart.capitalize##namePart#"
@@ -22,9 +28,6 @@ module.exports = {
     "sublime", "supreme", "timeless", "unavoidable",
     "underrated", "wicked", "widely ignored",
     "#adjective#",
-  ],
-  "genderPossessive": [
-    "his", "her", "their", "its"
   ],
   "domain": [
     "#nounToPluralise.s#", "#nounNotToPluralise#", "#newTech#",

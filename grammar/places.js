@@ -23,25 +23,54 @@ const worshipPlace = [
   "synagogue", "basilica", "graveyard", "cemetery"
 ];
 
-const placeName = [
+const inPlace = [
   "a forgotten suburb", "BBC TV Centre", "heaven", "outer space",
-  "Siberia", "the astral plane", "the Earth's core", "the edgelands",
+  "Siberia", "the Earth's core", "the edgelands",
   "the heart of darkness", "the Himalayas", "the Midwest",
-  "the North of England", "the Orient Express", "the Outer Hebrides",
+  "the North of England", "the Outer Hebrides",
   "the Pastel City", "the Peak District", "the place you least expect",
   "the tundra", "Viriconium", "your backyard", "your sock drawer",
   "Blackpool", "the Ghobi Desert", "the space-time continuum",
   "the eye of a needle", "the head of a pin", "the Grand Canyon",
-  "Ben Nevis", "the salt marshes", "Middle Earth", "the Shire",
-  "Mordor", "Narnia", "Tatooine", "the TARDIS", "never-never-land",
-  "a galaxy far far away", "Mythago Wood", "the Forest of Boland Light Railway",
-  "Earthsea", "Mars", "Atlantis", "Alpha Centuri", "Betelgeuse", "Timbuktu",
-  "Mauritania", "the Australian Outback", "Win Hill", "Ox Stones", "Stonehenge",
+  "the salt marshes", "Middle Earth", "the Shire",
+  "Mordor", "Narnia", "the TARDIS", "never-never-land",
+  "a galaxy far far away", "Mythago Wood", "Timbuktu", "Atlantis", 
+  "Mauritania", "the Australian Outback", 
   "the Thursbitch valley", "Park Hill Flats", "Cathall Estate", "Albert Square",
   "Sid's Café", "Skegness", "the Western Spiral Arm of the galaxy", "Halfway",
-  "Galactic Sector ZZ9 Plural Z Alpha", "the Frogstar", "Ursa Minor Beta",
-  "Mahabalipuram", "Golgafrincham", "Traal", "Vogsphere", "Stavromula Beta",
-  "an empty parking lot somewhere near Andromeda", "the banks of Lake Windermere"
+  "Galactic Sector ZZ9 Plural Z Alpha", 
+  "Mahabalipuram",
+  "an empty parking lot somewhere near Andromeda", 
 ];
+
+
+const atPlace = [
+  "the edge of time", "Ox Stones", "Stonehenge",
+];
+
+
+const onPlace = [
+  "the astral plane", "the Orient Express", 
+  "Ben Nevis", "Tatooine",
+  "the Forest of Boland Light Railway",
+  "Mars", "Alpha Centuri", "Betelgeuse",
+  "Win Hill", "Everest",
+  "a mountain the size of a pinhead",
+  "Earthsea", 
+  "the Frogstar", "Ursa Minor Beta", "Golgafrincham",
+  "Traal", "Vogsphere", "Stavromula Beta",
+  "the banks of Lake Windermere",
+  "the outskrits of infinity", 
+];
+
+const unqualifiedPlace = [
+  "deep beneath the ground",
+  "six feet underground",
+]
+
+const placeName = unqualifiedPlace
+  .concat(atPlace.map(place => `at ${place}`))
+  .concat(inPlace.map(place => `in ${place}`))
+  .concat(onPlace.map(place => `on ${place}`));
 
 module.exports = { dwelling, placeName, worshipPlace };

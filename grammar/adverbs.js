@@ -16,7 +16,7 @@ const adverbClause = [
   "without giving it a second thought",
   "in the clumsiest way possible",
   "without really paying attention",
-  "out of the goodness of #godlyPossessive# heart",
+  "out of the goodness of #deityTheir# heart",
   "appearing from the heart of a blossoming #flower#",
   "flying in on the wings of #bird.a#",
   "riding in on #adjective.a# #animal#"
