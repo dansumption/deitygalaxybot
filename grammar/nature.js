@@ -6,6 +6,9 @@ const extraAnimals = [
   'wolf spider',
   'zebra spider',
   'jumping spider',
+  'blobfish',
+  'proboscis monkey',
+  'tardigrade',
 ]
 
 const animal = corpora.getFile('animals', 'collateral_adjectives').animals.map(animalObj => 
