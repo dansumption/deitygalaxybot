@@ -72,9 +72,10 @@ const sendRandomTweet = () => {
 
 const handleSearchTerm = tweet => {
   const userHandle = tweet.user.screen_name;
-  const phrase = grammar.flatten(`#[userHandle:@${userHandle}]searchOrigin#`);
-  console.log(`Replying to ${userHandle}'s search term with ${phrase}`);
-  sendTweet(phrase, tweet.id_str);
+  const status = grammar.flatten(`#[userHandle:@${userHandle}]searchOrigin#`);
+  const in_reply_to_status_id = tweet.id_str;
+  const auto_populate_reply_metadata = true;
+  sendTweet(status, in_reply_to_status_id, auto_populate_reply_metadata);
 };
 
 const setup = () => {
