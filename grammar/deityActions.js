@@ -27,7 +27,7 @@ module.exports = {
     "constructing #dwelling.a# out of #buildingMaterial#",
     "building a simulaca of #deityTheir#self out of #buildingMaterial#",
     "sculpting idols from #buildingMaterial#",
-    "growing #flower.s# and #flower.s# in well-composted #buildingMaterial#"
+    "growing #flower.s# and #flower.s# in a compost of #buildingMaterial#"
   ],
   deityRequest: [
     "borrow",
