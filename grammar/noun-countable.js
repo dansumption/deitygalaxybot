@@ -629,5 +629,5 @@ module.exports = [
   "windtunnel",
   "workman",
   "youngster",
-  "zip file",
+  "zip file"
 ];
