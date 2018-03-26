@@ -28,7 +28,7 @@ module.exports = {
     "Talk to me about #pantheism. #origin#",
     "We need to talk about #deities. #origin#",
     "The mist clears from before your eyes, and you see... #origin#",
-    "#origin# And after this, #userHandle, your life will never be the same again.",
+    "#origin# And after this, #userHandle#, your life will never be the same again.",
     "The gods can sense that you need guidance. #origin#",
     "Praying is good, but tweeting your deity is better. #origin#",
     "Tweet me some more! #deities #origin#",
