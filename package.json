@@ -20,5 +20,9 @@
     "husky": "^0.14.3",
     "prettier": "^1.11.1",
     "pretty-quick": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dansumption/deitygalaxybot.git"
   }
 }
