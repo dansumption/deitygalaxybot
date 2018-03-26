@@ -15,7 +15,7 @@ const replyStory = require("./replyStory");
 
 const origin = {
   origin: ["#setDeity##story#"],
-  replyOrigin: ["#userHandle# You seek guidance from the heavens? #origin#"],
+  replyOrigin: ["#userHandle# #initialReply#"],
   replyWithDeity: ["#userHandle# #replyStory#"],
   replyWithLostDeity: [
     "#userHandle# You call your deity, but another has taken their place. #origin#"
