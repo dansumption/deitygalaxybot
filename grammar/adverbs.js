@@ -1,5 +1,6 @@
 const spaces = Array(30).fill(" ");
-const adverbClause = [
+module.exports = {
+adverbClause: [
   "after a pause of a thousand years",
   "for no good reason",
   "in a funny voice",
@@ -17,9 +18,9 @@ const adverbClause = [
   "riding in on #adjective.a# #animal#"
 ]
   .map(adverb => ` ${adverb}, `)
-  .concat(spaces);
+  .concat(spaces),
 
-const adverb = [
+adverb: [
   "abnormally",
   "absentmindedly",
   "acidly",
@@ -292,6 +293,5 @@ const adverb = [
   "imperiously",
   "cantankerously",
   "avuncularly"
-];
-
-module.exports = { adverbClause, adverb };
+],
+};

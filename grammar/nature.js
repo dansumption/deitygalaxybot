@@ -1,6 +1,6 @@
 const corpora = require("corpora-project");
-
-const extraAnimals = [
+module.exports = {
+extraAnimals: [
   "hawk moth",
   "vine weevil",
   "wolf spider",
@@ -21,14 +21,14 @@ const extraAnimals = [
   "three-toed sloth",
   "catfish",
   "chihuahua"
-];
+],
 
-const animal = corpora
+animal: corpora
   .getFile("animals", "collateral_adjectives")
   .animals.map(animalObj => animalObj.name)
-  .concat(extraAnimals);
+  .concat(extraAnimals),
 
-const bird = corpora
+bird: corpora
   .getFile("animals", "birds_antarctica")
   .birds.concat(corpora.getFile("animals", "birds_north_america").birds)
   .reduce(
@@ -37,11 +37,11 @@ const bird = corpora
         birdFamily.members.map(birdName => birdName.toLowerCase())
       ),
     []
-  );
+  ),
 
-const flower = corpora.getFile("plants", "flowers").flowers;
+flower: corpora.getFile("plants", "flowers").flowers,
 
-const tree = [
+tree: [
   "sessile oak",
   "oak",
   "ash",
@@ -72,6 +72,5 @@ const tree = [
   "nutmeg",
   "larch",
   "mahogany"
-];
-
-module.exports = { animal, bird, flower, tree };
+],
+};

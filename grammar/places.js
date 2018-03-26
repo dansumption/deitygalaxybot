@@ -1,14 +1,14 @@
 const corpora = require("corpora-project");
-
-const settings = corpora
+module.exports = {
+settings: corpora
   .getFile("archetypes", "setting")
   .settings.reduce(
     (allSettings, currentSetting) =>
       allSettings.concat(currentSetting.synonyms.concat([currentSetting.name])),
     []
-  );
+  ),
 
-const venues = corpora.getFile("geography", "venues").categories.reduce(
+venues: corpora.getFile("geography", "venues").categories.reduce(
   (allVenues, currentCategory) =>
     allVenues.concat(
       currentCategory.categories.map(category =>
@@ -19,9 +19,9 @@ const venues = corpora.getFile("geography", "venues").categories.reduce(
       )
     ),
   []
-);
+),
 
-const worshipPlace = [
+worshipPlace: [
   "shrine",
   "temple",
   "church",
@@ -36,9 +36,9 @@ const worshipPlace = [
   "graveyard",
   "cemetery",
   "abbey"
-];
+],
 
-const dwelling = [
+dwelling: [
   "ashram",
   "bird's nest",
   "nest",
@@ -101,9 +101,9 @@ const dwelling = [
   "condominium",
   "oast house",
   "unruly hedge"
-].concat(settings, venues, worshipPlace);
+].concat(settings, venues, worshipPlace),
 
-const inPlace = [
+inPlace: [
   "a forgotten suburb",
   "BBC TV Centre",
   "heaven",
@@ -171,11 +171,11 @@ const inPlace = [
   "the Twilight Zone",
   "Hyboria",
   "Oz"
-];
+],
 
-const atPlace = ["the edge of time", "Ox Stones", "Stonehenge"];
+atPlace: ["the edge of time", "Ox Stones", "Stonehenge"],
 
-const onPlace = [
+onPlace: [
   "the astral plane",
   "the Orient Express",
   "Ben Nevis",
@@ -200,16 +200,13 @@ const onPlace = [
   "the World of Two Moons",
   "Naboo",
   "Oceanworld"
-];
+],
 
-const unqualifiedPlace = ["deep beneath the ground", "six feet underground"];
+unqualifiedPlace: ["deep beneath the ground", "six feet underground"],
 
-const qualifiedPlace = unqualifiedPlace.concat(
+qualifiedPlace: unqualifiedPlace.concat(
   atPlace.map(place => `at ${place}`),
   inPlace.map(place => `in ${place}`),
   onPlace.map(place => `on ${place}`)
-);
-
-const placeName = atPlace.concat(inPlace, onPlace);
-
-module.exports = { dwelling, placeName, qualifiedPlace, worshipPlace };
+),
+placeName: atPlace.concat(inPlace, onPlace),};

@@ -1,12 +1,13 @@
-const abstractObject = ["word", "allegation", "allegiance", "allegory"];
+module.exports = {
+  abstractObject: ["word", "allegation", "allegiance", "allegory"],
 
-const concreteObject = ["advert", "advertisement"];
+concreteObject: ["advert", "advertisement"],
 
-const clothing = ["waistcoat", "sweater", "moccasin", "clown shoe"];
+clothing: ["waistcoat", "sweater", "moccasin", "clown shoe"],
 
-const weapon = ["bow & arrow", "assault rifle"];
+weapon: ["bow & arrow", "assault rifle"],
 
-const householdObject = [
+householdObject: [
   "banjo",
   "barrier",
   "basin",
@@ -67,9 +68,9 @@ const householdObject = [
   "wedding list",
   "white goods",
   "widget"
-];
+],
 
-const foodStuff = [
+foodStuff: [
   "fruit",
   "carbohydrates",
   "protein",
@@ -87,9 +88,9 @@ const foodStuff = [
   "curry",
   "salt",
   "butter"
-];
+],
 
-const foodItem = [
+foodItem: [
   "blackberry",
   "pretzel",
   "potato",
@@ -110,9 +111,9 @@ const foodItem = [
   "cake",
   "sandwich",
   "pie"
-];
+],
 
-const bodyPart = [
+bodyPart: [
   "Achilles heel",
   "ankle",
   "appendix",
@@ -155,9 +156,9 @@ const bodyPart = [
   "elbow",
   "arse",
   "breast"
-];
+],
 
-const vehicle = [
+vehicle: [
   "aircraft",
   "ambulance",
   "bicycle",
@@ -166,9 +167,9 @@ const vehicle = [
   "scooter",
   "Supertram",
   "frigate"
-];
+],
 
-const computerObject = [
+computerObject: [
   "zip file",
   "GIF",
   "lambda function",
@@ -187,9 +188,9 @@ const computerObject = [
   "alert",
   "pop-up",
   "browser window"
-];
+],
 
-const game = [
+game: [
   "chess",
   "Chinese checkers",
   "draughts",
@@ -208,9 +209,9 @@ const game = [
   "Monopoly",
   "Cluedo",
   "tig"
-];
+],
 
-const nounToPluralise = abstractObject.concat(
+nounToPluralise: abstractObject.concat(
   abstractObject,
   concreteObject,
   bodyPart,
@@ -220,19 +221,5 @@ const nounToPluralise = abstractObject.concat(
   vehicle,
   weapon,
   foodItem
-);
-
-module.exports = {
-  abstractObject,
-  concreteObject,
-  bodyPart,
-  clothing,
-  computerObject,
-  householdObject,
-  vehicle,
-  weapon,
-  game,
-  foodItem,
-  foodStuff,
-  nounToPluralise
+),
 };

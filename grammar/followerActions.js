@@ -1,7 +1,8 @@
-const followerAction = [
+module.exports = {
+  followerAction: [
   "#verb# #object#"
-];
-const verb = [
+],
+verb: [
   "ignore",  "immanentise", "immanentize",
   "bow to", "destroy", "exalt", "consider",
   "relinquish", "respect","return to",
@@ -29,9 +30,9 @@ const verb = [
   "befoul yourself before the image of",
   "become the #adjective# promoter of",
   "save the #spiritAnimal.s#. And also save",
-];
+],
 
-const object = [
+object: [
   "#nounNotToPluralise#",
   "#nounNotToPluralise#",
   "#nounNotToPluralise#",
@@ -49,8 +50,8 @@ const object = [
   "#specifier# #nounToPluralise.s#",
   "#specifier# #nounToPluralise.s#",
   "yourself and #specifier# #nounToPluralise.s#"
-];
-const specifier = [
+],
+specifier: [
   "#specifier# #nounToPluralise#'s",
   "#nounToPluralise.a#'s #adjective#",
   "#nounNotToPluralise#'s #adjective#",
@@ -61,13 +62,12 @@ const specifier = [
   "the #adjective#",
   "the #adjective#",
   "the #relation#'s"
-];
-const relation = [
+],
+relation: [
   "beloved", "boss", "colleague", "conscience",
   "elderly aunt", "enemy", "familiar", "father", "instinct",
   "mother", "neighbour", "pet", "sacred place", "secret crush",
   "shrine", "spouse", "tortoise", "totem"
-];
+],
 
-
-module.exports = { followerAction, verb, object, specifier, relation };
+};

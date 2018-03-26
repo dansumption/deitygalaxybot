@@ -1,7 +1,7 @@
 const corpora = require("corpora-project");
 const nounNotToPluralise = require("./noun-uncountable");
-
-const buildingMaterial = [
+module.exports = {
+buildingMaterial: [
   "human hair",
   "tears",
   "darkness",
@@ -40,15 +40,9 @@ const buildingMaterial = [
   "death",
   "taxes",
   "Euros"
-];
+],
 
-const newTech = corpora.getFile("technology", "new_technologies").technologies;
+newTech: corpora.getFile("technology", "new_technologies").technologies,
 
-const anyNoun = ["#nounNotToPluralise#", "#nounToPluralise#"];
-
-module.exports = {
-  nounNotToPluralise,
-  anyNoun,
-  newTech,
-  buildingMaterial
+anyNoun: ["#nounNotToPluralise#", "#nounToPluralise#"],
 };

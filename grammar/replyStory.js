@@ -1,4 +1,4 @@
-const replyStory = [
+module.exports = {replyStory: [
   "#deityName# will reward you for your loyalty.",
   "You call but there is no reply. Perhaps #deityName# is #godToGodActivity# another #godType#?",
   "#deityName# rewards you for your loyalty with #nounToPluralise.a#.",
@@ -15,6 +15,5 @@ const replyStory = [
   "#deityName# has hidden #computerObject.a# on your computer. Can you find it?",
   "#deityName# is cooking #foodItem.s# made of #foodStuff# for tea. Would you like some?",
   "#deityName# demands that you make an sacrifice of burnt #foodStuff#, offered up in #nounToPluralise.a# made of #buildingMaterial#."
-];
-
-module.exports = { replyStory };
+],
+};

@@ -1,4 +1,5 @@
-const pauseLength = [
+module.exports = {
+  pauseLength: [
   "awkward pause",
   "flap of a hummingbird's wing",
   "lengthy pause",
@@ -8,12 +9,10 @@ const pauseLength = [
   "uncomfortable silence",
   "brief millennium",
   "painful aeon"
-];
+],
 
-const story = [
+story: [
   "#deityFull##adverbClause##deityCommand#.",
   "In #dwelling.a# #qualifiedPlace#, #deityFull# is #deityMaking#.",
   "#deityFull# #deityDoes#."
-];
-
-module.exports = { story, pauseLength };
+], };

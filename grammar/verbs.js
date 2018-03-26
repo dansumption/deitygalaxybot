@@ -1,16 +1,17 @@
-const commandVerb = [
+module.exports = {
+  commandVerb: [
   "ask", "demand", "need",
   "want", "desire", "order",
   "compel", "mandate", "command",
   "request", "tell", 
-];
+],
 
-const shoutVerb = [
+shoutVerb: [
   "shout", "yell", "cheer",
   "boom", "scream", "cry"
-];
+],
 
-const animalVerb = [
+animalVerb: [
   "whinny",
   "grunt",
   "fart",
@@ -25,6 +26,5 @@ const animalVerb = [
   "roar",
   "snort",
   "disappear"
-];
-
-module.exports = { commandVerb, shoutVerb, animalVerb };
+],
+};

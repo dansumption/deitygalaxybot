@@ -1,4 +1,5 @@
-const role =[
+module.exports = {
+  role: [
   "actor",
   "ally",
   "apostle",
@@ -144,6 +145,5 @@ const role =[
   "beloved", "worshipper", "consort",
   "destroyer", "harshest critic", "lover",
   "usurper",
-];
-
-module.exports = { role }
+],
+};
