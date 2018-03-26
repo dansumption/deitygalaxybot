@@ -20,6 +20,19 @@ module.exports = {
     // "cries tears of joy for unicorns to drink",
     // "shits on the earth to grow roses",
   ],
+  busyActivity: [
+    "is having a #liquid# shower",
+    "has a #adjective# headache",
+    "shuffles away #adverb#",
+    "shoots you a look that could kill"
+  ],
+  busyInstruction: [
+    ". Come back later",
+    ", and can't talk to you right now",
+    ". Perhaps this is not the best time to call?",
+    ". They might respond if you call a little louder?",
+    ". Maybe you ought to respect #deityName#'s privacy a little more?"
+  ],
   deityMaking: [
     "spinning a web from #buildingMaterial#",
     "crocheting a blanket of #buildingMaterial#",
