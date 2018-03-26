@@ -1,6 +1,10 @@
 const corpora = require("corpora-project");
 module.exports = {
   extraAnimals: [
+    "mandrill",
+    "barbary ape",
+    "pygmy marmoset",
+    "fucking meerkat",
     "hawk moth",
     "vine weevil",
     "wolf spider",

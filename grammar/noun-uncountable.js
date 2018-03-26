@@ -295,6 +295,7 @@ module.exports = [
   "mahogany",
   "mailing",
   "maintenance",
+  "malapropisms",
   "manga",
   "martyrdom",
   "mayhem",
