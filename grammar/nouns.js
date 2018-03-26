@@ -6,7 +6,11 @@ module.exports = {
   buildingMaterial: [
     "human hair",
     "tears",
+    "armloads of stars",
+    "bile and regret",
+    "trolls' teeth",
     "darkness",
+    "manta ray leather",
     "sorrow",
     "glass and steel",
     "polycarbon",
