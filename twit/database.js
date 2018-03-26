@@ -20,7 +20,7 @@ const __get = promisify(client.get).bind(client);
 const set = (key, value) =>
   __set(key, value, "EX", EXPIRY_TIME)
     .then(data => {
-      console.log(`GET: ${key}\n\t${value}\n\t${data}`);
+      console.log(`SET: ${key}\n\t${value}\n\t${data}`);
       return data;
     })
     .catch(err => {
