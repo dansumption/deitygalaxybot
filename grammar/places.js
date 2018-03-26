@@ -213,6 +213,7 @@ module.exports = {
   dwelling,
   qualifiedPlace,
   unqualifiedPlace,
+  worshipPlace,
   placeName,
   inPlace,
   atPlace,
