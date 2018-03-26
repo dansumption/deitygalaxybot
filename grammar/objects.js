@@ -1,4 +1,4 @@
-const abstractObject = ["word", "allegation", "allegiance", "allegory"];
+const abstractObject = ["word", "allegation", "allegory"];
 
 const concreteObject = ["advert", "advertisement"];
 
@@ -221,8 +221,7 @@ module.exports = {
     vehicle,
     weapon,
     foodItem,
-    foodStuff,
-    game
+    game.map(game => `game of ${game}`)
   ),
   abstractObject,
   concreteObject,

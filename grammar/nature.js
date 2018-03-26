@@ -26,7 +26,10 @@ const extraAnimals = [
   "catfish",
   "chihuahua",
   "manta ray",
-  "sunfish"
+  "sunfish",
+  "troll",
+  "ogre",
+  "goblin"
 ];
 
 module.exports = {
