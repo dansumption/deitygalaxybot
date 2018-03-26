@@ -29,7 +29,9 @@ const extraAnimals = [
   "sunfish",
   "troll",
   "ogre",
-  "goblin"
+  "goblin",
+  "carpenter bee",
+  "honey bee"
 ];
 
 module.exports = {

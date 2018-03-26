@@ -34,10 +34,14 @@ const worshipPlace = [
   "basilica",
   "graveyard",
   "cemetery",
-  "abbey"
+  "abbey",
+  "hermitage",
+  "monastery",
+  "nunnery"
 ];
 
 const dwelling = [
+  "garden centre",
   "ashram",
   "bird's nest",
   "nest",
@@ -99,7 +103,11 @@ const dwelling = [
   "clearing",
   "condominium",
   "oast house",
-  "unruly hedge"
+  "unruly hedge",
+  "inland sea",
+  "shanty town",
+  "cardboard shelter",
+  "beehive"
 ].concat(settings, venues, worshipPlace);
 
 const inPlace = [
@@ -169,7 +177,8 @@ const inPlace = [
   "Oblivion",
   "the Twilight Zone",
   "Hyboria",
-  "Oz"
+  "Oz",
+  "an eroded range of hills"
 ];
 
 const atPlace = ["the edge of time", "Ox Stones", "Stonehenge"];
@@ -198,7 +207,10 @@ const onPlace = [
   "the other side of the veil",
   "the World of Two Moons",
   "Naboo",
-  "Oceanworld"
+  "Oceanworld",
+  "Stanage Edge",
+  "Burbage Moor",
+  "Kinder Scout"
 ];
 
 const unqualifiedPlace = ["deep beneath the ground", "six feet underground"];

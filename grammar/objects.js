@@ -86,7 +86,9 @@ const foodStuff = [
   "toast",
   "curry",
   "salt",
-  "butter"
+  "butter",
+  "nectar",
+  "jam"
 ];
 
 const foodItem = [
@@ -110,6 +112,27 @@ const foodItem = [
   "cake",
   "sandwich",
   "pie"
+];
+
+const liquid = [
+  "honey",
+  "gin",
+  "eau de vie",
+  "asses milk",
+  "#animal.s# milk",
+  "ale",
+  "stagnant water",
+  "vinegar",
+  "grape nut oil",
+  "engine oil",
+  "#animal# blood",
+  "human blood",
+  "whisky",
+  "aqua vita",
+  "absinthe",
+  "acid",
+  "#animal# tears",
+  "babys' tears"
 ];
 
 const bodyPart = [
@@ -233,5 +256,6 @@ module.exports = {
   weapon,
   foodItem,
   foodStuff,
-  game
+  game,
+  liquid
 };
