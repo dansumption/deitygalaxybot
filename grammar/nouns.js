@@ -1,6 +1,8 @@
 const corpora = require("corpora-project");
 const nounNotToPluralise = require("./noun-uncountable");
 module.exports = {
+  nounNotToPluralise,
+
   buildingMaterial: [
     "human hair",
     "tears",

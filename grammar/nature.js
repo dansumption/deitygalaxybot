@@ -1,32 +1,33 @@
 const corpora = require("corpora-project");
-module.exports = {
-  extraAnimals: [
-    "mandrill",
-    "barbary ape",
-    "pygmy marmoset",
-    "fucking meerkat",
-    "hawk moth",
-    "vine weevil",
-    "wolf spider",
-    "zebra spider",
-    "jumping spider",
-    "blobfish",
-    "proboscis monkey",
-    "tardigrade",
-    "unicorn",
-    "manticore",
-    "dragon",
-    "kobold",
-    "hippogriff",
-    "bull terrier",
-    "yorkshire terrier",
-    "Afghan hound",
-    "giant squid",
-    "three-toed sloth",
-    "catfish",
-    "chihuahua"
-  ],
 
+const extraAnimals = [
+  "mandrill",
+  "barbary ape",
+  "pygmy marmoset",
+  "fucking meerkat",
+  "hawk moth",
+  "vine weevil",
+  "wolf spider",
+  "zebra spider",
+  "jumping spider",
+  "blobfish",
+  "proboscis monkey",
+  "tardigrade",
+  "unicorn",
+  "manticore",
+  "dragon",
+  "kobold",
+  "hippogriff",
+  "bull terrier",
+  "yorkshire terrier",
+  "Afghan hound",
+  "giant squid",
+  "three-toed sloth",
+  "catfish",
+  "chihuahua"
+];
+
+module.exports = {
   animal: corpora
     .getFile("animals", "collateral_adjectives")
     .animals.map(animalObj => animalObj.name)
