@@ -22,24 +22,29 @@ const timeoutDelay = () => {
 const handleReply = tweet => {
   const userHandle = tweet.user.screen_name;
   const originalTweetId = tweet.in_reply_to_status_id_str;
+  const replyTweetId = tweet.id_str;
   if (originalTweetId) {
-    database.get(originalTweetId, (err, data) => {
+    // check if we have a deity associated with the original tweet
+    database.get(originalTweetId).then(data => {
       if (data) {
+        // we have a deity!
         sendTweetAndLogDeity(
           `#[userHandle:@${userHandle}][deityName:${data}]replyWithDeity#`,
-          tweet.id_str
+          replyTweetId
         );
       } else {
+        // we don't have a deity stored for the original tweet
         sendTweetAndLogDeity(
           `#[userHandle:@${userHandle}]replyWithLostDeity#`,
-          tweet.id_str
+          replyTweetId
         );
       }
     });
   } else {
+    // this is a mention, not a reply, so there's no deity
     sendTweetAndLogDeity(
       `#[userHandle:@${userHandle}]replyOrigin#`,
-      tweet.id_str
+      replyTweetId
     );
   }
 };
@@ -53,12 +58,16 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
     hashtagReplace,
     ""
   )}`;
-  sendTweet(
-    { status, in_reply_to_status_id, auto_populate_reply_metadata },
-    (err, data) => {
-      database.set(data.id_str, deityName);
-    }
+  console.log(
+    `CREATE FROM: '${template}\n\tTWEET: ${status}\n\tDEITY: ${deityName}`
   );
+  sendTweet({
+    status,
+    in_reply_to_status_id,
+    auto_populate_reply_metadata
+  }).then(data => {
+    database.set(data.id_str, deityName);
+  });
 };
 
 const sendTweetAfterDelay = () => {

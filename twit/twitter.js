@@ -1,5 +1,8 @@
 const Twit = require("twit");
+const { promisify } = require("util");
+
 let bot;
+let __post;
 
 const initialize = botHandle => {
   const env = process.env.BOT_CONSUMER_KEY ? process.env : require("./config");
@@ -10,12 +13,24 @@ const initialize = botHandle => {
     access_token_secret: env.BOT_ACCESS_TOKEN_SECRET
   });
   bot.handle = botHandle;
+  __post = promisify(bot.post).bind(bot);
 };
 
 const logMessage = console.log;
 
-const sendTweet = (parameters, callback) =>
-  bot && bot.post("statuses/update", parameters, callback);
+const sendTweet = parameters =>
+  __post("statuses/update", parameters)
+    .then(data => {
+      console.log(
+        `SENT: ${data.id_str}\n\t${parameters.in_reply_to_status_id}\n\t${
+          parameters.status
+        }`
+      );
+      return data;
+    })
+    .catch(err => {
+      console.error(`ERROR SENDING: ${parameters.status}\n\t${err}`);
+    });
 
 const monitorReplies = callback => {
   return monitorSearchTerm(`@${bot.handle}`, callback);
