@@ -52,7 +52,9 @@ const handleReply = tweet => {
 const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
   const root = grammar.createRoot(template);
   root.expand();
-  const deityName = root.grammar.flatten("#deityName#");
+  // HORRIBLE hack to find deityName - because flattening gets an earlier deityName !?!
+  const deityName = grammar.symbols.deityName.uses.slice(-1)[0].node.childRule;
+  // const deityName = root.grammar.flatten("#deityName#");
   const auto_populate_reply_metadata = !!in_reply_to_status_id;
   const status = `${root.finishedText} #${deityName.replace(
     hashtagReplace,
