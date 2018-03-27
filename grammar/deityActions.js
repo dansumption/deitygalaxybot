@@ -2,7 +2,7 @@ module.exports = {
   deityCommand: [
     "#commandVerb.s# you to #followerAction#",
     '#shoutVerb.s# "#followerAction.toUpperCase#" from the sky',
-    "#deliverMessage# #followerAction#",
+    '#deliverMessage# "#followerAction#"',
     'sends #bird.a# fluttering down from the sky. Tied to its leg is a note: "#followerAction#"',
     '[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# #deliverMessage# "#followerAction#"',
     "#commandVerb.s# you to #deityRequest# your #anyNoun#"
