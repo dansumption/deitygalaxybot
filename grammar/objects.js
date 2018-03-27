@@ -244,7 +244,9 @@ const computerObject = [
   "browser window",
   "keyboard shortcut",
   "neat hack",
-  "terminal window"
+  "terminal window",
+  "chatbot",
+  "help file"
 ];
 
 const game = [
