@@ -62,6 +62,7 @@ const dwelling = [
   "Taj Mahal",
   "abandoned quarry",
   "allotment",
+  "car port",
   "holiday home",
   "honeymoon suite",
   "karaoke bar",
@@ -179,7 +180,9 @@ const inPlace = [
   "Oz",
   "an eroded range of hills",
   "the roots of an ancient #tree# tree",
-  "a cave in #inPlace#"
+  "a cave in #inPlace#",
+  "Hookland",
+  "the Solar System"
 ];
 
 const atPlace = ["the edge of time", "Ox Stones", "Stonehenge"];
@@ -190,7 +193,6 @@ const onPlace = [
   "Ben Nevis",
   "Tatooine",
   "the Forest of Boland Light Railway",
-  "Mars",
   "Alpha Centuri",
   "Betelgeuse",
   "Win Hill",
@@ -211,7 +213,10 @@ const onPlace = [
   "Oceanworld",
   "Stanage Edge",
   "Burbage Moor",
-  "Kinder Scout"
+  "Kinder Scout",
+  "Uranus",
+  "Netpune",
+  "Mars"
 ];
 
 const unqualifiedPlace = ["deep beneath the ground", "six feet underground"];

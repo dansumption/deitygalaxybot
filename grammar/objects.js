@@ -7,8 +7,15 @@ const clothing = ["waistcoat", "sweater", "moccasin", "clown shoe"];
 const weapon = ["bow & arrow", "assault rifle"];
 
 const householdObject = [
+  "friend request",
+  "pinball machine",
+  "arcade machine",
+  "iPhone",
   "banjo",
   "barrier",
+  "electronica album",
+  "Harry Potter fanfic",
+  "chocolate egg",
   "basin",
   "battery",
   "belisha beacon",
@@ -205,11 +212,13 @@ const vehicle = [
   "minicab",
   "microlight",
   "jumbo jet",
-  "Lamborghini"
+  "Lamborghini",
+  "SUV"
 ];
 
 const computerObject = [
   "zip file",
+  "data visualisation",
   "GIF",
   "lambda function",
   "cursor",

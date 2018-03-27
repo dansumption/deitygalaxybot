@@ -1,5 +1,10 @@
 module.exports = {
-  followerAction: ["#verb# #object#", "#pilgrimage#", "#pilgrimage#"],
+  followerAction: [
+    "#verb# #object#",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#quest#"
+  ],
   pilgrimage: [
     "travel with #deityName#'s #role# to #pilgrimageSite#",
     "make a pilgrimage to #pilgrimageSite# and #quest#",
@@ -16,14 +21,34 @@ module.exports = {
     "#unqualifiedPlace# and back"
   ],
   quest: [
-    "bring back #nounToPluralise.a#",
+    "find #nounToPluralise.a#",
     "capture #bird.a#. Kiss it, cuddle it, and then set it free",
-    "leave your #bodyPart# there",
+    "leave your #bodyPart# behind",
     "sacrifice #animal.a#",
     "observe the world #adverb#",
     "meditate upon #nounToPluralise.a#",
     "spread the good news about #nounNotToPluralise#",
-    "teach the locals how to really appreciate #deityDomain#"
+    "teach the locals how to really appreciate #deityDomain#",
+    "warn the world about #object#",
+    "#followerAction# and #verb#",
+    "abase yourself before",
+    "become #role.a# and devote your life to #object#",
+    "imagine you are #object#",
+    "devote your life to #object#",
+    "tell me more about #object#",
+    "tell the #role# about #object#",
+    "humiliate yourself for the sake of #object#",
+    "kiss the #role# of #unqualifiedPlace#",
+    "live the rest of your life as the #role# of #unqualifiedPlace#",
+    "make your way directly to #unqualifiedPlace#",
+    "obey the #role# of #nounToPluralise.s#",
+    "prostrate yourself before #dwelling.a#",
+    "sacrifice your #anyNoun# to #object#",
+    "soil yourself with #object#",
+    "befoul yourself before a statue of #object#",
+    "change a lightbulb"
+    // "become the #adjective# promoter of",
+    // "save the #spiritAnimal.s#. And also save",
   ],
   verb: [
     "ignore",
@@ -39,27 +64,7 @@ module.exports = {
     "explain",
     "worship",
     "improve",
-    "warn the world about",
-    "#followerAction# and #verb#",
-    "abase yourself before",
-    "become #role# of",
-    "imagine you are",
-    "devote your life to",
-    "give #nounNotToPluralise# to",
-    "heap #nounToPluralise.s# upon",
-    "humiliate yourself for",
-    "kiss the #role# of",
-    "live the rest of your life as the #role# of",
-    "make your way directly to",
-    "obey the #role# of",
-    "prostrate yourself before",
-    "sacrifice your #anyNoun# to",
-    "soil yourself with",
-    "tell me more about",
-    "tell the #role# about",
-    "befoul yourself before the image of",
-    "become the #adjective# promoter of",
-    "save the #spiritAnimal.s#. And also save"
+    "#followerAction# and #verb#"
   ],
 
   object: [
@@ -79,13 +84,14 @@ module.exports = {
     "#specifier# #nounToPluralise.s#",
     "#specifier# #nounToPluralise.s#",
     "#specifier# #nounToPluralise.s#",
-    "yourself and #specifier# #nounToPluralise.s#"
+    "yourself"
   ],
   specifier: [
     "#specifier# #nounToPluralise#'s",
+    "#specifier# #nounNotToPluralise#'s",
     "#nounToPluralise.a#'s #adjective#",
     "#nounNotToPluralise#'s #adjective#",
-    "some",
+    "the",
     "the",
     "the",
     "your",

@@ -6,6 +6,8 @@ module.exports = [
   "advert",
   "advertisement",
   "aircraft",
+  "bacterial DNA",
+  "mitochondrial DNA",
   "allegation",
   "allegiance",
   "allegory",
