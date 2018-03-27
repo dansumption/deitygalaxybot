@@ -66,7 +66,13 @@ const householdObject = [
   "wardrobe",
   "wedding list",
   "white goods",
-  "widget"
+  "widget",
+  "incense stick",
+  "prayer mat",
+  "tarot deck",
+  "temple bell",
+  "religious symbol",
+  "family heirloom"
 ];
 
 const foodStuff = [
@@ -177,7 +183,14 @@ const bodyPart = [
   "epidermis",
   "elbow",
   "arse",
-  "breast"
+  "breast",
+  "liver",
+  "kidney",
+  "pancreas",
+  "neck",
+  "Adam's apple",
+  "wrist",
+  "jugular"
 ];
 
 const vehicle = [
@@ -188,7 +201,11 @@ const vehicle = [
   "schooner",
   "scooter",
   "Supertram",
-  "frigate"
+  "frigate",
+  "minicab",
+  "microlight",
+  "jumbo jet",
+  "Lamborghini"
 ];
 
 const computerObject = [
@@ -209,7 +226,10 @@ const computerObject = [
   "folder",
   "alert",
   "pop-up",
-  "browser window"
+  "browser window",
+  "keyboard shortcut",
+  "neat hack",
+  "terminal window"
 ];
 
 const game = [

@@ -178,7 +178,9 @@ const inPlace = [
   "the Twilight Zone",
   "Hyboria",
   "Oz",
-  "an eroded range of hills"
+  "an eroded range of hills",
+  "the roots of an ancient #tree# tree",
+  "a cave in #inPlace#"
 ];
 
 const atPlace = ["the edge of time", "Ox Stones", "Stonehenge"];
