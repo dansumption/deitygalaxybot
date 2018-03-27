@@ -1,5 +1,30 @@
 module.exports = {
-  followerAction: ["#verb# #object#"],
+  followerAction: ["#verb# #object#", "#pilgrimage#", "#pilgrimage#"],
+  pilgrimage: [
+    "travel with #deityName#'s #role# to #pilgrimageSite#",
+    "make a pilgrimage to #pilgrimageSite# and #quest#",
+    "go on a quest to #pilgrimageSite# and #quest#",
+    "ride #animal.a# to #pilgrimageSite#",
+    "travel to #pilgrimageSite# by #vehicle# and #quest#"
+  ],
+  pilgrimageSite: [
+    "#dwelling.a# #qualifiedPlace#",
+    "the nearest #dwelling#",
+    "a thousand-year-old #tree# tree",
+    "#unqualifiedPlace#",
+    "your #relation#'s #dwelling#",
+    "#unqualifiedPlace# and back"
+  ],
+  quest: [
+    "bring back #nounToPluralise.a#",
+    "capture #bird.a#. Kiss it, cuddle it, and then set it free",
+    "leave your #bodyPart# there",
+    "sacrifice #animal.a#",
+    "observe the world #adverb#",
+    "meditate upon #nounToPluralise.a#",
+    "spread the good news about #nounNotToPluralise#",
+    "teach the locals how to really appreciate #deityDomain#"
+  ],
   verb: [
     "ignore",
     "immanentise",
@@ -25,13 +50,11 @@ module.exports = {
     "humiliate yourself for",
     "kiss the #role# of",
     "live the rest of your life as the #role# of",
-    "make a pilgramage with the #role# of",
     "make your way directly to",
     "obey the #role# of",
     "prostrate yourself before",
     "sacrifice your #anyNoun# to",
     "soil yourself with",
-    "spread the good news about",
     "tell me more about",
     "tell the #role# about",
     "befoul yourself before the image of",
