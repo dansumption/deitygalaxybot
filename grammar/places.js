@@ -186,7 +186,12 @@ const inPlace = [
   "the Solar System"
 ];
 
-const atPlace = ["the edge of time", "Ox Stones", "Stonehenge"];
+const atPlace = [
+  "the edge of time",
+  "Ox Stones",
+  "Stonehenge",
+  "The Restaurant at The End of The Universe"
+];
 
 const onPlace = [
   "the astral plane",

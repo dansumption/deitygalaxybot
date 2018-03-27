@@ -52,5 +52,6 @@ module.exports = {
     "wild",
     "wooden",
     "yellow"
-  ].concat(wineDescriptions, adjectives)
+  ].concat(wineDescriptions, adjectives),
+  wineDescriptions
 };

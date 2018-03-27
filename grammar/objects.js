@@ -133,7 +133,7 @@ const liquid = [
   "eau de vie",
   "asses milk",
   "#animal.s# milk",
-  "ale",
+  "barley wine",
   "stagnant water",
   "vinegar",
   "grape nut oil",
@@ -145,7 +145,13 @@ const liquid = [
   "absinthe",
   "acid",
   "#animal# tears",
-  "babys' tears"
+  "babys' tears",
+  "bile",
+  "#animal# urine",
+  "ectoplasm",
+  "astral goo",
+  "Yorkshire tea",
+  "#wineDescriptions# wine"
 ];
 
 const bodyPart = [

@@ -2,10 +2,21 @@ module.exports = {
   deityCommand: [
     "#commandVerb.s# you to #followerAction#",
     '#shoutVerb.s# "#followerAction.toUpperCase#" from the sky',
-    "whispers that you should #followerAction#",
+    "#deliverMessage# #followerAction#",
     'sends #bird.a# fluttering down from the sky. Tied to its leg is a note: "#followerAction#"',
-    '[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# hands you a note which reads "#followerAction#"',
+    '[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# #deliverMessage# "#followerAction#"',
     "#commandVerb.s# you to #deityRequest# your #anyNoun#"
+  ],
+  deliverMessage: [
+    "hands you a note which reads",
+    "sings you a ballad, which begins",
+    "reads from a stone tablet the words:",
+    "whispers in your ear",
+    "semaphores to you the message",
+    "spells out in sign-language the words",
+    "hands you #householdObject.a#, on which is written",
+    "whispers that you should",
+    "delivers, through the medium of interpretive dance, the message"
   ],
   deityDoes: [
     "appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#",
@@ -16,7 +27,8 @@ module.exports = {
     "builds #dwelling.a# #qualifiedPlace#",
     "lives #dwelling.a# #qualifiedPlace#",
     "builds #adjective.a# #worshipPlace# to #deityDomain#",
-    "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again"
+    "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again",
+    "cries tears of #liquid#, which form into a pool; #animal.s# gather around the pool to drink"
     // "cries tears of joy for unicorns to drink",
     // "shits on the earth to grow roses",
   ],

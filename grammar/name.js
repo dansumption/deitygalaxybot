@@ -55,7 +55,12 @@ module.exports = {
     "xax",
     "yah",
     "weh",
-    "god"
+    "god",
+    "ullu",
+    "lum",
+    "tom",
+    "ack",
+    "olla"
   ],
   consonant: [
     "#rareConsonant#",
