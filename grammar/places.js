@@ -7,18 +7,17 @@ const settings = corpora
     []
   );
 
-const venues = corpora.getFile("geography", "venues").categories.reduce(
-  (allVenues, currentCategory) =>
-    allVenues.concat(
-      currentCategory.categories.map(category =>
-        category.name
-          .toLowerCase()
-          .replace(/\(.*\)/, "")
-          .replace(/.* \/ (.*)/, "$1")
-      )
-    ),
-  []
-);
+const venues = corpora
+  .getFile("geography", "venues")
+  .categories.reduce(
+    (allVenues, currentCategory) =>
+      allVenues.concat(
+        currentCategory.categories.map(category =>
+          category.name.replace(/\(.*\)/, "").replace(/.* \/ (.*)/, "$1")
+        )
+      ),
+    []
+  );
 
 const worshipPlace = [
   "shrine",
