@@ -4,7 +4,11 @@ const COUNT = 1000;
 
 // const testTemplate = "#[userHandle:@dansumption][deityName:REPLYDEITY]replyWithDeity#";
 
+const testTemplate = "#origin#";
+const testTemplate =
+  "#[userHandle:@Geeg23][deityName:Waï-ceizsteuach]replyWithDeity#";
 const testTemplate = "#[deityName:Thor][spiritAnimal:rat]pilgrimage#";
+
 // const testTemplate = "a compost of #buildingMaterial#";
 // "#name#  demands that you make an offering of burnt #foodStuff#, presented in #nounToPluralise.a# made of #buildingMaterial#.";
 
@@ -15,8 +19,14 @@ for (let index = 0; index < COUNT; index++) {
   if (phrase.length > longest.length) {
     longest = phrase;
   }
+  // grammar.clearState();
+  const root = grammar.createRoot(replyTemplate);
+  root.expand();
+  const deityName = grammar.symbols.deityName.uses.slice(-1)[0].node.childRule;
+  const phrase2 = `${root.finishedText} #${deityName.replace(/[-']/g, "")}`;
+  console.log(phrase2, "\n");
 }
 
-grammar.debug();
+// grammar.debug();
 
-console.log("\nLONGEST: ", longest, longest.length);
+// console.log("\nLONGEST: ", longest, longest.length);
