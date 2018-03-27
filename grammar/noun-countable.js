@@ -42,6 +42,7 @@ module.exports = [
   "baker",
   "ball",
   "banjo",
+  "banter",
   "baron",
   "barrier",
   "barrister",

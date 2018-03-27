@@ -128,6 +128,7 @@ const inPlace = [
   "the place you least expect",
   "the tundra",
   "Viriconium",
+  "Banterbury",
   "your backyard",
   "your sock drawer",
   "Blackpool",
