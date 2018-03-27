@@ -12,7 +12,7 @@ const initialize = botHandle => {
     access_token: env.BOT_ACCESS_TOKEN,
     access_token_secret: env.BOT_ACCESS_TOKEN_SECRET
   });
-  bot.handle = botHandle;
+  bot.handle = env.botHandle || botHandle;
   __post = promisify(bot.post).bind(bot);
 };
 
