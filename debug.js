@@ -4,9 +4,9 @@ const COUNT = 1000;
 
 // const testTemplate = "#[userHandle:@dansumption][deityName:REPLYDEITY]replyWithDeity#";
 
-// const testTemplate = "#origin#";
+const testTemplate = "#origin#";
 // const testTemplate = "#[userHandle:@Geeg23][deityName:Waï-ceizsteuach]replyWithDeity#";
-const testTemplate = "#[deityName:Thor][spiritAnimal:rat]pilgrimage#";
+// const testTemplate = "#[deityName:Thor][spiritAnimal:rat]pilgrimage#";
 
 // const testTemplate = "a compost of #buildingMaterial#";
 // "#name#  demands that you make an offering of burnt #foodStuff#, presented in #nounToPluralise.a# made of #buildingMaterial#.";

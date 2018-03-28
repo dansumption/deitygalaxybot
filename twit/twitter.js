@@ -3,6 +3,7 @@ const { promisify } = require("util");
 
 let bot;
 let __post;
+let __get;
 
 const initialize = botHandle => {
   const env = process.env.BOT_CONSUMER_KEY ? process.env : require("./config");
@@ -14,6 +15,7 @@ const initialize = botHandle => {
   });
   bot.handle = env.botHandle || botHandle;
   __post = promisify(bot.post).bind(bot);
+  __get = promisify(bot.get).bind(bot);
 };
 
 const logMessage = console.log;
@@ -50,4 +52,22 @@ const monitorSearchTerm = (term, callback) => {
   }
 };
 
-module.exports = { initialize, sendTweet, monitorReplies, monitorSearchTerm };
+const searchTweets = q => {
+  __get("search/tweets", { q })
+    .then(data => {
+      const texts = data.statuses.map(status => status.text);
+      console.dir(texts);
+      return data;
+    })
+    .catch(err => {
+      console.error(`ERROR SEARCHNG FOR: ${q}\n\t${err}`);
+    });
+};
+
+module.exports = {
+  initialize,
+  sendTweet,
+  searchTweets,
+  monitorReplies,
+  monitorSearchTerm
+};

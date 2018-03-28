@@ -36,6 +36,7 @@ const worshipPlace = [
   "abbey",
   "hermitage",
   "monastery",
+  "maypole",
   "nunnery"
 ];
 

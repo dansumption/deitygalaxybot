@@ -1,5 +1,7 @@
 module.exports = {
   replyStory: [
+    // "#deityName# #deityType# of #deityDomain# has a #spiritAnimal#. Pronouns: #deityThey# #deityThem# #deityTheir# deityTheirs",
+    // "#deityName# #deityType# of #deityDomain#"
     "#deityName# will reward you for your loyalty.",
     "You call but there is no reply. Perhaps #deityName# is #godToGodActivity# another #godType#?",
     "#deityName# rewards you for your loyalty with #nounToPluralise.a#.",
