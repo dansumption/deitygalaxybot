@@ -37,6 +37,8 @@ module.exports = {
     "rhe",
     "thor",
     "zool",
+    "trix",
+    "afix",
     "ða",
     "alu",
     "zara",
