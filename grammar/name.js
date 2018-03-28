@@ -30,6 +30,10 @@ module.exports = {
     "#consonant##vowel##consonant#"
   ],
   longSyllable: [
+    "wing",
+    "tung",
+    "summ",
+    "corb",
     "rhe",
     "thor",
     "zool",

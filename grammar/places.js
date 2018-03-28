@@ -135,7 +135,6 @@ const inPlace = [
   "the Ghobi Desert",
   "the space-time continuum",
   "the eye of a needle",
-  "the head of a pin",
   "the Grand Canyon",
   "the salt marshes",
   "Middle Earth",
@@ -183,7 +182,8 @@ const inPlace = [
   "the roots of an ancient #tree# tree",
   "a cave in #inPlace#",
   "Hookland",
-  "the Solar System"
+  "the Solar System",
+  "the centre of an Aztec pyramid"
 ];
 
 const atPlace = [
@@ -194,10 +194,12 @@ const atPlace = [
 ];
 
 const onPlace = [
+  "the head of a pin",
   "the astral plane",
   "the Orient Express",
   "Ben Nevis",
   "Tatooine",
+  "a static caravan site in Ingoldmells",
   "the Forest of Boland Light Railway",
   "Alpha Centuri",
   "Betelgeuse",
