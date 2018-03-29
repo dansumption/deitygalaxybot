@@ -8,6 +8,7 @@ const weapon = ["bow & arrow", "assault rifle"];
 
 const householdObject = [
   "friend request",
+  "malapropism",
   "pinball machine",
   "arcade machine",
   "iPhone",
@@ -101,7 +102,10 @@ const foodStuff = [
   "salt",
   "butter",
   "nectar",
-  "jam"
+  "jam",
+  "broccoli",
+  "broth",
+  "bouillon"
 ];
 
 const foodItem = [
@@ -124,10 +128,12 @@ const foodItem = [
   "biscuit",
   "cake",
   "sandwich",
-  "pie"
+  "pie",
+  "brunch"
 ];
 
 const liquid = [
+  "ammonia",
   "honey",
   "gin",
   "eau de vie",
