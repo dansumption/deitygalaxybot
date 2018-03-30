@@ -8,8 +8,8 @@ const database = require("./twit/database");
 const grammar = require("./grammar");
 
 const MINUTE = 60 * 1000;
-const minTimeBetweenTweets = 2 * MINUTE;
-const maxTimeBetweenTweets = 70 * MINUTE;
+const minTimeBetweenTweets = 20 * MINUTE;
+const maxTimeBetweenTweets = 4 * 60 * MINUTE;
 const hashtagReplace = /['-]/g;
 
 const timeoutDelay = () => {
