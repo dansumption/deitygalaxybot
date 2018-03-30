@@ -12,7 +12,7 @@ const story = require("./story");
 const replyStory = require("./replyStory");
 
 const origin = {
-  origin: ["#setDeity##story#"],
+  origin: ["#setDeity##story# \\#folklore"],
   replyOrigin: ["#userHandle# #initialReply#"],
   replyWithDeity: ["#userHandle# #replyStory#"],
   replyWithLostDeity: [
