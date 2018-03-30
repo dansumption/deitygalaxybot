@@ -1,6 +1,7 @@
 module.exports = {
   academicField: [
     "accountancy",
+    "aesthetics",
     "agriculture",
     "anatomy",
     "anthropology",
@@ -14,6 +15,9 @@ module.exports = {
     "theology",
     "therapy",
     "biography",
-    "biology"
+    "biology",
+    "chemotherapy",
+    "literature",
+    "logic"
   ]
 };

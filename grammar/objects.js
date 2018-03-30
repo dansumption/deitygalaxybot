@@ -209,7 +209,11 @@ const bodyPart = [
   "neck",
   "Adam's apple",
   "wrist",
-  "jugular"
+  "jugular",
+  "lifeblood",
+  "big toe",
+  "little toe",
+  "thumb"
 ];
 
 const vehicle = [

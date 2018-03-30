@@ -32,5 +32,6 @@ module.exports = {
     "atheism",
     "agnosticism"
   ],
-  disease: ["cholera", "cancer"]
+  disease: ["asthma", "cholera", "cancer", "depression"],
+  collective: ["CCTV", "civilisation"]
 };
