@@ -56,7 +56,7 @@ module.exports = [
   "lycra",
   "mitochondria",
   "#liquid#",
-  "#foodStuff",
+  "#foodStuff#",
   "nylon",
   "oxygen",
   "phosphorus",

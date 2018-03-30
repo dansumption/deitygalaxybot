@@ -28,8 +28,9 @@ module.exports = {
     "lives #dwelling.a# #qualifiedPlace#",
     "builds #adjective.a# #worshipPlace# to #deityDomain#",
     "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again",
-    "cries tears of #liquid#, which form into a pool; #animal.s# gather around the pool to drink"
-    // "cries tears of joy for unicorns to drink",
+    "cries tears of #liquid#, which form into a pool; #animal.s# gather around the pool to drink",
+    "pushes the first bud of #flower.a# through the earth's mantle of #buildingMaterial#",
+    'says "where there is #quality#, may we bring #quality#. Where there is #quality#, may we bring #quality#"'
     // "shits on the earth to grow roses",
   ],
   busyActivity: [
