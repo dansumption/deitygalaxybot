@@ -61,14 +61,22 @@ const addHashTagIfTheresRoom = (tweet, hashtag) => {
   return tweet;
 };
 
+const makeMultiWordHashtag = phrase =>
+  phrase
+    .replace(/ and .*$/, "")
+    .replace(/[ -](\w)/g, match => match.toUpperCase());
+
 const addHashTags = (tweet, deityName, deityType, deityDomain) => {
   let amendedTweet = tweet;
   amendedTweet = addHashTagIfTheresRoom(amendedTweet, deityName);
-  const shortenedDomain = deityDomain
-    .replace(/ and .*$/, "")
-    .replace(/[ -](\w)/g, match => match.toUpperCase());
-  amendedTweet = addHashTagIfTheresRoom(amendedTweet, shortenedDomain);
-  amendedTweet = addHashTagIfTheresRoom(amendedTweet, deityType);
+  amendedTweet = addHashTagIfTheresRoom(
+    amendedTweet,
+    makeMultiWordHashtag(deityDomain)
+  );
+  amendedTweet = addHashTagIfTheresRoom(
+    amendedTweet,
+    makeMultiWordHashtag(deityType)
+  );
   if (new Date().getDay() === 4)
     amendedTweet = addHashTagIfTheresRoom(amendedTweet, "folkloreThursday");
   const randomHashtag = grammar.flatten("#hashtag#");
