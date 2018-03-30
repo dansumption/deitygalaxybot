@@ -10,9 +10,10 @@ const places = require("./places");
 const followerActions = require("./followerActions");
 const story = require("./story");
 const replyStory = require("./replyStory");
+const hashtag = require("./hashtag");
 
 const origin = {
-  origin: ["#setDeity##story# \\#folklore"],
+  origin: ["#setDeity##story#"],
   replyOrigin: ["#userHandle# #initialReply#"],
   replyWithDeity: ["#userHandle# #replyStory#"],
   replyWithLostDeity: [
@@ -37,6 +38,7 @@ const originComplete = Object.assign(
   adverbs,
   adjectives,
   verbs,
-  origin
+  origin,
+  hashtag
 );
 module.exports = originComplete;

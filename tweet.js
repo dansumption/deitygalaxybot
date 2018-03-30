@@ -2,7 +2,7 @@ const { sendTweet } = require("./twit/twitter");
 const database = require("./twit/database");
 const grammar = require("./grammar");
 
-const hashtagSanitize = /['-]/g;
+const hashtagSanitize = /['\- ]/g;
 const hashtagDeEscape = /\\#/g;
 
 const handleReply = tweet => {
@@ -54,6 +54,28 @@ const getSymbolLastUsed = symbol => {
   }
 };
 
+const addHashTagIfTheresRoom = (tweet, hashtag) => {
+  const sanitizedHashtag = hashtag.replace(hashtagSanitize, "");
+  if (tweet.length < 278 - sanitizedHashtag.length)
+    return tweet + ` #${sanitizedHashtag}`;
+  return tweet;
+};
+
+const addHashTags = (tweet, deityName, deityType, deityDomain) => {
+  let amendedTweet = tweet;
+  amendedTweet = addHashTagIfTheresRoom(amendedTweet, deityName);
+  const shortenedDomain = deityDomain
+    .replace(/ and .*$/, "")
+    .replace(/[ -](\w)/g, match => match.toUpperCase());
+  amendedTweet = addHashTagIfTheresRoom(amendedTweet, shortenedDomain);
+  amendedTweet = addHashTagIfTheresRoom(amendedTweet, deityType);
+  if (new Date().getDay() === 4)
+    amendedTweet = addHashTagIfTheresRoom(amendedTweet, "folkloreThursday");
+  const randomHashtag = grammar.flatten("#hashtag#");
+  amendedTweet = addHashTagIfTheresRoom(amendedTweet, randomHashtag);
+  return amendedTweet;
+};
+
 const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
   const root = grammar.createRoot(template);
   root.expand();
@@ -66,12 +88,11 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
   const deityThem = getSymbolLastUsed("deityThem");
   const deityTheir = getSymbolLastUsed("deityTheir");
   const deityTheirs = getSymbolLastUsed("deityTheirs");
-  // const deityName = root.grammar.flatten("#deityName#");
   const auto_populate_reply_metadata = !!in_reply_to_status_id;
-  const status = `${root.finishedText.replace(
-    hashtagDeEscape,
-    "#"
-  )} #${deityName.replace(hashtagSanitize, "")}`;
+  // This is needed because of a bug where the escape character isn't being correctly stripped
+  const tweetContent = root.finishedText.replace(hashtagDeEscape, "#");
+  console.log(tweetContent, deityName, deityType, deityDomain);
+  const status = addHashTags(tweetContent, deityName, deityType, deityDomain);
   console.log(
     `CREATE FROM: '${template}\n\tTWEET: ${status}\n\tDEITY: ${deityName}`
   );
