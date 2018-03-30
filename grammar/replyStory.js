@@ -6,7 +6,7 @@ module.exports = {
     "You call but there is no reply. Perhaps #deityName# is #godToGodActivity# another #godType#?",
     "#deityName# rewards you for your loyalty with #nounToPluralise.a#.",
     "#deityName# #deityCommand#.",
-    "#deityName# pimps your ride. How d'you fancy going home in a #vehicle#?",
+    "#deityName# pimps your ride. How d'you fancy going home in #adjective.a# #vehicle#?",
     "#deityName# #commandVerb.s# you to meditate on the topic of #nounNotToPluralise#",
     "#deityName# is about to ask you to sacrifice #animal.a#, but thinks better of it and asks you to sacrifice #nounToPluralise.a# instead.",
     "#deityName# #busyActivity##busyInstruction#.",
@@ -16,7 +16,7 @@ module.exports = {
     "#deityName# challenges you to a game of #game#. Do you accept?",
     "#deityName# has hidden #computerObject.a# on your computer. Can you find it?",
     "#deityName# is cooking #foodItem.s# made of #foodStuff# for tea. Would you like some?",
-    "#deityName# demands that you make an sacrifice of burnt #foodStuff#, offered up in #nounToPluralise.a# made of #buildingMaterial#.",
+    "#deityName# demands that you make a sacrifice of burnt #foodStuff#, offered up in #nounToPluralise.a# made of #buildingMaterial#.",
     "#deityName# appears through the #adjective# mist, and thanks you for your patience."
   ],
 

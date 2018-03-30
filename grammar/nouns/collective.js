@@ -14,5 +14,6 @@ module.exports = [
   "scissors",
   "seating",
   "technology",
-  "urban decay"
+  "urban decay",
+  "white goods"
 ];

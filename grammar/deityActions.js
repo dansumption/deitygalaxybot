@@ -4,7 +4,7 @@ module.exports = {
     '#shoutVerb.s# "#followerAction.toUpperCase#" from the sky',
     '#deliverMessage# "#followerAction#"',
     'sends #bird.a# fluttering down from the sky. Tied to its leg is a note: "#followerAction#"',
-    '[servant:#role#]sends #deityTheir# #servant# riding up to you on a #animal#. The #servant# #deliverMessage# "#followerAction#"',
+    '[servant:#role#]sends #deityTheir# #servant# riding up to you on #animal.a#. The #servant# #deliverMessage# "#followerAction#"',
     "#commandVerb.s# you to #deityRequest# your #anyNoun#"
   ],
   deliverMessage: [
@@ -25,19 +25,23 @@ module.exports = {
     "gestures at your #nounToPluralise# #adverb#",
     "rattles a tin under your nose and asks for a donation to save the #animal.s#",
     "builds #dwelling.a# #qualifiedPlace#",
-    "lives #dwelling.a# #qualifiedPlace#",
+    "lives in #dwelling.a# #qualifiedPlace#",
     "builds #adjective.a# #worshipPlace# to #deityDomain#",
     "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again",
     "cries tears of #liquid#, which form into a pool; #animal.s# gather around the pool to drink",
     "pushes the first bud of #flower.a# through the earth's mantle of #buildingMaterial#",
-    'says "where there is #quality#, may we bring #quality#. Where there is #quality#, may we bring #quality#"'
-    // "shits on the earth to grow roses",
+    'says "where there is #quality#, may we bring #quality#. Where there is #quality#, may we bring #quality#"',
+    'whispers "has anyone ever told you, you look just like #adjective.a# #famousPerson#"',
+    'cries "may the person who is without #quality# cast the first #miscObject#"',
+    "shits out a huge mound of #buildingMaterial#. Immediately, #flower.s# start to grow out of the mound",
+    "climbs #tree.a# tree in order to better survey #deityTheir# domain",
+    "#busyActivity#"
   ],
   busyActivity: [
-    "is having a #liquid# shower",
-    "has a #adjective# headache",
+    "is having #liquid.a# shower",
+    "has #adjective.a# headache",
     "shuffles away #adverb#",
-    "shoots you a look that could kill"
+    "shoots you a look that could kill #animal.s# from a hundred paces"
   ],
   busyInstruction: [
     ". Come back later",
