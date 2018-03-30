@@ -30,9 +30,15 @@ module.exports = {
     "#consonant##vowel##consonant#"
   ],
   longSyllable: [
+    "wing",
+    "tung",
+    "summ",
+    "corb",
     "rhe",
     "thor",
     "zool",
+    "trix",
+    "afix",
     "ða",
     "alu",
     "zara",
@@ -55,7 +61,12 @@ module.exports = {
     "xax",
     "yah",
     "weh",
-    "god"
+    "god",
+    "ullu",
+    "lum",
+    "tom",
+    "ack",
+    "olla"
   ],
   consonant: [
     "#rareConsonant#",

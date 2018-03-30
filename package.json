@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "corpora-project": "^0.2.0",
+    "node-wit": "^5.0.0",
+    "npm": "^5.8.0",
     "pluralize": "^7.0.0",
     "redis": "^2.8.0",
     "twit": "^2.2.9"

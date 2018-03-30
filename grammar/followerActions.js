@@ -98,6 +98,7 @@ module.exports = {
     "your #adjective#",
     "your #adjective#",
     "your #relation#'s",
+    "your #relation#'s",
     "the #adjective#",
     "the #adjective#",
     "the #relation#'s"

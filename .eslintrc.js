@@ -9,6 +9,7 @@ module.exports = {
     "linebreak-style": ["error", "windows"],
     quotes: ["off", "single"],
     semi: ["error", "always"],
-    "no-console": ["off"]
+    "no-console": ["off"],
+    indent: ["off"]
   }
 };
