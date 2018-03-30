@@ -115,6 +115,7 @@ const inPlace = [
   "a forgotten suburb",
   "BBC TV Centre",
   "heaven",
+  "Lord's Cricket Ground",
   "outer space",
   "Siberia",
   "the Earth's core",

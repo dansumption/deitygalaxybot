@@ -14,7 +14,7 @@ module.exports = {
     "whispers in your ear",
     "semaphores to you the message",
     "spells out in sign-language the words",
-    "hands you #householdObject.a#, on which is written",
+    "hands you #miscObject.a#, on which is written",
     "whispers that you should",
     "delivers, through the medium of interpretive dance, the message"
   ],

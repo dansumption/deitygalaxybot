@@ -1,3 +1,9 @@
-module.export = {
-  time: ["bedtime"]
-};
+module.export = [
+  "bedtime",
+  "daybreak",
+  "Easter",
+  "meantime",
+  "overtime",
+  "puberty",
+  "today"
+];

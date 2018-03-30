@@ -1,9 +1,7 @@
 const name = require("./name");
 const deity = require("./deity");
-const nature = require("./nature");
 const people = require("./people");
-const objects = require("./objects");
-const nouns = require("./nouns");
+const nouns = require("./nouns/nouns");
 const adverbs = require("./adverbs");
 const adjectives = require("./adjectives");
 const verbs = require("./verbs");
@@ -34,9 +32,7 @@ const originComplete = Object.assign(
   deityActions,
   followerActions,
   people,
-  nature,
   nouns,
-  objects,
   places,
   adverbs,
   adjectives,

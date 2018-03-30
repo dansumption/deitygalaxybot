@@ -1,0 +1,21 @@
+module.exports = [
+  "Catholicism",
+  "Facism",
+  "Socialism",
+  "Buddhism",
+  "Communism",
+  "cynicism",
+  "despotism",
+  "imperialism",
+  "Monetarism",
+  "Orientalism",
+  "patriotism",
+  "pessimism",
+  "pragmatism",
+  "racism",
+  "relativism",
+  "atheism",
+  "agnosticism",
+  "apartheid",
+  "conspiracy theory"
+];

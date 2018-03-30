@@ -1,0 +1,23 @@
+module.exports = [
+  "chess",
+  "hockey",
+  "Chinese checkers",
+  "draughts",
+  "Settlers of Catan",
+  "Populous",
+  "Carcasonne",
+  "backgammon",
+  "Secret Hitler",
+  "Sims",
+  "Civilization",
+  "Call of Duty",
+  "GTA",
+  "hide & seek",
+  "tic tac toe",
+  "football",
+  "Monopoly",
+  "Cluedo",
+  "tig",
+  "ping pong",
+  "poker"
+];

@@ -1,0 +1,28 @@
+module.exports = [
+  "accountancy",
+  "aesthetics",
+  "agriculture",
+  "anatomy",
+  "anthropology",
+  "archery",
+  "architecture",
+  "hauntology",
+  "jurisprudence",
+  "philosophy",
+  "epistemology",
+  "phrenology",
+  "sociology",
+
+  "aviation",
+  "art",
+  "ballet",
+  "bareback riding",
+  "witchcraft",
+  "theology",
+  "therapy",
+  "biography",
+  "biology",
+  "chemotherapy",
+  "literature",
+  "logic"
+];
