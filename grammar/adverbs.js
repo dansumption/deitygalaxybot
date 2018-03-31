@@ -2,20 +2,20 @@ const spaces = Array(30).fill(" ");
 module.exports = {
   adverbClause: [
     "after a pause of a thousand years",
+    "appearing from the heart of a blossoming #flower#",
+    "as if by magic",
+    "flying in on the wings of #bird.a#",
+    "for no apparent reason",
     "for no good reason",
     "in a funny voice",
+    "in the clumsiest way possible",
+    "in the space between being and nothingness",
     "on the spur of the moment",
     "out of pure malevolence",
-    "in the space between being and nothingness",
-    "as if by magic",
-    "for no apparent reason",
-    "without giving it a second thought",
-    "in the clumsiest way possible",
-    "without really paying attention",
     "out of the goodness of #deityTheir# heart",
-    "appearing from the heart of a blossoming #flower#",
-    "flying in on the wings of #bird.a#",
-    "riding in on #adjective.a# #animal#"
+    "riding in on #adjective.a# #animal#",
+    "without giving it a second thought",
+    "without really paying attention"
   ]
     .map(adverb => ` ${adverb}, `)
     .concat(spaces),
@@ -28,6 +28,7 @@ module.exports = {
     "angrily",
     "anxiously",
     "arrogantly",
+    "avuncularly",
     "awkwardly",
     "badly",
     "bashfully",
@@ -42,6 +43,7 @@ module.exports = {
     "brightly",
     "briskly",
     "calmly",
+    "cantankerously",
     "carefully",
     "carelessly",
     "cautiously",
@@ -103,6 +105,8 @@ module.exports = {
     "hopelessly",
     "hourly",
     "hungrily",
+    "imperiously",
+    "impishly",
     "innocently",
     "inquisitively",
     "instantly",
@@ -141,6 +145,7 @@ module.exports = {
     "loyally",
     "madly",
     "majestically",
+    "malevolently",
     "meaningfully",
     "mechanically",
     "merrily",
@@ -287,11 +292,6 @@ module.exports = {
     "yawningly",
     "yearningly",
     "yieldingly",
-    "youthfully",
-    "impishly",
-    "malevolently",
-    "imperiously",
-    "cantankerously",
-    "avuncularly"
+    "youthfully"
   ]
 };

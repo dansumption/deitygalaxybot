@@ -1,14 +1,14 @@
 module.exports = {
   pauseLength: [
     "awkward pause",
+    "brief millennium",
     "flap of a hummingbird's wing",
     "lengthy pause",
+    "painful aeon",
     "painful wait",
     "short pause",
     "silence lasting a thousand years",
-    "uncomfortable silence",
-    "brief millennium",
-    "painful aeon"
+    "uncomfortable silence"
   ],
 
   story: [

@@ -1,13 +1,13 @@
 module.exports = {
   hashtag: [
-    "folklore",
-    "pantheism",
-    "deities",
-    "religion",
     "botbotbot",
+    "deities",
     "discordianism",
+    "folklore",
     "hailEris",
     "paganism",
-    "pantheistic"
+    "pantheism",
+    "pantheistic",
+    "religion"
   ]
 };

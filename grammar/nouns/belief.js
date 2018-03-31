@@ -1,11 +1,14 @@
 module.exports = [
-  "Catholicism",
-  "Facism",
-  "Socialism",
+  "agnosticism",
+  "apartheid",
+  "atheism",
   "Buddhism",
+  "Catholicism",
   "Communism",
+  "conspiracy theory",
   "cynicism",
   "despotism",
+  "Facism",
   "imperialism",
   "Monetarism",
   "Orientalism",
@@ -14,8 +17,5 @@ module.exports = [
   "pragmatism",
   "racism",
   "relativism",
-  "atheism",
-  "agnosticism",
-  "apartheid",
-  "conspiracy theory"
+  "Socialism"
 ];

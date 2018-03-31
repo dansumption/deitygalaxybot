@@ -1,7 +1,7 @@
 module.exports = [
   "asthma",
-  "cholera",
   "cancer",
+  "cholera",
   "depression",
   "epilepsy",
   "pneumonia"

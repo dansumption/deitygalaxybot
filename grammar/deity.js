@@ -33,6 +33,7 @@ module.exports = {
     "progenitor"
   ],
   godlyAdjective: [
+    "#adjective#",
     "absolute",
     "all-powerful",
     "antediluvian",
@@ -53,8 +54,7 @@ module.exports = {
     "unavoidable",
     "underrated",
     "wicked",
-    "widely ignored",
-    "#adjective#"
+    "widely ignored"
   ],
   domain: [
     "#nounToPluralise.s#",

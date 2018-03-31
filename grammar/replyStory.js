@@ -21,21 +21,21 @@ module.exports = {
   ],
 
   initialReply: [
-    "Talk to me about \\#pantheism. #origin#",
-    "We need to talk about \\#deities. #origin#",
-    "Tweet me some more! \\#deities #origin#",
-    "You seek guidance from the heavens? #origin#",
-    "You call, and a deity responds. #origin#",
-    "There are so many deities out there. Maybe this one's for you? #origin#",
-    "The veil lifts, and you see... #origin#",
-    "Summoning gods can be a dangerous business. #origin#",
-    "Though a crack in the Internet, the deities respond. #origin#",
-    "The mist clears from before your eyes, and you see... #origin#",
     "#origin# And after this, #userHandle#, your life will never be the same again.",
-    "The gods can sense that you need guidance. #origin#",
+    "Oh wow. Wanna know what I just saw? #origin#",
     "Praying is good, but tweeting your deity is better. #origin#",
     "Sometimes I suspect that there are more deities than worshippers. #origin#",
-    "Oh wow. Wanna know what I just saw? #origin#",
+    "Summoning gods can be a dangerous business. #origin#",
+    "Talk to me about \\#pantheism. #origin#",
+    "The gods can sense that you need guidance. #origin#",
+    "The mist clears from before your eyes, and you see... #origin#",
+    "The veil lifts, and you see... #origin#",
+    "There are so many deities out there. Maybe this one's for you? #origin#",
+    "Though a crack in the Internet, the deities respond. #origin#",
+    "Tweet me some more! \\#deities #origin#",
+    "We need to talk about \\#deities. #origin#",
+    "You call, and a deity responds. #origin#",
+    "You seek guidance from the heavens? #origin#",
     "You turn your gaze skywards, and you see... #origin#"
   ]
 };

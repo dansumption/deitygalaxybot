@@ -1,7 +1,7 @@
 module.exports = [
-  "waistcoat",
-  "underwear",
-  "sweater",
+  "clown shoe",
   "moccasin",
-  "clown shoe"
+  "sweater",
+  "underwear",
+  "waistcoat"
 ];

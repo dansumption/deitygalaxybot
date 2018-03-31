@@ -1,17 +1,17 @@
 module.exports = [
-  "The BBC",
   "Brexit",
-  "The Lost Tribes of Israel",
-  "The Central Line",
-  "The Daily Mail",
-  "Google",
   "Facebook",
-  "The Guardian",
+  "Google",
   "K-Pop",
   "manga",
   "modern life",
   "Nandos",
   "NATO",
   "parallel parking",
-  "S&M"
+  "S&M",
+  "The BBC",
+  "The Central Line",
+  "The Daily Mail",
+  "The Guardian",
+  "The Lost Tribes of Israel"
 ];

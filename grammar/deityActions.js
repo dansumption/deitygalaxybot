@@ -8,15 +8,15 @@ module.exports = {
     "#commandVerb.s# you to #deityRequest# your #anyNoun#"
   ],
   deliverMessage: [
-    "hands you a note which reads",
-    "sings you a ballad, which begins",
-    "reads from a stone tablet the words:",
-    "whispers in your ear",
-    "semaphores to you the message",
-    "spells out in sign-language the words",
+    "delivers, through the medium of interpretive dance, the message",
     "hands you #miscObject.a#, on which is written",
-    "whispers that you should",
-    "delivers, through the medium of interpretive dance, the message"
+    "hands you a note which reads",
+    "reads from a stone tablet the words:",
+    "semaphores to you the message",
+    "sings you a ballad, which begins",
+    "spells out in sign-language the words",
+    "whispers in your ear",
+    "whispers that you should"
   ],
   deityDoes: [
     "appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#",

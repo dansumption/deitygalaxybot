@@ -1,1 +1,1 @@
-module.exports = ["bow & arrow", "assault rifle", "pointed stick"];
+module.exports = ["assault rifle", "bow & arrow", "pointed stick"];

@@ -1,15 +1,16 @@
 module.exports = [
+  "4x4",
   "aircraft",
   "ambulance",
   "bicycle",
-  "tractor",
+  "frigate",
+  "jumbo jet",
+  "Lamborghini",
+  "microlight",
+  "minicab",
   "schooner",
   "scooter",
   "Supertram",
-  "frigate",
-  "minicab",
-  "microlight",
-  "jumbo jet",
-  "Lamborghini",
-  "SUV"
+  "SUV",
+  "tractor"
 ];
