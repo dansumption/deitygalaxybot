@@ -5,7 +5,7 @@ const COUNT = 1000;
 macros +=
   "[deityName:Süüm-yüüng-dei'ï'ðéé][spiritAnimal:hooded crow][userHandle:@dansumption]";
 
-const testTemplate = "#origin#";
+const testTemplate = "#bird#";
 // "#deityName# orders you to find your bandmates and join #band.a#";
 // "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 

@@ -17,14 +17,16 @@ const institution = require("./institution");
 const liquid = require("./liquid");
 const miscObject = require("./miscObject");
 const quality = require("./quality");
-const { animal, bird, flower, tree } = require("./nature");
+const { animal, flower, tree } = require("./nature");
 const vehicle = require("./vehicle");
 const weapon = require("./weapon");
 const day = require("./days");
 const { band } = require("./bands");
+const { bird } = require("./birds");
 
 const nounToPluralise = [].concat(
   bodyPart,
+  bird,
   clothing,
   computerObject,
   day,

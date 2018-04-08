@@ -40,17 +40,6 @@ module.exports = {
     .animals.map(animalObj => animalObj.name)
     .concat(extraAnimals),
 
-  bird: corpora
-    .getFile("animals", "birds_antarctica")
-    .birds.concat(corpora.getFile("animals", "birds_north_america").birds)
-    .reduce(
-      (allBirds, birdFamily) =>
-        allBirds.concat(
-          birdFamily.members.map(birdName => birdName.toLowerCase())
-        ),
-      []
-    ),
-
   flower: corpora.getFile("plants", "flowers").flowers,
 
   tree: [

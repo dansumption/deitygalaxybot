@@ -14,6 +14,7 @@ const hashtag = require("./hashtag");
 const time = require("./time");
 const macros = require("./macros");
 const bands = require("./nouns/bands");
+const birds = require("./nouns/birds");
 
 const origin = {
   origin: [`${macros}#setDeity##story#`],
@@ -44,7 +45,8 @@ const originComplete = Object.assign(
   origin,
   hashtag,
   time,
-  bands
+  bands,
+  birds
 );
 
 module.exports = originComplete;
