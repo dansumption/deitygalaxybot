@@ -1,20 +1,17 @@
 const grammar = require("./grammar");
-const macros = require("./grammar/macros");
+let macros = require("./grammar/macros");
 
 const COUNT = 1000;
+macros +=
+  "[deityName:Süüm-yüüng-dei'ï'ðéé][spiritAnimal:hooded crow][userHandle:@dansumption]";
 
-// const testTemplate = "#[userHandle:@dansumption][deityName:REPLYDEITY]replyWithDeity#";
-
-const testTemplate =
-  // "#origin#";
-  "You wait #takesTime#, but #deityName# #busyActivity##busyInstruction#.";
-// `${macros}Deep beneath the Earth, the goddess Rheða sighs, and the ground around #placeName# quivers, giving #userHandle# belly-butterflies.It must be #today#.`;
-// "#[userHandle:@dansumption][deityName:Waï-ceizsteuach]replyWithDeity#";
-// "#[deityName:Thor][spiritAnimal:rat]pilgrimage#";
+const testTemplate = "#origin#";
+// "#deityName# orders you to find your bandmates and join #band.a#";
+// "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
 let longest = "";
 for (let index = 0; index < COUNT; index++) {
-  const phrase = grammar.flatten(testTemplate);
+  const phrase = grammar.flatten(macros + testTemplate);
   console.log(phrase, "\n");
   if (phrase.length > longest.length) {
     longest = phrase;

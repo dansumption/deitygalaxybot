@@ -36,7 +36,8 @@ module.exports = {
     'cries "may the person who is without #quality# cast the first #miscObject#"',
     "shits out a huge mound of #buildingMaterial#. Immediately, #flower.s# start to grow out of the mound",
     "climbs #tree.a# tree in order to better survey #deityTheir# domain",
-    "#busyActivity#"
+    "#busyActivity#",
+    "is playing in #band.a# #qualifiedPlace#"
   ],
   busyActivity: [
     "is having #liquid.a# shower",

@@ -13,6 +13,7 @@ const replyStory = require("./replyStory");
 const hashtag = require("./hashtag");
 const time = require("./time");
 const macros = require("./macros");
+const bands = require("./nouns/bands");
 
 const origin = {
   origin: [`${macros}#setDeity##story#`],
@@ -42,7 +43,8 @@ const originComplete = Object.assign(
   verbs,
   origin,
   hashtag,
-  time
+  time,
+  bands
 );
 
 module.exports = originComplete;

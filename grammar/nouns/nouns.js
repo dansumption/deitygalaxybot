@@ -21,6 +21,7 @@ const { animal, bird, flower, tree } = require("./nature");
 const vehicle = require("./vehicle");
 const weapon = require("./weapon");
 const day = require("./days");
+const { band } = require("./bands");
 
 const nounToPluralise = [].concat(
   bodyPart,
@@ -40,6 +41,7 @@ const nounToPluralise = [].concat(
 
 const nounNotToPluralise = [].concat(
   academicField,
+  band,
   action,
   belief,
   buildingMaterial,

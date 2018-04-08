@@ -10,7 +10,8 @@ module.exports = {
     "make a pilgrimage to #pilgrimageSite# and #quest#",
     "go on a quest to #pilgrimageSite# and #quest#",
     "ride #animal.a# to #pilgrimageSite#",
-    "travel to #pilgrimageSite# by #vehicle# and #quest#"
+    "travel to #pilgrimageSite# by #vehicle# and #quest#",
+    "gather your apostles and form #band.a#"
   ],
   pilgrimageSite: [
     "#dwelling.a# #qualifiedPlace#",
