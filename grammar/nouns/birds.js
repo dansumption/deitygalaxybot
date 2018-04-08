@@ -111,6 +111,7 @@ const birdType = [
 
 const birdBodyPlace = [
   "mantled",
+  "legged",
   "winged",
   "billed",
   "footed",
