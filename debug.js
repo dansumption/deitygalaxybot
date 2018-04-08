@@ -1,12 +1,15 @@
 const grammar = require("./grammar");
+const macros = require("./grammar/macros");
 
 const COUNT = 1000;
 
 // const testTemplate = "#[userHandle:@dansumption][deityName:REPLYDEITY]replyWithDeity#";
 
-const testTemplate = "#origin#";
-// 'cries "may the person who is without #quality# cast the first #miscObject#"'
-// "#[userHandle:@Geeg23][deityName:Waï-ceizsteuach]replyWithDeity#";
+const testTemplate =
+  // "#origin#";
+  "You wait #takesTime#, but #deityName# #busyActivity##busyInstruction#.";
+// `${macros}Deep beneath the Earth, the goddess Rheða sighs, and the ground around #placeName# quivers, giving #userHandle# belly-butterflies.It must be #today#.`;
+// "#[userHandle:@dansumption][deityName:Waï-ceizsteuach]replyWithDeity#";
 // "#[deityName:Thor][spiritAnimal:rat]pilgrimage#";
 
 let longest = "";

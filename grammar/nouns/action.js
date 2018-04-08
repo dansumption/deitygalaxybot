@@ -79,6 +79,7 @@ module.exports = [
   "sabre rattling",
   "salvation",
   "seduction",
+  "sin",
   "solicitation",
   "sorcery",
   "speculation",

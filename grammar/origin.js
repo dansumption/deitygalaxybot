@@ -11,16 +11,18 @@ const followerActions = require("./followerActions");
 const story = require("./story");
 const replyStory = require("./replyStory");
 const hashtag = require("./hashtag");
+const time = require("./time");
+const macros = require("./macros");
 
 const origin = {
-  origin: ["#setDeity##story#"],
-  replyOrigin: ["#userHandle# #initialReply#"],
-  replyWithDeity: ["#userHandle# #replyStory#"],
+  origin: [`${macros}#setDeity##story#`],
+  replyOrigin: [`${macros}#userHandle# #initialReply#`],
+  replyWithDeity: [`${macros}#userHandle# #replyStory#`],
   replyWithLostDeity: [
-    "#userHandle# You call your deity, but another has taken their place. #origin#"
+    `${macros}#userHandle# You call your deity, but another has taken their place. #origin#`
   ],
   searchOrigin: [
-    "Deep beneath the Earth, the goddess Rheða sighs, and the ground around #placeName# quivers, giving #userHandle# belly-butterflies."
+    `${macros}Deep beneath the Earth, the goddess Rheða sighs, and the ground around #placeName# quivers, giving #userHandle# belly-butterflies. It must be #today#.`
   ]
 };
 
@@ -39,6 +41,8 @@ const originComplete = Object.assign(
   adjectives,
   verbs,
   origin,
-  hashtag
+  hashtag,
+  time
 );
+
 module.exports = originComplete;

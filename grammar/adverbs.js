@@ -1,7 +1,7 @@
 const spaces = Array(30).fill(" ");
 module.exports = {
   adverbClause: [
-    "after a pause of a thousand years",
+    "after #takesTime#",
     "appearing from the heart of a blossoming #flower#",
     "as if by magic",
     "flying in on the wings of #bird.a#",

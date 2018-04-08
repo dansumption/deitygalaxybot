@@ -9,7 +9,7 @@ const buildingMaterial = require("./buildingMaterial");
 const clothing = require("./clothing");
 const collective = require("./collective");
 const computerObject = require("./computerObject");
-const disease = require("./disease");
+const punishment = require("./punishment");
 const famousPerson = require("./famousPerson");
 const { foodItem, foodStuff } = require("./food");
 const game = require("./game");
@@ -20,11 +20,13 @@ const quality = require("./quality");
 const { animal, bird, flower, tree } = require("./nature");
 const vehicle = require("./vehicle");
 const weapon = require("./weapon");
+const day = require("./days");
 
 const nounToPluralise = [].concat(
   bodyPart,
   clothing,
   computerObject,
+  day,
   foodItem,
   miscObject,
   animal,
@@ -42,7 +44,7 @@ const nounNotToPluralise = [].concat(
   belief,
   buildingMaterial,
   collective,
-  disease,
+  punishment,
   famousPerson,
   foodStuff,
   game,
@@ -63,6 +65,7 @@ module.exports = Object.assign(
     nounToPluralise,
     nounNotToPluralise,
 
+    day,
     bodyPart,
     clothing,
     computerObject,
@@ -80,7 +83,7 @@ module.exports = Object.assign(
     belief,
     buildingMaterial,
     collective,
-    disease,
+    punishment,
     famousPerson,
     foodStuff,
     game,
