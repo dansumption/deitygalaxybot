@@ -8,6 +8,8 @@ module.exports = corpora
     "#buildingMaterial# and #buildingMaterial#",
     "#foodStuff#",
     "#liquid#",
+    "#bird# feathers",
+    "#bird.s#' beaks",
     "armloads of stars",
     "bile and regret",
     "blood and bone",
