@@ -64,7 +64,8 @@ const addHashTagIfTheresRoom = (tweet, hashtag) => {
 const makeMultiWordHashtag = phrase =>
   phrase
     .replace(/ and .*$/, "")
-    .replace(/[ -](\w)/g, match => match.toUpperCase());
+    .replace(/[ -](\w)/g, match => match.toUpperCase())
+    .replace(/&/g, "and");
 
 const addHashTags = (tweet, deityName, deityType, deityDomain) => {
   let amendedTweet = tweet;
