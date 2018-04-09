@@ -26,4 +26,4 @@ for (let index = 0; index < COUNT; index++) {
 
 // grammar.debug();
 
-// console.log("\nLONGEST: ", longest, longest.length);
+console.log("\nLONGEST: ", longest, longest.length);
