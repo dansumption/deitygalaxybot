@@ -220,7 +220,7 @@ const onPlace = [
   "the head of a pin",
   "the Orient Express",
   "the other side of the veil",
-  "the outskrits of infinity",
+  "the outskirts of infinity",
   "the World of Two Moons",
   "Traal",
   "Uranus",
