@@ -26,12 +26,17 @@ const handleReply = tweet => {
           deityThey,
           deityThem,
           deityTheir,
-          deityTheirs
+          deityTheirs,
+          previousTemplate,
+          replyCount
         ] = data.split(":");
         // we have a deity!
+        console.log(`This is the ${replyCount} tweet in a thread
+          The last template was: ${previousTemplate}`);
         sendTweetAndLogDeity(
           `[userHandle:@${userHandle}][deityName:${deityName}][deityType:${deityType}][deityDomain:${deityDomain}][spiritAnimal:${spiritAnimal}][deityThey:${deityThey}][deityThem:${deityThem}][deityTheir:${deityTheir}][deityTheirs:${deityTheirs}]#replyWithDeity#`,
-          replyTweetId
+          replyTweetId,
+          replyCount
         );
       } else {
         // we don't have a deity stored for the original tweet
@@ -90,7 +95,8 @@ const addHashTags = (tweet, deityName, deityType, deityDomain) => {
   return amendedTweet;
 };
 
-const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
+const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
+  const tweetCount = replyCount + 1;
   const root = grammar.createRoot(template);
   root.expand();
   // HORRIBLE hack to find symbols used in the tweet - because flattening gets an earlier version !?!
@@ -118,7 +124,7 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
     }).then(data => {
       database.set(
         data.id_str,
-        `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}`
+        `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}:${template}:${tweetCount}`
       );
     });
   }, microDelay());
