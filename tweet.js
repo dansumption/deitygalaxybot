@@ -73,14 +73,14 @@ const addHashTags = (tweet, deityName, deityType, deityDomain) => {
     amendedTweet,
     makeMultiWordHashtag(deityDomain)
   );
-  amendedTweet = addHashTagIfTheresRoom(
-    amendedTweet,
-    makeMultiWordHashtag(deityType)
-  );
-  if (new Date().getDay() === 4)
+  // amendedTweet = addHashTagIfTheresRoom(
+  //   amendedTweet,
+  //   makeMultiWordHashtag(deityType)
+  // );
+  if (new Date().getDay() === 4 && Math.random() < 0.02)
     amendedTweet = addHashTagIfTheresRoom(amendedTweet, "folkloreThursday");
-  const randomHashtag = grammar.flatten("#hashtag#");
-  amendedTweet = addHashTagIfTheresRoom(amendedTweet, randomHashtag);
+  // const randomHashtag = grammar.flatten("#hashtag#");
+  // amendedTweet = addHashTagIfTheresRoom(amendedTweet, randomHashtag);
   return amendedTweet;
 };
 
