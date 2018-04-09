@@ -5,11 +5,16 @@ const grammar = require("./grammar");
 const hashtagSanitize = /['\- ]/g;
 const hashtagDeEscape = /\\#/g;
 
+const chanceOfAReply = 0.8;
+const microDelay = () => {
+  return Math.round(1000 + Math.random() * 30000);
+};
+
 const handleReply = tweet => {
   const userHandle = tweet.user.screen_name;
   const originalTweetId = tweet.in_reply_to_status_id_str;
   const replyTweetId = tweet.id_str;
-  if (originalTweetId) {
+  if (originalTweetId && Math.random() < chanceOfAReply) {
     // check if we have a deity associated with the original tweet
     database.get(originalTweetId).then(data => {
       if (data) {
@@ -105,16 +110,18 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id) => {
   console.log(
     `CREATE FROM: '${template}\n\tTWEET: ${status}\n\tDEITY: ${deityName}`
   );
-  sendTweet({
-    status,
-    in_reply_to_status_id,
-    auto_populate_reply_metadata
-  }).then(data => {
-    database.set(
-      data.id_str,
-      `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}`
-    );
-  });
+  setTimeout(() => {
+    sendTweet({
+      status,
+      in_reply_to_status_id,
+      auto_populate_reply_metadata
+    }).then(data => {
+      database.set(
+        data.id_str,
+        `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}`
+      );
+    });
+  }, microDelay());
 };
 
 const sendTweetAfterDelay = delayFunction => {
