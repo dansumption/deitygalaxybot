@@ -7,6 +7,7 @@ const { sendRandomTweet, handleReply, handleSearchTerm } = require("./tweet");
 const MINUTE = 60 * 1000;
 const minTimeBetweenTweets = 20 * MINUTE;
 const maxTimeBetweenTweets = 4 * 60 * MINUTE;
+const botHandle = "deitygalaxy";
 
 const timeoutDelay = () => {
   return Math.round(
@@ -16,9 +17,9 @@ const timeoutDelay = () => {
 };
 
 const setup = () => {
-  initialize("deitygalaxy");
-  monitorReplies(handleReply);
-  monitorSearchTerm("#Rheða", handleSearchTerm);
+  initialize(botHandle);
+  monitorReplies(handleReply, botHandle);
+  monitorSearchTerm("#Rheða", handleSearchTerm, botHandle);
   sendRandomTweet(timeoutDelay);
 };
 

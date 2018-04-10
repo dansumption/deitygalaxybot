@@ -13,7 +13,7 @@ const initialize = botHandle => {
     access_token: env.BOT_ACCESS_TOKEN,
     access_token_secret: env.BOT_ACCESS_TOKEN_SECRET
   });
-  bot.handle = env.botHandle || botHandle;
+  bot.handle = botHandle;
   __post = promisify(bot.post).bind(bot);
   __get = promisify(bot.get).bind(bot);
 };
@@ -34,14 +34,18 @@ const sendTweet = parameters =>
       console.error(`ERROR SENDING: ${parameters.status}\n\t${err}`);
     });
 
-const monitorReplies = callback => {
-  return monitorSearchTerm(`@${bot.handle}`, callback);
+const monitorReplies = (callback, ...excludeHandles) => {
+  return monitorSearchTerm(`@${bot.handle}`, callback, ...excludeHandles);
 };
 
-const monitorSearchTerm = (term, callback) => {
+const monitorSearchTerm = (term, callback, ...excludeHandles) => {
   if (bot) {
     const stream = bot.stream("statuses/filter", { track: term });
-    stream.on("tweet", callback);
+    stream.on("tweet", tweet => {
+      if (!excludeHandles.includes(tweet.user.screen_name)) {
+        callback(tweet);
+      }
+    });
     stream.on("error", logMessage);
     stream.on("limit", logMessage);
     stream.on("disconnect", logMessage);
