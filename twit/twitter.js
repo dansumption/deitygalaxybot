@@ -42,7 +42,11 @@ const monitorSearchTerm = (term, callback, ...excludeHandles) => {
   if (bot) {
     const stream = bot.stream("statuses/filter", { track: term });
     stream.on("tweet", tweet => {
+      console.log(
+        `Search got tweet from ${tweet.user.screen_name}: ${tweet.text}`
+      );
       if (!excludeHandles.includes(tweet.user.screen_name)) {
+        console.log("Reply to it...");
         callback(tweet);
       }
     });
