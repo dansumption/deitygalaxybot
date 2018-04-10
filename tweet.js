@@ -124,7 +124,10 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
     }).then(data => {
       database.set(
         data.id_str,
-        `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}:${template}:${tweetCount}`
+        `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}:${template.replace(
+          /:/g,
+          "~"
+        )}:${tweetCount}`
       );
     });
   }, microDelay());
