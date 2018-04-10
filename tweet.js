@@ -5,7 +5,7 @@ const grammar = require("./grammar");
 const hashtagSanitize = /['\- ]/g;
 const hashtagDeEscape = /\\#/g;
 
-const chanceOfAReply = 0.8;
+const chanceOfAReply = 0.98;
 const microDelay = () => {
   return Math.round(1000 + Math.random() * 30000);
 };
