@@ -131,7 +131,7 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
 };
 
 const sendTweetAfterDelay = delayFunction => {
-  setTimeout(sendRandomTweet, delayFunction());
+  setTimeout(sendRandomTweet, delayFunction(), delayFunction);
 };
 
 const sendRandomTweet = delayFunction => {
