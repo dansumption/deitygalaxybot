@@ -5,6 +5,7 @@ module.exports = {
     // #followerAction#
 
     "#deityFull##adverbClause##deityCommand#.",
+    "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#",
     "GOD-APPEAL: today, we issue an appeal on behalf of #deityName#. #deityThey# are losing control of #deityDomain#, an aren't even really a proper #deityType#",
     "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#",
     "In the #dwelling# of #deityFull# is #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#",

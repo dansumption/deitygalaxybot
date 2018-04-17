@@ -3,10 +3,16 @@ let macros = require("./grammar/macros");
 
 const COUNT = 1000;
 macros +=
-  "[deityName:Süüm-yüüng-dei'ï'ðéé][deityDomain:Voodoo][spiritAnimal:hooded crow][userHandle:@dansumption]";
+  "[deityName:Süüm-yüüng-dei'ï'ðéé]" +
+  "[deityDomain:Voodoo]" +
+  "[deityType:deity]" +
+  "[spiritAnimal:hooded crow]" +
+  "[userHandle:@dansumption]" +
+  "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
-const testTemplate = "#origin#";
-
+const testTemplate =
+  // "#origin#"
+  "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
 // "#deityName# orders you to find your bandmates and join #band.a#";
 // "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
