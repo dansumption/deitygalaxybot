@@ -9,7 +9,7 @@ module.exports = {
     "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#.",
     "GOD-APPEAL: today, we issue an appeal on behalf of #deityName#, who is losing control of #deityDomain#, earning the #nounNotToPluralise# of all the other #deityType.s#.",
     "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#.",
-    "In the #dwelling# of #deityFull# is #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
+    "In the #dwelling# of #deityFull# there's #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
     "In #dwelling.a# #deityPlace#, #deityFull# is #deityMaking#.",
     "#deityFull# appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#.",
     "#deityFull# conjures #nounToPluralise.a# from thin air.",
