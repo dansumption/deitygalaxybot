@@ -98,7 +98,7 @@ const addHashTags = (tweet, deityName, deityType, deityDomain) => {
 };
 
 const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
-  const tweetCount = replyCount || 0 + 1;
+  const tweetCount = (replyCount || 0) + 1;
   const root = grammar.createRoot(template);
   root.expand();
   // HORRIBLE hack to find symbols used in the tweet - because flattening gets an earlier version !?!
