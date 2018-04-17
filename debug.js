@@ -15,12 +15,13 @@ const testTemplate = "#origin#";
 // "#deityName# orders you to find your bandmates and join #band.a#";
 // "#[deityName:Waï-ceizsteuach]replyWithDeity#"
 
-let longest = "";
+const TweetLength = 249;
+let tooLong = [];
 for (let index = 0; index < COUNT; index++) {
   const phrase = grammar.flatten(macros + testTemplate);
   console.log(phrase, "\n");
-  if (phrase.length > longest.length) {
-    longest = phrase;
+  if (phrase.length > TweetLength) {
+    tooLong.push(phrase);
   }
   // grammar.clearState();
   // const root = grammar.createRoot(testTemplate);
@@ -32,4 +33,10 @@ for (let index = 0; index < COUNT; index++) {
 
 // grammar.debug();
 
-console.log("\nLONGEST: ", longest, longest.length);
+console.log(
+  "\nLONGEST:\n\n",
+  tooLong
+    .sort((a, b) => (a.length > b.length ? a : b))
+    .map(phrase => `${phrase.length}: ${phrase}`)
+    .join("\n\n")
+);
