@@ -28,13 +28,15 @@ const handleReply = tweet => {
           deityTheir,
           deityTheirs,
           previousTemplate,
-          replyCount
+          replyCount,
+          deityPlace,
+          spiritBird
         ] = data.split(":");
         // we have a deity!
         console.log(`This is the ${replyCount} tweet in a thread
           The last template was: ${previousTemplate}`);
         sendTweetAndLogDeity(
-          `[userHandle:@${userHandle}][deityName:${deityName}][deityType:${deityType}][deityDomain:${deityDomain}][spiritAnimal:${spiritAnimal}][deityThey:${deityThey}][deityThem:${deityThem}][deityTheir:${deityTheir}][deityTheirs:${deityTheirs}]#replyWithDeity#`,
+          `[userHandle:@${userHandle}][deityName:${deityName}][deityType:${deityType}][deityDomain:${deityDomain}][spiritAnimal:${spiritAnimal}][deityThey:${deityThey}][deityThem:${deityThem}][deityTheir:${deityTheir}][deityTheirs:${deityTheirs}][deityPlace:${deityPlace}][spiritBird:${spiritBird}]#replyWithDeity#`,
           replyTweetId,
           replyCount
         );
@@ -104,6 +106,8 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
   const deityType = getSymbolLastUsed("deityType");
   const deityDomain = getSymbolLastUsed("deityDomain");
   const spiritAnimal = getSymbolLastUsed("spiritAnimal");
+  const spiritBird = getSymbolLastUsed("spiritBird");
+  const deityPlace = getSymbolLastUsed("deityPlace");
   const deityThey = getSymbolLastUsed("deityThey");
   const deityThem = getSymbolLastUsed("deityThem");
   const deityTheir = getSymbolLastUsed("deityTheir");
@@ -127,7 +131,7 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
         `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}:${template.replace(
           /:/g,
           "~"
-        )}:${tweetCount}`
+        )}:${tweetCount}:${deityPlace}:${spiritBird}`
       );
     });
   }, microDelay());

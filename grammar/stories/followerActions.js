@@ -17,9 +17,11 @@ module.exports = {
     "#dwelling.a# #qualifiedPlace#",
     "the nearest #dwelling#",
     "a thousand-year-old #tree# tree",
-    "#unqualifiedPlace#",
+    "the holiest site #deityPlace#",
+    "#qualifiedPlace#",
     "your #relation#'s #dwelling#",
-    "#unqualifiedPlace# and back"
+    "#qualifiedPlace# and back",
+    "#adjective.a# #worshipPlace# #deityPlace#"
   ],
   quest: [
     "find #nounToPluralise.a#",
@@ -39,9 +41,9 @@ module.exports = {
     "tell me more about #object#",
     "tell the #role# about #object#",
     "humiliate yourself for the sake of #object#",
-    "kiss the #role# of #unqualifiedPlace#",
-    "live the rest of your life as the #role# of #unqualifiedPlace#",
-    "make your way directly to #unqualifiedPlace#",
+    "kiss the most #adjective# #role# #qualifiedPlace#",
+    "live the rest of your life as the lowliest #role# #qualifiedPlace#",
+    "make your way directly to #qualifiedPlace#",
     "obey the #role# of #nounToPluralise.s#",
     "prostrate yourself before #dwelling.a#",
     "sacrifice your #anyNoun# to #object#",

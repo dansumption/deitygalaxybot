@@ -10,11 +10,10 @@ macros +=
   "[userHandle:@dansumption]" +
   "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
-const testTemplate =
-  // "#origin#"
-  "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
+const testTemplate = "#origin#";
+// "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
 // "#deityName# orders you to find your bandmates and join #band.a#";
-// "#[deityName:Waï-ceizsteuach]replyWithDeity#";
+// "#[deityName:Waï-ceizsteuach]replyWithDeity#"
 
 let longest = "";
 for (let index = 0; index < COUNT; index++) {

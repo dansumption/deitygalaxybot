@@ -1,6 +1,12 @@
 module.exports = {
   setDeity: [
-    "#setPronouns#[deityName:#name#][deityType:#godType#][deityDomain:#domain#][spiritAnimal:#animal#]"
+    "#setPronouns#" +
+      "[deityName:#name#]" +
+      "[deityType:#godType#]" +
+      "[deityDomain:#domain#]" +
+      "[spiritAnimal:#animal#]" +
+      "[spiritBird:#bird#]" +
+      "[deityPlace:#qualifiedPlace#]"
   ],
   deityFull: ["#deityName#, #deityType# of #deityDomain#,"],
   setPronouns: [
