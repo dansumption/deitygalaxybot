@@ -31,6 +31,7 @@ module.exports = {
     "#deityFull# climbs #tree.a# tree in order to better survey #deityTheir# domain.",
     "#deityFull# #busyActivity#.",
     "#deityFull# is playing in #band.a# #deityPlace#.",
+    "#deityFull# created the universe in #takesTime#. But only the part of the universe that pertains to #deityDomain#.",
     "Could you adopt a deity? There are literally millions of gods and godesses out there waiting for a worshipper like you. Why not worship #deityFull# today?"
   ]
 };

@@ -20,7 +20,7 @@ const specificTime = [
 ];
 
 const takesTime = [
-  "a lunch hour",
+  "a generous lunch hour",
   "a lunar cycle",
   "a tidal cycle",
   "40 winks",
