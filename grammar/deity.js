@@ -9,6 +9,7 @@ module.exports = {
       "[deityPlace:#qualifiedPlace#]"
   ],
   deityFull: ["#deityName#, #deityType# of #deityDomain#,"],
+  otherDeity: ["#name# #godType# of #domain#"],
   setPronouns: [
     "[deityThey:they][deityThem:them][deityTheir:their][deityTheirs:theirs]",
     "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]",
