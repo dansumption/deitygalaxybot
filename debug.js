@@ -3,9 +3,13 @@ let macros = require("./grammar/macros");
 
 const COUNT = 1000;
 macros +=
-  "[deityName:Süüm-yüüng-dei'ï'ðéé][spiritAnimal:hooded crow][userHandle:@dansumption]";
+  "[deityName:Süüm-yüüng-dei'ï'ðéé][deityDomain:Voodoo][spiritAnimal:hooded crow][userHandle:@dansumption]";
 
-const testTemplate = "#origin#";
+const testTemplate =
+  // "#origin#"
+  "GOD - APPEAL: today, we issue an appeal on behalf of #deityName#.#deityThey# are losing control of #deityDomain#, an aren't even really a proper #deityType#";
+// "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#"
+
 // "#deityName# orders you to find your bandmates and join #band.a#";
 // "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 

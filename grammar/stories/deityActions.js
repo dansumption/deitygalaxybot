@@ -20,27 +20,8 @@ module.exports = {
     "whispers in your ear",
     "whispers that you should"
   ],
-  deityDoes: [
-    "appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#",
-    "conjures #nounToPluralise.a# from thin air",
-    "gestures at your #nounToPluralise# #adverb#",
-    "rattles a tin under your nose and asks for a donation to save the #animal.s#",
-    "builds #dwelling.a# #qualifiedPlace#",
-    "lives in #dwelling.a# #qualifiedPlace#",
-    "builds #adjective.a# #worshipPlace# to #deityDomain#",
-    "asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again",
-    "cries tears of #liquid#, which form into a pool; #animal.s# gather around the pool to drink",
-    "pushes the first bud of #flower.a# through the earth's mantle of #buildingMaterial#",
-    'says "where there is #quality#, may we bring #quality#. Where there is #quality#, may we bring #quality#"',
-    'whispers "has anyone ever told you, you look just like #adjective.a# #famousPerson#"',
-    'cries "may the person who is without #quality# cast the first #miscObject#"',
-    "shits out a huge mound of #buildingMaterial#. Immediately, #flower.s# start to grow out of the mound",
-    "climbs #tree.a# tree in order to better survey #deityTheir# domain",
-    "#busyActivity#",
-    "is playing in #band.a# #qualifiedPlace#"
-  ],
   busyActivity: [
-    "is having #liquid.a# shower",
+    "is showering in #adjective# #liquid#",
     "has #adjective.a# headache",
     "shuffles away #adverb#",
     "shoots you a look that could kill #animal.s# from a hundred paces"
@@ -50,7 +31,10 @@ module.exports = {
     ", and can't talk to you right now",
     ". Perhaps this is not the best time to call?",
     ". They might respond if you call a little louder?",
-    ". Maybe you ought to respect #deityName#'s privacy a little more?"
+    ". Maybe you ought to respect #deityName#'s privacy a little more?",
+    ". #DeityThey# just needs #takesTime#",
+    ". Come back after #takesTime#",
+    ". Come back at #specificTime#"
   ],
   deityMaking: [
     "spinning a web from #buildingMaterial#",
@@ -71,7 +55,17 @@ module.exports = {
     "ennoble",
     "create life from",
     "begin a cult that worships",
-    "judge"
+    "judge",
+    "dance with",
+    "exchange places with",
+    "give your soul to",
+    "googlewhack",
+    "imagine",
+    "consider",
+    "make a mental sketch of",
+    "imagine you were",
+    "become a trainer of",
+    "consume only"
   ],
 
   godToGodActivity: [
