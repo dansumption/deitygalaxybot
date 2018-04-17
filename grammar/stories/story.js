@@ -1,5 +1,9 @@
 module.exports = {
   story: [
+    // #deityName# #deityType# #deityDomain# #spiritAnimal#
+    // #deityThey# #deityThem# #deityTheir# #deityTheirs#
+    // #followerAction#
+
     "#deityFull##adverbClause##deityCommand#.",
     "In #dwelling.a# #qualifiedPlace#, #deityFull# is #deityMaking#.",
     "#deityFull# #deityDoes#.",
