@@ -10,7 +10,9 @@ macros +=
   "[userHandle:@dansumption]" +
   "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
-const testTemplate = "#origin#";
+const testTemplate =
+  '#deityName# left a sign saying "OUT #godToGodActivity.toUpperCase# #otherDeity.toUpperCase#".';
+// "#origin#";
 // "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
 // "#deityName# orders you to find your bandmates and join #band.a#";
 // "#[deityName:Waï-ceizsteuach]replyWithDeity#"

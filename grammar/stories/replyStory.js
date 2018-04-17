@@ -5,7 +5,7 @@ module.exports = {
     "After #takesTime#, #deityName# #deityCommand#",
     "#deityName# will reward you for your loyalty.",
     "You call but there is no reply. Perhaps #deityName# is #godToGodActivity# another #deityType#?",
-    '#deityName# left a sign saying "OUT #godToGodActivity.toUpperCase# #otherDeity.toUpperCase".',
+    '#deityName# left a sign saying "OUT #godToGodActivity.toUpperCase# #otherDeity.toUpperCase#".',
     "#deityName# rewards you for your loyalty with #nounToPluralise.a#.",
     "#deityName# #deityCommand#.",
     "#deityName# pimps your ride. How d'you fancy going home in #adjective.a# #vehicle#?",
