@@ -2,22 +2,23 @@ const grammar = require("./grammar");
 let macros = require("./grammar/macros");
 
 const COUNT = 1000;
-macros +=
-  "[deityName:Süüm-yüüng-dei'ï'ðéé]" +
-  "[deityDomain:Voodoo]" +
-  "[deityType:deity]" +
-  "[spiritAnimal:hooded crow]" +
-  "[userHandle:@dansumption]" +
-  "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
+macros += "#setDeity#";
+// "[deityName:Süüm-yüüng-dei'ï'ðéé]" +
+// "[deityDomain:Voodoo]" +
+// "[deityType:deity]" +
+// "[deityPlace:in Sheffield]" +
+// "[spiritAnimal:hooded crow]" +
+// "[userHandle:@dansumption]" +
+// "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
 const testTemplate =
-  '#deityName# left a sign saying "OUT #godToGodActivity.toUpperCase# #otherDeity.toUpperCase#".';
+  'In #dwelling.a# #deityPlace#, #deityFull# cries "eschew your #belief#, only by worshipping #deityDomain# will you be saved".';
 // "#origin#";
 // "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
 // "#deityName# orders you to find your bandmates and join #band.a#";
 // "#[deityName:Waï-ceizsteuach]replyWithDeity#"
 
-const TweetLength = 249;
+const TweetLength = 259;
 let tooLong = [];
 for (let index = 0; index < COUNT; index++) {
   const phrase = grammar.flatten(macros + testTemplate);
@@ -36,9 +37,9 @@ for (let index = 0; index < COUNT; index++) {
 // grammar.debug();
 
 console.log(
-  "\nLONGEST:\n\n",
-  tooLong
-    .sort((a, b) => (a.length > b.length ? a : b))
-    .map(phrase => `${phrase.length}: ${phrase}`)
-    .join("\n\n")
+  "\nLONGEST:\n\n" +
+    tooLong
+      .sort((a, b) => a.length - b.length)
+      .map(phrase => `${phrase.length}: ${phrase}`)
+      .join("\n\n")
 );

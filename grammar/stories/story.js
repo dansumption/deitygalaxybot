@@ -13,6 +13,7 @@ module.exports = {
     "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#.",
     "In the #dwelling# of #deityFull# there's #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
     "In #dwelling.a# #deityPlace#, #deityFull# is #deityMaking#.",
+    'In #dwelling.a# #deityPlace#, #deityFull# cries "eschew your #belief#, only by worshipping #deityDomain# will you be saved".',
     "#deityFull# appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#.",
     "#deityFull# conjures #nounToPluralise.a# from thin air, and offers it to you. Do you accept?",
     "#deityFull# gestures at your #nounToPluralise# #adverb#. How do you respond?",
