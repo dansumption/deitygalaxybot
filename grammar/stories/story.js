@@ -5,6 +5,8 @@ module.exports = {
     // #followerAction#
 
     "#deityFull##adverbClause##deityCommand#.",
+    "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
+    "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#. Can you make a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#?",
     "#deityFull# is hiring a new #role# to shake things up #deityPlace#. What would be on your CV?",
     "#deityFull# is #godToGodActivity# #otherDeity# #deityPlace#. And the consequence is...?",
     "Could you ever care for #deityType.a#? For #adjective.a# #deityType# like #deityName#? #deityName# is a respected authority on #deityDomain#.",

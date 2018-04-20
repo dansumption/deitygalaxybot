@@ -12,7 +12,7 @@ macros += "#setDeity#";
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
 const testTemplate =
-  'In #dwelling.a# #deityPlace#, #deityFull# cries "eschew your #belief#, only by worshipping #deityDomain# will you be saved".';
+  "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#. Can you make a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#?";
 // "#origin#";
 // "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
 // "#deityName# orders you to find your bandmates and join #band.a#";

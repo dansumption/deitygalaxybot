@@ -53,5 +53,30 @@ module.exports = {
     "wooden",
     "yellow"
   ].concat(wineDescriptions, adjectives),
-  wineDescriptions
+  wineDescriptions,
+  jokeAdjective: [
+    "ill-advised",
+    "unfunny",
+    "quiet",
+    "long",
+    "boring",
+    "tear-jerking",
+    "complex",
+    "repetitive",
+    "confusing",
+    "enlightening",
+    "perceptive",
+    "puzzling",
+    "unnecessary",
+    "obvious",
+    "off-colour",
+    "unfair",
+    "erudite",
+    "sloppy",
+    "drunk",
+    "rambling",
+    "surreal",
+    "intellectual",
+    "pertinent"
+  ]
 };
