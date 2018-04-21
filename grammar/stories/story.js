@@ -5,6 +5,7 @@ module.exports = {
     // #followerAction#
 
     "#deityFull##adverbClause##deityCommand#.",
+    "#deityFull# #commandVerb.s# you to devote your life to studying the #academicField# of #deityDomain#.",
     "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
     "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#. Can you make a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#?",
     "#deityFull# is hiring a new #role# to shake things up #deityPlace#. What would be on your CV?",
