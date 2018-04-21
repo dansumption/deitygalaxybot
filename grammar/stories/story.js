@@ -5,6 +5,7 @@ module.exports = {
     // #followerAction#
 
     "#deityFull##adverbClause##deityCommand#.",
+    "#deityFull# is usually worshipped during #festival#.",
     "#deityFull# #commandVerb.s# you to devote your life to studying the #academicField# of #deityDomain#.",
     "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
     "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#. Can you make a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#?",
@@ -16,6 +17,8 @@ module.exports = {
     "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#.",
     "In the #dwelling# of #deityFull# there's #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
     "In #dwelling.a# #deityPlace#, #deityFull# is #deityMaking#.",
+    "#deityFull# is #deityMaking# for the forthcoming #festival#.",
+    "#deityFull# is #deityMaking#, and thinks you should do likewise.",
     'In #dwelling.a# #deityPlace#, #deityFull# cries "eschew your #belief#, only by worshipping #deityDomain# will you be saved".',
     "#deityFull# appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#.",
     "#deityFull# conjures #nounToPluralise.a# from thin air, and offers it to you. Do you accept?",
@@ -36,6 +39,7 @@ module.exports = {
     "#deityFull# shits out a huge mound of #buildingMaterial#. Immediately, #flower.s# start to grow out of the mound towards you...",
     "#deityFull# climbs #tree.a# tree in order to better survey #deityTheir# domain. What's that on the horizon?",
     "#deityFull# #busyActivity#.",
+    "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#",
     "#deityFull# plays in #band.a# #deityPlace#. Do you want to buy a cheap CD?",
     "#deityFull# created the universe in #takesTime#. But only the part of the universe that pertains to #deityDomain#.",
     "Could you adopt a deity? There are literally millions of gods and godesses out there waiting for a worshipper like you. Why not worship #deityFull# today?"

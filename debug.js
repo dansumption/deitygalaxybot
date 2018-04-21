@@ -12,8 +12,8 @@ macros += "#setDeity#";
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
 const testTemplate =
-  "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#. Can you make a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#?";
-// "#origin#";
+  "#deityFull# has a gift of #nounNotToPluralise# for the first #role# to celebrate the #festival#";
+//"#origin#";
 // "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
 // "#deityName# orders you to find your bandmates and join #band.a#";
 // "#[deityName:Waï-ceizsteuach]replyWithDeity#"
