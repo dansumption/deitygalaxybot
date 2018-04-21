@@ -66,6 +66,7 @@ const dwelling = [
   "fjord",
   "forest",
   "forest clearing",
+  "forest of moss",
   "garden centre",
   "garden shed",
   "grove of #tree.s#",
@@ -119,6 +120,7 @@ const dwelling = [
 
 const inPlace = [
   "a cave in #inPlace#",
+  "a patch of moss on #onPlace#",
   "a forgotten suburb",
   "a galaxy far far away",
   "Albert Square",
