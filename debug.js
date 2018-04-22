@@ -12,7 +12,7 @@ macros += "#setDeity#";
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
 const testTemplate =
-  "#deityFull# has a gift of #nounNotToPluralise# for the first #role# to celebrate the #festival#";
+  "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.";
 //"#origin#";
 // "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
 // "#deityName# orders you to find your bandmates and join #band.a#";

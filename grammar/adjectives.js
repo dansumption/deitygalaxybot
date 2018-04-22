@@ -3,10 +3,41 @@ const corpora = require("corpora-project");
 const wineDescriptions = corpora.getFile("foods", "wine_descriptions")
   .wine_descriptions;
 const adjectives = corpora.getFile("words", "adjs").adjs;
+const nationality = [
+  "American",
+  "Belgian",
+  "Brazilian",
+  "Canadian",
+  "Czech",
+  "Dutch",
+  "English",
+  "Estonian",
+  "Finnish",
+  "French",
+  "German",
+  "Hungarian",
+  "Irish",
+  "Italian",
+  "Japanese",
+  "Korean",
+  "Latvian",
+  "Lithuanian",
+  "Mexican",
+  "North Korean",
+  "Northern Irish",
+  "Norwegian",
+  "Polish",
+  "Saudi Arabian",
+  "Scottish",
+  "South Georgian",
+  "South Korean",
+  "Swedish",
+  "Swiss",
+  "Welsh"
+];
 module.exports = {
   adjective: [
     "actinic",
-    "American",
     "artisanal",
     "awkward",
     "base metal",
@@ -14,7 +45,6 @@ module.exports = {
     "bloody",
     "blue",
     "brown",
-    "Canadian",
     "desiccated",
     "empty",
     "faded",
@@ -37,10 +67,12 @@ module.exports = {
     "oversized",
     "overt",
     "pathetic",
+    "piebald",
     "prosaic",
     "prosthetic",
     "pure",
     "radioactive",
+    "rather pathetic",
     "red",
     "secret",
     "secular",
@@ -48,11 +80,13 @@ module.exports = {
     "smelly",
     "sodden",
     "sodding",
+    "tattered",
+    "tatterdemalion",
     "white",
     "wild",
     "wooden",
     "yellow"
-  ].concat(wineDescriptions, adjectives),
+  ].concat(wineDescriptions, adjectives, nationality),
   wineDescriptions,
   jokeAdjective: [
     "ill-advised",
@@ -77,6 +111,8 @@ module.exports = {
     "rambling",
     "surreal",
     "intellectual",
-    "pertinent"
-  ]
+    "pertinent",
+    "#jokeAdjective# #nationality#"
+  ],
+  nationality
 };

@@ -39,6 +39,7 @@ module.exports = {
     "#deityFull# shits out a huge mound of #buildingMaterial#. Immediately, #flower.s# start to grow out of the mound towards you...",
     "#deityFull# climbs #tree.a# tree in order to better survey #deityTheir# domain. What's that on the horizon?",
     "#deityFull# #busyActivity#.",
+    "#wind.a.capitalize# stirs the #tree# trees. #deityFull# sighs #adverb#.",
     "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#",
     "#deityFull# plays in #band.a# #deityPlace#. Do you want to buy a cheap CD?",
     "#deityFull# created the universe in #takesTime#. But only the part of the universe that pertains to #deityDomain#.",

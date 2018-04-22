@@ -164,5 +164,6 @@ module.exports = {
     "worker",
     "worshipper",
     "youngster"
-  ]
+  ],
+  victim: ["defenceless #role#", "#adjective# boy", "#adjective# girl"]
 };

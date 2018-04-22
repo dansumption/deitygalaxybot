@@ -16,6 +16,7 @@ const macros = require("./macros");
 const bands = require("./nouns/bands");
 const birds = require("./nouns/birds");
 const festival = require("./festival");
+const wind = require("./wind");
 
 const origin = {
   origin: [`${macros}#setDeity##story#`],
@@ -48,7 +49,8 @@ const originComplete = Object.assign(
   time,
   bands,
   birds,
-  festival
+  festival,
+  wind
 );
 
 module.exports = originComplete;
