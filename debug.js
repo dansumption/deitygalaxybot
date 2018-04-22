@@ -12,8 +12,8 @@ macros += "#setDeity#";
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
 const testTemplate =
-  "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.";
-//"#origin#";
+  "GOD-APPEAL: today, #festival#, the #deityType.s.capitalizeAll# Benevolent Fund issue an appeal on behalf of #deityName#, #problemDeity#.";
+// "#origin#";
 // "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
 // "#deityName# orders you to find your bandmates and join #band.a#";
 // "#[deityName:Waï-ceizsteuach]replyWithDeity#"
