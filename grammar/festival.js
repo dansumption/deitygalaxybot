@@ -9,7 +9,7 @@ module.exports = {
     "day of reconciliation with #belief# #deityPlace#",
     "day of abstinence from #action# #deityPlace#",
     "day of mass #action# #deityPlace#",
-    "#adjective #academicField# graduation day #deityPlace#",
+    "#adjective# #academicField# graduation day #deityPlace#",
     "start of filming of the BBC series '#nounToPluralise.capitalizeAll#' #deityPlace#"
   ]
 };
