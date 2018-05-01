@@ -44,7 +44,7 @@ module.exports = {
     "building a simulacrum of #deityThem#self out of #buildingMaterial#",
     "sculpting idols from #buildingMaterial#",
     "forming a new race of intelligent #spiritAnimal.s# from #buildingMaterial#",
-    "keading a knot of #buildingMaterial# into life",
+    "kneading a knot of #buildingMaterial# into life",
     "making a mate for #deityTheir# spirit animal out of #buildingMaterial#",
     "growing #flower.s# and #flower.s# in a compost of #buildingMaterial#",
     "vacuum-forming a model-#dwelling# made of #buildingMaterial#",
