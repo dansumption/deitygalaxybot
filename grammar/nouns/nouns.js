@@ -23,6 +23,7 @@ const weapon = require("./weapon");
 const day = require("./days");
 const { band } = require("./bands");
 const { bird } = require("./birds");
+const euphemism = require("./euphemisms");
 
 const nounToPluralise = [].concat(
   bodyPart,
@@ -55,7 +56,8 @@ const nounNotToPluralise = [].concat(
   institution,
   liquid,
   newTech,
-  quality
+  quality,
+  euphemism
 );
 
 const anyNoun = ["#nounNotToPluralise#", "#nounToPluralise#"];
@@ -94,6 +96,7 @@ module.exports = Object.assign(
     institution,
     liquid,
     quality,
-    newTech
+    newTech,
+    euphemism
   }
 );
