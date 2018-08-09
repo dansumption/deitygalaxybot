@@ -1,6 +1,9 @@
 {
   "name": "deitygalaxybot",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "engines": {
+    "node": "8.10.0"
+  },
   "description": "Twitter bot for the @deitygalaxy account",
   "main": "index.js",
   "scripts": {
@@ -13,16 +16,16 @@
   "dependencies": {
     "corpora-project": "^0.2.0",
     "node-wit": "^5.0.0",
-    "npm": "^5.8.0",
+    "npm": "^5.10.0",
     "pluralize": "^7.0.0",
     "redis": "^2.8.0",
-    "twit": "^2.2.9"
+    "twit": "^2.2.11"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "husky": "^0.14.3",
-    "prettier": "^1.11.1",
-    "pretty-quick": "^1.4.1"
+    "prettier": "^1.14.0",
+    "pretty-quick": "^1.6.0"
   },
   "repository": {
     "type": "git",
