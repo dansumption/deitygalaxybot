@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "node debug.js > temp/debug.txt",
-    "precommit":
-      "pretty-quick --staged --single-quote --trailing-comma all --write "
+    "precommit": "pretty-quick --staged --single-quote --trailing-comma all --write "
   },
   "author": "Dan Sumption <dan@sumption.org> (http://sumption.org)",
   "license": "ISC",
