@@ -2,7 +2,7 @@ module.exports = {
   followerAction: [
     "#verb# #object#",
     "#pilgrimage#",
-    "#pilgrimage#",
+    "#meditation#",
     "#quest#"
   ],
   pilgrimage: [
@@ -52,6 +52,25 @@ module.exports = {
     "change a lightbulb"
     // "become the #adjective# promoter of",
     // "save the #spiritAnimal.s#. And also save",
+  ],
+  meditation: ["spend #takesTime# #meditationVerb# #object#", ""],
+  meditationVerb: [
+    "contemplating",
+    "praying to",
+    "visualising",
+    "worshipping",
+    "avoiding thinking about",
+    "berating",
+    "questioning the nature of",
+    "probing",
+    "appreciating",
+    "loving",
+    "meditating on",
+    "focusing on",
+    "looking for occurences of",
+    "considering the perfection of",
+    "feeling",
+    "sensing"
   ],
   verb: [
     "ignore",

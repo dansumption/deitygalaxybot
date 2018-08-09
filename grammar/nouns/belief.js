@@ -8,6 +8,7 @@ module.exports = [
   "conspiracy theory",
   "cynicism",
   "despotism",
+  "discordianism",
   "Facism",
   "imperialism",
   "Monetarism",
@@ -17,5 +18,8 @@ module.exports = [
   "pragmatism",
   "racism",
   "relativism",
-  "Socialism"
+  "Rethianism",
+  "Socialism",
+  "voodoo",
+  "The Number 23"
 ];

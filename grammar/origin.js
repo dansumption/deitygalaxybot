@@ -16,6 +16,7 @@ const macros = require("./macros");
 const bands = require("./nouns/bands");
 const birds = require("./nouns/birds");
 const festival = require("./festival");
+const writing = require("./writing");
 const wind = require("./wind");
 
 const origin = {
@@ -50,7 +51,8 @@ const originComplete = Object.assign(
   bands,
   birds,
   festival,
-  wind
+  wind,
+  writing
 );
 
 module.exports = originComplete;

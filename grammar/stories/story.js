@@ -5,6 +5,8 @@ module.exports = {
     // #followerAction#
 
     "#deityFull##adverbClause##deityCommand#.",
+    "#deityFull# spends #takesTime# #meditationVerb# #object#",
+    '#deityFull# writes in #writingStyle# letters: "#followerAction#".',
     "#deityFull# is usually worshipped during #festival#.",
     "#deityFull# #commandVerb.s# you to devote your life to studying the #academicField# of #deityDomain#.",
     "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
