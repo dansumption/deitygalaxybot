@@ -2,6 +2,7 @@ module.exports = {
   followerAction: [
     "#verb# #object#",
     "#pilgrimage#",
+    "#pilgrimage#",
     "#meditation#",
     "#quest#"
   ],
@@ -53,23 +54,6 @@ module.exports = {
     // "save the #spiritAnimal.s#. And also save",
   ],
   meditation: ["spend #takesTime# #meditationAction# #object#", ""],
-  verb: [
-    "ignore",
-    "immanentise",
-    "immanentize",
-    "bow to",
-    "destroy",
-    "exalt",
-    "consider",
-    "relinquish",
-    "respect",
-    "return to",
-    "explain",
-    "worship",
-    "improve",
-    "#followerAction# and #verb#"
-  ],
-
   object: [
     "#nounNotToPluralise#",
     "#nounNotToPluralise#",
