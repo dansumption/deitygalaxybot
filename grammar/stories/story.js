@@ -1,10 +1,10 @@
+const { deityCommand } = require("./deityActions");
 module.exports = {
   story: [
     // #deityName# #deityType# #deityDomain# #spiritAnimal#
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#
 
-    "#deityFull##adverbClause##deityCommand#.",
     '#deityFull# writes in #writingStyle# letters: "#followerAction#".',
     "Could you ever care for #deityType.a#? For #adjective.a# #deityType# like #deityName#? #deityName# is a respected authority on #deityDomain#.",
     "#deityFull# is hiring a new #role# to shake things up #deityPlace#. Are you suitably qualified?",
@@ -48,5 +48,5 @@ module.exports = {
     "#deityFull# plays in #band.a# #deityPlace#. Do you want to buy a cheap CD?",
     "#deityFull# created the universe in #takesTime#. But only the part of the universe that pertains to #deityDomain#.",
     "Could you adopt a deity? There are literally millions of gods and godesses out there waiting for a worshipper like you. Why not worship #deityFull# today?"
-  ]
+  ].concat(deityCommand.map(command => `#deityFull##adverbClause#${command}.`))
 };

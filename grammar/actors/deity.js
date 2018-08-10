@@ -1,6 +1,6 @@
 module.exports = {
   setDeity: [
-    "#setPronouns#" +
+    "#deityPronouns#" +
       "[deityName:#name#]" +
       "[deityType:#godType#]" +
       "[deityDomain:#domain#]" +
@@ -10,11 +10,8 @@ module.exports = {
   ],
   deityFull: ["#deityName#, #deityType# of #deityDomain#,"],
   otherDeity: ["#name# #godType# of #domain#"],
-  setPronouns: [
-    "[deityThey:they][deityThem:them][deityTheir:their][deityTheirs:theirs]",
-    "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]",
-    "[deityThey:he][deityThem:him][deityTheir:his][deityTheirs:his]",
-    "[deityThey:it][deityThem:it][deityTheir:its][deityTheirs:its]"
+  deityPronouns: [
+    "[#setPronouns#][deityThey:#pronounSubject#][deityThem:#pronounObject#][deityTheir:#pronounPossesive#][deityTheirs:#pronounPossesives#]"
   ],
   godType: [
     "#godlyAdjective# #godType#",

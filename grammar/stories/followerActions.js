@@ -42,7 +42,7 @@ module.exports = {
     // "become the #adjective# promoter of",
     // "save the #spiritAnimal.s#. And also save",
   ],
-  meditation: ["spend #takesTime# #meditationAction# #object#", ""],
+  meditation: ["spend #takesTime# #meditationAction# #object#"],
   object: [
     "#nounNotToPluralise#",
     "#nounNotToPluralise#",
