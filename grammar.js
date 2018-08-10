@@ -1,6 +1,6 @@
 const tracery = require("./tracery/tracery");
 const modifiers = require("./tracery/mods-eng-basic");
-const origin = require("./grammar/origin");
+const origin = require("./grammar/index");
 
 const grammar = tracery.createGrammar(origin);
 grammar.addModifiers(modifiers);
