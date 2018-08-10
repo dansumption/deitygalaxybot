@@ -1,23 +1,19 @@
-const name = require("./actors/name");
-const deity = require("./actors/deity");
-const people = require("./actors/people");
-const nouns = require("./nouns/nouns");
-const adverbs = require("./adverbs/adverbs");
-const adjectives = require("./adjectives/adjectives");
-const verbs = require("./verbs/verbs");
-const deityActions = require("./stories/deityActions");
-const places = require("./spacetime/places");
 const followerActions = require("./stories/followerActions");
 const story = require("./stories/story");
+const deityActions = require("./stories/deityActions");
 const replyStory = require("./stories/replyStory");
+
+const actors = require("./actors/");
+const adverbs = require("./adverbs/");
+const adjectives = require("./adjectives/");
+const verbs = require("./verbs/");
+const spacetime = require("./spacetime/");
+
+const nouns = require("./nouns/");
+
 const hashtag = require("./hashtag");
-const time = require("./spacetime/time");
 const macros = require("./macros");
-const bands = require("./nouns/bands");
-const birds = require("./nouns/birds");
-const festival = require("./spacetime/festival");
 const writing = require("./writing");
-const wind = require("./adjectives/wind");
 
 const origin = {
   origin: [`${macros}#setDeity##story#`],
@@ -33,25 +29,18 @@ const origin = {
 
 const originComplete = Object.assign(
   {},
-  name,
-  deity,
+  actors,
   story,
-  replyStory,
-  deityActions,
-  followerActions,
-  people,
   nouns,
-  places,
   adverbs,
   adjectives,
   verbs,
+  spacetime,
+  replyStory,
+  deityActions,
+  followerActions,
   origin,
   hashtag,
-  time,
-  bands,
-  birds,
-  festival,
-  wind,
   writing
 );
 

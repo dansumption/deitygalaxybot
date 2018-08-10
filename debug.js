@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const grammar = require("./grammar");
 const { story } = require("./grammar/stories/story");
 let macros = require("./grammar/macros");
@@ -12,12 +14,11 @@ macros += "#setDeity#";
 // "[userHandle:@dansumption]" +
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
-const testTemplate = story[1];
-// '#deityFull# writes in #writingStyle# letters: "#adverbClause##deityCommand#".';
-// "#origin#";
-// "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#";
-// "#deityName# orders you to find your bandmates and join #band.a#";
-// "#[deityName:Waï-ceizsteuach]replyWithDeity#"
+const templateStory = story[1];
+const templateOrigin = "#origin#";
+const templateArbitrary = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
+
+const testTemplate = templateOrigin;
 
 const TweetLength = 259;
 let tooLong = [];
