@@ -18,7 +18,7 @@ const templateStory = story[1];
 const templateOrigin = "#origin#";
 const templateArbitrary = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-const testTemplate = templateOrigin;
+const testTemplate = templateStory;
 
 const TweetLength = 259;
 let tooLong = [];

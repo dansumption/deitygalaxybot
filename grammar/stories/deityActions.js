@@ -80,11 +80,5 @@ module.exports = {
     "chewing the fat with",
     "trying to build a bigger #worshipPlace# than",
     "cooking some #foodItem.s# for"
-  ],
-  problemDeity: [
-    "who is losing control of #deityDomain#",
-    "struggling #deityType# of #deityDomain#",
-    "the disgraced #deityType# of #deityDomain#",
-    "the #deityType# whose domain over #deityDomain# has been brought into question"
   ]
 };

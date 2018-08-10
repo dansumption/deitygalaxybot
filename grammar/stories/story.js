@@ -5,6 +5,7 @@ module.exports = {
     // #followerAction#
 
     "#deityFull##adverbClause##deityCommand#.",
+    "GOD-APPEAL: today, #festival#, the #deityType.s.capitalizeAll# Benevolent Fund issue an appeal on behalf of #deityName#, #problemDeity#.",
     "#deityFull# spends #takesTime# #meditationVerb# #object#",
     '#deityFull# writes in #writingStyle# letters: "#followerAction#".',
     "#deityFull# is usually worshipped during #festival#.",
@@ -14,7 +15,6 @@ module.exports = {
     "#deityFull# is #godToGodActivity# #otherDeity# #deityPlace#. And the consequence is...?",
     "Could you ever care for #deityType.a#? For #adjective.a# #deityType# like #deityName#? #deityName# is a respected authority on #deityDomain#.",
     "#deityFull# is admiring #deityTheir#self in a mirror-smooth pool of #nounNotToPluralise#.",
-    "GOD-APPEAL: today, #festival#, the #deityType.s.capitalizeAll# Benevolent Fund issue an appeal on behalf of #deityName#, #problemDeity#.",
     "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#.",
     "In the #dwelling# of #deityFull# there's #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
     "In #dwelling.a# #deityPlace#, #deityFull# is #deityMaking#.",

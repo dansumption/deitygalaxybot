@@ -77,5 +77,11 @@ module.exports = {
     "#nounNotToPluralise#",
     "#newTech#",
     "#domain# and #domain#"
+  ],
+  problemDeity: [
+    "who is losing control of #deityDomain#",
+    "struggling #deityType# of #deityDomain#",
+    "the disgraced #deityType# of #deityDomain#",
+    "the #deityType# whose domain over #deityDomain# has been brought into question"
   ]
 };
