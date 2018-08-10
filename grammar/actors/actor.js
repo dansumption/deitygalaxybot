@@ -11,6 +11,6 @@ module.exports = {
     "#setPronouns#[characterName:#name# the #role#][characterSubject:#pronounSubject#][characterObject:#pronounObject#][characterPossesive:#pronounPossesive#][characterPossesives:#pronounPossesives#]",
     "#setPronouns#[characterName:#name#, #adjective.a# #role#][characterSubject:#pronounSubject#][characterObject:#pronounObject#][characterPossesive:#pronounPossesive#][characterPossesives:#pronounPossesives#]",
     "#setPronouns#[characterName:#otherDeity#][characterSubject:#pronounSubject#][characterObject:#pronounObject#][characterPossesive:#pronounPossesive#][characterPossesives:#pronounPossesives#]",
-    "#setPronouns#[characterName:#deityTheir#self][characterSubject:#deityThey#][characterObject:#deityThem#][characterPossesive:#deityTheir#][characterPossesives:#deityTheirs#]"
+    "#setPronouns#[characterName:#deityTheir.capitalize#self][characterSubject:#deityThey.capitalize#][characterObject:#deityThem.capitalize#][characterPossesive:#deityTheir.capitalize#][characterPossesives:#deityTheirs.capitalize#]"
   ]
 };

@@ -5,7 +5,7 @@ const { story } = require("./grammar/stories/story");
 let macros = require("./grammar/macros");
 
 const COUNT = 2000;
-macros += "#setDeity#";
+macros += "#setDeity##setCharacter#";
 // "[deityName:Süüm-yüüng-dei'ï'ðéé]" +
 // "[deityDomain:Voodoo]" +
 // "[deityType:deity]" +
@@ -20,7 +20,7 @@ const templateT =
   "#setCharacter##deityFull# loves #characterName#. #deityThey# really love #characterSubject#, and #characterSubject# loves #deityName#";
 const templateR = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-const testTemplate = templateO;
+const testTemplate = templateS;
 
 const TweetLength = 259;
 let tooLong = [];

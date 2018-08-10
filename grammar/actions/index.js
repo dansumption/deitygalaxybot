@@ -4,6 +4,7 @@ const communicate = require("./communicate");
 const meditate = require("./meditate");
 const animalActions = require("./animalActions");
 const twoPersonActions = require("./twoPersonActions");
+const making = require("./making");
 
 module.exports = Object.assign(
   {},
@@ -12,5 +13,6 @@ module.exports = Object.assign(
   communicate,
   meditate,
   animalActions,
-  twoPersonActions
+  twoPersonActions,
+  making
 );

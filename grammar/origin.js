@@ -1,7 +1,7 @@
 const macros = require("./macros");
 
 const origin = {
-  origin: [`${macros}#setDeity##story#`],
+  origin: [`${macros}#setDeity##setCharacter##story#`],
   replyOrigin: [`${macros}#userHandle# #initialReply#`],
   replyWithDeity: [`${macros}#userHandle# #replyStory#`],
   replyWithLostDeity: [

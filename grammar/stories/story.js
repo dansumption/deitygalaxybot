@@ -5,7 +5,8 @@ module.exports = {
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#
 
-    "#setCharacter##deityFull# loves #characterName#. #deityName# really loves #characterObject#, and #characterSubject# loves #deityThem# back.",
+    "In #dwelling.a# #deityPlace#, #deityFull# and #characterName# are #making#.",
+    "#deityFull# loves #characterName#. #deityName# really loves #characterObject#, and #characterSubject# loves #deityThem# back.",
 
     '#deityFull# writes in #writingStyle# letters: "#followerAction#".',
     "Could you ever care for #deityType.a#? For #adjective.a# #deityType# like #deityName#? #deityName# is a respected authority on #deityDomain#.",
@@ -39,9 +40,9 @@ module.exports = {
     "#wind.a.capitalize# stirs the #tree# trees. #deityFull# sighs #adverb#.",
     "#deityFull# created the universe in #takesTime#. But only the part of the universe that pertains to #deityDomain#.",
 
-    "In #dwelling.a# #deityPlace#, #deityFull# is #deityMaking#.",
-    "#deityFull# is #deityMaking# for the forthcoming #festival#.",
-    "#deityFull# is #deityMaking#, and thinks you should do likewise.",
+    "In #dwelling.a# #deityPlace#, #deityFull# is #making#.",
+    "#deityFull# is #making# for the forthcoming #festival#.",
+    "#deityFull# is #making#, and thinks you should do likewise.",
     "#deityFull# spends #takesTime# #meditationAction# #object#",
     "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
     "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#, with a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#.",
