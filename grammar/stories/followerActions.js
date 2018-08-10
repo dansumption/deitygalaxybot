@@ -26,6 +26,7 @@ module.exports = {
   quest: [
     "find #nounToPluralise.a#",
     "capture #bird.a#. Kiss it, cuddle it, and then set it free",
+    "devote your life to studying the #academicField# of #deityDomain#",
     "leave your #bodyPart# behind",
     "sacrifice #animal.a#",
     "observe the world #adverb#",
