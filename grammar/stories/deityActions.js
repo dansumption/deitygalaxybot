@@ -72,13 +72,5 @@ module.exports = {
     "imagine you were",
     "become a trainer of",
     "consume only"
-  ],
-
-  godToGodActivity: [
-    "playing #game# with",
-    "comparing #nounToPluralise.s# with",
-    "chewing the fat with",
-    "trying to build a bigger #worshipPlace# than",
-    "cooking some #foodItem.s# for"
   ]
 };

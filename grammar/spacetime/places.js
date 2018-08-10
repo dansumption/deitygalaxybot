@@ -267,6 +267,17 @@ const onPlace = [
   "Win Hill"
 ];
 
+const pilgrimageSite = [
+  "#dwelling.a# #deityPlace#",
+  "the nearest #dwelling#",
+  "a thousand-year-old #tree# tree",
+  "the holiest site #deityPlace#",
+  "somewhere #deityPlace#",
+  "your #relation#'s #dwelling#",
+  "#worshipPlace.a# #deityPlace# and back, via #dwelling.a# #qualifiedPlace#,",
+  "#adjective.a# #worshipPlace# #deityPlace#"
+];
+
 const unqualifiedPlace = ["deep beneath the ground", "six feet underground"];
 
 const qualifiedPlace = unqualifiedPlace.concat(
@@ -285,5 +296,6 @@ module.exports = {
   atPlace,
   onPlace,
   settings,
-  venues
+  venues,
+  pilgrimageSite
 };

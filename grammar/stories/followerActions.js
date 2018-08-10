@@ -12,16 +12,6 @@ module.exports = {
     "#travelAction# to #pilgrimageSite#",
     "gather your apostles and form #band.a#"
   ],
-  pilgrimageSite: [
-    "#dwelling.a# #deityPlace#",
-    "the nearest #dwelling#",
-    "a thousand-year-old #tree# tree",
-    "the holiest site #deityPlace#",
-    "somewhere #deityPlace#",
-    "your #relation#'s #dwelling#",
-    "#worshipPlace.a# #deityPlace# and back, via #dwelling.a# #qualifiedPlace#,",
-    "#adjective.a# #worshipPlace# #deityPlace#"
-  ],
   quest: [
     "find #nounToPluralise.a#",
     "capture #bird.a#. Kiss it, cuddle it, and then set it free",
@@ -29,7 +19,6 @@ module.exports = {
     "leave your #bodyPart# behind",
     "sacrifice #animal.a#",
     "observe the world #adverb#",
-    "meditate upon #nounToPluralise.a#",
     "spread the good news about #nounNotToPluralise#",
     "teach the locals how to really appreciate #deityDomain#",
     "warn the world about #object#",

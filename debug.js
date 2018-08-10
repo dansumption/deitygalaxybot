@@ -4,7 +4,7 @@ const grammar = require("./grammar");
 const { story } = require("./grammar/stories/story");
 let macros = require("./grammar/macros");
 
-const COUNT = 1000;
+const COUNT = 2000;
 macros += "#setDeity#";
 // "[deityName:Süüm-yüüng-dei'ï'ðéé]" +
 // "[deityDomain:Voodoo]" +
