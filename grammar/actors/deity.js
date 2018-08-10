@@ -81,7 +81,10 @@ module.exports = {
   problemDeity: [
     "who is losing control of #deityDomain#",
     "struggling #deityType# of #deityDomain#",
-    "the disgraced #deityType# of #deityDomain#",
-    "the #deityType# whose domain over #deityDomain# has been brought into question"
+    "the disgraced former #deityType# of #deityDomain#",
+    "the #deityType# whose domain over #deityDomain# has been brought into question",
+    "who nobody likes any more",
+    "who nobody ever really liked anyway",
+    "(I know, right: WHO???)"
   ]
 };
