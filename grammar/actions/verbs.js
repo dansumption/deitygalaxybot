@@ -1,35 +1,18 @@
 module.exports = {
-  commandVerb: [
-    "ask",
-    "command",
-    "compel",
-    "demand",
-    "desire",
-    "mandate",
-    "need",
-    "order",
-    "request",
-    "tell",
-    "want"
-  ],
-
-  shoutVerb: ["boom", "cheer", "cry", "scream", "shout", "yell"],
-
-  animalVerb: [
-    "defecate",
-    "disappear",
-    "fart",
-    "grimace",
-    "grunt",
-    "piss",
-    "roar",
-    "shit",
-    "shiver",
-    "snarl",
-    "snort",
-    "spit",
-    "tremble",
-    "whinny"
+  verb: [
+    "ignore",
+    "immanentise",
+    "immanentize",
+    "bow to",
+    "destroy",
+    "exalt",
+    "consider",
+    "relinquish",
+    "respect",
+    "return to",
+    "explain",
+    "worship",
+    "improve"
   ],
   verbIng: [
     "accounting",

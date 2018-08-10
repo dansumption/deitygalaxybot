@@ -6,7 +6,7 @@ module.exports = {
 
     "#deityFull##adverbClause##deityCommand#.",
     "GOD-APPEAL: today, #festival#, the #deityType.s.capitalizeAll# Benevolent Fund issue an appeal on behalf of #deityName#, #problemDeity#.",
-    "#deityFull# spends #takesTime# #meditationVerb# #object#",
+    "#deityFull# spends #takesTime# #meditationAction# #object#",
     '#deityFull# writes in #writingStyle# letters: "#followerAction#".',
     "#deityFull# is usually worshipped during #festival#.",
     "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
@@ -21,7 +21,7 @@ module.exports = {
     "#deityFull# is #deityMaking# for the forthcoming #festival#.",
     "#deityFull# is #deityMaking#, and thinks you should do likewise.",
     'In #dwelling.a# #deityPlace#, #deityFull# cries "eschew your #belief#, only by worshipping #deityDomain# will you be saved".',
-    "#deityFull# appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalVerb.s#.",
+    "#deityFull# appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalAction.s#.",
     "#deityFull# conjures #nounToPluralise.a# from thin air, and offers it to you. Do you accept?",
     "#deityFull# gestures at your #nounToPluralise# #adverb#. How do you respond?",
     "#deityFull# rattles a tin under your nose and asks for a donation to save the #animal.s#. What do you give?",

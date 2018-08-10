@@ -14,11 +14,11 @@ macros += "#setDeity#";
 // "[userHandle:@dansumption]" +
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
-const templateStory = story[1];
-const templateOrigin = "#origin#";
-const templateArbitrary = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
+const templateS = story[1];
+const templateO = "#origin#";
+const templateR = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-const testTemplate = templateStory;
+const testTemplate = templateO;
 
 const TweetLength = 259;
 let tooLong = [];

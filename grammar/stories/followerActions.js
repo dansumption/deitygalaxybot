@@ -6,11 +6,9 @@ module.exports = {
     "#quest#"
   ],
   pilgrimage: [
-    "travel with #deityName#'s #role# to #pilgrimageSite#",
-    "make a pilgrimage to #pilgrimageSite# and #quest#",
-    "go on a quest to #pilgrimageSite# and #quest#",
-    "ride #animal.a# to #pilgrimageSite#",
-    "travel to #pilgrimageSite# by #vehicle# and #quest#",
+    "#travelAction# with #deityName#'s #role# to #pilgrimageSite#",
+    "#travelAction# to #pilgrimageSite# and #quest#",
+    "#travelAction# to #pilgrimageSite#",
     "gather your apostles and form #band.a#"
   ],
   pilgrimageSite: [
@@ -54,25 +52,7 @@ module.exports = {
     // "become the #adjective# promoter of",
     // "save the #spiritAnimal.s#. And also save",
   ],
-  meditation: ["spend #takesTime# #meditationVerb# #object#", ""],
-  meditationVerb: [
-    "contemplating",
-    "praying to",
-    "visualising",
-    "worshipping",
-    "avoiding thinking about",
-    "berating",
-    "questioning the nature of",
-    "probing",
-    "appreciating",
-    "loving",
-    "meditating on",
-    "focusing on",
-    "looking for occurences of",
-    "considering the perfection of",
-    "feeling",
-    "sensing"
-  ],
+  meditation: ["spend #takesTime# #meditationAction# #object#", ""],
   verb: [
     "ignore",
     "immanentise",

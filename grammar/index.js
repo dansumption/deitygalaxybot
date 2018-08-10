@@ -7,7 +7,7 @@ const actors = require("./actors/");
 const adverbs = require("./adverbs/");
 const adjectives = require("./adjectives/");
 const nouns = require("./nouns/");
-const verbs = require("./verbs/");
+const actions = require("./actions/");
 const spacetime = require("./spacetime/");
 
 const hashtag = require("./hashtag");
@@ -21,7 +21,7 @@ const originComplete = Object.assign(
   adjectives,
   adverbs,
   nouns,
-  verbs,
+  actions,
   spacetime,
   story,
   replyStory,
