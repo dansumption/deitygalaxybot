@@ -1,5 +1,5 @@
 const name = require("./name");
-const deity = require("./deity");
+const deity = require("./actors/deity");
 const people = require("./people");
 const nouns = require("./nouns/nouns");
 const adverbs = require("./adverbs");
