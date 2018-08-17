@@ -1,7 +1,7 @@
 module.exports = [
   "backgammon",
   "Call of Duty",
-  "Carcasonne",
+  "Carcassonne",
   "chess",
   "Chinese checkers",
   "Civilization",
