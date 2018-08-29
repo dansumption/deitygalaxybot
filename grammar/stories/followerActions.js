@@ -23,7 +23,7 @@ module.exports = {
     "teach the locals how to really appreciate #deityDomain#",
     "warn the world about #object#",
     "#followerAction# and #verb#",
-    "abase yourself before",
+    "abase yourself before #nounToPluralise.a#",
     "become #role.a# and devote your life to #object#",
     "imagine you are #object#",
     "devote your life to #object#",

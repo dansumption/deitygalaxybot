@@ -5,6 +5,7 @@ module.exports = {
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#
 
+    "The only approved way of #meditationAction# #deityFull# is to #followerAction#.",
     "In #dwelling.a# #deityPlace#, #deityFull# and #characterName# are #making#.",
     "#deityFull# loves #characterName#. #deityName# really loves #characterObject#, and #characterSubject# loves #deityThem# back.",
 
@@ -16,11 +17,11 @@ module.exports = {
     "#deityFull# appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalAction.s#.",
 
     // two people?
-    "#deityFull# conjures #nounToPluralise.a# from thin air, and offers it to you. Do you accept?",
     "#deityFull# is #twoPersonAction# #characterName# #deityPlace#.",
     "#deityFull# is admiring #characterName# in a mirror-smooth pool of #nounNotToPluralise#.",
+    "#deityFull# conjures #nounToPluralise.a# from thin air, and offers it to you. Do you accept?",
     "#deityFull# gestures at your #nounToPluralise# #adverb#. How do you respond?",
-    "#deityFull# rattles a tin under your nose and asks for a donation to save the #animal.s#. What do you give?",
+    "#deityFull# rattles a tin under your nose and asks for a donation to save the #animal.s#.",
     "#deityFull# begs you to search your soul. Can you find space for #nounNotToPluralise#?",
     "#deityFull# prompts you to examine your life. Is there room there for #nounToPluralise.s#?",
     "#deityFull# lives in #dwelling.a# #deityPlace#. Nearby, #characterName# builds #dwelling.a#.",
