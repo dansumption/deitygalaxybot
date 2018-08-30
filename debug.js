@@ -15,12 +15,13 @@ macros += "#setDeity##setCharacter#";
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
 const templateS = story[0];
+const templateB = "#name#";
 const templateO = "#origin#";
 const templateT =
   "#setCharacter##deityFull# loves #characterName#. #deityThey# really love #characterSubject#, and #characterSubject# loves #deityName#";
 const templateR = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-const testTemplate = templateS;
+const testTemplate = templateB;
 
 const TweetLength = 259;
 let tooLong = [];
