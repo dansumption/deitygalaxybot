@@ -1,5 +1,6 @@
 module.exports = {
   verb: [
+    "embiggen",
     "ignore",
     "immanentise",
     "immanentize",

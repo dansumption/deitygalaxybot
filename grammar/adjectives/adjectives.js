@@ -45,6 +45,7 @@ module.exports = {
     "bloody",
     "blue",
     "brown",
+    "cromulent",
     "desiccated",
     "empty",
     "faded",
