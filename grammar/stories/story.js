@@ -44,7 +44,7 @@ module.exports = {
     "In #dwelling.a# #deityPlace#, #deityFull# is #making#.",
     "#deityFull# is #making# for the forthcoming #festival#.",
     "#deityFull# is #making#, and thinks you should do likewise.",
-    "#deityFull# spends #takesTime# #meditationAction# #object#",
+    "#deityFull# spends #takesTime# #meditationAction# #object#.",
     "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
     "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#, with a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#.",
 
