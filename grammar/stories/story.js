@@ -28,7 +28,7 @@ module.exports = {
     "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#",
     "#deityFull# builds #adjective.a# #worshipPlace# to #deityDomain#. Will you worship there?",
     '#deityFull# whispers "has anyone ever told you, #characterName# looks just like #adjective.a# #famousPerson#?"',
-    "#deityFull# plays in #band.a# #deityPlace# with #characterName#. CDs are on sale at the merch stall.",
+    "#deityFull# plays with #characterName# in #band.a# #deityPlace#. CDs are on sale at the merch stall.",
 
     "#deityFull# asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again.",
     "#deityFull# cries tears of #liquid#, which form into a pool; #animal.s# gather around the pool to drink.",
