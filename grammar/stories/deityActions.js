@@ -6,8 +6,8 @@ module.exports = {
     'sends #bird.a# fluttering down from the sky. Tied to its leg is a note: "#followerAction#"',
     '[servant:#role#]sends #deityTheir# #servant# riding up to you on #animal.a#. The #servant# #deliverMessage# "#followerAction#"',
     "#commandVerb.s# you to #deityRequest# your #anyNoun#",
-    "warns you that the wages of #action# are #quality#!",
-    "warns that the sins of the #nounToPluralise.s# are the cause of all #punishment#."
+    "warns you that the wages of #action# are #quality#",
+    "warns that the sins of the #nounToPluralise.s# are the cause of all #punishment#"
   ],
   deliverMessage: [
     "delivers, through the medium of interpretive dance, the message",
