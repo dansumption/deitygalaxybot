@@ -17,8 +17,9 @@ const institution = require("./institution");
 const liquid = require("./liquid");
 const miscObject = require("./miscObject");
 const quality = require("./quality");
-const { flower, tree } = require("./nature");
-const animals = require("./animals");
+const flower = require("./flower");
+const tree = require("./tree");
+const animal = require("./animal");
 const vehicle = require("./vehicle");
 const weapon = require("./weapon");
 const day = require("./days");
@@ -34,7 +35,7 @@ const nounToPluralise = [].concat(
   day,
   foodItem,
   miscObject,
-  animals,
+  animal,
   bird,
   flower,
   tree,
@@ -78,7 +79,7 @@ module.exports = Object.assign(
     computerObject,
     foodItem,
     miscObject,
-    animals,
+    animal,
     bird,
     flower,
     tree,

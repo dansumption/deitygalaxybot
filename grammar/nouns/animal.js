@@ -36,9 +36,7 @@ const extraAnimals = [
   "zebra spider"
 ];
 
-module.exports = {
-  animal: corpora
-    .getFile("animals", "collateral_adjectives")
-    .animals.map(animalObj => animalObj.name)
-    .concat(extraAnimals)
-};
+module.exports = corpora
+  .getFile("animals", "collateral_adjectives")
+  .animals.map(animalObj => animalObj.name)
+  .concat(extraAnimals);
