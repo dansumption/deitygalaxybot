@@ -20,6 +20,7 @@ const extraAnimals = [
   "mandrill",
   "manta ray",
   "manticore",
+  "marsh spirit",
   "ogre",
   "proboscis monkey",
   "pygmy marmoset",
