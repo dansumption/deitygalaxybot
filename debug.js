@@ -21,7 +21,7 @@ const templateT =
   "#setCharacter##deityFull# loves #characterName#. #deityThey# really love #characterSubject#, and #characterSubject# loves #deityName#";
 const templateR = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-const testTemplate = templateS;
+const testTemplate = templateO;
 
 const TweetLength = 259;
 let tooLong = [];
