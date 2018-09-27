@@ -12,6 +12,7 @@ const spacetime = require("./spacetime/");
 
 const hashtag = require("./hashtag");
 const writing = require("./writing");
+const misc = require("./stories/misc");
 
 const origin = require("./origin");
 
@@ -22,6 +23,7 @@ const originComplete = Object.assign(
   adverbs,
   nouns,
   actions,
+  misc,
   spacetime,
   story,
   replyStory,

@@ -5,6 +5,7 @@ module.exports = {
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#
 
+    "#deityName# become #deityType# of #deityDomain# after beating #deityTheir# #relative# #name# in #contest.a#.",
     "To become the #role# of #deityFull# you must first sacrifice #nounToPluralise.a# at the #festival#.",
     "When #meditationAction# #deityFull# you must #clothe# your #bodyPart# in #buildingMaterial#.",
     "The only approved way of #meditationAction# #deityFull# is to #followerAction#.",
