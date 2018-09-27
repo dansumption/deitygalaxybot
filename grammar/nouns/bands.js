@@ -35,7 +35,8 @@ const bandGenre = [
   "old-time",
   "nostalgic",
   "electro",
-  "spoke-word",
+  "spoken-word",
+  "Gloranthawave",
   "moptop",
   "parent-friendly",
   "accoustic",
@@ -102,7 +103,9 @@ const naffArtist = [
   "Ludwig van Beethoven",
   "Amon Düül II",
   "Plus-Tech Squeezebox",
-  "Soft Machine"
+  "Soft Machine",
+  "Rolling Stones",
+  "Missy Elliot"
 ];
 
 const band = [
