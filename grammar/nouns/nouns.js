@@ -26,6 +26,7 @@ const day = require("./days");
 const { band } = require("./bands");
 const { bird } = require("./birds");
 const euphemism = require("./euphemisms");
+const { relative, sibling, parent, offspring } = require("./relative");
 
 const nounToPluralise = [].concat(
   bodyPart,
@@ -41,6 +42,7 @@ const nounToPluralise = [].concat(
   tree,
   vehicle,
   weapon,
+  relative,
   game.map(game => `game of ${game}`)
 );
 
@@ -99,6 +101,10 @@ module.exports = Object.assign(
     liquid,
     quality,
     newTech,
-    euphemism
+    euphemism,
+    relative,
+    sibling,
+    parent,
+    offspring
   }
 );

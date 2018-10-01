@@ -5,6 +5,7 @@ module.exports = {
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#
 
+    "[relativeType:#relative#]#deityFull# has many #relativeType.s#. Each #relativeType# holds power over a different aspect of #nounNotToPluralise#. For example, #deityTheir# #relativeType# #name# has domain over its #adjective# aspect.",
     "#deityName# become #deityType# of #deityDomain# after beating #deityTheir# #relative# #name# in #contest.a#.",
     "To become the #role# of #deityFull# you must first sacrifice #nounToPluralise.a# at the #festival#.",
     "When #meditationAction# #deityFull# you must #clothe# your #bodyPart# in #buildingMaterial#.",

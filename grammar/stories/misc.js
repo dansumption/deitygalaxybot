@@ -1,16 +1,4 @@
 module.exports = {
-  relative: [
-    "brother",
-    "sister",
-    "twin",
-    "father",
-    "mother",
-    "uncle",
-    "aunt",
-    "cousin",
-    "sibling"
-  ],
-
   contest: [
     "battle which lasted #takesTime#",
     "game of #game#",

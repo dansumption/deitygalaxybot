@@ -71,6 +71,7 @@ module.exports = {
     "black",
     "bloody",
     "blue",
+    "bottomless",
     "brown",
     "cromulent",
     "desiccated",
@@ -113,7 +114,8 @@ module.exports = {
     "white",
     "wild",
     "wooden",
-    "yellow"
+    "yellow",
+    "shape-shifting"
   ].concat(wineDescriptions, adjectives, nationality, jokeAdjective),
   wineDescriptions,
   jokeAdjective,
