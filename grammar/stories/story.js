@@ -5,6 +5,7 @@ module.exports = {
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#
 
+    '#deityName# (#nationality# for "The #adjective.capitalize# One") is mostly called upon by people #verbIng# #deityDomain#, although some call on #deityThem# for help #verbIng# #nounNotToPluralise#.',
     "[relativeType:#relative#]#deityFull# has many #relativeType.s#. Each #relativeType# holds power over a different aspect of #nounNotToPluralise#. For example, #deityTheir# #relativeType# #name# has domain over its #adjective# aspect.",
     "#deityName# become #deityType# of #deityDomain# after beating #deityTheir# #relative# #name# in #contest.a#.",
     "To become the #role# of #deityFull# you must first sacrifice #nounToPluralise.a# at the #festival#.",
