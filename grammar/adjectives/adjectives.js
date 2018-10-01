@@ -1,5 +1,32 @@
 const corpora = require("corpora-project");
 
+const jokeAdjective = [
+  "ill-advised",
+  "unfunny",
+  "quiet",
+  "long",
+  "boring",
+  "tear-jerking",
+  "complex",
+  "repetitive",
+  "confusing",
+  "enlightening",
+  "perceptive",
+  "puzzling",
+  "unnecessary",
+  "obvious",
+  "off-colour",
+  "unfair",
+  "erudite",
+  "sloppy",
+  "drunk",
+  "rambling",
+  "surreal",
+  "intellectual",
+  "pertinent",
+  "#jokeAdjective# #nationality#"
+];
+
 const wineDescriptions = corpora.getFile("foods", "wine_descriptions")
   .wine_descriptions;
 const adjectives = corpora.getFile("words", "adjs").adjs;
@@ -87,33 +114,8 @@ module.exports = {
     "wild",
     "wooden",
     "yellow"
-  ].concat(wineDescriptions, adjectives, nationality),
+  ].concat(wineDescriptions, adjectives, nationality, jokeAdjective),
   wineDescriptions,
-  jokeAdjective: [
-    "ill-advised",
-    "unfunny",
-    "quiet",
-    "long",
-    "boring",
-    "tear-jerking",
-    "complex",
-    "repetitive",
-    "confusing",
-    "enlightening",
-    "perceptive",
-    "puzzling",
-    "unnecessary",
-    "obvious",
-    "off-colour",
-    "unfair",
-    "erudite",
-    "sloppy",
-    "drunk",
-    "rambling",
-    "surreal",
-    "intellectual",
-    "pertinent",
-    "#jokeAdjective# #nationality#"
-  ],
+  jokeAdjective,
   nationality
 };
