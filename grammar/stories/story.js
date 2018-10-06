@@ -4,6 +4,7 @@ module.exports = {
     // #deityName# #deityType# #deityDomain# #spiritAnimal#
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#
+    "#deityFull# plays with #characterName# in #band.a# #deityPlace#. CDs are on sale at the merch stall.",
     "#deityFull# calls down a shower of #liquid# to heal The Earth from the damage caused by #belief#.",
     "#deityFull# is planting #tree.a# tree with #adjective.a# heart. Under the tree's roots #adjective.a# #nounToPluralise# is buried for its powers of #quality#.",
     '#deityName# (#nationality# for "The #adjective.capitalize# One") is mostly called upon by people who are #verbIng# #deityDomain#, although some call on #deityThem# for help #verbIng# #nounNotToPluralise#.',
@@ -36,7 +37,6 @@ module.exports = {
     "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#",
     "#deityFull# builds #adjective.a# #worshipPlace# to #deityDomain#. Will you worship there?",
     '#deityFull# whispers "has anyone ever told you, #characterName# looks just like #adjective.a# #famousPerson#?"',
-    "#deityFull# plays with #characterName# in #band.a# #deityPlace#. CDs are on sale at the merch stall.",
 
     "#deityFull# asks whether you know anyone who can fix #deityTheir# #adjective# #newTech#, which is playing up again.",
     "#deityFull# cries tears of #liquid#, which form into a pool; #animal.s# gather around the pool to drink.",
