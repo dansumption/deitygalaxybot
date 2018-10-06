@@ -30,6 +30,7 @@ const { relative, sibling, parent, offspring } = require("./relative");
 
 const nounToPluralise = [].concat(
   bodyPart,
+  animal,
   bird,
   clothing,
   computerObject,
@@ -37,7 +38,6 @@ const nounToPluralise = [].concat(
   foodItem,
   miscObject,
   animal,
-  bird,
   flower,
   tree,
   vehicle,

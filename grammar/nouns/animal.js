@@ -24,6 +24,7 @@ const extraAnimals = [
   "ogre",
   "proboscis monkey",
   "pygmy marmoset",
+  "#animal#-eating #animal#",
   "sunfish",
   "tardigrade",
   "three-toed sloth",
