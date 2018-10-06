@@ -8,6 +8,8 @@ module.exports = {
     "wrestling match",
     "arm-wrestling contest",
     "burrito challenge",
-    "coin-flip"
+    "coin-flip",
+    "game with no rules",
+    "game of #game# (using the simplified rules)"
   ]
 };

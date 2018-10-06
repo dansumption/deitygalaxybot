@@ -4,9 +4,11 @@ module.exports = {
     // #deityName# #deityType# #deityDomain# #spiritAnimal#
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#
+    "#deityFull# calls down a shower of #liquid# to heal The Earth from the damage caused by #belief#.",
+    "#deityFull# is planting #tree.a# tree with #adjective.a# heart. Under the tree's roots #adjective.a# #nounToPluralise# is buried for its powers of #quality#.",
+    '#deityName# (#nationality# for "The #adjective.capitalize# One") is mostly called upon by people who are #verbIng# #deityDomain#, although some call on #deityThem# for help #verbIng# #nounNotToPluralise#.',
     '#deityFull# appears in front of the head office of #company# and orders those inside to "#followerAction#".',
     "#deityFull# has been trapped in #dwelling.a# for #takesTime#. They were lured there by #name#, #godType# of #domain#, using #nounToPluralise.a#.",
-    '#deityName# (#nationality# for "The #adjective.capitalize# One") is mostly called upon by people #verbIng# #deityDomain#, although some call on #deityThem# for help #verbIng# #nounNotToPluralise#.',
     "[relativeType:#relative#]#deityFull# has many #relativeType.s#. Each #relativeType# holds power over a different aspect of #nounNotToPluralise#. For example, #deityTheir# #relativeType# #name# has domain over its #adjective# aspect.",
     "#deityName# become #deityType# of #deityDomain# after beating #deityTheir# #relative# #name# in #contest.a#.",
     "To become the #role# of #deityFull# you must first sacrifice #nounToPluralise.a# at the #festival#.",

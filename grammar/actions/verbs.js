@@ -46,6 +46,7 @@ module.exports = {
     "loathing",
     "mowing",
     "networking",
+    "planting",
     "playing",
     "pointing",
     "pounding",
