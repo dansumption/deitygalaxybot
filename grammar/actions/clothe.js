@@ -7,6 +7,9 @@ module.exports = {
     "enrobe",
     "drape",
     "cover",
-    "veil"
+    "veil",
+    "dress",
+    "disguise",
+    "garb"
   ]
 };
