@@ -56,6 +56,20 @@ module.exports = {
     "make a mental sketch of",
     "imagine you were",
     "become a trainer of",
-    "consume only"
+    "consume only",
+    "spread the word about",
+    "talk with",
+    "commune with",
+    "refrigerate",
+    "customise",
+    "consider",
+    "indoctrinate",
+    "destroy all",
+    "capture the souls of",
+    "start a new society based on",
+    "defend your soul from",
+    "open your heart to",
+    "place yourself on an equal footing with",
+    "deviate from"
   ]
 };

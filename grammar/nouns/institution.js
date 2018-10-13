@@ -13,5 +13,6 @@ module.exports = [
   "The Central Line",
   "The Daily Mail",
   "The Guardian",
-  "The Lost Tribes of Israel"
+  "The Lost Tribes of Israel",
+  "The Bildeborg"
 ];

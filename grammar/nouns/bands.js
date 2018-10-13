@@ -113,10 +113,38 @@ const band = [
   "#bandGenre# #naffArtist# covers-band"
 ];
 
+const musician = [
+  "bassist",
+  "guitarist",
+  "lead guitarist",
+  "rhythm guitarist",
+  "drummer",
+  "vocalist",
+  "lead singer",
+  "backing singer",
+  "dancer",
+  "flautist",
+  "saxophonist",
+  "groupie",
+  "violinist",
+  "oboe player"
+];
+
+const bandStory = [
+  "CDs are on sale at the merch stall",
+  "They are looking for a new #musician#",
+  "Their latest EP got a great review in The Quietus",
+  "Their new single has been on heavy rotation on Six Music recently",
+  "Check their Soundcloud",
+  "They're in the middle of putting together a Bandcamp"
+];
+
 module.exports = {
   band,
   bandGenre,
   bandSize,
   bandType,
-  naffArtist
+  naffArtist,
+  musician,
+  bandStory
 };

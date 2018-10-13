@@ -27,6 +27,7 @@ const { band } = require("./bands");
 const { bird } = require("./birds");
 const euphemism = require("./euphemisms");
 const { relative, sibling, parent, offspring } = require("./relative");
+const feeling = require("./feeling");
 
 const nounToPluralise = [].concat(
   bodyPart,
@@ -54,6 +55,7 @@ const nounNotToPluralise = [].concat(
   buildingMaterial,
   collective,
   punishment,
+  feeling,
   famousPerson,
   foodStuff,
   game,
@@ -84,6 +86,7 @@ module.exports = Object.assign(
     animal,
     bird,
     flower,
+    feeling,
     tree,
     vehicle,
     weapon,

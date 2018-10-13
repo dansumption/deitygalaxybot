@@ -37,6 +37,8 @@ const nationality = [
   "Canadian",
   "Czech",
   "Dutch",
+  "Dwarven",
+  "Elven",
   "English",
   "Estonian",
   "Finnish",
@@ -46,6 +48,7 @@ const nationality = [
   "Irish",
   "Italian",
   "Japanese",
+  "Klingon",
   "Korean",
   "Latvian",
   "Lithuanian",
@@ -53,6 +56,7 @@ const nationality = [
   "North Korean",
   "Northern Irish",
   "Norwegian",
+  "Orcish",
   "Polish",
   "Saudi Arabian",
   "Scottish",
@@ -60,6 +64,7 @@ const nationality = [
   "South Korean",
   "Swedish",
   "Swiss",
+  "Vogon",
   "Welsh"
 ];
 module.exports = {

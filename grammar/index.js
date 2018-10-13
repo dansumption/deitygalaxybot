@@ -1,5 +1,5 @@
 const followerActions = require("./stories/followerActions");
-const story = require("./stories/story");
+const story = require("./story");
 const deityActions = require("./stories/deityActions");
 const replyStory = require("./stories/replyStory");
 
@@ -13,6 +13,7 @@ const spacetime = require("./spacetime/");
 const hashtag = require("./hashtag");
 const writing = require("./writing");
 const misc = require("./stories/misc");
+const reason = require("./stories/reason");
 
 const origin = require("./origin");
 
@@ -31,6 +32,7 @@ const originComplete = Object.assign(
   followerActions,
   hashtag,
   writing,
+  reason,
   origin
 );
 

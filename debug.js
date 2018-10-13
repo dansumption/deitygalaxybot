@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 const grammar = require("./grammar");
-const { story } = require("./grammar/stories/story");
+const { story } = require("./grammar/story");
 let macros = require("./grammar/macros");
 
 const COUNT = 2000;
@@ -15,13 +15,13 @@ macros += "#setDeity##setCharacter#";
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
 const templateS = story[0];
-const templateB = "#animal#";
+const templateB = "#reason#";
 const templateO = "#origin#";
 const templateT =
   "#setCharacter##deityFull# loves #characterName#. #deityThey# really love #characterSubject#, and #characterSubject# loves #deityName#";
 const templateR = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-const testTemplate = templateS;
+const testTemplate = templateO;
 
 const TweetLength = 259;
 let tooLong = [];

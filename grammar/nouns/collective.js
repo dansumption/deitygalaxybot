@@ -15,5 +15,6 @@ module.exports = [
   "seating",
   "technology",
   "urban decay",
-  "white goods"
+  "white goods",
+  "lived environment"
 ];
