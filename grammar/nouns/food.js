@@ -51,7 +51,12 @@ const foodItem = [
   "cake",
   "sandwich",
   "pie",
-  "brunch"
+  "brunch",
+  "Cornish pastie",
+  "pizza pie",
+  "thali",
+  "biryani",
+  "chilli"
 ];
 
 module.exports = {
