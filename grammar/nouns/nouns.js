@@ -23,6 +23,7 @@ const animal = require("./animal");
 const vehicle = require("./vehicle");
 const weapon = require("./weapon");
 const day = require("./days");
+const abstract = require("./abstract");
 const { band } = require("./bands");
 const { bird } = require("./birds");
 const euphemism = require("./euphemisms");
@@ -48,6 +49,7 @@ const nounToPluralise = [].concat(
 );
 
 const nounNotToPluralise = [].concat(
+  abstract,
   academicField,
   band,
   action,
@@ -76,7 +78,7 @@ module.exports = Object.assign(
 
     nounToPluralise,
     nounNotToPluralise,
-
+    abstract,
     day,
     bodyPart,
     clothing,

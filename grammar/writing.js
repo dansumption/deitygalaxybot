@@ -6,7 +6,8 @@ const writingStyle = [
   "#font# italic",
   "#font# bold",
   "bold italic #font#",
-  "#pointSize# point #font#"
+  "#pointSize# point #font#",
+  "cursive"
 ].concat(font);
 
 module.exports = {

@@ -4,6 +4,7 @@ module.exports = {
     "praying to",
     "visualising",
     "worshipping",
+    "absorbing the teachings of",
     "avoiding thinking about",
     "berating",
     "questioning the nature of",
@@ -15,6 +16,7 @@ module.exports = {
     "looking for occurences of",
     "considering the perfection of",
     "feeling",
-    "sensing"
+    "sensing",
+    "growing ever nearer to"
   ]
 };

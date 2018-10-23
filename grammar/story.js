@@ -1,6 +1,7 @@
 const { deityCommand } = require("./stories/deityActions");
 module.exports = {
   story: [
+    "When you are #making#, be sure to spend time #meditationAction# #deityFull# for that way lies #abstract#.",
     // #deityName# #deityType# #deityDomain# #spiritAnimal#
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
     // #followerAction#

@@ -9,24 +9,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "node debug.js > temp/debug.txt",
-    "precommit":
-      "pretty-quick --staged --single-quote --trailing-comma all --write "
+    "precommit": "pretty-quick --staged --single-quote --trailing-comma all --write "
   },
   "author": "Dan Sumption <dan@sumption.org> (http://sumption.org)",
   "license": "ISC",
   "dependencies": {
     "corpora-project": "^0.2.0",
     "node-wit": "^5.0.0",
-    "npm": "^6.4.0",
+    "npm": "^6.4.1",
     "pluralize": "^7.0.0",
     "redis": "^2.8.0",
     "twit": "^2.2.11"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
+    "eslint": "^5.7.0",
     "husky": "^0.14.3",
-    "prettier": "^1.14.0",
-    "pretty-quick": "^1.6.0"
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.8.0"
   },
   "repository": {
     "type": "git",

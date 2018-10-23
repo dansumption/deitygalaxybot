@@ -12,6 +12,9 @@ module.exports = {
     "growing #flower.s# and #flower.s# in a compost of #buildingMaterial#",
     "vacuum-forming a model-#dwelling# made of #buildingMaterial#",
     "sculpting #nounToPluralise.a# from #buildingMaterial#",
-    "packing wild #flower# seeds in #buildingMaterial# compost bombs"
+    "packing wild #flower# seeds in #buildingMaterial# compost bombs",
+    "inventing #newTech# using #buildingMaterial#",
+    "investigating what can be made by combining #buildingMaterial# with #buildingMaterial#",
+    "stirring a cauldron of bubbling #buildingMaterial#"
   ]
 };

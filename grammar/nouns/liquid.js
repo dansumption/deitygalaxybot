@@ -35,6 +35,7 @@ module.exports = [
   "pus",
   "river water",
   "schnapps",
+  "šljȉvovica",
   "snot",
   "sperm",
   "spunk",
