@@ -1,6 +1,8 @@
 const { deityCommand } = require("./stories/deityActions");
 module.exports = {
   story: [
+    "#deityFull# stuck #nounToPluralise.a# #preposition# #nounToPluralise.a# and used it #reason#.",
+    '#deityFull# cries "may the person who is without #quality# cast the first #miscObject#". Probably #reason#.',
     "When you are #making#, be sure to spend time #meditationAction# #deityFull# for that way lies #abstract#.",
     // #deityName# #deityType# #deityDomain# #spiritAnimal#
     // #deityThey# #deityThem# #deityTheir# #deityTheirs#
@@ -66,7 +68,6 @@ module.exports = {
     "#deityFull# cries tears of #liquid#, which form into a pool; #animal.s# gather around the pool to drink.",
     "#deityFull# pushes the first bud of #flower.a# through the earth's mantle of #buildingMaterial#.",
     '#deityFull# says "where there is #quality#, may we bring #quality#. Where there is #quality#, may we bring #quality#".',
-    '#deityFull# cries "may the person who is without #quality# cast the first #miscObject#". What do you cast?',
     "#deityFull# shits out a huge mound of #buildingMaterial#. Immediately, #flower.s# start to grow out of the mound towards you...",
 
     "#deityFull# #busyActivity#.",

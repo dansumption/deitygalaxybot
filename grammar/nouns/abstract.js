@@ -31,5 +31,11 @@ module.exports = [
   "sexuality",
   "deviousness",
   "grandiosity",
-  "opulence"
+  "opulence",
+  "#quality#",
+  "#quality#",
+  "#quality#",
+  "#quality#",
+  "#quality#",
+  "#quality#"
 ];

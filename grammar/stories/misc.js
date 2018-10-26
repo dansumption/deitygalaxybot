@@ -11,5 +11,16 @@ module.exports = {
     "coin-flip",
     "game with no rules",
     "game of #game# (using the simplified rules)"
+  ],
+  preposition: [
+    "on top of",
+    "next to",
+    "underneath",
+    "to the side of",
+    "in the middle of",
+    "above",
+    "onto",
+    "up",
+    "into"
   ]
 };
