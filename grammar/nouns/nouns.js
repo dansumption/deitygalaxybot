@@ -11,7 +11,7 @@ const collective = require("./collective");
 const computerObject = require("./computerObject");
 const punishment = require("./punishment");
 const famousPerson = require("./famousPerson");
-const { foodItem, foodStuff } = require("./food");
+const { foodItem, foodStuff, anyFood } = require("./food");
 const game = require("./game");
 const institution = require("./institution");
 const liquid = require("./liquid");
@@ -110,6 +110,7 @@ module.exports = Object.assign(
     relative,
     sibling,
     parent,
-    offspring
+    offspring,
+    anyFood
   }
 );

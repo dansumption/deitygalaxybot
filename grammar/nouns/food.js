@@ -59,7 +59,10 @@ const foodItem = [
   "chilli"
 ];
 
+const anyFood = ["#foodItem.a#", "#foodItem.s#", "#foodStuff#", "#foodStuff#"];
+
 module.exports = {
   foodItem,
-  foodStuff
+  foodStuff,
+  anyFood
 };

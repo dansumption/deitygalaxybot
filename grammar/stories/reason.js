@@ -10,6 +10,7 @@ module.exports = {
     "as a substitute for #nounNotToPluralise#",
     "as a substitute #nounToPluralise#",
     "to pass time while cooking #foodStuff#",
+    "to appease #deityTheir# pet #spiritAnimal#",
     "to teach a lesson to #deityTheir# followers, who are too easily moved to #feeling#",
     "to teach a lesson to #deityTheir# followers, who are too enamoured of #belief#",
     "to teach a lesson to #deityTheir# followers, who spend too much time thinking about #nounNotToPluralise#"
