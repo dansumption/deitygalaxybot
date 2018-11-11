@@ -1,6 +1,7 @@
 const { deityCommand } = require("./stories/deityActions");
 module.exports = {
   story: [
+    "#deityFull# #commandVerb.s# you to #get# #nounToPluralise.a#, #reason#.",
     "It is traditional to eat #anyFood# on #festival#, to guarantee the goodwill of #deityFull# over the following year.",
     "#deityFull# stuck #nounToPluralise.a# #preposition# #nounToPluralise.a# and used it #reason#.",
     '#deityFull# cries "may the person who is without #quality# cast the first #miscObject#". Probably #reason#.',
