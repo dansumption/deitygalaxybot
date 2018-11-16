@@ -2,7 +2,7 @@
   "name": "deitygalaxybot",
   "version": "1.1.0",
   "engines": {
-    "node": "8.10.0"
+    "node": "8.11.3"
   },
   "description": "Twitter bot for the @deitygalaxy account",
   "main": "index.js",
