@@ -4,7 +4,13 @@ const grammar = require("./grammar");
 const { story } = require("./grammar/story");
 let macros = require("./grammar/macros");
 
-const COUNT = 2000;
+var argv = require("minimist")(process.argv.slice(2));
+console.dir(argv);
+
+let template = argv.template || "#origin#";
+
+const COUNT = argv.count || 2000;
+
 macros += "#setDeity##setCharacter#";
 // "[deityName:Süüm-yüüng-dei'ï'ðéé]" +
 // "[deityDomain:Voodoo]" +
@@ -14,29 +20,35 @@ macros += "#setDeity##setCharacter#";
 // "[userHandle:@dansumption]" +
 // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
 
-const templateS = story[0];
-const templateB = "#festival#";
-const templateO = "#origin#";
 const templateT =
   "#setCharacter##deityFull# loves #characterName#. #deityThey# really love #characterSubject#, and #characterSubject# loves #deityName#";
 const templateR = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-const testTemplate = templateS;
-
-const TweetLength = 259;
+const TweetLength = argv.max || 259;
 let tooLong = [];
-for (let index = 0; index < COUNT; index++) {
-  const phrase = grammar.flatten(macros + testTemplate);
+
+const getPhrase = () => {
+  const phrase = grammar.flatten(macros + template);
   console.log(phrase, "\n");
   if (phrase.length > TweetLength) {
     tooLong.push(phrase);
   }
-  // grammar.clearState();
-  // const root = grammar.createRoot(testTemplate);
-  // root.expand();
-  // const deityName = grammar.symbols.deityName.uses.slice(-1)[0].node.childRule;
-  // const phrase2 = `${root.finishedText} #${deityName.replace(/[-']/g, "")}`;
-  // console.log(phrase2, "\n");
+};
+
+const listPhrases = () => {
+  for (let index = 0; index < COUNT; index++) {
+    getPhrase();
+  }
+};
+
+if (argv._.find(val => val === "stories")) {
+  story.forEach(scenario => {
+    template = scenario;
+    listPhrases();
+    console.log("\n---\n\n");
+  });
+} else {
+  listPhrases();
 }
 
 // grammar.debug();

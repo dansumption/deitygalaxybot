@@ -64,6 +64,7 @@ const dwelling = [
   "den",
   "dream",
   "dwelling",
+  "fatberg",
   "featureless room",
   "fjord",
   "forest",

@@ -3,6 +3,7 @@ module.exports = [
   "aircraft",
   "ambulance",
   "bicycle",
+  "Ford Capri",
   "frigate",
   "jumbo jet",
   "Lamborghini",
