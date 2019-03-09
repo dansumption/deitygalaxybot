@@ -49,7 +49,7 @@ module.exports = {
 
     "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#.",
 
-    'In #dwelling.a# #deityPlace#, #deityFull# cries "eschew your #belief#, only by worshipping #deityDomain# will you be saved".',
+    'In #dwelling.a# #deityPlace#, #deityFull# cries "eschew your #belief#, only by #meditationAction# #adjective# #deityDomain# will you be saved".',
 
     "#deityFull# appears in the form of #deityTheir# spirit animal, #adjective.a# #spiritAnimal#. The #spiritAnimal# looks at you #adverb# and #animalAction.s#.",
 
