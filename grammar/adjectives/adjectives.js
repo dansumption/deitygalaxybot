@@ -27,6 +27,24 @@ const jokeAdjective = [
   "#jokeAdjective# #nationality#"
 ];
 
+const colours = [
+  "aquamarine",
+  "black",
+  "blue",
+  "brown",
+  "golden",
+  "green",
+  "grey",
+  "orange",
+  "red",
+  "salmon pink",
+  "silver",
+  "teal",
+  "turquoise",
+  "white",
+  "yellow"
+];
+
 const wineDescriptions = corpora.getFile("foods", "wine_descriptions")
   .wine_descriptions;
 const adjectives = corpora.getFile("words", "adjs").adjs;
@@ -67,17 +85,23 @@ const nationality = [
   "Vogon",
   "Welsh"
 ];
+const materials = [
+  "base metal",
+  "cloth",
+  "glitter",
+  "irridium",
+  "tin",
+  "wooden"
+];
+
 module.exports = {
   adjective: [
     "actinic",
     "artisanal",
+    "awe-inspiring",
     "awkward",
-    "base metal",
-    "black",
     "bloody",
-    "blue",
     "bottomless",
-    "brown",
     "cromulent",
     "desiccated",
     "empty",
@@ -85,17 +109,12 @@ module.exports = {
     "filthy",
     "flimsy",
     "gelid",
-    "golden",
-    "green",
-    "grey",
     "hand-made",
     "hidden",
     "invisible",
-    "irridium",
     "macerated",
     "nearest",
     "object-oriented",
-    "orange",
     "other",
     "overrated",
     "oversized",
@@ -107,22 +126,27 @@ module.exports = {
     "pure",
     "radioactive",
     "rather pathetic",
-    "red",
     "secret",
     "secular",
-    "silver",
     "smelly",
     "sodden",
     "sodding",
     "tattered",
     "tatterdemalion",
-    "white",
+    "toe-tapping",
     "wild",
-    "wooden",
-    "yellow",
     "shape-shifting"
-  ].concat(wineDescriptions, adjectives, nationality, jokeAdjective),
+  ].concat(
+    wineDescriptions,
+    adjectives,
+    nationality,
+    jokeAdjective,
+    colours,
+    materials
+  ),
   wineDescriptions,
   jokeAdjective,
-  nationality
+  nationality,
+  colours,
+  materials
 };
