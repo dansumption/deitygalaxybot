@@ -114,6 +114,7 @@ module.exports = {
     "prefect",
     "prisoner",
     "prophet",
+    "psychonaut",
     "publicist",
     "publisher",
     "Quisling",
@@ -161,6 +162,7 @@ module.exports = {
     "waitress",
     "wanker",
     "witness",
+    "wonderist",
     "worker",
     "worshipper",
     "youngster"
