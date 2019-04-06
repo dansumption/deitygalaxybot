@@ -6,10 +6,12 @@ I'd would _love_ to receive contributions to the grammar - the stuff that makes 
 
 All of _deitygalaxybot's_ text is stored in the [grammar directory](grammar/).
 
-* [story.js](grammar/story.js) contains the sentence templates for everything that the bot writes - think of these as a series of mini stories involving deities. I would be very grateful to anyone who could add some more!
-* [index.js](grammar/index.js) is the first file loaded, and pulls in all of the vocabulary for the bot - nouns, verbs, names, places, times, ...
-* [origin.js](grammar/origin.js) isn't much used - but it decides on different templates based upon whether this is a fresh tweet, or a reply to someone.
-* The various subdirectories contain all of the different categories of words - so the [nouns directory](grammar/nouns/) contans loads of different categories of noun, [spacetime](grammar/spacetime) contains places (building types, places of worship, names of real and imaginary countries, towns, mountains, buildings...), times ('40 winks', 'the time it takes for a watched kettle to boil',...) and more. [actors](grammar/actors) is where deities, humans and animals get their names, professions, and pronouns.
+* [story.js](grammar/story.js) contains the sentence templates for everything that the bot writes - think of these as a series of mini stories involving deities. I would be very grateful to anyone who could add some more! You'll find some more story elements scattered around in the [stories](grammar/stories) directory - this is mostly old stuff that I've been meaning to move elsewhere.
+* The other top-level files you shouldn't need to worry about much.
+  * [index.js](grammar/index.js) is the first file loaded, and pulls in all of the vocabulary for the bot - nouns, verbs, names, places, times, ..
+  * [origin.js](grammar/origin.js) isn't much used - but it decides on different templates based upon whether this is a fresh tweet, or a reply to someone.
+  * hashtag.js, macros.js, writing.js - ignore them for now.
+* The various subdirectories contain all of the different categories of words - so the [nouns directory](grammar/nouns/) contans nouns split into dozens of different categories, [spacetime](grammar/spacetime) contains places (building types, places of worship, names of real and imaginary countries, towns, mountains, buildings...), times ('40 winks', 'the time it takes for a watched kettle to boil',...) and more. [actors](grammar/actors) is where deities, humans and animals get their names, professions, and pronouns. [adjectives](grammar/adjectives) and [adverbs](grammar/adverbs) should be mostly self-explanatory
 
 Tracery allows for nested grammar - and there are quite a few places where you can see this in action.
 
