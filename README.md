@@ -2,7 +2,7 @@
 
 Deity Galaxy bot - [@deitygalaxybot](https://twitter.com/deitygalaxy) is a Twitter bot based on a [Tracery](http://tracery.io) grammar. It tweets every few hours (usually), replies to mentions, and tries to remember which deity's tweet you've replied to so that it can again reference that deity.
 
-I'd love contributions to the grammar - the stuff that the bots say. To help, just [fork this repository](https://help.github.com/en/articles/fork-a-repo), start making changes, and then submit a [pull request](https://help.github.com/en/articles/creating-a-pull-request). I've started adding [Issues](https://github.com/dansumption/deitygalaxybot/issues) to this repo - feel free to check them out and work on them, but you may first want to read on and have a play around...
+I'd would _love_ to receive contributions to the grammar - the stuff that makes up the stuff the bots say. If you'd like to help, just [fork this repository](https://help.github.com/en/articles/fork-a-repo), start making changes, and then submit a [pull request](https://help.github.com/en/articles/creating-a-pull-request). I've started adding [Issues](https://github.com/dansumption/deitygalaxybot/issues) to this repo - feel free to check them out and work on them, but you may first want to read on and have a play around...
 
 All of _deitygalaxybot's_ text is stored in the [grammar directory](grammar/).
 
