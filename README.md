@@ -29,6 +29,6 @@ Tracery allows for nested grammar - and there are quite a few places where you c
   * perky-headed wood quail
   * virgin-legged space swift
 
-To get started, create a `temp` directory and then run `npm run debug` - it will spit out a file `temp\debug.txt` with a lot of sample generated tweets in it. To alter the template used, checkout `debug.js`, and to really go deep, look at the files contained within the `grammar` directory.
+To get started, create a `temp` directory and then run `npm run debug` (you'll need [npm installed](https://www.npmjs.com/get-npm)) - it will spit out a file `temp\debug.txt` with a lot of sample generated tweets in it. To alter the template used, checkout `debug.js`, and to really go deep, look at the files contained within the `grammar` directory - see above.
 
 The twitter side of things is a little more complex, and I'm leaving details out for now. I hosted _deitygalaxybot's_ grammar initially on [Cheap Bots, Done Quick](https://cheapbotsdonequick.com), but as the things I wanted to do with it grew (and my grammar JSON grew out of control) I built this version so I could host it myself on Heroku. I found [this tutorial](https://medium.com/@mattpopovich/how-to-build-and-deploy-a-simple-twitter-bot-super-fast-with-node-js-and-heroku-7b322dbb5dd3) super helpful.
