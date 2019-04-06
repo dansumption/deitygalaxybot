@@ -13,7 +13,7 @@ All of _deitygalaxybot's_ text is stored in the [grammar directory](grammar/).
 
 Tracery allows for nested grammar - and there are quite a few places where you can see this in action.
 
-* For example, in [festivals.js](grammar/spacetime/festivals.js), the following template:
+* For example, in [festival.js](grammar/spacetime/festival.js), the following template:
   `"start of filming of the BBC series '#nounToPluralise.capitalizeAll#' #deityPlace#"`
   will be filled in randomly each time the script is run, to come up with variations like:
   * start of filming of the BBC series 'Fucking Meerkat' on Flesh Hovel Lane

@@ -8,7 +8,7 @@ console.dir(argv);
 
 const templateForceText =
   // "like #name# or #name# or #name# or #name# or #name#.";
-  "start of filming of the BBC series '#nounToPluralise.capitalizeAll#' #deityPlace#";
+  "#adjective#-#birdBodyPlace# #birdAdjective# #birdType#";
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
 let template = argv.template || "#origin#";
