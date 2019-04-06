@@ -7,7 +7,8 @@ var argv = require("minimist")(process.argv.slice(2));
 console.dir(argv);
 
 const templateForceText =
-  "like #name# or #name# or #name# or #name# or #name#.";
+  // "like #name# or #name# or #name# or #name# or #name#.";
+  "start of filming of the BBC series '#nounToPluralise.capitalizeAll#' #deityPlace#";
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
 let template = argv.template || "#origin#";
