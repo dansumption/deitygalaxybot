@@ -4,7 +4,11 @@ Deity Galaxy bot - [@deitygalaxybot](https://twitter.com/deitygalaxy) is a Twitt
 
 I'd love contributions to the grammar - the stuff that the bots say. To help, just [fork this repository](https://help.github.com/en/articles/fork-a-repo), start making changes, and then submit a [pull request](https://help.github.com/en/articles/creating-a-pull-request).
 
-All of the text is stored in the [grammar directory](grammar/). [story.js](grammar/story.js) contains the templates for everything that _deitygalaxybot_ writes. Actually, [grammar/index.js](grammar/index.js)
+All of the text is stored in the [grammar directory](grammar/).
+
+* [story.js](grammar/story.js) contains the sentence templates for everything that _deitygalaxybot_ writes.
+* [index.js](grammar/index.js) is the first file loaded, and pulls in all of the vocabulary for the bot - nouns, verbs, names, places, times, ...
+* (grammar/origin.js) isn't much used - but it decides on different templates based upon whether this is a fresh tweet, or a reply to someone.
 
 There are a
 like Weh or Æz or Phu'buxmie-iest or Ioqu'thor or Clieseph.
