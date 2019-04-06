@@ -149,6 +149,7 @@ const inPlace = [
   "Byker Grove",
   "Camelot",
   "Cathall Estate",
+  "Chapel Perilous",
   "Cockermouth",
   "Coronation Street",
   "Damanhur",
