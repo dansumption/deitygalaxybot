@@ -1,6 +1,7 @@
 const { deityCommand } = require("./stories/deityActions");
 module.exports = {
   story: [
+    "#historicTime.capitalize#, #deityFull# created #nounToPluralise.a# and called it #adjective.capitalize# #namePart.capitalize#.",
     "#deityFull# #commandVerb.s# you to #get# #nounToPluralise.a#, #reason#.",
     "It is traditional to eat #anyFood# on #festival#, to guarantee the goodwill of #deityFull# over the following year.",
     "#deityFull# stuck #nounToPluralise.a# #preposition# #nounToPluralise.a# and used it #reason#.",

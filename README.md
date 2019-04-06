@@ -4,7 +4,7 @@ Deity Galaxy bot - [@deitygalaxybot](https://twitter.com/deitygalaxy) is a Twitt
 
 I'd love contributions to the grammar - the stuff that the bots say. To help, just [fork this repository](https://help.github.com/en/articles/fork-a-repo), start making changes, and then submit a [pull request](https://help.github.com/en/articles/creating-a-pull-request).
 
-All of the text is stored in the [grammar directory](tree/master/grammar). [story.js](blob/master/grammar/story.js) contains the templates for everything that _deitygalaxybot_ writes. Actually, [grammar/index.js]
+All of the text is stored in the [grammar directory](grammar/). [story.js](grammar/story.js) contains the templates for everything that _deitygalaxybot_ writes. Actually, [grammar/index.js](grammar/index.js)
 
 There are a
 like Weh or Æz or Phu'buxmie-iest or Ioqu'thor or Clieseph.

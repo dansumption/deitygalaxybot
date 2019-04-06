@@ -19,6 +19,15 @@ const specificTime = [
   "today"
 ];
 
+const historicTime = [
+  "when the Earth was created",
+  "when the universe first began to cool",
+  "when an ape first picked up and used a tool",
+  "when the priests of Ur first devised a system of writing",
+  "when Ghengis Khan and his horde swept across Eurasia",
+  "before animals learnt to speak"
+];
+
 const takesTime = [
   "a generous lunch hour",
   "a lunar cycle",
@@ -39,5 +48,6 @@ const takesTime = [
 module.exports = {
   theTimeItTakes,
   specificTime,
-  takesTime
+  takesTime,
+  historicTime
 };

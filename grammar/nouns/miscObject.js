@@ -35,6 +35,7 @@ module.exports = [
   "Harry Potter fanfic",
   "headset",
   "hearth",
+  "Higgs boson",
   "incense stick",
   "iPhone",
   "lampshade",

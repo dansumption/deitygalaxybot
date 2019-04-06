@@ -7,12 +7,12 @@ var argv = require("minimist")(process.argv.slice(2));
 console.dir(argv);
 
 const templateForceText =
-  'In #dwelling.a# #deityPlace#, #deityFull# cries "eschew your #belief#, only by #meditationAction# #adjective# #deityDomain# will you be saved".';
+  "like #name# or #name# or #name# or #name# or #name#.";
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
 let template = argv.template || "#origin#";
 
-// template = templateForceText; // uncomment to force the above template
+template = templateForceText; // uncomment to force the above template
 // template = templateForceReply; // uncomment to force the above reply template
 
 const COUNT = argv.count || 2000;
