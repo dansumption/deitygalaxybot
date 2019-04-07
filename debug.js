@@ -13,7 +13,7 @@ const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
 let template = argv.template || "#origin#";
 
-template = templateForceText; // uncomment to force the above template
+// template = templateForceText; // uncomment to force the above template
 // template = templateForceReply; // uncomment to force the above reply template
 
 const COUNT = argv.count || 2000;
