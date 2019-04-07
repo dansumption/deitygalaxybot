@@ -69,12 +69,14 @@ const nounNotToPluralise = [].concat(
 );
 
 const anyNoun = ["#nounNotToPluralise#", "#nounToPluralise#"];
+const singleNoun = ["#nounNotToPluralise#", "#nounToPluralise.a#"];
 
 module.exports = Object.assign(
   {},
 
   {
     anyNoun,
+    singleNoun,
 
     nounToPluralise,
     nounNotToPluralise,
