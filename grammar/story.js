@@ -3,6 +3,7 @@ module.exports = {
   story: [
     "#historicTime.capitalize#, #deityFull# created #nounToPluralise.a# and called it #adjective.capitalize# #namePart.capitalize#.",
     "#deityFull# #commandVerb.s# you to #get# #nounToPluralise.a#, #reason#.",
+    "#deityFull# loves birds. And #deityName#'s birdmix brings ALL the birds to the yard. Look! Is that a #bird# I see balancing on #deityTheir# fat balls?",
     "#deityFull# #asks# you to treat #deityDomain# with the same respect as you would #singleNoun#.",
     "#deityFull# is looking for pilgrims to help #deityThem# immanentise the Eschaton. Apply within.",
     "It is traditional to eat #anyFood# on #festival#, to guarantee the goodwill of #deityFull# over the following year.",
