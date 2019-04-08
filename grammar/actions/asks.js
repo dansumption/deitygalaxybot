@@ -1,3 +1,3 @@
 module.exports = {
-  asks: ["asks", "begs", "demands", "implores", "pleads", "wishes"]
+  asks: ["asks", "begs", "cajoles", "demands", "implores", "pleads", "wishes"]
 };
