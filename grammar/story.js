@@ -31,7 +31,7 @@ module.exports = {
 
     "[relativeType:#relative#]#deityFull# has many #relativeType.s#. Each #relativeType# holds power over a different aspect of #nounNotToPluralise#. For example, #deityTheir# #relativeType# #name# has domain over its #adjective# aspect.",
 
-    "#deityName# become #deityType# of #deityDomain# after beating #deityTheir# #relative# #name# in #contest.a#.",
+    "#deityName# became #deityType# of #deityDomain# after beating #deityTheir# #relative# #name# in #contest.a#.",
 
     // Split out ...
 
