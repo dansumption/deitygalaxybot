@@ -23,6 +23,7 @@ module.exports = [
   "John Cage",
   "Keith Flint",
   "Ken Campbell",
+  "Kurt Vonnegut",
   "Madonna",
   "Mao Tse Tung",
   "Margaret Thatcher",
