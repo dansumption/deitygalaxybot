@@ -14,6 +14,7 @@ const hashtag = require("./hashtag");
 const writing = require("./writing");
 const misc = require("./stories/misc");
 const reason = require("./stories/reason");
+const phrases = require("./phrases/");
 
 const origin = require("./origin");
 
@@ -25,6 +26,7 @@ const originComplete = Object.assign(
   nouns,
   actions,
   misc,
+  phrases,
   spacetime,
   story,
   replyStory,

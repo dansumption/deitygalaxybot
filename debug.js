@@ -6,9 +6,7 @@ let macros = require("./grammar/macros");
 var argv = require("minimist")(process.argv.slice(2));
 console.dir(argv);
 
-const templateForceText =
-  // "like #name# or #name# or #name# or #name# or #name#.";
-  "#adjective#-#birdBodyPlace# #birdAdjective# #birdType#";
+const templateForceText = '#deityFull# says "#statement#".';
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
 let template = argv.template || "#origin#";
@@ -51,10 +49,9 @@ if (argv._.find(val => val === "stories")) {
     console.log("\n---\n\n");
   });
 } else {
+  // grammar.debug();
   listPhrases();
 }
-
-// grammar.debug();
 
 console.log(
   "\nLONGEST:\n\n" +

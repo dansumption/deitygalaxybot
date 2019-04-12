@@ -1,6 +1,9 @@
 const { deityCommand } = require("./stories/deityActions");
 module.exports = {
   story: [
+    '#deityFull# says "#statement#".',
+    '#deityFull# asks "#question#"?',
+    '#deityFull# #asks# you to "#instruction#".',
     "#historicTime.capitalize#, #deityFull# created #nounToPluralise.a# and called it #adjective.capitalize# #namePart.capitalize#.",
     "#deityFull# #commandVerb.s# you to #get# #nounToPluralise.a#, #reason#.",
     "#deityFull# loves birds. And #deityName#'s birdmix brings ALL the birds to the yard. Look! Is that a #bird# I see balancing on #deityTheir# fat balls?",

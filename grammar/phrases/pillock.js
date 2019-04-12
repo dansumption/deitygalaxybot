@@ -1,3 +1,3 @@
 module.exports = {
-  phrases: ["Magic Magid for Galactic President!"]
+  statements: ["Magic Magid for Galactic President!", "What? Me? Bovvered?"]
 };
