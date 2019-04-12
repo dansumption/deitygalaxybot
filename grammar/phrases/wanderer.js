@@ -1,7 +1,15 @@
 module.exports = {
   instructions: [
     "just connect",
-    "Burn your money (terms and conditions apply)"
+    "Burn your money (terms and conditions apply)",
+    "Plant your love and let it grow",
+    "Just do it",
+    "Don’t forget to breathe",
+    "Let’s do the time warp again",
+    "Dance like a cosmic fool",
+    "Leap from fear to exhilaration",
+    "Flow with the go",
+    "Hug someone now"
   ],
   statements: [
     "the possibilities are endless.",
@@ -15,9 +23,29 @@ module.exports = {
     "See how they run",
     "I am who I am",
     "Everything you know is wrong",
-    "Specialisation is for insects"
+    "Specialisation is for insects",
+    "You have a right to your bad habits",
+    "The light pours out of me",
+    "Every being is a star",
+    "If it’s got atoms, it isn’t real",
+    "Gnothing is gnot",
+    "Change is the only constant",
+    "Words are inadequate",
+    "Actions come first, attempted rationalisations follow",
+    "There is no history, there are only historians",
+    "I am nothing becoming nothing"
   ],
-  questions: ["Can the dream dream the dreamer", "Are you Sirius"],
+  questions: [
+    "Can the dream dream the dreamer",
+    "Are you Sirius",
+    "Is it heroic",
+    "Do you need this",
+    "What is your hidden agenda",
+    "Are the symmetries broken",
+    "Does it concern you that cern might be a con",
+    "What happens when the chatting teeth stop chatting",
+    "What wouldn't you do"
+  ],
   misc: [
     // todo - figure out where to put these
     "Both sides of the sky",

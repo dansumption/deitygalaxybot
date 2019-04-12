@@ -8,5 +8,5 @@ module.exports = {
     "so it goes"
   ],
   questions: ["is it really that bad"],
-  instructions: ["turn and face the change"]
+  instructions: ["turn and face the change", "take some eggs to the moon"]
 };
