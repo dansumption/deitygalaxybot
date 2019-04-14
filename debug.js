@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 const grammar = require("./grammar");
-const { story } = require("./grammar/story");
+const { story } = require("./grammar/stories/");
 let macros = require("./grammar/macros");
 var argv = require("minimist")(process.argv.slice(2));
 console.dir(argv);

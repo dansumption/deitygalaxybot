@@ -1,13 +1,18 @@
-const { deityCommand } = require("./stories/deityActions");
 module.exports = {
-  story: [
-    '#deityFull# says "#statement#".',
-    '#deityFull# asks "#question#"?',
-    '#deityFull# #asks# you to "#instruction#".',
+  doing: [
+    "#deityFull# is #making# for the forthcoming #festival#.",
+    "#deityFull# is #making#, and thinks you should do likewise.",
+    "#deityFull# spends #takesTime# #meditationAction# #object#.",
+    "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
+    "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#, with a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#.",
+    "GOD-APPEAL: today, #festival#, the #deityType.s.capitalizeAll# Benevolent Fund issue an appeal on behalf of #deityName#, #problemDeity#.",
+    "#deityFull# is often worshipped during #festival# #reason#.",
+    "In the #dwelling# of #deityFull# there's #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
+    "#deityFull# builds #dwelling.a# #deityPlace# #reason#.",
+    "When the World was young, #deityFull# introduced humanity to #deityDomain#. This led #adverb# to the discovery of #nounToPluralise.s#.",
+    "Could you adopt a deity? There are literally millions of gods and godesses out there waiting for a worshipper like you. Why not worship #deityFull# today?",
     "#historicTime.capitalize#, #deityFull# created #nounToPluralise.a# and called it #adjective.capitalize# #namePart.capitalize#.",
-    "#deityFull# #commandVerb.s# you to #get# #nounToPluralise.a#, #reason#.",
     "#deityFull# loves birds. And #deityName#'s birdmix brings ALL the birds to the yard. Look! Is that a #bird# I see balancing on #deityTheir# fat balls?",
-    "#deityFull# #asks# you to treat #deityDomain# with the same respect as you would #singleNoun#.",
     "#deityFull# is looking for pilgrims to help #deityThem# immanentise the Eschaton. Apply within.",
     "It is traditional to eat #anyFood# on #festival#, to guarantee the goodwill of #deityFull# over the following year.",
     "#deityFull# stuck #nounToPluralise.a# #preposition# #nounToPluralise.a# and used it #reason#.",
@@ -83,19 +88,6 @@ module.exports = {
     "#wind.a.capitalize# stirs the #tree# trees. #deityFull# sighs #adverb#.",
     "#deityFull# created the universe in #takesTime#. But only the part of the universe that pertains to #deityDomain#.",
 
-    "In #dwelling.a# #deityPlace#, #deityFull# is #making#.",
-    "#deityFull# is #making# for the forthcoming #festival#.",
-    "#deityFull# is #making#, and thinks you should do likewise.",
-    "#deityFull# spends #takesTime# #meditationAction# #object#.",
-    "#deityFull# just made an extremely #jokeAdjective# joke about #adjective# #nounToPluralise.s#.",
-    "#deityFull# is decorating #deityTheir# #dwelling# #deityPlace#, with a wallpaper of #nounToPluralise.s# upon #nounNotToPluralise#.",
-
-    "GOD-APPEAL: today, #festival#, the #deityType.s.capitalizeAll# Benevolent Fund issue an appeal on behalf of #deityName#, #problemDeity#.",
-    "#deityFull# is often worshipped during #festival# #reason#.",
-    "In the #dwelling# of #deityFull# there's #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
-    "#deityFull# builds #dwelling.a# #deityPlace# #reason#.",
-    "When the World was young, #deityFull# introduced humanity to #deityDomain#. This led #adverb# to the discovery of #nounToPluralise.s#.",
-
-    "Could you adopt a deity? There are literally millions of gods and godesses out there waiting for a worshipper like you. Why not worship #deityFull# today?"
-  ].concat(deityCommand.map(command => `#deityFull##adverbClause#${command}.`))
+    "In #dwelling.a# #deityPlace#, #deityFull# is #making#."
+  ]
 };

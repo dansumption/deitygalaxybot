@@ -1,7 +1,4 @@
-const followerActions = require("./stories/followerActions");
-const story = require("./story");
-const deityActions = require("./stories/deityActions");
-const replyStory = require("./stories/replyStory");
+const story = require("./stories/");
 
 const actors = require("./actors/");
 const adverbs = require("./adverbs/");
@@ -29,9 +26,6 @@ const originComplete = Object.assign(
   phrases,
   spacetime,
   story,
-  replyStory,
-  deityActions,
-  followerActions,
   hashtag,
   writing,
   reason,
