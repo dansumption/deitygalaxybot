@@ -32,7 +32,7 @@ module.exports = {
     ". Perhaps this is not the best time to call?",
     ". They might respond if you call a little louder?",
     ". Maybe you ought to respect #deityName#'s privacy a little more?",
-    ". #DeityThey# just needs #takesTime#",
+    ". #deityThey# just needs #takesTime#",
     ". Come back after #takesTime#",
     ". Come back at #specificTime#"
   ],
