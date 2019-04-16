@@ -4,14 +4,15 @@ const grammar = require("./grammar");
 const { story } = require("./grammar/stories/");
 let macros = require("./grammar/macros");
 var argv = require("minimist")(process.argv.slice(2));
-console.dir(argv);
+// console.dir(argv);
+// console.log("Story:", story);
 
-const templateForceText = '#deityFull# says "#statement#".';
+const templateForceText = "After #takesTime#, #instructing#";
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
 let template = argv.template || "#origin#";
 
-template = templateForceText; // uncomment to force the above template
+// template = templateForceText; // uncomment to force the above template
 // template = templateForceReply; // uncomment to force the above reply template
 
 const COUNT = argv.count || 2000;

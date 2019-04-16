@@ -1,3 +1,27 @@
-module.exports = {
-  stating: ['#deityFull# says "#statement#".']
-};
+module.exports = [
+  '#deityFull# says "#statement#".',
+  '#deityPlace.capitalize#, #deityFull# says "#statement#".',
+  '#deityFull# #shoutVerb.s# "#statement.toUpperCase#".',
+  '#deityFull# whispers "#statement#".',
+  '#deityFull# proclams "#statement#".',
+  '#deityFull# states "#statement#".',
+  '#deityFull# coos "#statement#".',
+  '#deityFull# says telepathically "#statement#".',
+  '#deityFull# #adverb# says "#statement#".',
+  '#deityFull# #adverb# says "#statement#".',
+  '#deityFull# #shoutVerb.s# "#statement.toUpperCase#".',
+  '#deityPlace.capitalize#, #deityFull# #adverb# says "#statement#".',
+  '#deityFull# #adverb# says "#statement#".',
+  '#deityFull# #shoutVerb.s# "#statement.toUpperCase#".',
+  '#deityFull# #adverb# whispers "#statement#".',
+  '#deityFull# #adverb# proclams "#statement#".',
+  '#deityFull# #adverb# states "#statement#".',
+  '#deityFull# #adverb# says "#statement#".',
+  '#deityFull# #adverb# whispers "#statement#".',
+  '#deityFull# #adverb# proclams "#statement#".',
+  '#deityFull# #adverb# states "#statement#".',
+  '#deityPlace.capitalize#, #deityFull# #adverb# says "#statement#".',
+  '#deityPlace.capitalize#, #deityFull# says "#statement#".',
+  '#deityPlace.capitalize#, #deityFull# says "#statement#".',
+  '#deityFull# says "#statement#".'
+];

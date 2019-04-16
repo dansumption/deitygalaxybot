@@ -15,5 +15,6 @@ module.exports = Object.assign(
   story,
   replyStory,
   deityActions,
-  followerActions
+  followerActions,
+  { questioning, instructing, stating, doing }
 );

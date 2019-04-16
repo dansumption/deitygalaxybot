@@ -2,14 +2,14 @@ module.exports = {
   replyStory: [
     // "#deityName# #deityType# of #deityDomain# has a #spiritAnimal#. Pronouns: #deityThey# #deityThem# #deityTheir# deityTheirs",
     // "#deityName# #deityType# of #deityDomain#"
-    "After #takesTime#, #deityName# #deityCommand#",
+    "After #takesTime#, #instructing#",
     "#deityName# will reward you for your loyalty.",
     "You call but there is no reply. Perhaps #deityName# is #twoPersonAction# another #deityType#?",
     '#deityName# left a sign saying "OUT #twoPersonAction.toUpperCase# #otherDeity.toUpperCase#".',
     "#deityName# rewards you for your loyalty with #nounToPluralise.a#.",
     "#deityName# #deityCommand#.",
     "#deityName# pimps your ride. How d'you fancy going home in #adjective.a# #vehicle#?",
-    "#deityName# #commandVerb.s# you to meditate on the topic of #nounNotToPluralise#",
+    "#deityName# #asks# you to meditate on the topic of #nounNotToPluralise#",
     "#deityName# is about to ask you to sacrifice #animal.a#, but thinks better of it and asks you to sacrifice #nounToPluralise.a# instead.",
     "You wait #takesTime#, but #deityName# #busyActivity##busyInstruction#.",
     "#deityName# offers you a choice between #nounToPluralise.a#, #nounToPluralise.a# and #nounToPluralise.a#. Which do you choose?",

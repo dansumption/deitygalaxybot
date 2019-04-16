@@ -1,7 +1,7 @@
 module.exports = {
   followerAction: [
+    "#instruction#",
     "#verb# #object#",
-    "#pilgrimage#",
     "#pilgrimage#",
     "#meditation#",
     "#quest#"

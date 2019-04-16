@@ -1,3 +1,1 @@
-module.exports = {
-  questioning: ['#deityFull# asks "#question#"?']
-};
+module.exports = ['#deityFull# asks "#question#"?'];
