@@ -1,5 +1,6 @@
 const pilgrims = [
   require("./cat"),
+  require("./electric-dreamer"),
   require("./enthusiasm"),
   require("./pillock"),
   require("./serialism"),
