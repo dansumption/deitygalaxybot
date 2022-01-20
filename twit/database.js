@@ -12,6 +12,7 @@ const client = redis.createClient(redisURL.port, redisURL.hostname, {
   legacyMode: true
 });
 if (process.env.REDISCLOUD_URL) {
+  await client.connect();
   client.auth(redisURL.auth.split(":")[1]);
 }
 
