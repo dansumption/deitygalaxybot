@@ -20,7 +20,8 @@ if (process.env.REDISCLOUD_URL) {
 
 const set = async (key, value) => {
   try {
-    await client.auth(redisURL.auth.split(":")[1]);
+    await client.connect();
+    client.auth(redisURL.auth.split(":")[1]);
     const data = await client.set(key, value, "EX", EXPIRY_TIME);
     console.log(`SET: ${key}\n\t${value}\n\t${data}`);
     return data;
