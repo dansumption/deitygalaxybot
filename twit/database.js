@@ -7,10 +7,15 @@ const EXPIRY_TIME = 60 * 60 * 24 * 2; // expire after 2 days
 const redisURL = url.parse(
   process.env.REDISCLOUD_URL || "redis://127.0.0.1:6379"
 );
-const client = redis.createClient(redisURL.port, redisURL.hostname, {
-  no_ready_check: true,
-  legacyMode: true
-});
+const client = redis.createClient({ url: process.env.REDISCLOUD_URL });
+
+// const redisURL = url.parse(
+//   process.env.REDISCLOUD_URL || "redis://127.0.0.1:6379"
+// );
+// const client = redis.createClient(redisURL.port, redisURL.hostname, {
+//   no_ready_check: true,
+//   legacyMode: true
+// });
 // if (process.env.REDISCLOUD_URL) {
 //   await client.connect();
 //   client.auth(redisURL.auth.split(":")[1]);
