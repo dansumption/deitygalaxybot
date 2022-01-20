@@ -11,10 +11,10 @@ const client = redis.createClient(redisURL.port, redisURL.hostname, {
   no_ready_check: true,
   legacyMode: true
 });
-if (process.env.REDISCLOUD_URL) {
-  await client.connect();
-  client.auth(redisURL.auth.split(":")[1]);
-}
+// if (process.env.REDISCLOUD_URL) {
+//   await client.connect();
+//   client.auth(redisURL.auth.split(":")[1]);
+// }
 
 // const __set = promisify(client.set).bind(client);
 // const __get = promisify(client.get).bind(client);
