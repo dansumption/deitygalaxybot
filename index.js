@@ -16,7 +16,7 @@ const timeoutDelay = () => {
   );
 };
 
-const setup = () => {
+const setup = async () => {
   initialize(botHandle);
   monitorReplies(handleReply, botHandle);
   monitorSearchTerm("#Rheða", handleSearchTerm, botHandle);

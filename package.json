@@ -7,7 +7,7 @@
   "description": "Twitter bot for the @deitygalaxy account",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node index.js",
     "debug": "node debug.js > temp/debug.txt",
     "stories": " node debug.js --count 10 stories > temp/debug.txt",
     "precommit": "pretty-quick --staged --single-quote --trailing-comma all --write "
