@@ -16,38 +16,43 @@ const handleReply = tweet => {
   const replyTweetId = tweet.id_str;
   if (originalTweetId && Math.random() < chanceOfAReply) {
     // check if we have a deity associated with the original tweet
-    database.get(originalTweetId).then(data => {
-      if (data) {
-        const [
-          deityName,
-          deityType,
-          deityDomain,
-          spiritAnimal,
-          deityThey,
-          deityThem,
-          deityTheir,
-          deityTheirs,
-          previousTemplate,
-          replyCount,
-          deityPlace,
-          spiritBird
-        ] = data.split(":");
-        // we have a deity!
-        console.log(`This is the ${replyCount} tweet in a thread
+    database
+      .get(originalTweetId)
+      .then(data => {
+        if (data) {
+          const [
+            deityName,
+            deityType,
+            deityDomain,
+            spiritAnimal,
+            deityThey,
+            deityThem,
+            deityTheir,
+            deityTheirs,
+            previousTemplate,
+            replyCount,
+            deityPlace,
+            spiritBird
+          ] = data.split(":");
+          // we have a deity!
+          console.log(`This is the ${replyCount} tweet in a thread
           The last template was: ${previousTemplate}`);
-        sendTweetAndLogDeity(
-          `[userHandle:@${userHandle}][deityName:${deityName}][deityType:${deityType}][deityDomain:${deityDomain}][spiritAnimal:${spiritAnimal}][deityThey:${deityThey}][deityThem:${deityThem}][deityTheir:${deityTheir}][deityTheirs:${deityTheirs}][deityPlace:${deityPlace}][spiritBird:${spiritBird}]#replyWithDeity#`,
-          replyTweetId,
-          replyCount
-        );
-      } else {
-        // we don't have a deity stored for the original tweet
-        sendTweetAndLogDeity(
-          `#[userHandle:@${userHandle}]replyWithLostDeity#`,
-          replyTweetId
-        );
-      }
-    });
+          sendTweetAndLogDeity(
+            `[userHandle:@${userHandle}][deityName:${deityName}][deityType:${deityType}][deityDomain:${deityDomain}][spiritAnimal:${spiritAnimal}][deityThey:${deityThey}][deityThem:${deityThem}][deityTheir:${deityTheir}][deityTheirs:${deityTheirs}][deityPlace:${deityPlace}][spiritBird:${spiritBird}]#replyWithDeity#`,
+            replyTweetId,
+            replyCount
+          );
+        } else {
+          // we don't have a deity stored for the original tweet
+          sendTweetAndLogDeity(
+            `#[userHandle:@${userHandle}]replyWithLostDeity#`,
+            replyTweetId
+          );
+        }
+      })
+      .catch(error => {
+        console.log(`Error retrieving previous details from database ${error}`);
+      });
   } else {
     // this is a mention, not a reply, so there's no deity
     sendTweetAndLogDeity(
