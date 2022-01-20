@@ -5,7 +5,7 @@ const EXPIRY_TIME = 60 * 60 * 24 * 2; // expire after 2 days
 
 const redisURL = process.env.REDISCLOUD_URL || "redis://127.0.0.1:6379";
 const client = redis.createClient({ url: redisURL });
-await client.connect();
+client.connect();
 
 const set = async (key, value) => {
   try {
