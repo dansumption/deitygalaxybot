@@ -74,7 +74,6 @@ module.exports = {
     "b",
     "c",
     "ch",
-    "cl",
     "cr",
     "d",
     "f",
@@ -93,7 +92,6 @@ module.exports = {
     "th",
     "v",
     "w",
-    "x",
     "y"
   ],
   rareConsonant: [
@@ -103,6 +101,7 @@ module.exports = {
     "bh",
     "cc",
     "ck",
+    "cl",
     "cs",
     "ct",
     "cw",
@@ -115,6 +114,7 @@ module.exports = {
     "mn",
     "pt",
     "q",
+    "x",
     "xx",
     "þ",
     "z",
