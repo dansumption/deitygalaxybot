@@ -125,15 +125,19 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
       status,
       in_reply_to_status_id,
       auto_populate_reply_metadata
-    }).then(data => {
-      database.set(
-        data.id_str,
-        `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}:${template.replace(
-          /:/g,
-          "~"
-        )}:${tweetCount}:${deityPlace}:${spiritBird}`
-      );
-    });
+    })
+      .then(data => {
+        database.set(
+          data.id_str,
+          `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}:${template.replace(
+            /:/g,
+            "~"
+          )}:${tweetCount}:${deityPlace}:${spiritBird}`
+        );
+      })
+      .catch(error => {
+        console.log(`there was an error sending the tweet: ${error}`);
+      });
   }, microDelay());
 };
 
