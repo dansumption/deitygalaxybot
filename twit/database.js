@@ -15,11 +15,12 @@ if (process.env.REDISCLOUD_URL) {
   client.auth(redisURL.auth.split(":")[1]);
 }
 
-const __set = promisify(client.set).bind(client);
-const __get = promisify(client.get).bind(client);
+// const __set = promisify(client.set).bind(client);
+// const __get = promisify(client.get).bind(client);
 
 const set = (key, value) =>
-  __set(key, value, "EX", EXPIRY_TIME)
+  client
+    .set(key, value, "EX", EXPIRY_TIME)
     .then(data => {
       console.log(`SET: ${key}\n\t${value}\n\t${data}`);
       return data;
@@ -29,7 +30,8 @@ const set = (key, value) =>
     });
 
 const get = key =>
-  __get(key)
+  client
+    .get(key)
     .then(data => {
       console.log(`GET: ${key}\n\t${data}`);
       return data;
