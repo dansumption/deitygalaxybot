@@ -19,25 +19,29 @@ if (process.env.REDISCLOUD_URL) {
 // const __get = promisify(client.get).bind(client);
 
 const set = (key, value) =>
-  client
-    .set(key, value, "EX", EXPIRY_TIME)
-    .then(data => {
-      console.log(`SET: ${key}\n\t${value}\n\t${data}`);
-      return data;
-    })
-    .catch(err => {
-      console.error(`ERROR SETTING: ${key}\t${value}\n\t${err}`);
-    });
+  client.connect().then(() => {
+    client
+      .set(key, value, "EX", EXPIRY_TIME)
+      .then(data => {
+        console.log(`SET: ${key}\n\t${value}\n\t${data}`);
+        return data;
+      })
+      .catch(err => {
+        console.error(`ERROR SETTING: ${key}\t${value}\n\t${err}`);
+      });
+  });
 
 const get = key =>
-  client
-    .get(key)
-    .then(data => {
-      console.log(`GET: ${key}\n\t${data}`);
-      return data;
-    })
-    .catch(err => {
-      console.error(`ERROR GETTING: ${key}\n\t${err}`);
-    });
+  client.connect().then(() => {
+    client
+      .get(key)
+      .then(data => {
+        console.log(`GET: ${key}\n\t${data}`);
+        return data;
+      })
+      .catch(err => {
+        console.error(`ERROR GETTING: ${key}\n\t${err}`);
+      });
+  });
 
 module.exports = { set, get };
