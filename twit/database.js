@@ -14,27 +14,31 @@ if (process.env.REDISCLOUD_URL) {
   client.auth(redisURL.auth.split(":")[1]);
 }
 
-await client.connect();
-
 const __set = promisify(client.set).bind(client);
 const __get = promisify(client.get).bind(client);
 
 const set = (key, value) =>
-  __set(key, value, "EX", EXPIRY_TIME)
-    .then(data => {
-      console.log(`SET: ${key}\n\t${value}\n\t${data}`);
-      return data;
-    })
+  client
+    .connect()
+    .then(() =>
+      __set(key, value, "EX", EXPIRY_TIME).then(data => {
+        console.log(`SET: ${key}\n\t${value}\n\t${data}`);
+        return data;
+      })
+    )
     .catch(err => {
       console.error(`ERROR SETTING: ${key}\t${value}\n\t${err}`);
     });
 
 const get = key =>
-  __get(key)
-    .then(data => {
-      console.log(`GET: ${key}\n\t${data}`);
-      return data;
-    })
+  client
+    .connect()
+    .then(() =>
+      __get(key).then(data => {
+        console.log(`GET: ${key}\n\t${data}`);
+        return data;
+      })
+    )
     .catch(err => {
       console.error(`ERROR GETTING: ${key}\n\t${err}`);
     });
