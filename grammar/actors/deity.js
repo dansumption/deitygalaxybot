@@ -15,11 +15,8 @@ module.exports = {
   ],
   godType: [
     "#godlyAdjective# #godType#",
-    "#godlyAdjective# #godType#",
     "#raregodType#",
     "god",
-    "god",
-    "goddess",
     "goddess",
     "godhead",
     "patron saint"
@@ -37,6 +34,7 @@ module.exports = {
     "demon",
     "deva",
     "divinity",
+    "egregore",
     "goddexx",
     "hedgewitch",
     "hierophant",
@@ -74,18 +72,10 @@ module.exports = {
   ],
   domain: [
     "#nounToPluralise.s#",
+    "#nounToPluralise.a# in #town#",
     "#nounNotToPluralise#",
-    "#newTech#",
-    "#nounToPluralise.s#",
-    "#nounNotToPluralise#",
-    "#newTech#",
-    "#nounToPluralise.s#",
-    "#nounNotToPluralise#",
-    "#newTech#",
-    "#nounToPluralise.s#",
-    "#nounNotToPluralise#",
-    "#newTech#",
-    "#domain# and #domain#"
+    "#newTech#"
+    // "#domain# and #domain#"
   ],
   problemDeity: [
     "who is losing control of #deityDomain#",
