@@ -14,7 +14,7 @@ if (process.env.REDISCLOUD_URL) {
   client.auth(redisURL.auth.split(":")[1]);
 }
 
-client.connect();
+await client.connect();
 
 const __set = promisify(client.set).bind(client);
 const __get = promisify(client.get).bind(client);
