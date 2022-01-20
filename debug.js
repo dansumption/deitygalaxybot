@@ -10,7 +10,7 @@ var argv = require("minimist")(process.argv.slice(2));
 const templateForceText = "After #takesTime#, #instructing#";
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-let template = argv.template || "#origin#";
+let template = argv.template || "#origin#\n";
 
 // template = templateForceText; // uncomment to force the above template
 // template = templateForceReply; // uncomment to force the above reply template
@@ -31,7 +31,7 @@ let tooLong = [];
 
 const getPhrase = () => {
   const phrase = grammar.flatten(macros + template);
-  console.log(phrase, "\n");
+  console.log(phrase);
   if (phrase.length > TweetLength) {
     tooLong.push(phrase);
   }
