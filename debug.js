@@ -7,8 +7,8 @@ var argv = require("minimist")(process.argv.slice(2));
 // console.dir(argv);
 // console.log("Story:", story);
 
-const templateForceText = "After #takesTime#, #instructing#";
-const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
+const templateForceText = "After #takesTime#, #instructing#\n";
+const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#\n";
 
 let template = argv.template || "#origin#\n\n\n";
 
@@ -17,14 +17,16 @@ let template = argv.template || "#origin#\n\n\n";
 
 const COUNT = argv.count || 2000;
 
-macros += "#setDeity##setCharacter#";
-// "[deityName:Süüm-yüüng-dei'ï'ðéé]" +
-// "[deityDomain:Voodoo]" +
-// "[deityType:deity]" +
-// "[deityPlace:in Sheffield]" +
-// "[spiritAnimal:hooded crow]" +
-// "[userHandle:@dansumption]" +
-// "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
+macros +=
+  "#setDeity##setCharacter#" +
+  // "[deityName:Süüm-yüüng-dei'ï'ðéé]" +
+  // "[deityDomain:Voodoo]" +
+  // "[deityType:deity]" +
+  // "[deityPlace:in Sheffield]" +
+  // "[spiritAnimal:hooded crow]" +
+  "[userHandle:@dansumption]" +
+  // "[deityThey:she][deityThem:her][deityTheir:her][deityTheirs:hers]";
+  "";
 
 const TweetLength = argv.max || 259;
 let tooLong = [];
