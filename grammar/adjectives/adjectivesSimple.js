@@ -747,7 +747,7 @@ module.exports = [
   "safe",
   "salient",
   "sanctioned",
-  "saute",
+  "sautéed",
   "saved",
   "scandalized",
   "scarlet",

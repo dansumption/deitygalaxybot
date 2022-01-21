@@ -39,10 +39,9 @@ const takesTime = [
   "a pause of a thousand years",
   "a brief millennium",
   "a painful aeon",
-  "a painful wait",
-  "the flap of a hummingbird's wing",
-  "a silence lasting a thousand years",
-  "an uncomfortable silence"
+  "a painful eternity",
+  "no longer than the flap of a hummingbird's wing",
+  "a silence lasting a thousand years"
 ].concat(theTimeItTakes);
 
 module.exports = {
