@@ -10,7 +10,7 @@ var argv = require("minimist")(process.argv.slice(2));
 const templateForceText = "After #takesTime#, #instructing#";
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#";
 
-let template = argv.template || "#origin#\n";
+let template = argv.template || "#origin#\n\n\n";
 
 // template = templateForceText; // uncomment to force the above template
 // template = templateForceReply; // uncomment to force the above reply template
@@ -59,5 +59,6 @@ console.log(
     tooLong
       .sort((a, b) => a.length - b.length)
       .map(phrase => `${phrase.length}: ${phrase}`)
-      .join("\n\n")
+      .join("\n\n"),
+  `That makes ${tooLong.length} out of ${COUNT} possible tweets`
 );
