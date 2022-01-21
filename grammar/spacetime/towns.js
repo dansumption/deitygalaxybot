@@ -1,13 +1,15 @@
-// TODO: stop town names from getting too long.
 module.exports = {
   town: ["the #townType# of #townName#"],
   townName: [
     "#townBaseName#",
     "#townBaseName#",
+    "#townBaseName#",
+    "#townPrefix# #townBaseName#",
     "#townPrefix# #townBaseName#",
     "#townPrefix# #townBaseName#",
     "#townBaseName##townSuffix#",
-    "#townBaseName##townSuffix##townSuffix#",
+    "#townBaseName##townSuffix#",
+    "#townBaseName##townSuffix#",
     "#townPrefix# #townBaseName##townSuffix#"
   ],
   townBaseName: [
@@ -132,6 +134,7 @@ module.exports = {
     "minster",
     "moor",
     "more",
+    "moss",
     "mouth",
     "over",
     "sea",
