@@ -20,13 +20,12 @@ const initialize = botHandle => {
 
 const logMessage = console.log;
 
+// todo - limit tweet to 280 chars
 const sendTweet = parameters =>
   __post("statuses/update", parameters)
     .then(data => {
       console.log(
-        `SENT: ${data.id_str}\n\tIn reply to: ${
-          parameters.in_reply_to_status_id
-        }\n\t${parameters.status}`
+        `SENT: ${data.id_str}\n\tIn reply to: ${parameters.in_reply_to_status_id}\n\t${parameters.status}`
       );
       return data;
     })
