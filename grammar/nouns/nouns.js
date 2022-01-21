@@ -9,7 +9,7 @@ const buildingMaterial = require("./buildingMaterial");
 const clothing = require("./clothing");
 const collective = require("./collective");
 const computerObject = require("./computerObject");
-const punishment = require("./punishment");
+const disorder = require("./disorder");
 const famousPerson = require("./famousPerson");
 const { foodItem, foodStuff, anyFood } = require("./food");
 const game = require("./game");
@@ -56,7 +56,7 @@ const nounNotToPluralise = [].concat(
   belief,
   buildingMaterial,
   collective,
-  punishment,
+  disorder,
   feeling,
   famousPerson,
   foodStuff,
@@ -100,7 +100,7 @@ module.exports = Object.assign(
     belief,
     buildingMaterial,
     collective,
-    punishment,
+    disorder,
     famousPerson,
     foodStuff,
     game,

@@ -31,7 +31,8 @@ const handleReply = async tweet => {
           previousTemplate,
           replyCount,
           deityPlace,
-          spiritBird
+          spiritBird,
+          deityPunishment
         ] = data.split(":");
         // we have a deity!
         console.log(`This is the ${replyCount} tweet in a thread
@@ -115,10 +116,11 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
   const deityThem = getSymbolLastUsed("deityThem");
   const deityTheir = getSymbolLastUsed("deityTheir");
   const deityTheirs = getSymbolLastUsed("deityTheirs");
+  const deityPunishment = getSymbolLastUsed("deityPunishment");
   const auto_populate_reply_metadata = !!in_reply_to_status_id;
   // This is needed because of a bug where the escape character isn't being correctly stripped
   const tweetContent = root.finishedText.replace(hashtagDeEscape, "#");
-  console.log(tweetContent, deityName, deityType, deityDomain);
+  console.log(tweetContent, deityName, deityType, deityDomain, deityPunishment);
   const status = addHashTags(tweetContent, deityName, deityType, deityDomain);
   console.log(
     `CREATE FROM: '${template}\n\tTWEET: ${status}\n\tDEITY: ${deityName}`
@@ -135,7 +137,7 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
           `${deityName}:${deityType}:${deityDomain}:${spiritAnimal}:${deityThey}:${deityThem}:${deityTheir}:${deityTheirs}:${template.replace(
             /:/g,
             "~"
-          )}:${tweetCount}:${deityPlace}:${spiritBird}`
+          )}:${tweetCount}:${deityPlace}:${spiritBird}:${deityPunishment}`
         );
       })
       .catch(error => {

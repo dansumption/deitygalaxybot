@@ -1,3 +1,4 @@
+// TODO: stop compound deity names from getting too long.
 module.exports = {
   setDeity: [
     "#deityPronouns#" +
@@ -6,7 +7,8 @@ module.exports = {
       "[deityDomain:#domain#]" +
       "[spiritAnimal:#animal#]" +
       "[spiritBird:#bird#]" +
-      "[deityPlace:#qualifiedPlace#]"
+      "[deityPlace:#qualifiedPlace#]" +
+      "[deityPunishment:#punishment#]"
   ],
   deityFull: ["#deityName#, #deityType# of #deityDomain#,"],
   otherDeity: ["#name# #godType# of #domain#"],

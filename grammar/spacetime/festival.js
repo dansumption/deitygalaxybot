@@ -4,7 +4,7 @@ module.exports = {
     "carnival of the #spiritBird.s# #deityPlace#",
     "apprentice #role#'s rag week #deityPlace#",
     "festival of #nounToPluralise.s# #deityPlace#",
-    "national day of mourning for victims of #punishment# #deityPlace#",
+    "national day of mourning for victims of #disorder# #deityPlace#",
     "#spiritAnimal# fayre #deityPlace#",
     "day of reconciliation with #belief# #deityPlace#",
     "day of abstinence from #action# #deityPlace#",
