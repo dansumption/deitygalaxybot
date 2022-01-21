@@ -1,3 +1,4 @@
+// TODO: stop town names from getting too long.
 module.exports = {
   town: ["the #townType# of #townName#"],
   townName: [
