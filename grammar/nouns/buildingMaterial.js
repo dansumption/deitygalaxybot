@@ -153,7 +153,7 @@ const borrowedFromABot = [
   "paper shredders",
   "paper straws",
   "pearls",
-  "pennies, dimes, nickels,",
+  "pennies, dimes, nickels",
   "pepper grinders",
   "piano wire",
   "pine needles",

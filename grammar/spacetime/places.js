@@ -325,7 +325,7 @@ const pilgrimageSite = [
   "the holiest site #deityPlace#",
   "somewhere #deityPlace#",
   "your #relation#'s #dwelling#",
-  "#worshipPlace.a# #deityPlace# and back, via #dwelling.a# #qualifiedPlace#,",
+  "#worshipPlace.a# #deityPlace# and back (via #dwelling.a# #qualifiedPlace#)",
   "#adjective.a# #worshipPlace# #deityPlace#"
 ];
 
