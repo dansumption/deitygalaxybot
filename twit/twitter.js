@@ -20,8 +20,9 @@ const initialize = botHandle => {
 
 const logMessage = console.log;
 
-// todo - limit tweet to 280 chars
-const sendTweet = parameters =>
+// TODO - limit tweet to 280 chars
+const sendTweet = parameters => {
+  parameters.status = parameters.status.substring(0, 280);
   __post("statuses/update", parameters)
     .then(data => {
       console.log(
@@ -32,6 +33,7 @@ const sendTweet = parameters =>
     .catch(err => {
       console.error(`ERROR SENDING: ${parameters.status}\n\t${err}`);
     });
+};
 
 const monitorReplies = (callback, ...excludeHandles) => {
   return monitorSearchTerm(`@${bot.handle}`, callback, ...excludeHandles);
