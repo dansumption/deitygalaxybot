@@ -1,1 +1,1 @@
-module.exports = ['#deityFull# asks "#question#"?'];
+module.exports = ['#deityName# asks "#question#"'];

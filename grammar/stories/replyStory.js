@@ -1,43 +1,32 @@
 module.exports = {
   replyStory: [
-    // "#deityName# #deityType# of #deityDomain# has a #spiritAnimal#. Pronouns: #deityThey# #deityThem# #deityTheir# deityTheirs",
-    // "#deityName# #deityType# of #deityDomain#"
-    "After #takesTime#, #instructing#",
-    "#deityName# will reward you for your loyalty.",
-    "You call but there is no reply. Perhaps #deityName# is #twoPersonAction# another #deityType#?",
-    '#deityName# left a sign saying "OUT #twoPersonAction.toUpperCase# #otherDeity.toUpperCase#".',
-    "#deityName# rewards you for your loyalty with #nounToPluralise.a#.",
-    "#deityName# #deityCommand#.",
-    "#deityName# pimps your ride. How d'you fancy going home in #adjective.a# #vehicle#?",
-    "#deityName# #asks# you to meditate on the topic of #nounNotToPluralise#",
-    "#deityName# is about to ask you to sacrifice #animal.a#, but thinks better of it and asks you to sacrifice #nounToPluralise.a# instead.",
-    "You wait #takesTime#, but #deityName# #busyActivity##busyInstruction#.",
-    "#deityName# offers you a choice between #nounToPluralise.a#, #nounToPluralise.a# and #nounToPluralise.a#. Which do you choose?",
-    "#deityName# is feeling a bit #adjective# today. Who knows whether this is a good thing?",
-    "#deityName# touches you on your #bodyPart# #adverb#.",
-    "#deityName# challenges you to a game of #game#. Do you accept?",
-    "#deityName# has hidden #computerObject.a# on your computer. Can you find it?",
-    "#deityName# is cooking #foodItem.s# made of #foodStuff# for tea. Would you like some?",
-    "#deityName# demands that you make a sacrifice of burnt #foodStuff#, offered up in #nounToPluralise.a# made of #buildingMaterial#.",
-    "#deityName# appears through the #adjective# mist, and thanks you for your patience."
+    "#instructing.capitalize#",
+    "#stating.capitalize#",
+    "#questioning.capitalize#",
+    "#doing.capitalize#",
+    "You wait for #takesTime#, after which #instructing#",
+    "You wait for #takesTime#, after which #stating#",
+    "You wait for #takesTime#, after which #questioning#",
+    "You wait for #takesTime#, after which #doing#"
   ],
 
+  // TODO: get deity domains into these constructs
   initialReply: [
-    "#origin# And after this, #userHandle#, your life will never be the same again.",
-    "Oh wow. Wanna know what I just saw? #origin#",
-    "Praying is good, but tweeting your deity is better. #origin#",
-    "Sometimes I suspect that there are more deities than worshippers. #origin#",
-    "Summoning gods can be a dangerous business. #origin#",
-    "Talk to me about \\#pantheism. #origin#",
-    "The gods can sense that you need guidance. #origin#",
-    "The mist clears from before your eyes, and you see... #origin#",
-    "The veil lifts, and you see... #origin#",
-    "There are so many deities out there. Maybe this one's for you? #origin#",
-    "Though a crack in the Internet, the deities respond. #origin#",
-    "Tweet me some more! \\#deities #origin#",
-    "We need to talk about \\#deities. #origin#",
-    "You call, and a deity responds. #origin#",
-    "You seek guidance from the heavens? #origin#",
-    "You turn your gaze skywards, and you see... #origin#"
+    "#doing# And after this, #userHandle#, your life will never be the same again.",
+    "Oh wow. Wanna know what I just saw? #doing#",
+    "Praying is good, but tweeting your deity is better. #doing#",
+    "Sometimes I suspect that there are more deities than worshippers. #doing#",
+    "Summoning gods can be a dangerous business. #doing#",
+    "Talk to me about \\#pantheism. #doing#",
+    "The gods can sense that you need guidance. #doing#",
+    "The mist clears from before your eyes, and you see... #doing#",
+    "The veil lifts, and you see... #doing#",
+    "There are so many deities out there. Maybe this one's for you? #doing#",
+    "Though a crack in the Internet, the deities respond. #doing#",
+    "Tweet me some more! \\#deities #doing#",
+    "We need to talk about \\#deities. #doing#",
+    "You call, and a deity responds. #doing#",
+    "You seek guidance from the heavens? #doing#",
+    "You turn your gaze skywards, and you see... #doing#"
   ]
 };
