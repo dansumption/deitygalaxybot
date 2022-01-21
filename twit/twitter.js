@@ -23,7 +23,7 @@ const logMessage = console.log;
 // TODO - limit tweet to 280 chars
 const sendTweet = parameters => {
   parameters.status = parameters.status.substring(0, 280);
-  __post("statuses/update", parameters)
+  return __post("statuses/update", parameters)
     .then(data => {
       console.log(
         `SENT: ${data.id_str}\n\tIn reply to: ${parameters.in_reply_to_status_id}\n\t${parameters.status}`
