@@ -38,6 +38,7 @@ module.exports = {
     "divinity",
     "egregore",
     "goddexx",
+    "goetic emmisary",
     "hedgewitch",
     "hierophant",
     "household deity",
@@ -46,7 +47,8 @@ module.exports = {
     "pope",
     "procreator",
     "progenitor",
-    "supreme being"
+    "supreme being",
+    "tulpa"
   ],
   godlyAdjective: [
     "#adjective#",
