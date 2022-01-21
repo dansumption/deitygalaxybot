@@ -4,7 +4,8 @@ const pilgrims = [
   require("./enthusiasm"),
   require("./pillock"),
   require("./serialism"),
-  require("./wanderer")
+  require("./wanderer"),
+  require("./interactive")
 ];
 
 let question = [];
