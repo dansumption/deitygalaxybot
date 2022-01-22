@@ -7,26 +7,17 @@ module.exports = {
     "You wait for #takesTime#, after which #instructing#",
     "You wait for #takesTime#, after which #stating#",
     "You wait for #takesTime#, after which #questioning#",
-    "You wait for #takesTime#, after which #doing#"
+    "You wait for #takesTime#, after which #doing#",
+    "The veil lifts, and you see... #doing#",
+    "Praying is good, but tweeting is better. #deityFull# is awaiting your next prayer."
   ],
 
-  // TODO: get deity domains into these constructs
   initialReply: [
-    "#doing# And after this, #userHandle#, your life will never be the same again.",
-    "Oh wow. Wanna know what I just saw? #doing#",
-    "Praying is good, but tweeting your deity is better. #doing#",
-    "Sometimes I suspect that there are more deities than worshippers. #doing#",
-    "Summoning gods can be a dangerous business. #doing#",
-    "Talk to me about \\#pantheism. #doing#",
-    "The gods can sense that you need guidance. #doing#",
-    "The mist clears from before your eyes, and you see... #doing#",
-    "The veil lifts, and you see... #doing#",
-    "There are so many deities out there. Maybe this one's for you? #doing#",
-    "Though a crack in the Internet, the deities respond. #doing#",
-    "Tweet me some more! \\#deities #doing#",
-    "We need to talk about \\#deities. #doing#",
-    "You call, and a deity responds. #doing#",
-    "You seek guidance from the heavens? #doing#",
-    "You turn your gaze skywards, and you see... #doing#"
+    "Worship #deityName# and your life will never be the same again.",
+    "Though a crack in the Internet, #deityName# calls you.",
+    '#deityName# cries "tweet me! Tweet me!"',
+    "#deityName# is awaiting your prayers.",
+    '#deityName# asks "do you seek guidance from the heavens?"',
+    "#deityName appears as you turn your gaze skywards."
   ]
 };
