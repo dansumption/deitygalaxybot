@@ -158,7 +158,7 @@ const inPlace = [
   "Elmet",
   "Faerie",
   "Fairyland",
-  "#Festival23",
+  "\\#Festival23",
   "Foodhall Sheffield",
   "Galactic Sector ZZ9 Plural Z Alpha",
   "Gondwana",

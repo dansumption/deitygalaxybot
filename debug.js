@@ -11,9 +11,14 @@ const templateForceText = "After #takesTime#, #instructing#\n";
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#\n";
 
 let template = argv.template || "#origin#\n\n\n";
-
 // template = templateForceText; // uncomment to force the above template
 // template = templateForceReply; // uncomment to force the above reply template
+
+// Checks to perform:
+// Search code for [^a-zA-Z]#(\w|\.)+[^#][, ] to find unmatched #words#
+// Search output for (( and )) and .. and ,. and ,.
+// Check how many of the output samples are over maximum number of characters
+//    (this is listed at the end of the debug output)
 
 const COUNT = argv.count || 2000;
 

@@ -18,6 +18,6 @@ module.exports = {
     '#deityName# cries "tweet me! Tweet me!"',
     "#deityName# is awaiting your prayers.",
     '#deityName# asks "do you seek guidance from the heavens?"',
-    "#deityName appears as you turn your gaze skywards."
+    "#deityName# appears as you turn your gaze skywards."
   ]
 };
