@@ -7,9 +7,10 @@ const moreOrLess = ["more", "less"]
     `much ${term}`,
     `slightly ${term}`,
     `a little ${term}`,
-    `ever so much ${term}``somewhat ${term}`
+    `ever so much ${term}`,
+    `somewhat ${term}`
   ])
-  .flat();
+  .flatMap();
 
 const jokeAdjective = [
   "boring",
