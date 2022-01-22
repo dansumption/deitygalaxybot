@@ -1,12 +1,9 @@
 // TODO - more about how deities look and act
 module.exports = [
-  "We need to talk about \\#deities. #doing#",
   "Wanna know what I just saw #deityFull# do?",
   "Sometimes I suspect that there are more deities than worshippers. Who ever heard of #deityFull#?",
   "Summoning gods can be a dangerous business. Who just summoned #deityFull#",
-  "Talk to me about \\#pantheism. #doing#",
   "The gods can sense that you need guidance. #deityFull# is awaiting your call.",
-  "There are so many deities out there. Maybe this one's for you? #doing#",
   "To perform obesiance to #deityFull# #followerAction#.",
   "To perform service to #deityFull# #deityRequest# your #anyNoun#.",
   "Those who anger #deityFull# are liable to be #deityPunishment#.",
@@ -33,4 +30,13 @@ module.exports = [
   "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#.",
   "#deityFull# looks like #adjective.a# #animal# dressed in #buildingMaterial#, only a little more #adjective#.",
   "#deityFull# looks like #adjective.a# #famousPerson# made of #buildingMaterial#, but #moreOrLess# #adjective#."
+
+  // TODO: set up something like #deityCurrent#
+  //    which uses #deityFull# for initial tweets and #deityName# later.
+  //    Then use this to replace #deityName# in doing, stating, etc.
+  //
+  // Once done, add this initial stories back in:
+  // "We need to talk about \\#deities. #doing#",
+  // "Talk to me about \\#pantheism. #doing#",
+  // "There are so many deities out there. Maybe this one's for you? #doing#",
 ];
