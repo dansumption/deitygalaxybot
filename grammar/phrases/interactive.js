@@ -21,6 +21,7 @@ module.exports = {
     "capture a live #animal#",
     "eat an entire #nounToPluralise#",
     "squeal like #animal.a#",
-    "walk like #animal.a#"
+    "walk like #animal.a#",
+    "try to be #moreOrLess# #adjective#"
   ]
 };

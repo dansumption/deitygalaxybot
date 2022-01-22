@@ -1,6 +1,16 @@
 const corpora = require("corpora-project");
 const simpleAdjectives = require("./adjectivesSimple");
 
+const moreOrLess = ["more", "less"]
+  .map(term => [
+    term,
+    `much ${term}`,
+    `slightly ${term}`,
+    `a little ${term}`,
+    `ever so much ${term}``somewhat ${term}`
+  ])
+  .flat();
+
 const jokeAdjective = [
   "boring",
   "complex",
@@ -116,5 +126,6 @@ module.exports = {
   jokeAdjective,
   nationality,
   colours,
-  materials
+  materials,
+  moreOrLess
 };

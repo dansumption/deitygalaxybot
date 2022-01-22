@@ -1,3 +1,5 @@
+// TODO - more about how deities appear
+// TODO - split out reply prompts so that #origin# can be used for initial replies
 module.exports = [
   "To perform obesiance to #deityFull# #followerAction#.\n\nReply to this tweet if you wish to abase yourself to #deityName#",
   "To perform service to #deityFull# #deityRequest# your #anyNoun#.\n\nReply to this tweet for additional ways in which you can venerate #deityName#",
@@ -22,5 +24,7 @@ module.exports = [
   "When the World was young, #deityName# introduced humanity to #deityDomain#. This led #adverb# to the discovery of #nounToPluralise.s#.\n\nReply to this tweet to learn more about #deityDomain#.",
   "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#.\n\nReply to this tweet with your vow of worship.",
   '#deityName# (#nationality# for "The #adjective.capitalize# One") is mostly called upon by people who are #verbIng# #deityDomain#, although some call on #deityThem# for help #verbIng# #nounNotToPluralise#.\r\rReply if you plan on doing either of those.',
-  "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#.\n\nReply to join the party."
+  "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#.\n\nReply to join the party.",
+  "#deityFull# looks like #adjective.a# #animal# dressed in #buildingMaterial#, only a little more #adjective#.\n\nReply to worship #deityThem#.",
+  "#deityFull# looks like #adjective.a# #famousPerson# made of #buildingMaterial#, but #moreOrLess# #adjective#.\n\nReply to worship #deityThem#."
 ];
