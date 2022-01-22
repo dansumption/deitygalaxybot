@@ -3,7 +3,11 @@ const {
   monitorReplies,
   monitorSearchTerm
 } = require("./twit/twitter");
-const { sendRandomTweet, handleReply, handleSearchTerm } = require("./tweet");
+const {
+  sendRandomTweet,
+  handleReply,
+  handleSearchTerm
+} = require("./getContentAndTweet");
 const MINUTE = 60 * 1000;
 const minTimeBetweenTweets = 90 * MINUTE;
 const maxTimeBetweenTweets = 8 * 60 * MINUTE;
