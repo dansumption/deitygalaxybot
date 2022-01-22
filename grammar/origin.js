@@ -1,8 +1,8 @@
 const macros = require("./macros");
 
 const origin = {
-  origin: [`${macros}#setDeity##setCharacter##story#\n\n#replyPrompt#`],
-  replyOrigin: [`${macros}#userHandle# #story#\n\n#initialReply#`],
+  origin: [`${macros}#setDeity##setCharacter##initialStory#\n\n#replyPrompt#`],
+  replyOrigin: [`${macros}#userHandle# #initialStory#\n\n#initialReply#`],
   replyWithDeity: [`${macros}#userHandle# #replyStory#`],
   replyWithLostDeity: [
     `${macros}#userHandle# You call your deity, but another has taken their place. #origin#`

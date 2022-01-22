@@ -1,5 +1,4 @@
-// TODO - more about how deities appear
-// TODO - split out reply prompts so that #origin# can be used for initial replies
+// TODO - more about how deities look and act
 module.exports = [
   "We need to talk about \\#deities. #doing#",
   "Wanna know what I just saw #deityFull# do?",

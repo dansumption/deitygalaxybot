@@ -6,12 +6,8 @@ const stating = require("./stating");
 const questioning = require("./questioning");
 const instructing = require("./instructing");
 const doing = require("./doing");
-const particulars = require("./particulars");
+const initialStory = require("./initialStory");
 const punishment = require("./punishment");
-
-const story = {
-  story: particulars
-};
 
 module.exports = Object.assign(
   {},
@@ -19,5 +15,13 @@ module.exports = Object.assign(
   replyStory,
   deityActions,
   followerActions,
-  { questioning, instructing, stating, doing, punishment, replyPrompt }
+  {
+    initialStory,
+    questioning,
+    instructing,
+    stating,
+    doing,
+    punishment,
+    replyPrompt
+  }
 );
