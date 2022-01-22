@@ -238,6 +238,8 @@ module.exports = {
     "strictly",
     "suddenly",
     "surprisingly",
+    "surprisingly #adverb#",
+    "suspiciously #adverb#",
     "suspiciously",
     "sweetly",
     "swiftly",

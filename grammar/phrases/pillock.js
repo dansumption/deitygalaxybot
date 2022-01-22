@@ -13,5 +13,9 @@ module.exports = {
     "is it really that bad",
     "what happens when The Fool becomes The Pope"
   ],
-  instructions: ["turn and face the change", "take some eggs to the moon"]
+  instructions: [
+    "party hard",
+    "turn and face the change",
+    "take some #nounToPluralise# to #placeName#"
+  ]
 };

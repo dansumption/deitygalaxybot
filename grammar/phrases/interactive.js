@@ -17,6 +17,10 @@ module.exports = {
   ],
   instructions: [
     "eschew your #belief#, only by #meditationAction# #adjective# #deityDomain# will you be saved",
-    "immanentise the Eschaton now"
+    "immanentise the Eschaton now",
+    "capture a live #animal#",
+    "eat an entire #nounToPluralise#",
+    "squeal like #animal.a#",
+    "walk like #animal.a#"
   ]
 };

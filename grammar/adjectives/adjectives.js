@@ -2,30 +2,34 @@ const corpora = require("corpora-project");
 const simpleAdjectives = require("./adjectivesSimple");
 
 const jokeAdjective = [
-  "ill-advised",
-  "unfunny",
-  "quiet",
-  "long",
   "boring",
-  "tear-jerking",
   "complex",
-  "repetitive",
   "confusing",
+  "drunk",
   "enlightening",
-  "perceptive",
-  "puzzling",
-  "unnecessary",
+  "erudite",
+  "ill-advised",
+  "intellectual",
+  "long",
+  "nonsensical",
   "obvious",
   "off-colour",
-  "unfair",
-  "erudite",
-  "sloppy",
-  "drunk",
-  "rambling",
-  "surreal",
-  "intellectual",
+  "perceptive",
   "pertinent",
-  "#jokeAdjective# #nationality#"
+  "puzzling",
+  "quiet",
+  "rambling",
+  "repetitive",
+  "sloppy",
+  "smutty",
+  "surreal",
+  "tear-jerking",
+  "unfair",
+  "unfunny",
+  "unnecessary",
+  "woke",
+  "#jokeAdjective# #nationality#",
+  "#adverb# #jokeAdjective#"
 ];
 
 const colours = [
@@ -43,11 +47,13 @@ const colours = [
   "teal",
   "turquoise",
   "white",
-  "yellow"
+  "yellow",
+  "#adverb# #colours#"
 ];
 
-const wineDescriptions = corpora.getFile("foods", "wine_descriptions")
-  .wine_descriptions;
+const wineDescriptions = corpora
+  .getFile("foods", "wine_descriptions")
+  .wine_descriptions.concat(["#adverb# #windDescriptions#"]);
 const nationality = [
   "American",
   "Belgian",
@@ -83,7 +89,8 @@ const nationality = [
   "Swedish",
   "Swiss",
   "Vogon",
-  "Welsh"
+  "Welsh",
+  "#adverb# #nationality#"
 ];
 const materials = [
   "base metal",

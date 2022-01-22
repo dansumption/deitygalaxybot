@@ -91,6 +91,7 @@ module.exports = {
     "instinct",
     "mother",
     "neighbour",
+    "paramour",
     "pet",
     "sacred place",
     "secret crush",
