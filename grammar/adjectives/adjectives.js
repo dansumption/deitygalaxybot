@@ -10,7 +10,7 @@ const moreOrLess = ["more", "less"]
     `ever so much ${term}`,
     `somewhat ${term}`
   ])
-  .flatMap();
+  .flat();
 
 const jokeAdjective = [
   "boring",
