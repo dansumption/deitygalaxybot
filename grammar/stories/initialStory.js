@@ -24,7 +24,7 @@ module.exports = [
   "#historicTime.capitalize#, #deityFull# created #nounToPluralise.a# and called it #adjective.capitalize# #namePart.capitalize#.",
   "Could you ever care for #deityType.a#? For #adjective.a# #deityType# like #deityName#? #deityName# is a respected authority on #deityDomain#.",
   "In the #dwelling# of #deityFull# there's #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
-  "When the World was young, #deitycelebrName# introduced humanity to #deityDomain#. This led #adverb# to the discovery of #nounToPluralise.s#.",
+  "When the World was young, #deityName# introduced humanity to #deityDomain#. This led #adverb# to the discovery of #nounToPluralise.s#.",
   "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#.",
   '#deityName# (#nationality# for "The #adjective.capitalize# One") is mostly called upon by people who are #verbIng# #deityDomain#, although some call on #deityThem# for help #verbIng# #nounNotToPluralise#.',
   "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#.",
