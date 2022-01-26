@@ -875,7 +875,7 @@ module.exports = [
   "sweeping",
   "swinging",
   "swooning",
-  "sympathize",
+  "sympathetic",
   "synchronized",
   "synonymous",
   "synthetic",
