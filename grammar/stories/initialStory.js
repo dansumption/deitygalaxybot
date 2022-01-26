@@ -24,11 +24,16 @@ module.exports = [
   "#historicTime.capitalize#, #deityFull# created #nounToPluralise.a# and called it #adjective.capitalize# #namePart.capitalize#.",
   "Could you ever care for #deityType.a#? For #adjective.a# #deityType# like #deityName#? #deityName# is a respected authority on #deityDomain#.",
   "In the #dwelling# of #deityFull# there's #adjective.a# #nounToPluralise# which signifies #nounNotToPluralise#.",
-  "When the World was young, #deityName# introduced humanity to #deityDomain#. This led #adverb# to the discovery of #nounToPluralise.s#.",
+  "When the World was young, #deitycelebrName# introduced humanity to #deityDomain#. This led #adverb# to the discovery of #nounToPluralise.s#.",
   "When you worship #deityName#, you #verb# #deityDomain#. In many ways, you also #deityRequest# #spiritAnimal.s#.",
   '#deityName# (#nationality# for "The #adjective.capitalize# One") is mostly called upon by people who are #verbIng# #deityDomain#, although some call on #deityThem# for help #verbIng# #nounNotToPluralise#.',
   "#deityFull# has a gift of #nounNotToPluralise# for the first follower to celebrate #festival#.",
   "#deityFull# looks like #adjective.a# #animal# dressed in #buildingMaterial#, only a little more #adjective#.",
+  "#deityFull# has #adjective.a# #bodyPart# which looks like #nounToPluralise.a#.",
+  "The #bodyPart# of #deityFull# is made of #adjective# #buildingMaterial# but #deityTheir# #bodyPart# feels more like #buildingMaterial#.",
+  "#deityFull# has #bodyPart.a# of #buildingMaterial#, #bodyPart.a# of #buildingMaterial# & #bodyPart.a# of #buildingMaterial#, but remains #adjective#.",
+  "#deityFull# wears #adjective.a# #clothing# when #verbIng#. It's made of #colours# #buildingMaterial#.",
+  "When the #bodyPart# of #deityFull# grows #moreOrLess# #adjective#, it is usually a sign that they are feeling #adjective#.",
   "#deityFull# looks like #adjective.a# #famousPerson# made of #buildingMaterial#, but #moreOrLess# #adjective#."
 
   // TODO: set up something like #deityCurrent#

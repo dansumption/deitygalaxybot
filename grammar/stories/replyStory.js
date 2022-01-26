@@ -4,6 +4,18 @@ module.exports = {
     "#stating.capitalize#",
     "#questioning.capitalize#",
     "#doing.capitalize#",
+    "#instructing.capitalize#",
+    "#stating.capitalize#",
+    "#questioning.capitalize#",
+    "#doing.capitalize#",
+    "#instructing.capitalize#",
+    "#stating.capitalize#",
+    "#questioning.capitalize#",
+    "#doing.capitalize#",
+    "#rareReplyStory#"
+  ],
+
+  rareReplyStory: [
     "You wait for #takesTime#, after which #instructing#",
     "You wait for #takesTime#, after which #stating#",
     "You wait for #takesTime#, after which #questioning#",
