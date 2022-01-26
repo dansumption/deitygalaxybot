@@ -19,6 +19,9 @@ const handleReply = async tweet => {
     try {
       const data = await database.get(originalTweetId);
       if (data) {
+        // TODO:  sometimes deities are sent to people other than their original tweeter
+        //        sometimes deities domains and other details appear to be swapped with other deities
+        //        Investigate why
         const [
           deityName,
           deityType,
