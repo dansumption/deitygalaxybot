@@ -15,13 +15,13 @@
   "author": "Dan Sumption <dan@sumption.org> (http://sumption.org)",
   "license": "ISC",
   "dependencies": {
-    "corpora-project": "^0.2.0",
-    "minimist": "^1.2.0",
-    "node-wit": "^4.0.0",
-    "npm": "^7.20.6",
-    "pluralize": "^7.0.0",
-    "redis": "^4.0.2",
-    "twit": "^2.2.11"
+    "corpora-project": "*",
+    "minimist": "*",
+    "node-wit": "*",
+    "npm": "*",
+    "pluralize": "*",
+    "redis": "*",
+    "twit": "*"
   },
   "devDependencies": {
     "eslint": "^8.7.0",
