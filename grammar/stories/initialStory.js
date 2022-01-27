@@ -11,7 +11,7 @@ module.exports = [
   "Those who value #deityDomain# should pledge their soul to #deityName#, for #deityName# is #deityType# of #deityDomain#.",
   "#deityFull# has a spirit animal: #adjective.a# #spiritAnimal#.",
   "GOD-APPEAL: today, #festival#, the #deityType.s.capitalizeAll# Benevolent Fund issue an appeal on behalf of #deityName#, #problemDeity#.",
-  "Could you adopt a deity? There are literally millions of gods and godesses out there waiting for a worshipper like you. For example, #deityFull#.",
+  "Could you adopt a deity? There are literally millions of gods and godesses out there waiting for a worshipper like you. For example, #deityFull# could do with a new #role#.",
   "In #dwelling.a# #deityPlace#, #deityFull# is #making#.",
   "It is traditional to eat #anyFood# on #festival#, to guarantee the goodwill of #deityFull# over the following year.",
   "The only approved way of #meditationAction# #deityFull# is to #followerAction#. Reply to this tweet if you reckon you're up to that.",
