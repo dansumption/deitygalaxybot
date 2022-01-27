@@ -16,6 +16,7 @@ module.exports = {
     "improve"
   ],
   verbIng: [
+    "****ing",
     "accounting",
     "advertising",
     "babbling",
@@ -41,6 +42,7 @@ module.exports = {
     "firing",
     "fixing",
     "flashing",
+    "flirting",
     "flying",
     "gardening",
     "gimbling",
@@ -66,6 +68,7 @@ module.exports = {
     "processing",
     "putting",
     "quilting",
+    "roly-polying",
     "rubbing",
     "scolding",
     "scouring",
@@ -82,6 +85,7 @@ module.exports = {
     "swimming",
     "teleporting",
     "tossing",
+    "twatting",
     "vomiting",
     "wheeler-dealering",
     "wiring",

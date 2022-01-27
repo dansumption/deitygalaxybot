@@ -8,6 +8,7 @@ module.exports = [
   "Cluedo",
   "draughts",
   "football",
+  "footsie",
   "GTA",
   "hide & seek",
   "hockey",
@@ -19,5 +20,6 @@ module.exports = [
   "Settlers of Catan",
   "Sims",
   "tic tac toe",
-  "tig"
+  "tig",
+  "Wordle"
 ];

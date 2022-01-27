@@ -1,5 +1,6 @@
 module.exports = [
   "#adverb# #adjective#",
+  "#animal#-like#",
   "abroad",
   "absorbing",
   "abstract",
@@ -194,6 +195,7 @@ module.exports = [
   "corroborated",
   "cosmic",
   "covered",
+  "coy",
   "crash",
   "cromulent",
   "crypto",
