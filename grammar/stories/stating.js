@@ -1,3 +1,4 @@
+// TODO: add variety
 module.exports = [
   '#deityName# #adverb# proclams "#statement#".',
   '#deityName# #adverb# says "#statement#".',

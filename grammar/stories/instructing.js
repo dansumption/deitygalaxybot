@@ -1,3 +1,4 @@
+// TODO: add variety
 module.exports = [
   '#deityName# #asks# you to "#followerAction#".',
   '#deityName# #asks#: "#followerAction#".',

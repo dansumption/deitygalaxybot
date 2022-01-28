@@ -1,3 +1,4 @@
+// TODO: add variety
 module.exports = {
   replyStory: [
     "#instructing.capitalize#",
