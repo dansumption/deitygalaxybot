@@ -5,6 +5,13 @@ module.exports = [
 #deityType.capitalize# of #deityDomain.capitalize#,
 #adverb.capitalize# #toyWith#
 #adjective.a.capitalize# #anyNoun#.
+`,
+
+  `In #deityPlace#, 
+#deityName#,
+#deityType.capitalize# of #deityDomain.capitalize#,
+#adverb.capitalize# #meditationAction#
+#adjective.a.capitalize# #anyNoun#.
 `
   // "Wanna know what I just saw #deityFull# do?",
   // "Sometimes I suspect that there are more deities than worshippers. Who ever heard of #deityFull#?",

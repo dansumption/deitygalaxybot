@@ -49,7 +49,7 @@ const qualifiedPlace = unqualifiedPlace.concat(
 );
 
 const fullPlace = [
-  "#adjective.a# #adjective# #dwelling#\n\t#qualifiedPlace.capitalize#"
+  "#adjective.a# #adjective# #dwelling#\n#qualifiedPlace.capitalize#"
 ];
 const placeName = atPlace.concat(inPlace, onPlace);
 module.exports = {
