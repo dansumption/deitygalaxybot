@@ -23,6 +23,29 @@ const logMessage = console.log;
 // TODO - limit tweet to 280 chars
 const sendTweet = parameters => {
   parameters.status = parameters.status.substring(0, 280);
+  parameters.entities = Object.assign({}, parameters.entities, {
+    polls: [
+      {
+        options: [
+          {
+            position: 1,
+            text: "SNOG"
+          },
+          {
+            position: 2,
+            text: "WORSHIP"
+          },
+          {
+            position: 3,
+            text: "AVOID"
+          }
+        ]
+      }
+    ]
+  });
+  // end_datetime: "Mon Mar 23 12:20:00 +0000 2020",
+  // duration_minutes: 60
+
   return __post("statuses/update", parameters)
     .then(data => {
       console.log(
