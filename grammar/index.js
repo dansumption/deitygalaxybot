@@ -18,19 +18,21 @@ const origin = require("./origin");
 
 const originComplete = Object.assign(
   {},
+  origin,
+
+  actions,
   actors,
   adjectives,
   adverbs,
-  nouns,
-  actions,
-  misc,
-  phrases,
-  times,
-  story,
   hashtag,
-  writing,
+  misc,
+  nouns,
+  phrases,
+  places,
   reason,
-  origin
+  story,
+  times,
+  writing
 );
 
 module.exports = originComplete;
