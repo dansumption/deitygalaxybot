@@ -76,7 +76,7 @@ const getSymbolLastUsed = symbol => {
 const addHashTagIfTheresRoom = (tweet, hashtag) => {
   const sanitizedHashtag = hashtag.replace(hashtagSanitize, "");
   if (tweet.length < 278 - sanitizedHashtag.length)
-    return tweet + ` #${sanitizedHashtag}`;
+    return tweet + `\n#${sanitizedHashtag}`;
   return tweet;
 };
 
