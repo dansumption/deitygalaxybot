@@ -1,14 +1,14 @@
 module.exports = {
   deliverMessage: [
-    "delivers, through the medium of interpretive dance, the message",
-    "hands you #miscObject.a#, on which is written",
+    "delivers,\nThrough the medium of interpretive dance,\nThe message",
+    "hands you #miscObject.a#,\nOn which is written",
     "hands you a note which reads",
-    "reads from a stone tablet the words:",
+    "reads from a stone tablet\nThe words:",
     "semaphores to you the message",
-    "sings you a ballad, which begins",
-    "spells out in sign-language the words",
+    "sings you a ballad,\nWhich begins",
+    "spells out in sign-language\nThe words",
     "whispers in your ear",
-    "whispers that you should"
+    "whispers you should"
   ],
   busyActivity: [
     "is showering in #adjective# #liquid#",

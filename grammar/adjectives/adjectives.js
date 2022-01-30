@@ -64,7 +64,7 @@ const colours = [
 
 const wineDescriptions = corpora
   .getFile("foods", "wine_descriptions")
-  .wine_descriptions.concat(["#adverb# #windDescriptions#"]);
+  .wine_descriptions.concat(["#adverb# #wineDescriptions#"]);
 const nationality = [
   "American",
   "Belgian",
