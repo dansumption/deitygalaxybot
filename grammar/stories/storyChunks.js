@@ -13,6 +13,6 @@ module.exports = {
     "#deliverMessage.capitalize#\n#quest.capitalize#",
     "#adverb.capitalize# #meditationAction#\n#adjective.a.capitalize# #anyNoun#",
     "#adverb.capitalize# #toyWith#\n#adjective.capitalize# #anyNoun#",
-    ""
+    "#twoPersonAction#\nWith you"
   ]
 };
