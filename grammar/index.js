@@ -5,7 +5,8 @@ const adverbs = require("./adverbs/");
 const adjectives = require("./adjectives/");
 const nouns = require("./nouns/");
 const actions = require("./actions/");
-const spacetime = require("./spacetime/");
+const times = require("./times/");
+const places = require("./places/");
 
 const hashtag = require("./hashtag");
 const writing = require("./writing");
@@ -24,7 +25,7 @@ const originComplete = Object.assign(
   actions,
   misc,
   phrases,
-  spacetime,
+  times,
   story,
   hashtag,
   writing,
