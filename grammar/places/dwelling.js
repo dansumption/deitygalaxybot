@@ -45,7 +45,6 @@ module.exports = [
   "loft extension",
   "lost property office",
   "makerspace",
-  "mezzanine",
   "mountain",
   "neighborhood",
   "nest",
