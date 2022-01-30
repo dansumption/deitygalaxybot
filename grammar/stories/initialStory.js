@@ -6,13 +6,13 @@ module.exports = [
 `,
 
   `#deityClause#,
-From #deityPlace#
+From #deityPlace#,
 #actionClause#.
 `,
 
   `
 #deityClause#
-#actionClause#
+#actionClause#,
 Near #deityPlace#
 `
 
