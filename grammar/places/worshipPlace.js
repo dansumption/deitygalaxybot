@@ -1,0 +1,20 @@
+module.exports = [
+  "abbey",
+  "altar",
+  "basilica",
+  "cathedral",
+  "cemetery",
+  "chapel",
+  "church",
+  "graveyard",
+  "hermitage",
+  "maypole",
+  "monastery",
+  "nunnery",
+  "pyramid",
+  "roadside shrine",
+  "shrine",
+  "synagogue",
+  "tabernacle",
+  "temple"
+];
