@@ -29,7 +29,7 @@ const venues = corpora
   );
 
 const anyPlace = inPlace.concat(atPlace, onPlace);
-const dwelling = dwellings.concat(settings, venues, worshipPlace);
+const dwelling = dwellings.concat(settings, room, venues, worshipPlace);
 const qualifiedPlace = unqualifiedPlace.concat(
   atPlace.map(place => `at ${place}`),
   inPlace.map(place => `in ${place}`),
