@@ -48,7 +48,7 @@ const qualifiedPlace = unqualifiedPlace.concat(
   onPlace.map(place => `on ${place}`)
 );
 
-const fullPlace = ["#adjective.a# #adjective# #dwelling# #qualifiedPlace#"];
+const fullPlace = ["#adjective.a# #adjective# #dwelling#\n\t#qualifiedPlace#"];
 const placeName = atPlace.concat(inPlace, onPlace);
 module.exports = {
   anyPlace,
