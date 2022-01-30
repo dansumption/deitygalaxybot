@@ -37,9 +37,9 @@ const fillOutArray = (arr, phrase) => {
 };
 const dwelling =
   //  fillOutArray(
-  dwellings
-    .concat(settings, room, venues, worshipPlace)
-    .map(item => `#adjective.a# #adjective# ${item}`);
+  dwellings;
+// .concat(settings, room, venues, worshipPlace)
+// .map(item => `#adjective.a# #adjective# ${item}`);
 // );
 
 const qualifiedPlace = unqualifiedPlace.concat(
@@ -47,11 +47,14 @@ const qualifiedPlace = unqualifiedPlace.concat(
   inPlace.map(place => `in ${place}`),
   onPlace.map(place => `on ${place}`)
 );
+
+const fullPlace = ["#adjective.a# #adjective# #dwelling# #qualifiedPlace#"];
 const placeName = atPlace.concat(inPlace, onPlace);
 module.exports = {
   anyPlace,
   atPlace,
   dwelling,
+  fullPlace,
   inPlace,
   onPlace,
   pilgrimageSite,

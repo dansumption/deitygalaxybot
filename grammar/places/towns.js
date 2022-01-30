@@ -1,5 +1,6 @@
 module.exports = {
-  town: ["the #townType# of #townName#"],
+  townFull: ["the #townType# of #townName#"],
+  town: ["#townName#"],
   townName: [
     "#townBaseName#",
     "#townBaseName#",

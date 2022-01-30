@@ -7,7 +7,7 @@ module.exports = {
       "[deityDomain:#domain#]" +
       "[spiritAnimal:#animal#]" +
       "[spiritBird:#bird#]" +
-      "[deityPlace:#qualifiedPlace#]" +
+      "[deityPlace:#fullPlace#]" +
       "[deityPunishment:#punishment#]"
   ],
   deityFull: ["#deityName#, #deityType# of #deityDomain#,"],
@@ -76,7 +76,6 @@ module.exports = {
   ],
   domain: [
     "#nounToPluralise.s#",
-    "#nounToPluralise.a# in #town#",
     "#nounNotToPluralise#",
     "#newTech#"
     // "#domain# and #domain#"

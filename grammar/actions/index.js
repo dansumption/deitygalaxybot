@@ -1,24 +1,26 @@
-const asks = require("./asks");
-const verbs = require("./verbs");
-const travel = require("./travel");
-const communicate = require("./communicate");
-const meditate = require("./meditate");
 const animalActions = require("./animalActions");
-const twoPersonActions = require("./twoPersonActions");
-const making = require("./making");
+const asks = require("./asks");
 const clothe = require("./clothe");
+const communicate = require("./communicate");
 const get = require("./get");
+const making = require("./making");
+const meditate = require("./meditate");
+const toyWith = require("./toyWith");
+const travel = require("./travel");
+const twoPersonActions = require("./twoPersonActions");
+const verbs = require("./verbs");
 
 module.exports = Object.assign(
   {},
-  asks,
-  verbs,
+  toyWith,
   travel,
-  communicate,
-  meditate,
-  animalActions,
   twoPersonActions,
-  making,
+  animalActions,
+  communicate,
+  verbs,
+  asks,
   clothe,
-  get
+  get,
+  making,
+  meditate
 );

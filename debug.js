@@ -1,5 +1,6 @@
 /* eslint-disable */
 
+const complex = require("./debugComplex");
 const grammar = require("./grammar");
 const { story } = require("./grammar/stories/");
 let macros = require("./grammar/macros");
@@ -12,6 +13,7 @@ const templateForceText = "After #takesTime#, #instructing#\n";
 const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#\n";
 
 let template = argv.template || "#origin#\n\n\n";
+template = complex; // uncomment to use template from separate file debugComplex.js
 // template = templateForceText; // uncomment to force the above template
 // template = templateForceReply; // uncomment to force the above reply template
 // template = templateWithoutReply; // uncomment to force the above reply template
