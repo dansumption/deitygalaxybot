@@ -1,31 +1,18 @@
 // TODO - more about how deities look and act
 module.exports = [
   `In #deityPlace#, 
-#deityName#,
-#deityType.capitalize# of #deityDomain.capitalize#,
-#adverb.capitalize# #toyWith#
-#adjective.a.capitalize# #anyNoun#.
+#deityClause#,
+#actionClause#.
 `,
 
-  `In #deityPlace#, 
-#deityName#,
-#deityType.capitalize# of #deityDomain.capitalize#,
-#adverb.capitalize# #meditationAction#
-#adjective.a.capitalize# #anyNoun#.
-`,
-
-  `#deityName#,
-#deityType.capitalize# of #deityDomain.capitalize#,
+  `#deityClause#,
 From #deityPlace#
-#deliverMessage.capitalize#
-"#quest.capitalize#".
+#actionClause#.
 `,
 
   `
-#deityType.capitalize# of #deityDomain.capitalize#,
-#deityName#
-Watches #deityTheir# #spiritAnimal#
-#animalAction.capitalize# #adverb#
+#deityClause#
+#actionClause#
 Near #deityPlace#
 `
 
