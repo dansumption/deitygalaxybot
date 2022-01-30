@@ -11,7 +11,7 @@ From #deityPlace#,
 `,
 
   `
-#deityClause#
+#deityClause#,
 #actionClause#,
 Near #deityPlace#
 `
