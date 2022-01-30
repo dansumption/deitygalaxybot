@@ -4,7 +4,7 @@ module.exports = [
 #deityName#
 #deityType.capitalize# of #deityDomain.capitalize#
 #adverb.capitalize# #toyWith#
-#adjective.a.capitalize# #anyNoun.capitalize#
+#adjective.a.capitalize# #anyNoun#
 `
   // "Wanna know what I just saw #deityFull# do?",
   // "Sometimes I suspect that there are more deities than worshippers. Who ever heard of #deityFull#?",
