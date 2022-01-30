@@ -2,7 +2,7 @@ module.exports = [
   "WORSHIP #deityName.toUpperCase#?\n\tY/N",
   "PRAY TO #deityName.toUpperCase#?\nCALLS CHARGED AT YOUR STANDARD RATE ",
   "ACCEPT #deityName.toUpperCase# INTO YOUR LIFE?\n*TERMS AND CONDITIONS APPLY",
-  "VOTE FOR #deityName.toUpperCase#?\n*TWEET THIS NUMBER NOW: @DEITYGALAXY"
+  "VOTE FOR #deityName.toUpperCase#?\nTWEET THIS NUMBER NOW: @DEITYGALAXY"
 
   // "Reply to this tweet to worship #deityName#",
   // "Send a prayer to #deityName# with just a simple reply to this tweet.",

@@ -18,7 +18,7 @@ module.exports = [
 #deityType.capitalize# of #deityDomain.capitalize#,
 From #deityPlace#
 #deliverMessage.capitalize#
-"#quest.capitalize#.
+"#quest.capitalize#".
 `
 
   // "Wanna know what I just saw #deityFull# do?",
