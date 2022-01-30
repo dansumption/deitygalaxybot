@@ -25,7 +25,7 @@ From #deityPlace#
 #deityType.capitalize# of #deityDomain.capitalize#,
 #deityName#
 Watches #deityTheir# #spiritAnimal#
-#animalAction#
+#animalAction.capitalize# #adverb#
 Near #deityPlace#
 `
 
