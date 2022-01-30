@@ -1,3 +1,5 @@
+// const helperUtils = require('../../utils/helperUtils');
+
 const atPlace = require("./atPlace");
 const dwellings = require("./dwelling");
 const inPlace = require("./inPlace");
@@ -29,7 +31,17 @@ const venues = corpora
   );
 
 const anyPlace = inPlace.concat(atPlace, onPlace);
-const dwelling = dwellings.concat(settings, room, venues, worshipPlace);
+
+const fillOutArray = (arr, phrase) => {
+  arr.map(item => `${phrase} ${item}`);
+};
+const dwelling =
+  //  fillOutArray(
+  dwellings
+    .concat(settings, room, venues, worshipPlace)
+    .map(item => `#adjective.a# #adjective# ${item}`);
+// );
+
 const qualifiedPlace = unqualifiedPlace.concat(
   atPlace.map(place => `at ${place}`),
   inPlace.map(place => `in ${place}`),

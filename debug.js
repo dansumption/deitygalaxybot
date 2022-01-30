@@ -15,7 +15,7 @@ let template = argv.template || "#origin#\n\n\n";
 // template = templateForceText; // uncomment to force the above template
 // template = templateForceReply; // uncomment to force the above reply template
 // template = templateWithoutReply; // uncomment to force the above reply template
-template = "#dwelling#"; // insert manual template here
+// template = "#dwelling#"; // insert manual template here
 
 // Checks to perform:
 // Search code for [^a-zA-Z]#(\w|\.)+[^#][, ] to find unmatched #words#
