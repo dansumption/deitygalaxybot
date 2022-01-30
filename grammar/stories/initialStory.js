@@ -12,7 +12,15 @@ module.exports = [
 #deityType.capitalize# of #deityDomain.capitalize#,
 #adverb.capitalize# #meditationAction#
 #adjective.a.capitalize# #anyNoun#.
+`,
+
+  `#deityName#,
+#deityType.capitalize# of #deityDomain.capitalize#,
+From #deityPlace#
+#deliverMessage.capitalize#
+"#quest.capitalize#.
 `
+
   // "Wanna know what I just saw #deityFull# do?",
   // "Sometimes I suspect that there are more deities than worshippers. Who ever heard of #deityFull#?",
   // "Summoning gods can be a dangerous business. Who just summoned #deityFull#",

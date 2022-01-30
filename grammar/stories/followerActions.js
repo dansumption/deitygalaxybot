@@ -38,7 +38,17 @@ module.exports = {
     "sacrifice your #anyNoun# to #object#",
     "soil yourself with #object#",
     "befoul yourself before a statue of #object#",
-    "change a lightbulb"
+    "change a lightbulb",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#pilgrimage#",
+    "#pilgrimage#"
     // "become the #adjective# promoter of",
     // "save the #spiritAnimal.s#. And also save",
   ],
