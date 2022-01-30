@@ -1,10 +1,10 @@
 // TODO - more about how deities look and act
 module.exports = [
   `In #deityPlace#, 
-#deityName#
-#deityType.capitalize# of #deityDomain.capitalize#
+#deityName#,
+#deityType.capitalize# of #deityDomain.capitalize#,
 #adverb.capitalize# #toyWith#
-#adjective.a.capitalize# #anyNoun#
+#adjective.a.capitalize# #anyNoun#.
 `
   // "Wanna know what I just saw #deityFull# do?",
   // "Sometimes I suspect that there are more deities than worshippers. Who ever heard of #deityFull#?",
