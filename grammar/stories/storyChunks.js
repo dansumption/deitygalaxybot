@@ -13,6 +13,6 @@ module.exports = {
     "#adverb.capitalize# #meditationAction#\n#adjective.a.capitalize# #anyNoun#",
     "#adverb.capitalize# #toyWith#\n#adjective.capitalize# #anyNoun#",
     "#twoPersonAction.capitalize#\n#nounToPluralise.s.capitalize#\nWith you",
-    "Is eagerly #making#"
+    "Is #adverb# #making#"
   ]
 };
