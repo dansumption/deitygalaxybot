@@ -13,14 +13,62 @@ From #deityPlace#,
   `
 #deityClause#,
 #actionClause#,
-Near #deityPlace#
+Near #deityPlace#.
 `,
 
   `We worship
 #deityClause#,
 Join us!
-#followerAction.capitalize#`
+#followerAction.capitalize#
+At #deityPlace#.
+`,
 
+  `When #deityClause#
+Is Angered
+All who offend them
+Will be #deityPunishment#
+In #deityPlace#.
+`,
+
+  `On #festival#
+In #deityPlace#
+We gather
+To worship
+#deityClause#.
+`,
+
+  `
+"#deityAdjective#
+Takes the form
+Of #adjective.a# #animal#
+Wearing #buildingMaterial#
+Yet somehow more #adjective#.
+`,
+
+  `#deityClause#
+Appears in #deityPlace#
+With #adjective.a# #bodyPart#
+And #nounToPluralise.a#.
+`,
+
+  `#deityFull#
+Wears #adjective.a# #clothing#
+Made of #colours# #buildingMaterial#.",
+When #verbIng#
+In #deityPlace#.
+`,
+
+  `#deityClause#
+Sits in #deityPlace#,
+Their #bodyPart# growing #moreOrLess# #adjective#
+This a sign
+That #deityName# feels
+#adjective.capitalize#.
+`
+
+  // "The #bodyPart# of #deityFull# is made of #adjective# #buildingMaterial# but #deityTheir# #bodyPart# feels more like #buildingMaterial#.",
+  // "#deityFull# has #bodyPart.a# of #buildingMaterial#, #bodyPart.a# of #buildingMaterial# & #bodyPart.a# of #buildingMaterial#, but remains #adjective#.",
+  // "#deityFull# looks like #adjective.a# #famousPerson# made of #buildingMaterial#, but #moreOrLess# #adjective#."
   // "Wanna know what I just saw #deityFull# do?",
   // "Sometimes I suspect that there are more deities than worshippers. Who ever heard of #deityFull#?",
   // "Summoning gods can be a dangerous business. Who just summoned #deityFull#",

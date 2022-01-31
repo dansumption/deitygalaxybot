@@ -1,15 +1,15 @@
 module.exports = {
   festival: [
-    "festival of #nounNotToPluralise# #deityPlace#",
-    "carnival of the #spiritBird.s# #deityPlace#",
-    "apprentice #role#'s rag week #deityPlace#",
-    "festival of #nounToPluralise.s# #deityPlace#",
-    "national day of mourning for victims of #disorder# #deityPlace#",
-    "#spiritAnimal# fayre #deityPlace#",
-    "day of reconciliation with #belief# #deityPlace#",
-    "day of abstinence from #action# #deityPlace#",
-    "day of mass #action# #deityPlace#",
-    "#adjective# #academicField# graduation day #deityPlace#",
-    "start of filming of the BBC series '#nounToPluralise.capitalizeAll#' #deityPlace#"
+    "festival of\n#nounNotToPluralise.capitalize#",
+    "carnival of\nThe #spiritBird.s#",
+    "apprentice #role#'s\nRag week",
+    "festival of\n#nounToPluralise.s.capitalize#",
+    "national day of mourning\nFor victims of #disorder#",
+    "#spiritAnimal# fayre",
+    "day of reconciliation\nWith #belief#",
+    "day of abstinence\nFrom #action#",
+    "day of mass\n#action.capitalize#",
+    "#adjective# #academicField#\nGraduation day",
+    "start of filming\nOf the BBC series\n'#nounToPluralise.capitalizeAll#'"
   ]
 };
