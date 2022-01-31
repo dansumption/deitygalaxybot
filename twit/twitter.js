@@ -20,7 +20,6 @@ const initialize = botHandle => {
 
 const logMessage = console.log;
 
-// TODO - limit tweet to 280 chars
 const sendTweet = parameters => {
   parameters.status = parameters.status.substring(0, 280);
   parameters.entities = {

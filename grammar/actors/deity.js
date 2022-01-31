@@ -1,4 +1,3 @@
-// TODO: stop compound deity names from getting too long.
 module.exports = {
   setDeity: [
     "#deityPronouns#" +

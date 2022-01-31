@@ -1,5 +1,4 @@
 // TODO - more about how deities look
-// TODO - refer to deities "OUR god", "THEIR"
 module.exports = [
   `In #deityPlace#, 
 #deityClause#,
@@ -15,7 +14,12 @@ From #deityPlace#,
 #deityClause#,
 #actionClause#,
 Near #deityPlace#
-`
+`,
+
+  `We worship
+#deityClause#,
+Join us!
+#followerAction.capitalize#`
 
   // "Wanna know what I just saw #deityFull# do?",
   // "Sometimes I suspect that there are more deities than worshippers. Who ever heard of #deityFull#?",
