@@ -25,7 +25,7 @@ let template = argv.template || "#origin#\n\n\n";
 // Check how many of the output samples are over maximum number of characters
 //    (this is listed at the end of the debug output)
 
-const COUNT = argv.count || 2000;
+const COUNT = argv.count || 123;
 
 macros +=
   "#setDeity##setCharacter#" +
