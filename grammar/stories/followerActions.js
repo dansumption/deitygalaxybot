@@ -8,9 +8,9 @@ module.exports = {
   ],
   pilgrimage: [
     "#travelAction#\nWith #deityName#'s #role#\nTo #pilgrimageSite#",
-    "#travelAction#\nTo #pilgrimageSite# and #quest#",
+    "#travelAction#\nTo #pilgrimageSite#\nAnd #quest#",
     "#travelAction#\nTo #pilgrimageSite#",
-    "gather your #spritAnimal.s#\nAnd form #band.a#"
+    "gather your #spritAnimal.s#\nAnd form\n#band.a.capitalize#"
   ],
   quest: [
     "find #adjective.a# #nounToPluralise#",
@@ -33,11 +33,11 @@ module.exports = {
     "humiliate yourself\nFor the sake of #object#",
     "kiss\nThe most #adjective# #role#\nIn #deityPlace#",
     "live the rest of your life\nAs the lowliest #role#\nIn #deityPlace#",
-    "make your way directly\nTo #dwelling.a# #deityPlace#",
+    "make your way directly\nTo #dwelling.a#\n#deityPlace.capitalize#",
     "prostrate yourself\nBefore #dwelling.a#\n#deityPlace.capitalize#",
-    "sacrifice your #anyNoun# to #object#",
+    "sacrifice your #anyNoun#\nTo #object#",
     "soil yourself\nWith #object#",
-    "befoul yourself before a statue of #object#",
+    "befoul yourself\nBefore a statue of #object#",
     "change a lightbulb",
     "#pilgrimage#",
     "#pilgrimage#",
