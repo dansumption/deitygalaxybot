@@ -53,7 +53,7 @@ And #nounToPluralise.a#.
 
   `#deityClause#
 Wears #adjective.a# #clothing#
-Made of #colours# #buildingMaterial#",
+Made of #colours# #buildingMaterial#,
 When #verbIng#
 In #deityPlace#.
 `,
