@@ -53,14 +53,15 @@ And #nounToPluralise.a#.
 
   `#deityFull#
 Wears #adjective.a# #clothing#
-Made of #colours# #buildingMaterial#.",
+Made of #colours# #buildingMaterial#",
 When #verbIng#
 In #deityPlace#.
 `,
 
   `#deityClause#
 Sits in #deityPlace#,
-Their #bodyPart# growing #moreOrLess# #adjective#
+Their #bodyPart#
+Growing #moreOrLess# #adjective#
 This a sign
 That #deityName# feels
 #adjective.capitalize#.
