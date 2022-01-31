@@ -1,4 +1,5 @@
-// TODO - more about how deities look and act
+// TODO - more about how deities look
+// TODO - refer to deities "OUR god", "THEIR"
 module.exports = [
   `In #deityPlace#, 
 #deityClause#,
