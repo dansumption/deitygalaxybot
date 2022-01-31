@@ -10,7 +10,7 @@ module.exports = {
     "#travelAction#\nWith #deityName#'s #role#\nTo #pilgrimageSite#",
     "#travelAction#\nTo #pilgrimageSite#\nAnd #quest#",
     "#travelAction#\nTo #pilgrimageSite#",
-    "gather your #spritAnimal.s#\nAnd form\n#band.a.capitalize#"
+    "gather your #spiritAnimal.s#\nAnd form\n#band.a.capitalize#"
   ],
   quest: [
     "find #adjective.a# #nounToPluralise#",
