@@ -51,7 +51,7 @@ With #adjective.a# #bodyPart#
 And #nounToPluralise.a#.
 `,
 
-  `#deityFull#
+  `#deityClause#
 Wears #adjective.a# #clothing#
 Made of #colours# #buildingMaterial#",
 When #verbIng#
