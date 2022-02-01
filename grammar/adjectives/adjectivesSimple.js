@@ -75,7 +75,7 @@ module.exports = [
   "banded",
   "banned",
   "barreled",
-  "battle",
+  "battle-worn",
   "beaten",
   "begotten",
   "beguiled",
