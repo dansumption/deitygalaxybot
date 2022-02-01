@@ -1,7 +1,7 @@
 const animalActions = require("./animalActions");
 const asks = require("./asks");
 const wear = require("./wear");
-const communicate = require("./communicate");
+const shout = require("./shout");
 const get = require("./get");
 const making = require("./making");
 const meditating = require("./meditating");
@@ -16,7 +16,7 @@ module.exports = Object.assign(
   travel,
   twoPersonActions,
   animalActions,
-  communicate,
+  shout,
   verbs,
   asks,
   wear,
