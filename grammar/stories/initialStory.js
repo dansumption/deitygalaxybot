@@ -42,6 +42,7 @@ To worship
 Takes the form
 Of #adjective.a# #animal#
 Wearing #buildingMaterial#
+In #deityPlace#
 Yet #adverb# more #adjective#.
 `,
 
