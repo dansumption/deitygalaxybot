@@ -5,7 +5,7 @@ module.exports = [
   "underwear",
   "waistcoat",
   "knicker",
-  "spats",
+  "spat",
   "garter",
   "truss",
   "top hat",
