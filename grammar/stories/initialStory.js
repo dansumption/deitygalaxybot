@@ -38,7 +38,7 @@ To worship
 `,
 
   `
-"#deityClause#
+#deityClause#
 Takes the form
 Of #adjective.a# #animal#
 Wearing #buildingMaterial#
