@@ -1,3 +1,3 @@
 module.exports = {
-  shoutVerb: ["boom", "cheer", "cry", "scream", "shout", "yell"]
+  shout: ["boom", "cheer", "cry", "scream", "shout", "yell"]
 };

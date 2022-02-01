@@ -1,5 +1,5 @@
 module.exports = {
-  meditationAction: [
+  meditating: [
     "contemplating",
     "praying to",
     "visualising",

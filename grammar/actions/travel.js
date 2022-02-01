@@ -1,5 +1,5 @@
 module.exports = {
-  travelAction: [
+  travel: [
     "travel",
     "travel #adverb#",
     "travel by #vehicle#",

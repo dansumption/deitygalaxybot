@@ -33,7 +33,7 @@ module.exports = [
   "#deityName# rattles a tin under your nose and asks for a donation to save the #animal.s#.",
   "#deityName# rewards you for your loyalty with #nounToPluralise.a#.",
   "#deityName# shits out a huge mound of #buildingMaterial#. Immediately, #flower.s# start to grow out of the mound towards you.",
-  "#deityName# spends #takesTime# #meditationAction# #object#.",
+  "#deityName# spends #takesTime# #meditating# #object#.",
   "#deityName# sticks #nounToPluralise.a# #preposition# #nounToPluralise.a# and uses it #reason#.",
   "#deityName# will reward you for your loyalty, although you will have to wait.",
   "#wind.a# stirs the #tree# trees. #deityFull# sighs #adverb#.",

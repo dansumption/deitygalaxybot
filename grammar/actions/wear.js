@@ -1,5 +1,5 @@
 module.exports = {
-  clothe: [
+  wear: [
     "clothe",
     "wear",
     "cloak",

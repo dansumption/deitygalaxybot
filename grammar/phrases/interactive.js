@@ -16,7 +16,7 @@ module.exports = {
     "examine your life. Is there room there for #nounToPluralise.s#"
   ],
   instructions: [
-    "eschew your #belief#, only by #meditationAction# #adjective# #deityDomain# will you be saved",
+    "eschew your #belief#, only by #meditating# #adjective# #deityDomain# will you be saved",
     "immanentise the Eschaton now",
     "capture a live #animal#",
     "eat an entire #nounToPluralise#",

@@ -10,8 +10,8 @@ module.exports = {
   actionClause: [
     "Watches #deityTheir# #spiritAnimal#\n#animalAction.capitalize# #adverb#",
     "#deliverMessage.capitalize#\n#quest.capitalize#",
-    "#adverb.capitalize# #meditationAction#\n#adjective.a.capitalize# #anyNoun#",
-    "#adverb.capitalize# #toyWith#\n#adjective.capitalize# #anyNoun#",
+    "#adverb.capitalize# #meditating#\n#adjective.a.capitalize# #anyNoun#",
+    "#adverb.capitalize# #interact#\n#adjective.capitalize# #anyNoun#",
     "#twoPersonAction.capitalize#\n#nounToPluralise.s.capitalize#\nWith you",
     "Is #adverb# #making#"
   ]

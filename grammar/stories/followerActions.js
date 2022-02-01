@@ -7,9 +7,9 @@ module.exports = {
     "#quest#"
   ],
   pilgrimage: [
-    "#travelAction#\nWith #deityName#'s #role#\nTo #pilgrimageSite#",
-    "#travelAction#\nTo #pilgrimageSite#\nAnd #quest#",
-    "#travelAction#\nTo #pilgrimageSite#",
+    "#travel#\nWith #deityName#'s #role#\nTo #pilgrimageSite#",
+    "#travel#\nTo #pilgrimageSite#\nAnd #quest#",
+    "#travel#\nTo #pilgrimageSite#",
     "gather your #spiritAnimal.s#\nAnd form\n#band.a.capitalize#"
   ],
   quest: [
@@ -49,7 +49,7 @@ module.exports = {
     // "become the #adjective# promoter of",
     // "save the #spiritAnimal.s#. And also save",
   ],
-  meditation: ["Spend #takesTime#\n#meditationAction.capitalize# #object#"],
+  meditation: ["Spend #takesTime#\n#meditating.capitalize# #object#"],
   object: [
     "#nounNotToPluralise#",
     "#nounNotToPluralise#",

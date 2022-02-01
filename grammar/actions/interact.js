@@ -1,5 +1,5 @@
 module.exports = {
-  toyWith: [
+  interact: [
     "toys with",
     "handles",
     "plays with",
@@ -12,6 +12,6 @@ module.exports = {
     "accepts",
     "communes with",
     "meditates upon",
-    "#meditationAction#"
+    "#meditating#"
   ]
 };

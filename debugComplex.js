@@ -2,18 +2,18 @@ module.exports = `#inPlace#
 In #deityPlace#, 
 #deityName#
 #deityType.capitalize# of #deityDomain.capitalize#
-#adverb.capitalize# #toyWith#
+#adverb.capitalize# #interact#
 #adjective.a.capitalize# #anyNoun.capitalize#
 `;
 
 // ANIMALACTION #animalAction#
 // ASK #asks#
-// CLOTHE #clothe#
+// CLOTHE #wear#
 // GET #get#
 // MAKE #making#
-// MEDITATIONACTION (#meditationAction# should be #MEDITATE#)
-// SHOUTVERB #shoutVerb# (should be #COMMUNICATE#)
-// TOYWITH #toyWith# should be #INTERACT#)
-// TRAVELACTION #travelAction# (should be #TRAVEL#)
+// MEDITATING #meditating#
+// #SHOUT# #shout#
+// INTERACT #interact#
+// #TRAVEL# #travel#
 // TWOPERSONACTION #twoPersonAction#
 // VERB #verb#

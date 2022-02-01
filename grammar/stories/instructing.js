@@ -3,7 +3,7 @@ module.exports = [
   '#deityName# #asks# you to "#followerAction#".',
   '#deityName# #asks#: "#followerAction#".',
   "#deityName# #asks# you to #followerAction#",
-  '#deityName# #shoutVerb.s# "#followerAction.toUpperCase#" from the sky',
+  '#deityName# #shout.s# "#followerAction.toUpperCase#" from the sky',
   '#deityName# #deliverMessage# "#followerAction#"',
   '#deityName# sends #bird.a# fluttering down from the sky. Tied to its leg is a note: "#followerAction#"',
   '[servant:#role#]#deityName# sends #deityTheir# #servant# riding up to you on #animal.a#. The #servant# #deliverMessage# "#followerAction#"',

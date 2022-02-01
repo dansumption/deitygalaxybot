@@ -4,7 +4,7 @@ module.exports = [
   '#deityName# #adverb# says "#statement#".',
   '#deityName# #adverb# states "#statement#".',
   '#deityName# #adverb# whispers "#statement#".',
-  '#deityName# #shoutVerb.s# "#statement.toUpperCase#".',
+  '#deityName# #shout.s# "#statement.toUpperCase#".',
   '#deityName# coos "#statement#".',
   '#deityName# cries "#statement#".',
   '#deityName# says "#statement#".',
