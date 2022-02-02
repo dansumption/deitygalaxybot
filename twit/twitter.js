@@ -48,7 +48,10 @@ const sendTweet = parameters => {
   return __post("statuses/update", parameters)
     .then(data => {
       console.log(
-        `SENT: ${data.id_str}\n\tIn reply to: ${parameters.in_reply_to_status_id}\n\t${parameters.status}`
+        `SENT: ${data.id_str}\n\tIn reply to: ${parameters.in_reply_to_status_id}\n\t${parameters.status}`.replace(
+          "\n",
+          "\\n"
+        )
       );
       return data;
     })
@@ -66,7 +69,10 @@ const monitorSearchTerm = (term, callback, ...excludeHandles) => {
     const stream = bot.stream("statuses/filter", { track: term });
     stream.on("tweet", tweet => {
       console.log(
-        `Search got tweet from ${tweet.user.screen_name}: ${tweet.text}`
+        `Search got tweet from ${tweet.user.screen_name}: ${tweet.text}`.replace(
+          "\n",
+          "\\n"
+        )
       );
       if (!excludeHandles.includes(tweet.user.screen_name)) {
         console.log("Reply to it...");
