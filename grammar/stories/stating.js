@@ -1,18 +1,18 @@
 // TODO: add variety
 module.exports = [
-  '#deityName# #adverb# proclams "#statement#".',
-  '#deityName# #adverb# says "#statement#".',
-  '#deityName# #adverb# states "#statement#".',
-  '#deityName# #adverb# whispers "#statement#".',
-  '#deityName# #shout.s# "#statement.toUpperCase#".',
-  '#deityName# coos "#statement#".',
-  '#deityName# cries "#statement#".',
-  '#deityName# says "#statement#".',
-  '#deityName# telepathically tells you "#statement#".',
-  '#deityName# baldly states "#statement#".',
-  '#deityName# whispers "#statement#".',
-  'In #deityPlace#, #deityName# #adverb# says "#statement#".',
-  'In #deityPlace#, #deityName# says "#statement#".',
-  "#deityName# touches you on your #bodyPart# #adverb#, and whispers #statement#.",
-  '#deityName# writes in #writingStyle# letters: "#followerAction#", #reason#.'
+  '#deityName#\n#adverb.capitalize# proclams\n"#statement.capitalize#".',
+  '#deityName#\n#adverb.capitalize# says\n"#statement.capitalize#".',
+  '#deityName#\n#adverb.capitalize# states\n"#statement.capitalize#".',
+  '#deityName#\n#adverb.capitalize# whispers\n"#statement.capitalize#".',
+  '#deityName#\n#shout.s.capitalize# "#statement.toUpperCase#".',
+  '#deityName#\nCoos "#statement#".',
+  '#deityName#\nCries "#statement#".',
+  '#deityName#\nSays "#statement#".',
+  '#deityName#\nTelepathically tells you\n"#statement.capitalize#".',
+  '#deityName#\nBaldly states\n"#statement.capitalize#".',
+  '#deityName#\nWhispers "#statement#".',
+  'In #deityPlace#,\n#deityName#\n#adverb.capitalize# says\n"#statement.capitalize#".',
+  'In #deityPlace#,\n#deityName# says\n"#statement.capitalize#".',
+  "#deityName# touches you\nOn your #bodyPart# #adverb#,\nAnd whispers...\n#statement.capitalize#.",
+  '#deityName# writes\nIn #writingStyle# letters:\n"#followerAction.capitalize#",\n#reason.capitalize#.'
 ];

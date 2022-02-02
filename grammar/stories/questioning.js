@@ -1,2 +1,2 @@
 // TODO: add variety
-module.exports = ['#deityName# asks "#question#"'];
+module.exports = ['#deityName#\nAsks "#question#"'];

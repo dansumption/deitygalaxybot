@@ -1,15 +1,15 @@
 // TODO: add variety
 module.exports = [
-  '#deityName# #asks# you to "#followerAction#".',
-  '#deityName# #asks#: "#followerAction#".',
-  "#deityName# #asks# you to #followerAction#",
-  '#deityName# #shout.s# "#followerAction.toUpperCase#" from the sky',
-  '#deityName# #deliverMessage# "#followerAction#"',
-  '#deityName# sends #bird.a# fluttering down from the sky. Tied to its leg is a note: "#followerAction#"',
-  '[servant:#role#]#deityName# sends #deityTheir# #servant# riding up to you on #animal.a#. The #servant# #deliverMessage# "#followerAction#"',
-  "#deityName# #asks# you to #deityRequest# your #anyNoun#",
-  "#deityName# warns you that the wages of #action# are #quality#",
-  "#deityName# warns that the sins of the #nounToPluralise.s# are the cause of all #disorder#",
-  "#deityName# #asks# you to #get# #nounToPluralise.a#, #reason#.",
-  "#deityName# #asks# you to treat #deityDomain# with the same respect as you would #singleNoun#."
+  '#deityName# #asks# you\nTo "#followerAction#".',
+  '#deityName# #asks#:\n"#followerAction.capitalize#".',
+  "#deityName# #asks# you\nTo #followerAction#",
+  '#deityName# #shout.s#\n"#followerAction.toUpperCase#"\nFrom the sky',
+  '#deityName#\n#deliverMessage.capitalize#\n"#followerAction.capitalize#"',
+  '#deityName#\nSends #bird.a#\nFluttering down\nFrom the sky.\n\nTied to its leg\nIs a note:\n"#followerAction.capitalize#"',
+  '[servant:#role#]#deityName#\nSends #deityTheir# #servant#\nRiding up to you\nOn #animal.a#.\n\nThe #servant#\n#deliverMessage.capitalize# "#followerAction#"',
+  "#deityName#\n#asks# you\nTo #deityRequest#\nYour #anyNoun#",
+  "#deityName# warns you\nThat the wages of #action#\nAre #quality#",
+  "#deityName# warns\nThat the sins of the #nounToPluralise.s#\nAre the cause of all #disorder#",
+  "#deityName# #asks# you\nTo #get# #nounToPluralise.a#,\n#reason.capitalize#.",
+  "#deityName# #asks# you\nTo treat #deityDomain#\nWith the same respect\nAs you would #singleNoun#."
 ];
