@@ -58,19 +58,6 @@ const handleReply = async tweet => {
     }
   } else {
     // this is a mention, not a reply, so there's no deity
-    let deityName,
-      deityType,
-      deityDomain,
-      spiritAnimal,
-      deityThey,
-      deityThem,
-      deityTheir,
-      deityTheirs,
-      previousTemplate,
-      replyCount,
-      deityPlace,
-      spiritBird,
-      deityPunishment = "";
     sendTweetAndLogDeity(
       `#[userHandle:@${userHandle}]replyOrigin#`,
       replyTweetId
