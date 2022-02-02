@@ -11,8 +11,8 @@ module.exports = [
   '#deityName# telepathically tells you "#statement#".',
   '#deityName# baldly states "#statement#".',
   '#deityName# whispers "#statement#".',
-  '#deityPlace#, #deityName# #adverb# says "#statement#".',
-  '#deityPlace#, #deityName# says "#statement#".',
+  'In #deityPlace#, #deityName# #adverb# says "#statement#".',
+  'In #deityPlace#, #deityName# says "#statement#".',
   "#deityName# touches you on your #bodyPart# #adverb#, and whispers #statement#.",
   '#deityName# writes in #writingStyle# letters: "#followerAction#", #reason#.'
 ];
