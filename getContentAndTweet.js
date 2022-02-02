@@ -5,12 +5,13 @@ const grammar = require("./grammar");
 const hashtagSanitize = /['\- ]/g;
 const hashtagDeEscape = /\\#/g;
 
-const chanceOfAReply = 0.98;
+const chanceOfAReply = 0.99;
 const microDelay = () => {
   return Math.round(1000 + Math.random() * 30000);
 };
 
 const handleReply = async tweet => {
+  console.log("\nBEGIN REPLY...");
   const userHandle = tweet.user.screen_name;
   const originalTweetId = tweet.in_reply_to_status_id_str;
   const replyTweetId = tweet.id_str;
@@ -62,6 +63,7 @@ const handleReply = async tweet => {
       replyTweetId
     );
   }
+  console.log("...END REPLY\n");
 };
 
 // HORRIBLE horrible horrible hack to find symbols used in the tweet - because flattening gets an earlier version !?!
@@ -123,7 +125,9 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
   const auto_populate_reply_metadata = !!in_reply_to_status_id;
   // This is needed because of a bug where the escape character isn't being correctly stripped
   const tweetContent = root.finishedText.replace(hashtagDeEscape, "#");
-  console.log(tweetContent, deityName, deityType, deityDomain, deityPunishment);
+  console.log(
+    `TWEET CONTENT & SYMBOLS: ${tweetContent}, ${deityName}, ${deityType}, ${deityDomain}, ${deityPunishment}`
+  );
   const status = addHashTags(tweetContent, deityName, deityType, deityDomain);
   console.log(
     `CREATE FROM: '${template}\n\tTWEET: ${status}\n\tDEITY: ${deityName}`
