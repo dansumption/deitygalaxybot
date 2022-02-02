@@ -126,10 +126,10 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
   // This is needed because of a bug where the escape character isn't being correctly stripped
   const tweetContent = root.finishedText.replace(hashtagDeEscape, "#");
   console.log(
-    `TWEET CONTENT & SYMBOLS: ${tweetContent.replace(
+    `TWEET CONTENT & SYMBOLS: ${tweetContent}, ${deityName}, ${deityType}, ${deityDomain}, ${deityPunishment}`.replace(
       "\n",
       "\\n"
-    )}, ${deityName}, ${deityType}, ${deityDomain}, ${deityPunishment}`
+    )
   );
   const status = addHashTags(tweetContent, deityName, deityType, deityDomain);
   console.log(
