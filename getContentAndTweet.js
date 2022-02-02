@@ -127,14 +127,14 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
   const tweetContent = root.finishedText.replace(hashtagDeEscape, "#");
   console.log(
     `TWEET CONTENT & SYMBOLS: ${tweetContent}, ${deityName}, ${deityType}, ${deityDomain}, ${deityPunishment}`.replace(
-      "\n",
+      "/\n/g",
       "\\n"
     )
   );
   const status = addHashTags(tweetContent, deityName, deityType, deityDomain);
   console.log(
     `CREATE FROM: '${template}\n\tTWEET: ${status}\n\tDEITY: ${deityName}`.replace(
-      "\n",
+      "/\n/g",
       "\\n"
     )
   );

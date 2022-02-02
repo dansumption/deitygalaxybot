@@ -49,7 +49,7 @@ const sendTweet = parameters => {
     .then(data => {
       console.log(
         `SENT: ${data.id_str}\n\tIn reply to: ${parameters.in_reply_to_status_id}\n\t${parameters.status}`.replace(
-          "\n",
+          "/\n/g",
           "\\n"
         )
       );
@@ -70,7 +70,7 @@ const monitorSearchTerm = (term, callback, ...excludeHandles) => {
     stream.on("tweet", tweet => {
       console.log(
         `Search got tweet from ${tweet.user.screen_name}: ${tweet.text}`.replace(
-          "\n",
+          "/\n/g",
           "\\n"
         )
       );
