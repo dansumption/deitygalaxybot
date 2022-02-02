@@ -34,7 +34,7 @@ module.exports = [
   "#deityName# rewards you\nFor your loyalty\nWith #nounToPluralise.a#.",
   "#deityName# shits out\nA huge mound of #buildingMaterial#.\n\nImmediately,\n#flower.s.capitalize# start to grow\nOut of the mound\nTowards you.",
   "#deityName#\nSpends #takesTime#\n#meditating# #object#.",
-  "#deityName#\nsticks #nounToPluralise.a##preposition.capitalize# #nounToPluralise.a#\nAnd uses it\n#reason.capitalize#.",
+  "#deityName#\nsticks #nounToPluralise.a#\n#preposition.capitalize# #nounToPluralise.a#\nAnd uses it\n#reason.capitalize#.",
   "#deityName# will reward you\nFor your loyalty,\nAlthough you will have to wait.",
   "#wind.a# stirs\nThe #tree# trees.\n\n#deityFull# sighs\n#adverb.capitalize#.",
   "In #dwelling.a#\nIn #deityPlace#,\nYou see #deityName#\nAnd #characterName#\n#making.capitalize#.",
