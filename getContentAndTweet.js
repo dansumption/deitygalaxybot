@@ -133,7 +133,10 @@ const sendTweetAndLogDeity = (template, in_reply_to_status_id, replyCount) => {
   );
   const status = addHashTags(tweetContent, deityName, deityType, deityDomain);
   console.log(
-    `CREATE FROM: '${template}\n\tTWEET: ${status}\n\tDEITY: ${deityName}`
+    `CREATE FROM: '${template}\n\tTWEET: ${status}\n\tDEITY: ${deityName}`.replace(
+      "\n",
+      "\\n"
+    )
   );
   setTimeout(() => {
     sendTweet({
