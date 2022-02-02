@@ -41,14 +41,14 @@ const handleReply = async tweet => {
         console.log(`This is the ${replyCount} tweet in a thread
           The last template was: ${previousTemplate}`);
         sendTweetAndLogDeity(
-          `[userHandle:@${userHandle}]\n[deityName:${deityName}][deityType:${deityType}][deityDomain:${deityDomain}][spiritAnimal:${spiritAnimal}][deityThey:${deityThey}][deityThem:${deityThem}][deityTheir:${deityTheir}][deityTheirs:${deityTheirs}][deityPlace:${deityPlace}][spiritBird:${spiritBird}]#replyWithDeity#`,
+          `[userHandle:@${userHandle}][deityName:${deityName}][deityType:${deityType}][deityDomain:${deityDomain}][spiritAnimal:${spiritAnimal}][deityThey:${deityThey}][deityThem:${deityThem}][deityTheir:${deityTheir}][deityTheirs:${deityTheirs}][deityPlace:${deityPlace}][spiritBird:${spiritBird}]#replyWithDeity#`,
           replyTweetId,
           replyCount
         );
       } else {
         // we don't have a deity stored for the original tweet
         sendTweetAndLogDeity(
-          `#[userHandle:@${userHandle}]\nreplyWithLostDeity#`,
+          `#[userHandle:@${userHandle}]replyWithLostDeity#`,
           replyTweetId
         );
       }
@@ -58,7 +58,7 @@ const handleReply = async tweet => {
   } else {
     // this is a mention, not a reply, so there's no deity
     sendTweetAndLogDeity(
-      `#[userHandle:@${userHandle}]\nreplyOrigin#`,
+      `#[userHandle:@${userHandle}]replyOrigin#`,
       replyTweetId
     );
   }
