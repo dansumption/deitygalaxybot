@@ -49,7 +49,9 @@ module.exports = {
     // "become the #adjective# promoter of",
     // "save the #spiritAnimal.s#. And also save",
   ],
-  meditation: ["Spend #takesTime#\n#meditating.capitalize# #object#"],
+  meditation: [
+    "Spend #takesTime#\n#meditating.capitalize#\n#object.capitalize#"
+  ],
   object: [
     "#nounNotToPluralise#",
     "#nounNotToPluralise#",
