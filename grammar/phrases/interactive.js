@@ -2,7 +2,7 @@ module.exports = {
   statements: [
     "may the person\nWho is without #quality#\nCast the first #miscObject#",
     "where there is #quality#,\nMay we bring #quality#.\nWhere there is #quality#,\nMay we bring #quality#",
-    "[relativeType:#relative#] I have many #relativeType.s#.\nEach #relativeType# governs\nA different aspect\nOf #nounNotToPluralise#.\nFor example,\n#deityTheir.capitalize# #relativeType# #name#\nHas domain over\nIts #adjective# aspect.",
+    "[relativeType:#relative#]I have many #relativeType.s#.\nEach #relativeType# governs\nA different aspect\nOf #nounNotToPluralise#.\nFor example,\n#deityTheir.capitalize# #relativeType# #name#\nHas domain over\nIts #adjective# aspect.",
     "I created the universe\nIn #takesTime#.\nBut only\nThat part of the universe\nPertaining to #deityDomain#.",
     "I love #characterName#.\nI really love #characterObject#,\nAnd #characterSubject#loves me back.",
     "I love birds.\nAnd my birdmix brings\nALL the birds to the yard.\nLook!\nIs that a #bird# I see\nBalancing on my fat balls?"
