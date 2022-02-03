@@ -1,28 +1,28 @@
 module.exports = {
   reason: [
-    "to heal #anyPlace# from the damage caused by #belief#",
-    "to encourage the return of #animal.s# to #anyPlace#",
-    "to guarantee #adjective.a# #festival#",
-    "to create a sense of #feeling#",
-    "to bring #quality# to #nounToPluralise.s#",
-    "to bring #nounNotToPluralise# to #nounToPluralise.s#",
-    "as a substitute for #nounNotToPluralise#",
-    "as a substitute #nounToPluralise#",
-    "to pass time while cooking #foodStuff#",
-    "to appease #deityTheir# own pet #spiritAnimal#",
-    "because only by doing so will the sanctity of #nounNotToPluralise# be realised",
-    "because only by doing so will the platonic ideal of #nounToPluralise.s# become apparent",
-    "in order to teach a lesson to #deityTheir# own followers, who are too easily moved to #feeling#",
-    "in order to teach a lesson to #deityTheir# own followers, who are too enamoured of #belief#",
-    "in order to teach a lesson to #deityTheir# own followers, who spend too much time thinking about #nounNotToPluralise#",
+    "to heal #anyPlace#\nFrom the damage caused\nBy #belief#",
+    "to encourage the return\nOf #animal.s#\nTo #anyPlace#",
+    "to guarantee\n#adjective.a.capitalize# #festival#",
+    "to create a sense\nOf #feeling#",
+    "to bring #quality#\nTo #nounToPluralise.s#",
+    "to bring #nounNotToPluralise#\nTo #nounToPluralise.s#",
+    "as a substitute\nFor #nounNotToPluralise#",
+    "as a substitute\n#nounToPluralise.capitalize#",
+    "to pass time\nWhile cooking #foodStuff#",
+    "to appease\n#deityTheir.capitalize# own pet\n#spiritAnimal.capitalize#",
+    "because\nOnly by doing so\nWill the sanctity of #nounNotToPluralise#\nBe realised",
+    "because\nOnly by doing so\nWill the platonic ideal of #nounToPluralise.s#\nBecome apparent",
+    "to teach a lesson\nTo #deityTheir# own followers,\nWho are too easily moved\nTo #feeling#",
+    "to teach a lesson\nTo #deityTheir# own followers,\nWho are too enamoured\nOf #belief#",
+    "to teach a lesson\nTo #deityTheir# own followers,\nWho spend too much time\nThinking about #nounNotToPluralise#",
     "#rareReason#"
   ],
   rareReason: [
     "because DUH",
-    "for reasons which ought to be obvious",
+    "for reasons\nWhich ought to be obvious",
     "for the usual reasons",
-    "because doing so might teach you a lesson",
-    "because of issues in #deityTheir# own childhood",
-    "because #deityThey# felt like it"
+    "because doing so\nMight teach you a lesson",
+    "because of issues\nIn #deityTheir# childhood",
+    "because #deityThey#\nFelt like it"
   ]
 };
