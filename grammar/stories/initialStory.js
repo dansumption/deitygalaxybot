@@ -31,8 +31,8 @@ In #deityPlace#.
 `,
 
   `On #festival#
-In #deityPlace#
 We gather
+In #deityPlace#
 To worship
 #deityClause#.
 `,

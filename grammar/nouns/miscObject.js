@@ -65,6 +65,7 @@ module.exports = [
   "shitstorm",
   "snapshot",
   "souvenir",
+  "spy camera",
   "staircase",
   "stairway",
   "stylus",

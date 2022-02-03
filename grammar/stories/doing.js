@@ -6,7 +6,7 @@ module.exports = [
   "#deityName# appears\nIn the form of #deityTheir# spirit animal,\n#adjective.a.capitalize# #spiritAnimal#.\nThe #spiritAnimal#\nLooks at you #adverb#\nAnd #animalAction.s#.",
   "#deityName# appears\nThrough the #adjective# mist,\nAnd thanks you for your patience.",
   "#deityName# builds\n#adjective.a.capitalize# #worshipPlace#\nTo #deityDomain#\n#reason.capitalize#.",
-  "#deityName# builds\n#dwelling.a.capitalize#\nIn #deityPlace#\n#reason.capitalize#.",
+  "#deityName# builds\n#dwelling.a.capitalize#\nNear #deityPlace#\n#reason.capitalize#.",
   "#deityName# calls down a shower\nOf #liquid#\n#reason.capitalize#.",
   "#deityName# challenges you\nTo a game of #game#.\n\nDo you accept?",
   "#deityName# climbs\n#tree.a.capitalize# tree\nIn order to better survey #deityTheir# domain.\n\nSomething in the distance\nGives #deityThem#\nA profound feeling\nOf #feeling#.",
@@ -37,7 +37,7 @@ module.exports = [
   "#deityName#\nsticks #nounToPluralise.a#\n#preposition.capitalize# #nounToPluralise.a#\nAnd uses it\n#reason.capitalize#.",
   "#deityName# will reward you\nFor your loyalty,\nAlthough you will have to wait.",
   "#wind.a# stirs\nThe #tree# trees.\n\n#deityFull# sighs\n#adverb.capitalize#.",
-  "In #dwelling.a#\nIn #deityPlace#,\nYou see #deityName#\nAnd #characterName#\n#making.capitalize#.",
+  "You see #deityName#\nAnd #characterName#\n#making.capitalize#\vIn #dwelling.a#\nNear #deityPlace#.",
   "It seems that #deityName# #busyActivity##busyInstruction#.",
   "There is no reply.\nPerhaps #deityName#\nIs #twoPersonAction#\nAnother #deityType#?"
 ];

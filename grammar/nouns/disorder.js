@@ -16,5 +16,6 @@ module.exports = [
   "pimples",
   "pleurisy",
   "pneumonia",
-  "suffering"
+  "suffering",
+  "#name#'s disease"
 ];

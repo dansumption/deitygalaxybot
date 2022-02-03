@@ -1,3 +1,4 @@
+// TODO: - allow for singular and plural clothing
 module.exports = [
   "clown shoe",
   "moccasin",

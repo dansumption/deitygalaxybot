@@ -18,6 +18,13 @@ pilgrims.forEach(phrases => {
   phrases.instructions && instruction.push(...phrases.instructions);
 });
 
+instruction.push([
+  "#verb# #object#",
+  "#pilgrimage#",
+  "#meditation#",
+  "#quest#"
+]);
+
 module.exports = {
   question,
   statement,

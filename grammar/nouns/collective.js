@@ -1,6 +1,7 @@
 module.exports = [
   "CCTV",
   "countryside",
+  "deception",
   "fake news",
   "fauna",
   "flora",
@@ -14,6 +15,7 @@ module.exports = [
   "scissors",
   "seating",
   "technology",
+  "trousers",
   "urban decay",
   "white goods",
   "lived environment"

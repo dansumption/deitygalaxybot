@@ -31,21 +31,20 @@ const { relative, sibling, parent, offspring } = require("./relative");
 const feeling = require("./feeling");
 
 const nounToPluralise = [].concat(
-  bodyPart,
   animal,
   bird,
+  bodyPart,
   clothing,
   computerObject,
   day,
-  foodItem,
-  miscObject,
-  animal,
   flower,
+  foodItem,
+  game.map(game => `game of ${game}`),
+  miscObject,
+  relative,
   tree,
   vehicle,
-  weapon,
-  relative,
-  game.map(game => `game of ${game}`)
+  weapon
 );
 
 const nounNotToPluralise = [].concat(
