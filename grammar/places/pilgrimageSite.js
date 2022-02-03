@@ -1,10 +1,10 @@
 module.exports = [
-  "#dwelling.a# #deityPlace#",
+  "#dwelling.a#\nIn #deityPlace#",
   "the nearest #dwelling#",
-  "a thousand-year-old #tree# tree",
-  "the holiest site in #deityPlace#",
-  "somewhere near #deityPlace#",
+  "a thousand-year-old\n#tree.capitalize# tree",
+  "the holiest site\nIn #deityPlace#",
+  "somewhere near\n#deityPlace.capitalize#",
   "your #relation#'s #dwelling#",
-  "#worshipPlace.a# #qualifiedPlace# and back (via #dwelling.a# #qualifiedPlace#)",
-  "#adjective.a# #worshipPlace# near #deityPlace#"
+  "#worshipPlace.a# #qualifiedPlace#\nAnd back\n(Via #dwelling.a#\n#qualifiedPlace.capitalize#)",
+  "#adjective.a# #worshipPlace#\nNear #deityPlace#"
 ];
