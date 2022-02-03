@@ -15,7 +15,7 @@ const templateForceReply = "#[deityName:Waï-ceizsteuach]replyWithDeity#\n";
 let template = argv.template || "#origin#\n\n\n";
 // template = complex; // uncomment to use template from separate file debugComplex.js
 // template = templateForceText; // uncomment to force the above template
-// template = templateForceReply; // uncomment to force the above reply template
+template = templateForceReply; // uncomment to force the above reply template
 // template = templateWithoutReply; // uncomment to force the above reply template
 // template = "#dwelling#"; // insert manual template here
 

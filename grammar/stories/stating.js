@@ -11,6 +11,6 @@ module.exports = [
   '#deityName#\nTelepathically tells you\n"#statement.capitalize#".',
   '#deityName#\nBaldly states\n"#statement.capitalize#".',
   '#deityName#\nWhispers "#statement#".',
-  "#deityName# touches you\nOn your #bodyPart# #adverb#,\nAnd whispers...\n#statement.capitalize#.",
+  '#deityName# touches you\nOn your #bodyPart# #adverb#,\nAnd whispers...\n"#statement.capitalize#".',
   '#deityName# writes\nIn #writingStyle# letters:\n"#statement.capitalize#",\n#reason.capitalize#.'
 ];
