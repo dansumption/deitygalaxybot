@@ -9,8 +9,8 @@ const {
   handleSearchTerm
 } = require("./getContentAndTweet");
 const MINUTE = 60 * 1000;
-const minTimeBetweenTweets = 90 * MINUTE;
-const maxTimeBetweenTweets = 8 * 60 * MINUTE;
+const minTimeBetweenTweets = 50 * MINUTE;
+const maxTimeBetweenTweets = 5 * 60 * MINUTE;
 const botHandle = "deitygalaxy";
 
 const timeoutDelay = () => {
