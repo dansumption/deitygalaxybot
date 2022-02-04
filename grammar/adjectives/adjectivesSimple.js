@@ -205,7 +205,7 @@ module.exports = [
   "dandy",
   "dashing",
   "dazzled",
-  "decreased",
+  "decreasingly-relevant",
   "decrepit",
   "dedicated",
   "defaced",
