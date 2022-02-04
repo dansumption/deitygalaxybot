@@ -1011,7 +1011,7 @@ module.exports = [
   "widen",
   "widening",
   "wild",
-  "willful",
+  "willfuly-obscure",
   "willing",
   "winnable",
   "winning",
