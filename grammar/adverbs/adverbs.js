@@ -42,6 +42,7 @@ module.exports = {
     "bravely",
     "briefly",
     "brightly",
+    "brilliantly",
     "briskly",
     "calmly",
     "cantankerously",
