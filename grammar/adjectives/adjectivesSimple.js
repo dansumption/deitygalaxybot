@@ -200,6 +200,7 @@ module.exports = [
   "cromulent",
   "crypto",
   "culminate",
+  "culturally-insensitive"
   "cushioned",
   "dandy",
   "dashing",
@@ -1013,7 +1014,7 @@ module.exports = [
   "wild",
   "willfuly-obscure",
   "willing",
-  "winnable",
+  "easily winnable",
   "winning",
   "wireless",
   "wistful",
