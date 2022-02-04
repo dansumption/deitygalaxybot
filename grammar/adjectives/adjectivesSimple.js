@@ -91,7 +91,7 @@ module.exports = [
   "bipolar",
   "biscuity",
   "blackened",
-  "blame",
+  "blameful",
   "blessed",
   "blindfolded",
   "bloat",
