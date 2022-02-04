@@ -71,6 +71,7 @@ module.exports = [
   "backwoods",
   "balding",
   "balearic",
+  "balsamic",
   "bandaged",
   "banded",
   "banned",
