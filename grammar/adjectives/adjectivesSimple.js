@@ -534,7 +534,7 @@ module.exports = [
   "lusty",
   "luxurious",
   "macerated",
-  "magazine",
+  "magazine-covered",
   "maniac",
   "manmade",
   "maroon",
