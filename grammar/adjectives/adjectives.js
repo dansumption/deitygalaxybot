@@ -106,10 +106,16 @@ const nationality = [
 const materials = [
   "base metal",
   "cloth",
+  "planished copper",
   "glitter",
   "irridium",
   "tin",
-  "wooden"
+  "wooden",
+  "ivory",
+  "leather",
+  "crepe paper",
+  "wool",
+  "paper"
 ];
 
 const adjective = [].concat(
