@@ -200,7 +200,7 @@ module.exports = [
   "cromulent",
   "crypto",
   "culminate",
-  "culturally-insensitive"
+  "culturally-insensitive",
   "cushioned",
   "dandy",
   "dashing",
