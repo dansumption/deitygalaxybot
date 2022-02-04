@@ -6,6 +6,7 @@ module.exports = {
     "#meditation#",
     "#quest#"
   ],
+  // TODO if one of these goes before a deity place than it needs "in" in front of it
   pilgrimage: [
     "#travel#\nWith #deityName#'s #role#\nTo #pilgrimageSite#",
     "#travel#\nTo #pilgrimageSite#\nAnd #quest#",
