@@ -1,13 +1,14 @@
 module.exports = {
   statements: [
     "Magic Magid for Galactic President!",
-    "What? Me? Bovvered?",
-    "the difference between me and a madman is that I am not mad",
+    "What?\nMe?\nBovvered?",
+    "the difference\nBetween me and a madman\nIs that I\nAm not mad",
     "ch-ch-ch-changes",
-    "I have come unstuck in time",
+    "I have come unstuck\nIn time",
     "so it goes",
-    "what happens when The Fool becomes The Pope?",
-    "fly me to the moon and let me sing among the stars"
+    "what happens\nWhen The Fool\nBecomes The Pope?",
+    "fly me to the moon\nAnd let me sing among the stars",
+    "I sometimes feel as though\nGPT-3\nhas done me out of a job"
   ],
   questions: [
     "is it really that bad",
