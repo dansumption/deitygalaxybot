@@ -14,6 +14,8 @@ module.exports = {
     "looking at\n#adjective.capitalize.a# #nounToPluralise#\nWith",
     "comparing #adjective.capitalize.a# #nounToPluralise#\nWith",
     "comparing #adjective.capitalize# #nounNotToPluralise#\nWith",
-    "in a warehouse\nStacking #nounToPluralise.s#\nWith"
+    "examining #adjective.capitalize.a# #nounToPluralise#\nWith",
+    "examining #adjective.capitalize# #nounNotToPluralise#\nWith",
+    "stacking #nounToPluralise.s#\nWith"
   ]
 };

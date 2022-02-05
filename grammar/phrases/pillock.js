@@ -12,11 +12,13 @@ module.exports = {
   ],
   questions: [
     "is it really that bad",
-    "what happens when The Fool becomes The Pope"
+    "what happens when The Fool becomes The Pope",
+    "could that be phrased another way"
   ],
   instructions: [
     "party hard",
     "turn and face the change",
-    "take some #nounToPluralise# to #placeName#"
+    "take some #nounToPluralise# to #placeName#",
+    "put up a bird table and wait until a #bird# turns up"
   ]
 };
