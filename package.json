@@ -9,6 +9,7 @@
   "scripts": {
     "test": "node index.js",
     "debug": "node debug.js > temp/debug.txt",
+    "odd": "node ./grammar/otherSystems/IntoTheOdd/index.js",
     "stories": " node debug.js --count 10 stories > temp/debug.txt",
     "precommit": "pretty-quick --staged --single-quote --trailing-comma all --write "
   },
