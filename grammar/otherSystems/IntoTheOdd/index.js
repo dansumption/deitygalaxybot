@@ -10,7 +10,8 @@ const template = `
 #forename# #surname#, the #manner#
 #occupation# (#capability#)
 Worked for #company#
-Member of the #cultDescription# #collective#
+Member of the #cultDescription# #collective# (#standing#)
+whose symbol is the #symbol#
 #whatHappened#
 Connection: #connection#
 `;
